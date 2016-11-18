@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GNDADC
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F429_LQFP144
+D STM32F429_LQFP144, 32-bit ARM Cortex-M4 Microcontroller, 180MHz, LQFP144
+K STM32 ARM Cortex-M4 MCU
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
+$ENDCMP
+#
+#End Doc Library

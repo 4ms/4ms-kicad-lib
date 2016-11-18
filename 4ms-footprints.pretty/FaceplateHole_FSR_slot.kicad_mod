@@ -1,0 +1,12 @@
+(module FaceplateHole_FSR_slot (layer F.Cu) (tedit 57FFC877)
+  (fp_text reference REF** (at -0.9398 4.22148) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value FSR-slot (at 0.381 2.54) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -3.4925 1.5875) (end 3.4925 1.5875) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start -3.4925 0) (end -3.4925 1.5875) (angle 180) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start 3.4925 0) (end 3.4925 -1.5875) (angle 180) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start -3.4925 -1.5875) (end 3.4925 -1.5875) (layer Edge.Cuts) (width 0.1))
+)

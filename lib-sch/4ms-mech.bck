@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP JACK-MONO
+D Jack, Mono with switch and ground
+K JACK
+$ENDCMP
+#
+$CMP SD_Card
+D Micro SD Card Reader
+K connector SD MICROSD
+F https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
+$ENDCMP
+#
+$CMP microSD_Card
+D Micro SD Card Reader
+K connector SD MICROSD
+F https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
+$ENDCMP
+#
+#End Doc Library

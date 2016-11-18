@@ -1,0 +1,112 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4C16M16SA
+D SDRAM, 256Mb (16Mb x 16), TSOP II 54pin
+K SDRAM Synchronus DRAM 256Mb 16Mbx16
+F http://www.mouser.com/ds/2/12/256M-AS4C16M16MD1_mobile-ver.1.1%20October%202015-787730.pdf
+$ENDCMP
+#
+$CMP 78E-XX-0.5
+D DCDC Converter
+K DCDC POWER
+F http://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+$ENDCMP
+#
+$CMP CS4271
+D CS4271
+K Codec ADC DAC
+$ENDCMP
+#
+$CMP LM25576MHX
+D LM25576MHX
+K Switching Step-Down Regulator 42V 3A
+F http://www.ti.com/lit/ds/symlink/lm25576.pdf
+$ENDCMP
+#
+$CMP LM27342
+D LM27342
+K 2A Wide Input Range Step-Down DC-DC Regulator with Sync
+F http://www.ti.com/lit/ds/symlink/lm27342.pdf
+$ENDCMP
+#
+$CMP LM2738
+D LM2738
+K Step-Down DC-DC Switching 1.5A
+F http://www.ti.com/lit/ds/symlink/lm2738.pdf
+$ENDCMP
+#
+$CMP LTC1664CGN
+D LTC1664CGN, Quad Micropower 10-bit DAC, Standard, SSOP-16
+K Quad DAC Micropower 10bit
+F http://cds.linear.com/docs/Datasheet/1664fa.pdf
+$ENDCMP
+#
+$CMP LTC1664CN
+D LTC1664CN, Quad Micropower 10-bit DAC, Standard, DIP-16
+K Quad DAC Micropower 10bit
+F http://cds.linear.com/docs/Datasheet/1664fa.pdf
+$ENDCMP
+#
+$CMP LTC1664IGN
+D LTC1664IGN, Quad Micropower 10-bit DAC, Industrial, SSOP-16
+K Quad DAC Micropower 10bit
+F http://cds.linear.com/docs/Datasheet/1664fa.pdf
+$ENDCMP
+#
+$CMP LTC1664IN
+D LTC1664IN, Quad Micropower 10-bit DAC, Industrial, DIP-16
+K Quad DAC Micropower 10bit
+F http://cds.linear.com/docs/Datasheet/1664fa.pdf
+$ENDCMP
+#
+$CMP MCP1703x-XX02E/MB
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MCP4728
+D MCP4728, Quad NV 12-bit DAC, Standard, MSOP-10
+K Quad DAC 12bit I2C
+F http://www.mouser.com/ds/2/268/22187E-12972.pdf
+$ENDCMP
+#
+$CMP SI5351A
+D Si5351A
+K Crystal XO VCXO DCXO
+$ENDCMP
+#
+$CMP STM32F030K6
+D STM32F030K6
+$ENDCMP
+#
+$CMP STM32F42xZ
+D STM32F429_LQFP144, 32-bit ARM Cortex-M4 Microcontroller, 180MHz, LQFP144
+K STM32 ARM Cortex-M4 MCU
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
+$ENDCMP
+#
+$CMP TPS54332
+D TPS54332
+K 3.5A, 28V, 1-MHz, Step-Down DC-DC Converter with Eco Mode
+F http://www.ti.com/lit/ds/symlink/tps54332.pdf
+$ENDCMP
+#
+$CMP V2164
+D Quad VCA
+K VCA
+F http://www.coolaudio.com/docs/datasheet/COOLAUDIO_V2164MD_DATASHEET.pdf
+$ENDCMP
+#
+$CMP WM8731
+D WM8731 Audio Codec
+K Codec ADC DAC
+$ENDCMP
+#
+$CMP ZXCT1110
+D CURRENT MONITOR Low Power High Side
+K Current meter monitor
+F http://www.mouser.com/ds/2/115/ZXCT1107_10-94716.pdf
+$ENDCMP
+#
+#End Doc Library

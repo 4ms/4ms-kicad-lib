@@ -1,0 +1,369 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT90USB82_162
+D 8-Bit AVR Microcontroller with 8/16KB ISP Flash and USB Controller
+K AT90USB82 AT90USB162
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_AT90USBx.pdf
+$ENDCMP
+#
+$CMP ATMEGA164_324_644_1284P-DIP
+D 8-Bit AVR Microcontroller with 16/32/64/128KB In-System Programmable Flash
+K ATMEGA164 ATMEGA324 ATMEGA644 ATMEGA1284
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATMEGA164A-324A-644A-1284P.pdf
+$ENDCMP
+#
+$CMP ATMEGA164_324_644_1284P-DRQFN
+D 8-Bit AVR Microcontroller with 16/32/64/128KB In-System Programmable Flash
+K ATMEGA164 ATMEGA324 ATMEGA644 ATMEGA1284
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATMEGA164A-324A-644A-1284P.pdf
+$ENDCMP
+#
+$CMP ATMEGA164_324_644_1284P-QFP/QFN/MLF
+D 8-Bit AVR Microcontroller with 16/32/64/128KB In-System Programmable Flash
+K ATMEGA164 ATMEGA324 ATMEGA644 ATMEGA1284
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATMEGA164A-324A-644A-1284P.pdf
+$ENDCMP
+#
+$CMP ATMEGA164_324_644_1284P-VFBGA
+D 8-Bit AVR Microcontroller with 16/32/64/128KB In-System Programmable Flash
+K ATMEGA164 ATMEGA324 ATMEGA644 ATMEGA1284
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATMEGA164A-324A-644A-1284P.pdf
+$ENDCMP
+#
+$CMP ATMEGA48_88_168_328P-28SMD
+D 8-Bit AVR Microcontroller with 4/8/16/32KB In-System Programmable Flash
+K ATMEGA48 ATMEGA88 ATMEGA168 ATMEGA328
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATMEGA328.pdf
+$ENDCMP
+#
+$CMP ATMEGA48_88_168_328P-32SMD
+D 8-Bit AVR Microcontroller with 4/8/16/32KB In-System Programmable Flash
+K ATMEGA48 ATMEGA88 ATMEGA168 ATMEGA328
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATMEGA328.pdf
+$ENDCMP
+#
+$CMP ATMEGA48_88_168_328P-DIP
+D 8-Bit AVR Microcontroller with 4/8/16/32KB In-System Programmable Flash
+K ATMEGA48 ATMEGA88 ATMEGA168 ATMEGA328
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATMEGA328.pdf
+$ENDCMP
+#
+$CMP ATTINY13-10QFN
+D 8-Bit AVR Microcontroller with 1KB In-System Programmable Flash
+K ATTINY13 ATTINY13V
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATTINY13.pdf
+$ENDCMP
+#
+$CMP ATTINY13-20QFN
+D 8-Bit AVR Microcontroller with 1KB In-System Programmable Flash
+K ATTINY13 ATTINY13V
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATTINY13.pdf
+$ENDCMP
+#
+$CMP ATTINY13-DIP
+D 8-Bit AVR Microcontroller with 1KB In-System Programmable Flash
+K ATTINY13 ATTINY13V
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATTINY13.pdf
+$ENDCMP
+#
+$CMP CAT811
+D 4-Pin Microprocessor Power Supply Supervisors with Manual Reset
+K CAT811
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/ON_CAT811_CAT812.pdf
+$ENDCMP
+#
+$CMP CAT812
+D 4-Pin Microprocessor Power Supply Supervisors with Manual Reset
+K CAT812
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/ON_CAT811_CAT812.pdf
+$ENDCMP
+#
+$CMP CC2530F
+D A True System-on-Chip Solution for 2.4GHz IEEE 802.15.4 and ZigBee Applications
+K CC2530F
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/TI_CC2530F.pdf
+$ENDCMP
+#
+$CMP CS9236Q
+D Single chip Wavetable music synthesizer
+K CS9236
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Conversione/CRY_CS9236.pdf
+$ENDCMP
+#
+$CMP CY8C21234
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F628
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC16F62xA.pdf
+$ENDCMP
+#
+$CMP ICE40HX1K-CB132
+D ICE40 HX-Series Ultra Low-Power mobileFPGA
+K ICE40HX
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/LATC_ICE40HX.pdf
+$ENDCMP
+#
+$CMP ICE40HX1K-TQ144
+D ICE40 HX-Series Ultra Low-Power mobileFPGA
+K ICE40HX
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/LATC_ICE40HX.pdf
+$ENDCMP
+#
+$CMP ICE40HX1K-VQ100
+D ICE40 HX-Series Ultra Low-Power mobileFPGA
+K ICE40HX
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/LATC_ICE40HX.pdf
+$ENDCMP
+#
+$CMP ICE40HX4K-CB132
+D ICE40 HX-Series Ultra Low-Power mobileFPGA
+K ICE40HX
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/LATC_ICE40HX.pdf
+$ENDCMP
+#
+$CMP ICE40HX4K-TQ144
+D ICE40 HX-Series Ultra Low-Power mobileFPGA
+K ICE40HX
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/LATC_ICE40HX.pdf
+$ENDCMP
+#
+$CMP ICE40HX8K-CB132
+D ICE40 HX-Series Ultra Low-Power mobileFPGA
+K ICE40HX
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/LATC_ICE40HX.pdf
+$ENDCMP
+#
+$CMP ICE40HX8K-CM225
+D ICE40 HX-Series Ultra Low-Power mobileFPGA
+K ICE40HX
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/LATC_ICE40HX.pdf
+$ENDCMP
+#
+$CMP ICE40HX8K-CT256
+D ICE40 HX-Series Ultra Low-Power mobileFPGA
+K ICE40HX
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/LATC_ICE40HX.pdf
+$ENDCMP
+#
+$CMP LPC1769-BGA
+D 32-bit ARM Cortex-M3 microcontroller; up to 512 kB flash and 64 kB SRAM with Ethernet, USB 2.0 Host/Device/OTG, CAN
+K LPC1769
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/NXP_LPC1769-68-67-66-65-64-63.pdf
+$ENDCMP
+#
+$CMP LPC1769-LQFP
+D 32-bit ARM Cortex-M3 microcontroller; up to 512 kB flash and 64 kB SRAM with Ethernet, USB 2.0 Host/Device/OTG, CAN
+K LPC1769
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/NXP_LPC1769-68-67-66-65-64-63.pdf
+$ENDCMP
+#
+$CMP MCP120G-TO
+D Microcontroller Supervisory circuit with Open Drain output, TO92 package with G bondout
+K MCP120
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_MCP120-130.pdf
+$ENDCMP
+#
+$CMP MCP130-SN
+D Microcontroller Supervisory circuit with Open Drain output, SO-8 package
+K MCP130
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_MCP120-130.pdf
+$ENDCMP
+#
+$CMP MCP130-TT
+D Microcontroller Supervisory circuit with Open Drain output, SOT23 package
+K MCP130
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_MCP120-130.pdf
+$ENDCMP
+#
+$CMP MCP130D-TO
+D Microcontroller Supervisory circuit with Open Drain output, TO92 package with D bondout
+K MCP130
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_MCP120-130.pdf
+$ENDCMP
+#
+$CMP MCP130F-TO
+D Microcontroller Supervisory circuit with Open Drain output, TO92 package with F bondout
+K MCP130
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_MCP120-130.pdf
+$ENDCMP
+#
+$CMP MCP130H-TO
+D Microcontroller Supervisory circuit with Open Drain output, TO92 package with H bondout
+K MCP120 MCP130
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_MCP120-130.pdf
+$ENDCMP
+#
+$CMP P8X32A-DIP
+D 8-Cog Multiprocessor Microcontroller, DIP package
+K P8X32A
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/PLX_P8X32A.pdf
+$ENDCMP
+#
+$CMP P8X32A-SMD
+D 8-Cog Multiprocessor Microcontroller, SMD
+K P8X32A
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/PLX_P8X32A.pdf
+$ENDCMP
+#
+$CMP PIC12F609
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 12F609
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC12F609-615-617.pdf
+$ENDCMP
+#
+$CMP PIC12F615
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 12F615
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC12F609-615-617.pdf
+$ENDCMP
+#
+$CMP PIC12F617
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 12F617
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC12F609-615-617.pdf
+$ENDCMP
+#
+$CMP PIC12F683
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 12F683
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC12F683.pdf
+$ENDCMP
+#
+$CMP PIC16F1503-DIL
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F1503
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_PIC16F1503.pdf
+$ENDCMP
+#
+$CMP PIC16F628A
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F628
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC16F62xA.pdf
+$ENDCMP
+#
+$CMP PIC16F874A-DIP
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F874A
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC16F87xA.pdf
+$ENDCMP
+#
+$CMP PIC16F876A
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F876
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC16F87xA.pdf
+$ENDCMP
+#
+$CMP PIC16F877A-DIP
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F877A
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC16F87xA.pdf
+$ENDCMP
+#
+$CMP PIC16F88-DIP
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F88
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC16F87-88.pdf
+$ENDCMP
+#
+$CMP PIC16F88-SSOP
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F88
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC16F87-88.pdf
+$ENDCMP
+#
+$CMP PIC16F884-DIP
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F884
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC16F88x.pdf
+$ENDCMP
+#
+$CMP PIC16F887-DIP
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F887
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC16F88x.pdf
+$ENDCMP
+#
+$CMP PIC18F242
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 18F242
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC18FXX2.pdf
+$ENDCMP
+#
+$CMP PIC18F2480
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 18F2480
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC18F2480-2580-4480-4580.pdf
+$ENDCMP
+#
+$CMP PIC18F252
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 18F252
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC18FXX2.pdf
+$ENDCMP
+#
+$CMP PIC18F4585-DIP
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 18F4585
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC18F2585-4685-4585-4680.pdf
+$ENDCMP
+#
+$CMP PIC18F4620
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 18F4620
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC18F4620.pdf
+$ENDCMP
+#
+$CMP PIC18F4680-DIP
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 18F4680
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC18F2585-4685-4585-4680.pdf
+$ENDCMP
+#
+$CMP PIC18F66J60
+D FLASH-Based 8-Bit CMOS Microcontroller with Ethernet
+K 18F66J60,18F66J65,18F67J60
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/microcontrollori/Microchip/MCIP_PIC18F66-67-86-87_J_60-65.pdf
+$ENDCMP
+#
+$CMP PIC24FJXXXGB106-MR
+D 16-Bit Flash Microcontroller with USB On-The-Go (OTG)
+K PIC24FJ
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_PIC24FJ256GB110.pdf
+$ENDCMP
+#
+$CMP PIC24FJXXXGB106-PT
+D 16-Bit Flash Microcontroller with USB On-The-Go (OTG)
+K PIC24FJ
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_PIC24FJ256GB110.pdf
+$ENDCMP
+#
+$CMP PIC24FJXXXGB108-PT
+D 16-Bit Flash Microcontroller with USB On-The-Go (OTG)
+K PIC24FJ
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_PIC24FJ256GB110.pdf
+$ENDCMP
+#
+$CMP PIC24FJXXXGB110-Px
+D 16-Bit Flash Microcontroller with USB On-The-Go (OTG)
+K PIC24FJ
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Microchip/MCIP_PIC24FJ256GB110.pdf
+$ENDCMP
+#
+$CMP STM32F405RG
+D ARM Cortex-M4 32b MCU+FPU, 210DMIPS, up to 1MB Flash/192+4KB RAM, USB OTG HS/FS, Ethernet, 17 TIMs, 3 ADCs, 15 comm. interfaces & camera
+K STM32F40x
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/ST_STM32F405-407.pdf
+$ENDCMP
+#
+$CMP TCM809
+D 3-pin microcontroller reset monitor
+K TCM809
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/TI_TCM809_TCM810.pdf
+$ENDCMP
+#
+$CMP TCM810
+D 3-pin microcontroller reset monitor
+K TCM810
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/TI_TCM809_TCM810.pdf
+$ENDCMP
+#
+#End Doc Library
