@@ -1,0 +1,12 @@
+.DS_Store
+malekko*
+lib-cow/
+libKiCad/
+EtherkitKicadLibrary.pretty/
+cvra_kicad-lib/
+kicad-library
+*.bak
+* (1).*
+* (2).*
+*\ (1).*
+*\ (2).*
