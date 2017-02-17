@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP B140HW-7
+D Schottky Barrier Rectifier Diode, SOD-123
+K diode Schottky
+$ENDCMP
+#
 $CMP D_Schottky_x2_Serial
 D Double diode Shottky (Serie)
 K DEV DIODE

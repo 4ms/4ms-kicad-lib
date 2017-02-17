@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP B130-E3
+D 30V 1A Schottky Barrier Rectifier Diode, SMA/DO-214AC
+K diode Schottky
+F http://www.vishay.com/docs/88946/b120.pdf
+$ENDCMP
+#
+$CMP B140-E3
+D 40V 1A Schottky Barrier Rectifier Diode, SMA/DO-214AC
+K diode Schottky
+F http://www.vishay.com/docs/88946/b120.pdf
+$ENDCMP
+#
+$CMP B140HW-7
+D 20V 1A Schottky Barrier Rectifier Diode, SMA/DO-214AC
+K diode Schottky
+F http://www.vishay.com/docs/88946/b120.pdf
+$ENDCMP
+#
+$CMP B150-E3
+D 50V 1A Schottky Barrier Rectifier Diode, SMA/DO-214AC
+K diode Schottky
+F http://www.vishay.com/docs/88946/b120.pdf
+$ENDCMP
+#
+$CMP B160-E3
+D 60V 1A Schottky Barrier Rectifier Diode, SMA/DO-214AC
+K diode Schottky
+F http://www.vishay.com/docs/88946/b120.pdf
+$ENDCMP
+#
 $CMP D_Schottky_x2_Serial
 D Double diode Shottky (Serie)
 K DEV DIODE

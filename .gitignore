@@ -5,7 +5,9 @@ libKiCad/
 EtherkitKicadLibrary.pretty/
 cvra_kicad-lib/
 kicad-library
+private/
 *.bak
+*.bck
 * (1).*
 * (2).*
 *\ (1).*
