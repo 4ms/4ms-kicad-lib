@@ -35,6 +35,10 @@ K Step-Down DC-DC Switching 1.5A
 F http://www.ti.com/lit/ds/symlink/lm2738.pdf
 $ENDCMP
 #
+$CMP LM4880M
+F /Users/Drc3p0/Desktop/Datasheets/lm4880.pdf
+$ENDCMP
+#
 $CMP LTC1664CGN
 D LTC1664CGN, Quad Micropower 10-bit DAC, Standard, SSOP-16
 K Quad DAC Micropower 10bit
@@ -69,6 +73,12 @@ $CMP MCP4728
 D MCP4728, Quad NV 12-bit DAC, Standard, MSOP-10
 K Quad DAC 12bit I2C
 F http://www.mouser.com/ds/2/268/22187E-12972.pdf
+$ENDCMP
+#
+$CMP OPAMP
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
 $ENDCMP
 #
 $CMP SI5351A

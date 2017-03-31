@@ -75,6 +75,12 @@ K Quad DAC 12bit I2C
 F http://www.mouser.com/ds/2/268/22187E-12972.pdf
 $ENDCMP
 #
+$CMP OPAMP
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
 $CMP SI5351A
 D Si5351A
 K Crystal XO VCXO DCXO
