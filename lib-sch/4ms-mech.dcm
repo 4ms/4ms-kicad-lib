@@ -21,6 +21,11 @@ D Momentary RGB Illuminated Button
 K RBG LED Button Illuminated Switch SPST Wellbuying TC002-N11AS2XT-RGB
 $ENDCMP
 #
+$CMP SW_DPDT_x2
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
 $CMP microSD_Card
 D Micro SD Card Reader
 K connector SD MICROSD
