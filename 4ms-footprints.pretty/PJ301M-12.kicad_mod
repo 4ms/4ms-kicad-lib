@@ -1,4 +1,4 @@
-(module PJ301M-12 (layer F.Cu) (tedit 57EC49D7)
+(module PJ301M-12 (layer F.Cu) (tedit 5931A32F)
   (fp_text reference J3 (at 3.8354 -3.9116) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.1524)) (justify left bottom))
   )
@@ -19,4 +19,9 @@
     (solder_mask_margin 0.127))
   (pad 3 thru_hole circle (at 3.3528 0) (size 1.9304 1.9304) (drill 1.143) (layers *.Cu *.Mask)
     (solder_mask_margin 0.127))
+  (model ${GDOC}/_lib/packages3d/PJ301M-12.WRL
+    (at (xyz -0.035 0.016 0))
+    (scale (xyz 393 393 393))
+    (rotate (xyz 0 0 -90))
+  )
 )

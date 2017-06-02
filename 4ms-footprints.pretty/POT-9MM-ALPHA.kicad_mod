@@ -1,4 +1,4 @@
-(module POT-9MM-ALPHA locked (layer F.Cu) (tedit 589DF030)
+(module POT-9MM-ALPHA locked (layer F.Cu) (tedit 5931A27D)
   (fp_text reference RV1 (at -1.905 -4.0132) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.1524)) (justify left bottom))
   )
@@ -22,4 +22,9 @@
   (pad 1 thru_hole circle (at 2.539837 -7.012243 270) (size 1.8034 1.8034) (drill 0.889) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -0.000163 -7.012243 270) (size 1.8034 1.8034) (drill 0.889) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -2.540163 -7.012243 270) (size 1.8034 1.8034) (drill 0.889) (layers *.Cu *.Mask))
+  (model ${GDOC}/_lib/packages3d/RK09K1130-20.wrl
+    (at (xyz 0 0 0.238))
+    (scale (xyz 393 393 393))
+    (rotate (xyz 180 0 0))
+  )
 )
