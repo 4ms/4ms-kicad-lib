@@ -21,7 +21,7 @@
     (solder_mask_margin 0.127) (clearance 0.254))
   (pad 3 thru_hole circle (at 5 12.954 90) (size 2.286 2.286) (drill 1.2) (layers *.Cu *.Mask)
     (solder_mask_margin 0.127))
-  (model "${GDOC}/_lib/packages3d/User Library-R16K6.wrl"
+  (model "${GDOC}/_lib/packages3d/R16K6.wrl"
     (at (xyz 0 0 0.45))
     (scale (xyz 393 393 393))
     (rotate (xyz -90 0 90))
