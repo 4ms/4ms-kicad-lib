@@ -1,6 +1,21 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 4ms-logo
+#
+DEF ~4ms-logo G*** 0 0 N N 1 F N
+F0 "G***" 0 0 40 H I C CNN
+F1 "4ms-logo" 0 0 40 H I C CNN
+F2 "4ms-footprints:4ms-logo-4" -100 -100 40 H I C CNN
+F3 "" 0 0 40 H I C CNN
+$FPLIST
+ 4ms-footprints:4ms-logo-4
+$ENDFPLIST
+DRAW
+T 0 0 100 100 0 0 0 4ms~Company Italic 1 C C
+ENDDRAW
+ENDDEF
+#
 # B140HW-7
 #
 DEF B140HW-7 D 0 40 N N 1 F N
