@@ -1,4 +1,4 @@
-(module Cap_Electrolytic_TH (layer F.Cu) (tedit 593AF944)
+(module Cap_Electrolytic_TH (layer F.Cu) (tedit 594086EC)
   (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
   (fp_text reference C10 (at 0 -1.524) (layer F.SilkS)
