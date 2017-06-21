@@ -1,11 +1,11 @@
-(module FaceplateHole_Jack_260 (layer F.Cu) (tedit 56F32C5E)
-  (fp_text reference REF** (at 0.254 2.286) (layer F.SilkS) hide
+(module FaceplateHole_Jack_260 locked (layer F.Cu) (tedit 594AB2C8)
+  (fp_text reference J6 (at 0.254 2.286) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value FaceplateHole_Jack_250 (at 1.397 3.81) (layer F.Fab) hide
+  (fp_text value GND (at 1.397 3.81) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))
   (fp_line (start -0.508 0) (end 0.508 0) (layer F.Fab) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 7.62 7.62) (drill 6.604) (layers *.Cu *.Mask F.SilkS))
+  (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))
+  (pad 1 thru_hole circle (at 0 0) (size 7.62 7.62) (drill 6.604) (layers *.Cu *.SilkS))
 )
