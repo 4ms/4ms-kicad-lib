@@ -10,6 +10,15 @@ D Double diode Shottky (Serie)
 K DEV DIODE
 $ENDCMP
 #
+$CMP LED
+D DO NOT USE -- ambigious pin numbering
+$ENDCMP
+#
+$CMP LED-C1-A2
+D LED: Cathode=pin 1, Anode=pin 2
+K LED Light Emitting Diode
+$ENDCMP
+#
 $CMP Led_x2
 D Dual LED two-lead
 K LED
