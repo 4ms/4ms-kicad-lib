@@ -124,8 +124,8 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
 $ENDCMP
 #
 $CMP OPAMP
-D Dual Op amp (low power)
-K ampliop
+D Dual Op amp (low power) -- power pins on Unit A
+K opamp
 F ns/lm158.pdf
 $ENDCMP
 #
