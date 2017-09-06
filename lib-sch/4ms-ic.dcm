@@ -140,6 +140,11 @@ K opamp
 F ns/lm158.pdf
 $ENDCMP
 #
+$CMP OPAMP-SINGLE
+D Single Op amp
+K opamp
+$ENDCMP
+#
 $CMP SI5351A
 D Si5351A
 K Crystal XO VCXO DCXO
