@@ -1,4 +1,4 @@
-(module Slide_Switch_SS22D06-G6-H_Runrun (layer F.Cu) (tedit 59496657)
+(module Slide_Switch_SS22D06-G6-H_Runrun (layer F.Cu) (tedit 59837C48)
   (fp_text reference SW1 (at 2.1388 -4.166) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1524)))
   )
