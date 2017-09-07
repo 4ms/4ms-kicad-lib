@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N3904_TH
+D 40V Vce, 0.2A Ic, NPN, Small Signal Transistor, TO-92
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+$ENDCMP
+#
 $CMP 2N7000
 D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
 K N-Channel MOSFET Logic-Level
@@ -9,6 +15,16 @@ $ENDCMP
 $CMP B140HW-7
 D Schottky Barrier Rectifier Diode, SOD-123
 K diode Schottky
+$ENDCMP
+#
+$CMP CAP_TH
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP DIODE_TH
+D Diode, alternativ symbol
+K diode
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial
