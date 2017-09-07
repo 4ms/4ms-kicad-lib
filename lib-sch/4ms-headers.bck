@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EURO_HEADER
+D Connector, double row, 02x08, pin header
+K connector
+$ENDCMP
+#
 #End Doc Library

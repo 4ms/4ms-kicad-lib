@@ -23,6 +23,12 @@ K analog switch
 F http://www.mouser.com/ds/2/465/isl43120-21-22-555373.pdf
 $ENDCMP
 #
+$CMP KA78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
 $CMP LM25576MHX
 D LM25576MHX
 K Switching Step-Down Regulator 42V 3A
@@ -41,8 +47,38 @@ K Step-Down DC-DC Switching 1.5A
 F http://www.ti.com/lit/ds/symlink/lm2738.pdf
 $ENDCMP
 #
+$CMP LM324
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324AN
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
 $CMP LM4880M
 F /Users/Drc3p0/Desktop/Datasheets/lm4880.pdf
+$ENDCMP
+#
+$CMP LMC6484
+D Quad CMOS Rail-to-Rail Input and Output Operational Amplifier
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/lmc6484.pdf
+$ENDCMP
+#
+$CMP LMV324
+D Quad Low-Voltage Rail-to-Rail Output Operational Amplifier
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/lmv324.pdf
 $ENDCMP
 #
 $CMP LTC1664CGN
@@ -81,9 +117,27 @@ K Quad DAC 12bit I2C
 F http://www.mouser.com/ds/2/268/22187E-12972.pdf
 $ENDCMP
 #
+$CMP MCP6004
+D Microchip quad general purpose rail to rail op-amp, 1MHz GBWP
+K quad op amp operational amplifier
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP604
+D Quad 2.7V to 6.0V Single Supply CMOS Operational Amplifier
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
 $CMP OPAMP
-D Dual Op amp (low power)
-K ampliop
+D Dual Op amp (low power) -- power pins on Unit A
+K opamp
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP OPAMP-DUALPOWERPINS
+D Dual Op amp (low power) -- long power pins on both units
+K opamp
 F ns/lm158.pdf
 $ENDCMP
 #
@@ -100,6 +154,30 @@ $CMP STM32F42xZ
 D STM32F429_LQFP144, 32-bit ARM Cortex-M4 Microcontroller, 180MHz, LQFP144
 K STM32 ARM Cortex-M4 MCU
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
+$ENDCMP
+#
+$CMP TL064
+D Quad Low-Power JFET-Input Operational Amplifiers, Very Low Power
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/tl064.pdf
+$ENDCMP
+#
+$CMP TL074
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP TL084
+D JFET-Input Operational Amplifiers
+K ampliop
+F http://www.ti.com/lit/ds/symlink/tl082.pdf
+$ENDCMP
+#
+$CMP TLC274
+D Precision Quad Op amp. Mos
+K AmpliOp Mos
+F http://www.ti.com.cn/cn/lit/ds/symlink/tlc274.pdf
 $ENDCMP
 #
 $CMP TPS54332
