@@ -5,4 +5,9 @@ D Connector, double row, 02x08, pin header
 K connector
 $ENDCMP
 #
+$CMP EURO_HEADER_10pin
+D Connector, double row, 02x08, pin header
+K connector
+$ENDCMP
+#
 #End Doc Library

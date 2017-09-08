@@ -1,6 +1,21 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 4ms-logo
+#
+DEF ~4ms-logo G*** 0 0 N N 1 F N
+F0 "G***" 0 0 40 H I C CNN
+F1 "4ms-logo" 0 0 40 H I C CNN
+F2 "" -100 -100 40 H I C CNN
+F3 "" 0 0 40 H I C CNN
+$FPLIST
+ 4ms-footprints:4ms-logo-4
+$ENDFPLIST
+DRAW
+T 0 0 100 100 0 0 0 TTplace Italic 1 C C
+ENDDRAW
+ENDDEF
+#
 # DPDT-ILLUM
 #
 DEF DPDT-ILLUM S 0 40 Y N 1 F N
@@ -394,6 +409,21 @@ P 2 0 1 0 100 0 60 0 N
 P 3 0 1 0 45 0 90 20 90 -20 F
 X Left 1 0 150 50 D 50 50 1 1 P
 X Center 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TTplace
+#
+DEF ~TTplace G*** 0 0 N N 1 F N
+F0 "G***" 0 0 40 H I C CNN
+F1 "TTplace" 0 0 40 H I C CNN
+F2 "" -100 -100 40 H I C CNN
+F3 "" 0 0 40 H I C CNN
+$FPLIST
+ 4ms-footprints:4ms-logo-4
+$ENDFPLIST
+DRAW
+T 0 0 100 100 0 0 0 TTplace Italic 1 C C
 ENDDRAW
 ENDDEF
 #
