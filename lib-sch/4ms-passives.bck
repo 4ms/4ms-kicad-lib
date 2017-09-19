@@ -32,6 +32,12 @@ D Double diode Shottky (Serie)
 K DEV DIODE
 $ENDCMP
 #
+$CMP LDR
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf
+$ENDCMP
+#
 $CMP LED
 D DO NOT USE -- ambigious pin numbering
 $ENDCMP
