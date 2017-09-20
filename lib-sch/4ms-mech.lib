@@ -12,7 +12,7 @@ $FPLIST
  4ms-footprints:4ms-logo-4
 $ENDFPLIST
 DRAW
-T 0 0 100 100 0 0 0 TTplace Italic 1 C C
+T 0 0 100 100 0 0 0 4ms~Company Italic 1 C C
 ENDDRAW
 ENDDEF
 #
