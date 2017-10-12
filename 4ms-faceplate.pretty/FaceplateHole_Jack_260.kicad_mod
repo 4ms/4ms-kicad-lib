@@ -7,5 +7,5 @@
   )
   (fp_line (start -0.508 0) (end 0.508 0) (layer F.Fab) (width 0.15))
   (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 7.62 7.62) (drill 6.604) (layers *.Cu *.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 7.62 7.62) (drill 6.604) (layers *.Cu *.Mask))
 )
