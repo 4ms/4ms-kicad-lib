@@ -1,0 +1,12 @@
+(module FaceplateHole_Slider25mm_Slot (layer F.Cu) (tedit 59DBEABF)
+  (fp_text reference REF** (at -2.54 4.318) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Rail-mount-slot (at 0.635 2.667) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 11.23 -1.27) (end -11.23 -1.27) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start -11.23 0) (end -11.23 1.27) (angle 180) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start 11.23 0) (end 11.23 -1.27) (angle 180) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 11.23 1.27) (end -11.23 1.27) (layer Edge.Cuts) (width 0.1))
+)
