@@ -1,4 +1,4 @@
-(module D_SOT-23_PinsRotatedCW (layer F.Cu) (tedit 5A3D96C0)
+(module D_SOT-23_PinOrder213 (layer F.Cu) (tedit 5A3D96C0)
   (descr "SOT-23, Standard")
   (tags SOT-23)
   (attr smd)
