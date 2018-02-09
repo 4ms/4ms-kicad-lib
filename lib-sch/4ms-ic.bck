@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP STM32F427VGTx
+D Core: ARM Cortex-M4, Package: LQFP100, Flash: 1024 kB, RAM: 192 kB, Frequency: 180 MHz, Voltage: 1.8..3.6V, I/O pins: 82
+K ARM Cortex-M4 STM32F4 STM32F427/437
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
+$ENDCMP
+#
+$CMP STM32F427VITx
+D Core: ARM Cortex-M4, Package: LQFP100, Flash: 1024 kB, RAM: 192 kB, Frequency: 180 MHz, Voltage: 1.8..3.6V, I/O pins: 82
+K ARM Cortex-M4 STM32F4 STM32F427/437
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
+$ENDCMP
+#
 #End Doc Library
