@@ -17,6 +17,11 @@ D Schottky Barrier Rectifier Diode, SOD-123
 K diode Schottky
 $ENDCMP
 #
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
 $CMP CAP_TH
 D Unpolarized capacitor
 K cap capacitor
@@ -47,7 +52,7 @@ D LED: Cathode=pin 1, Anode=pin 2
 K LED Light Emitting Diode
 $ENDCMP
 #
-$CMP LED_Dual_AAC
+$CMP LED_Dual_1Red_2Cathode_3White
 D LED dual, common cathode
 K led diode bicolor dual
 $ENDCMP
