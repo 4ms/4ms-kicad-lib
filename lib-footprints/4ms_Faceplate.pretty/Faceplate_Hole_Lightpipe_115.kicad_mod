@@ -1,0 +1,9 @@
+(module Faceplate_Hole_Lightpipe_115 (layer F.Cu) (tedit 5A7E4A1D)
+  (fp_text reference REF** (at 0.38 4.22) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Faceplate_Hole_Lightpipe_115 (at -0.16 2.56) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 3.175 3.175) (drill 2.921) (layers *.Cu))
+)

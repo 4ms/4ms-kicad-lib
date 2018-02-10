@@ -1,8 +1,8 @@
-(module FaceplateHole_Jack_260 locked (layer F.Cu) (tedit 594AB2C8)
-  (fp_text reference J6 (at 0.254 2.286) (layer F.SilkS) hide
+(module Faceplate_Hole_Jack_3.5mm locked (layer F.Cu) (tedit 5A7E50AF)
+  (fp_text reference REF** (at 0.41 4.84) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value GND (at 1.397 3.81) (layer F.Fab) hide
+  (fp_text value GND (at 0.27 6.16) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.508 0) (end 0.508 0) (layer F.Fab) (width 0.15))

@@ -1,8 +1,8 @@
-(module FaceplateHole_SpacerMount_256 (layer F.Cu) (tedit 589243CB)
-  (fp_text reference REF** (at 0 3.937) (layer F.SilkS) hide
+(module Faceplate_Hole_Spacer_Mount_256 (layer F.Cu) (tedit 5A7E4B4C)
+  (fp_text reference REF** (at 0.43 6.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value FaceplateHole_SpacerMount_256 (at 0 5.207) (layer F.Fab) hide
+  (fp_text value Faceplate_Hole_Spacer_Mount_256 (at 0.17 4.9) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.508 0) (end 0.508 0) (layer F.Fab) (width 0.15))

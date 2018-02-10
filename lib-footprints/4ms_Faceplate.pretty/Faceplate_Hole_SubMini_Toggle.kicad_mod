@@ -1,8 +1,8 @@
-(module FaceplateHole_SubMiniToggle (layer F.Cu) (tedit 56F33A79)
-  (fp_text reference REF** (at 0 3.937) (layer F.SilkS) hide
+(module Faceplate_Hole_SubMini_Toggle (layer F.Cu) (tedit 5A7E4B7B)
+  (fp_text reference REF** (at 0.12 5.23) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value FaceplateHole_SubMiniToggle (at 0 5.207) (layer F.Fab) hide
+  (fp_text value Faceplate_Hole_SubMini_Toggle (at 0.32 3.74) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))

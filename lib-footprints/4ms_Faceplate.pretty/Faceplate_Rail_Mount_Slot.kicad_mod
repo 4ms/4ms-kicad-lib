@@ -1,8 +1,8 @@
-(module FACEPLATE-Rail-mount-slot (layer F.Cu) (tedit 57F6BF15)
-  (fp_text reference REF** (at -2.794 4.191) (layer F.SilkS) hide
+(module Faceplate_Rail_Mount_Slot (layer F.Cu) (tedit 5A7E37F6)
+  (fp_text reference REF** (at 0.13 4.37) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Rail-mount-slot (at 0.381 2.54) (layer F.Fab) hide
+  (fp_text value Rail_mount_slot (at 0.381 2.54) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -1.5875 1.5875) (end 1.5875 1.5875) (layer Edge.Cuts) (width 0.1))

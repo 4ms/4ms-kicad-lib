@@ -1,0 +1,12 @@
+(module Faceplate_Slide_Switch_MS2201L6_Nexsun (layer F.Cu) (tedit 5A7E4FCE)
+  (fp_text reference REF** (at -0.2 4.7) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Faceplate_Slide_Switch_MS2201L6_Nexsun (at 0.91 2.94) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -4.19 -2) (end 4.19 -2) (layer Edge.Cuts) (width 0.01))
+  (fp_line (start 4.19 2) (end 4.19 -2) (layer Edge.Cuts) (width 0.01))
+  (fp_line (start 4.19 2) (end -4.19 2) (layer Edge.Cuts) (width 0.01))
+  (fp_line (start -4.19 -2) (end -4.19 2) (layer Edge.Cuts) (width 0.01))
+)

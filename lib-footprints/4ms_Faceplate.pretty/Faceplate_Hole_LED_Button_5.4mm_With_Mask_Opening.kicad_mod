@@ -1,8 +1,8 @@
-(module FaceplateHole_RGBLEDButton (layer F.Cu) (tedit 5A4581F4)
-  (fp_text reference LFOGATERGBBUT1 (at 0 3.937) (layer F.SilkS) hide
+(module Faceplate_Hole_LED_Button_5.4mm_With_Mask_Opening (layer F.Cu) (tedit 5A7E4AAA)
+  (fp_text reference REF** (at 0.23 6) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SPST-ILLUM-RGB (at 0 5.207) (layer F.Fab) hide
+  (fp_text value Faceplate_Hole_LED_Button_5.4mm_With_Mask_Opening (at 0.18 4.01) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))

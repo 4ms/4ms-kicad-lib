@@ -1,8 +1,8 @@
-(module FaceplateHole_Pot9mm (layer F.Cu) (tedit 57FFC4D6)
+(module Faceplate_Hole_Pot_9mm (layer F.Cu) (tedit 5A7E455A)
   (fp_text reference REF** (at 0.254 2.286) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value FaceplateHole_Pot9mm (at 1.397 3.81) (layer F.Fab) hide
+  (fp_text value Faceplate_Hole_Pot_9mm (at 0.17 4.53) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))
