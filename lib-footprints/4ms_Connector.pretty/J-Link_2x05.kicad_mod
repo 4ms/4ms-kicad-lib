@@ -1,9 +1,9 @@
-(module J-LINK_10PIN_NEEDLE_ADAPTER (layer F.Cu) (tedit 586593FF)
-  (fp_text reference "" (at 0 0) (layer F.SilkS)
-    (effects (font (thickness 0.15)))
+(module J-Link_2x05 (layer F.Cu) (tedit 5A81E391)
+  (fp_text reference H? (at 6.15 2.85) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.15)))
   )
-  (fp_text value "" (at 0 0) (layer F.SilkS)
-    (effects (font (thickness 0.15)))
+  (fp_text value ? (at 6.2 -2.7) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.15)))
   )
   (pad "" np_thru_hole circle (at 3.81 1.015) (size 0.9906 0.9906) (drill 0.9906) (layers *.Cu))
   (pad "" np_thru_hole circle (at 3.81 -1.015) (size 0.9906 0.9906) (drill 0.9906) (layers *.Cu))
