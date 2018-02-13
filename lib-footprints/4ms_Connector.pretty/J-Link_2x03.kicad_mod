@@ -1,11 +1,15 @@
-(module J-Link_2x03 (layer F.Cu) (tedit 5A81E357)
+(module J-Link_2x03 (layer F.Cu) (tedit 5A8364B9)
   (tags "J-LINK SEGGER NEEDLE PROGRAMMER")
-  (fp_text reference H? (at -5.05 -0.1) (layer F.SilkS) hide
+  (fp_text reference H? (at -5.4 -0.1) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.15)))
   )
-  (fp_text value J-LINK (at -0.3 -4.85) (layer F.SilkS) hide
+  (fp_text value J-LINK (at -0.4 -5.2) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.15)))
   )
+  (fp_line (start -4 -4) (end -4 4) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -4 4) (end 3.3 4) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 3.3 4) (end 3.3 -4) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 3.3 -4) (end -4 -4) (layer F.CrtYd) (width 0.05))
   (pad "" np_thru_hole circle (at 2.54 1.016) (size 0.9906 0.9906) (drill 0.9906) (layers *.Cu))
   (pad "" np_thru_hole circle (at 2.54 -1.016) (size 0.9906 0.9906) (drill 0.9906) (layers *.Cu))
   (pad "" np_thru_hole circle (at -2.54 0) (size 0.9906 0.9906) (drill 0.9906) (layers *.Cu))
