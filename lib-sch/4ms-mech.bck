@@ -15,6 +15,11 @@ D Potentionmeter
 K resistor variable
 $ENDCMP
 #
+$CMP Pot_Dual_ComGND
+D Dual Potentiometer, one common pin
+K resistor variable
+$ENDCMP
+#
 $CMP SD_Card
 D Micro SD Card Reader
 K connector SD MICROSD
@@ -24,6 +29,11 @@ $ENDCMP
 $CMP SPST-ILLUM-RGB
 D Momentary RGB Illuminated Button
 K RBG LED Button Illuminated Switch SPST Wellbuying TC002-N11AS2XT-RGB
+$ENDCMP
+#
+$CMP SW_DP3T
+D Switch, three position, double pole triple throw, 3 position switch, DP3T
+K switch dp3t ON-ON-ON
 $ENDCMP
 #
 $CMP SW_DPDT_x2
