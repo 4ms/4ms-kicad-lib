@@ -1,4 +1,4 @@
-(module QuarterInchJack_Stereo_Plastic_RtAngle_NRJ6HF (layer F.Cu) (tedit 5A79DFFC)
+(module QuarterInchJack_Stereo_Plastic_RtAngle_NRJ6HF (layer F.Cu) (tedit 5A8362F1)
   (fp_text reference REF** (at 0.21 22.787203) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -62,9 +62,9 @@
   (pad 4 thru_hole circle (at 4.200513 16.95 90) (size 3 3) (drill 1.7) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at -7.229487 7.45 90) (size 2.35 2.35) (drill 2.1) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at 4.200513 7.45 90) (size 2.35 2.35) (drill 2.1) (layers *.Cu *.Mask))
-  (model ${GDOC}/_lib/packages3d/neutrik-NRJ6HF.wrl
+  (model ${KICAD_LIBS}/packages3d/neutrik-NRJ6HF.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz 90 180 90))
+    (rotate (xyz 90 180 0))
   )
 )
