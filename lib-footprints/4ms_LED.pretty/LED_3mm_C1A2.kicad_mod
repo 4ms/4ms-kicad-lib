@@ -1,4 +1,4 @@
-(module LED_3mm_Square_Anode (layer F.Cu) (tedit 5A84BBB3)
+(module LED_3mm_C1A2 (layer F.Cu) (tedit 5A84BBB3)
   (descr "LED 3mm round vertical")
   (tags "LED  3mm round vertical")
   (fp_text reference LED (at 0 3.01) (layer F.SilkS)
