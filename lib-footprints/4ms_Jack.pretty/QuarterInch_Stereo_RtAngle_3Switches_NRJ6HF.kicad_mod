@@ -1,8 +1,8 @@
-(module QuarterInchJack_Stereo_Plastic_RtAngle_NRJ6HF (layer F.Cu) (tedit 5A8362F1)
-  (fp_text reference REF** (at 0.21 22.787203) (layer F.SilkS)
+(module QuarterInch_Stereo_RtAngle_3Switches_NRJ6HF (layer F.Cu) (tedit 5A873897)
+  (fp_text reference J? (at 0.21 22.787203) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value QuarterInchJack_Stereo_Plastic_RtAngle_NRJ6HF (at -4.505887 26 180) (layer F.Fab) hide
+  (fp_text value ? (at -8.01 22.64 180) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -9.269487 0) (end 6.430513 0) (layer F.SilkS) (width 0.1))
@@ -53,7 +53,7 @@
   (fp_text user S-Sw (at 1.750513 4.25 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start 0.000513 0.25) (end 0.000513 -0.25) (layer F.SilkS) (width 0.1))
+  (fp_line (start 0 0.5) (end 0 0) (layer F.SilkS) (width 0.1))
   (pad 1 thru_hole circle (at -7.229487 16.95 90) (size 3 3) (drill 1.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -7.229487 10.6 90) (size 3 3) (drill 1.7) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -7.229487 4.25 90) (size 3 3) (drill 1.7) (layers *.Cu *.Mask))
