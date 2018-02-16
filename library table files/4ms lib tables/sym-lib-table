@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 4ms-headers)(type Legacy)(uri "${KICAD_4MS_LIBS}/lib-sch/4ms-headers.lib")(options "")(descr ""))
+  (lib (name 4ms-ic)(type Legacy)(uri "${KICAD_4MS_LIBS}/lib-sch/4ms-ic.lib")(options "")(descr ""))
+  (lib (name 4ms-mech)(type Legacy)(uri "${KICAD_4MS_LIBS}/lib-sch/4ms-mech.lib")(options "")(descr ""))
+  (lib (name 4ms-passives)(type Legacy)(uri "${KICAD_4MS_LIBS}/lib-sch/4ms-passives.lib")(options "")(descr ""))
+  (lib (name 4ms-power)(type Legacy)(uri "${KICAD_4MS_LIBS}/lib-sch/4ms-power.lib")(options "")(descr ""))
+)
