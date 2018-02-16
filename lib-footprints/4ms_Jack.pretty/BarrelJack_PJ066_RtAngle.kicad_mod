@@ -34,7 +34,7 @@
   (pad 3 thru_hole oval (at -4.8 11.2 90) (size 5 2.5) (drill oval 3.2 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 14.2) (size 5 2.5) (drill oval 3.2 0.9) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at 0 8.1) (size 5 2.5) (drill oval 3.2 0.9) (layers *.Cu *.Mask))
-  (model ${KICAD_LIBS}/packages3d/CUI_PJ-066A.wrl
+  (model ${KICAD_4MS_LIBS}/packages3d/CUI_PJ-066A.wrl
     (offset (xyz -5.5 -14.3 -3))
     (scale (xyz 0.393 0.393 0.393))
     (rotate (xyz 0 0 0))

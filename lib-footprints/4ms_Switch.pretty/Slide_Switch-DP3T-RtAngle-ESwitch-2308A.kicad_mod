@@ -55,7 +55,7 @@
     (solder_mask_margin 0.1))
   (pad "" thru_hole circle (at 6.6 2.8) (size 2 2) (drill 1.25) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1))
-  (model ${KICAD_LIBS}/packages3d/EG2308A.stp
+  (model ${KICAD_4MS_LIBS}/packages3d/EG2308A.stp
     (offset (xyz 0 0 2.75))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))

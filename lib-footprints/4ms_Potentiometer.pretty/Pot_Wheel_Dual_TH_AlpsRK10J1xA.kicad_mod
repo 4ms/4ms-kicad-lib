@@ -49,7 +49,7 @@
   (pad 5 thru_hole oval (at 4 7.5) (size 1.5 2) (drill 1) (layers *.Cu *.Mask))
   (pad "" thru_hole oval (at -5 -2.5) (size 1.6 1.6) (drill 1.2) (layers *.Cu *.Mask))
   (pad "" thru_hole oval (at 5 -2.5) (size 1.6 1.6) (drill 1.2) (layers *.Cu *.Mask))
-  (model ${KICAD_LIBS}/packages3d/RK10J1_E.STEP
+  (model ${KICAD_4MS_LIBS}/packages3d/RK10J1_E.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

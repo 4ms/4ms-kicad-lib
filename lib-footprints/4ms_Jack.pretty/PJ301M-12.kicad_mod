@@ -19,7 +19,7 @@
     (solder_mask_margin 0.127))
   (pad 1 thru_hole circle (at -5.207 0) (size 1.9304 1.9304) (drill 1.143) (layers *.Cu *.Mask)
     (solder_mask_margin 0.127))
-  (model ${KICAD_LIBS}/packages3d/PJ301M-12.WRL
+  (model ${KICAD_4MS_LIBS}/packages3d/PJ301M-12.WRL
     (offset (xyz -0.8889999866485596 0.4063999938964844 0))
     (scale (xyz 393 393 393))
     (rotate (xyz 0 0 -90))
