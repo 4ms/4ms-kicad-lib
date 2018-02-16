@@ -1,4 +1,4 @@
-(module 16mm_21Det_RV16AF-4A (layer F.Cu) (tedit 5A85F84A)
+(module Pot_16mm_21Det_RV16AF-4A (layer F.Cu) (tedit 5A85F84A)
   (tags POT)
   (fp_text reference 16mm (at 2.19 8.61) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify right top))
