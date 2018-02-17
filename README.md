@@ -8,68 +8,62 @@ Inside this git repository are all the 4ms libraries, as well as the config file
 
 All 4ms projects should use the 4ms libraries for symbols and footprints. Official kicad libraries may be used for development or trying out ideas, but should be modified and copied into the 4ms libraries by the time it's used in a production PCB.
 
-How to Use:
+How to Install:
 ----------
 
-At this point you've downloaded or cloned the 4ms-kicad-lib git repo onto your local hard drive. 
 
-Step 1)
+__Step 1) Install the 4ms libraries__
+
+Download or clone the 4ms-kicad-lib git repo onto your local hard drive.
 Put this repo folder in the same directory as all your kicad projects.
 Verify that inside this folder there are folders named `lib-sch/` and `lib-footprints/` and `packages3d/`. These must not change names.
 
 
-Step 2)
-Set the environment variable `KICAD_LIBS` to the path to this repo folder by going to the kicad project window, and selecting `Configure Paths` in the `Preferences` menu. Add a new entry with the name `KICAD_LIBS`. Set the value to the full path to this repo folder.
+__Step 2) Install the official kicad footprint libraries__
 
-Example:
-KICAD_4MS_LIBS: `/Users/MyUserName/github repos/KicadStuff/4ms-kicad-lib`
+Clone or download the official Kicad Footprint Library from here: `https://github.com/KiCad/kicad-footprints` [download link](https://github.com/KiCad/kicad-footprints/archive/master.zip)
 
-Example:
-KICAD_4MS_LIBS: `/Users/MyUserName/4ms/kicad/_lib`
+Unzip it if you downloaded it, and put the folder in the same place as the kicad schematic symbol libraries (the Application Support folder that's linked to in the kicad installer).
 
+The new folder should be here: `/Library/Application Support/kicad/kicad-footprints`
 
-Step 3)
-Copy the `fp-lib-table` and `sym-lib-table` files from the `library table files` folder to here:
-`/Users/YOURUSERNAME/Library/Preferences/kicad/`
+Keep in mind the Library folder being used here is the one that's located in the root directory of the hard drive, not the one in your home folder.
 
-(Hint: Library is sometimes a hidden folder in OSX, so you have to tell the OS to display it, or else use the terminal or "Go To Folder..." command in Finder)
+Note: The official kicad symbol libraries should be included in your kicad installation package, so they are already installed.
 
+__Step 3) Setup the environment variables__
 
-How to include the official kicad libraries (optional):
-------------------------------------------------------------
-
-If you are using a project and you want to include footprint or symbols from the official kicad libraries, then you have two choices:
-
-
-Option A) Select `Manage Symbol Library Tables` (in eeschema) or `Footprint Library Table` (in pcbnew) in the Preferences menu to add the kicad library as a Project Specific Library (*do not* add to Global!).
-
-Option B) If you want to have access to all all the libraries from within kicad, you can add them to your global table and disable them by default. Then when you want to use one, you use the pcbnew or eeschema Library Table window to enable the ones you're interested in. Here's how:
-
-B-1) Clone the official Kicad Footprint Library from here: `https://github.com/KiCad/kicad-footprints`
-Put the directory somewhere sensible. I suggest putting it into the same level as your kicad projects. Note: if you put it inside the 4ms-kicad-lib repo folder, then you must add it to the .gitignore file or else you will end up uploading the entire official kicad library to everyone when you push!
-
-Example, from Terminal:
-
-`cd /Users/MyUserName/4ms/kicad/`
-
-`git clone https://github.com/KiCad/kicad-footprints`
-
-B-2) The official kicad `fp-lib-table` file needs to know where the library is installed. It does this by looking for an environment variable called `KISYSMOD`. In the same way as you did in Step 2 (above), set the environment variable `KISYSMOD` to the path to the folder of the repo you just cloned. Make sure that whatever you set `KISYSMOD` to, it must be a folder that has all the .pretty library folders inside.
+Create an environment variable called `KICAD_4MS_LIBS` and set it to the path to this repo folder. To do this, go to the kicad project window and select `Configure Paths` in the `Preferences` menu. Add a new entry with the name `KICAD_4MS_LIBS`. Set the value to the full path of the 4ms-kicad-lib folder.
 
 Example:
 
-KISYSMOD: `	/Users/MyUserName/github repos/KicadStuff/kicad-footprints`
+`/Users/YOURUSERNAME/WhateverFolder/MyKicadProjects/4ms-kicad-lib`
 
-KISYSMOD: `	/Users/MyUserName/4ms/kicad/kicad-footprints`
+Next, edit the KISYSMOD path and set it to this:
 
-B-3) If you just want to add all the official footprints to a single project, then it's easy: just copy the fp-lib-table file from inside the kicad-footprints repo, to the base level of your project (same folder where the .pro file lives). Restart Kicad.
-
-Or, if you want to add all the official footprints to the global project:
-Open the fp-lib-table file in a text editor, and copy all the lines between the first and last (not including the first and last lines).
-Each line you copied should start with `(lib (name ...`
-Open up the global fp-lib-table file in `/Users/YOURUSERNAME/Library/Preferences/kicad/` (from Step 3 above). Paste text one line up from the bottom of the file, before the ending `)`
-
-Save the file and restart Kicad (you must quit kicad completely). Launch kicad again and open up the pcbnew program. Go to `Footprint Library Table` in the `Preferences` menu. In the Global tab you should see all of the 4ms libraries at top and all the official kicad libraries at the bottom. 
-The next step is rather tedious, but only has to be done once: Uncheck all the official libraries, to make them all inactive. This will speed up launching pcbnew, adding footprints, selecting footprints in the schematic side, etc. Also it will prevent you from accidentally linking to a non-4ms footprint.
+`/Library/Application Support/kicad/kicad-footprints`
 
 
+__Step 4) Install the lib-table files__
+
+Copy the `fp-lib-table` and `sym-lib-table` files from the `4ms and official lib tables` folder to your local preferences folder: `/Users/YOURUSERNAME/Library/Preferences/kicad/`
+
+Tip if you're not using terminal: Library is sometimes a hidden folder in OSX, so you have to tell the OS to display it, or else use the terminal or "Go To Folder..." command in Finder. Also, keep in mind that there are several Library folders in OSX, so make sure you are in the one that's located inside your Home Directory
+
+__Step 5) Restart Kicad (if you had it open)__
+
+Kicad has to be quit all the way out, and re-launched in order to reload the global fp-lib-table and sym-lib-table files.
+
+How to Use
+-----------
+
+By default, only the 4ms libraries are enabled. The official kicad libraries must be enabled to see them.
+Try to use the 4ms libraries as much as possible, but if you want to test a new part, enable whatever libraries you think might have the part. If we end up using it in a production board, then you need to copy the part over to the 4ms library (and rename it to match our naming conventions)
+
+Here's how to enable a library:
+
+  * Select `Manage Symbol Library Tables` (in eeschema) or `Footprint Library Table` (in pcbnew) in the Preferences menu
+  * Select the Global tab if it's not already opened
+  * Double click the checkbox next to whatever libraries you want to enable
+
+  
