@@ -26,8 +26,13 @@ K connector SD MICROSD
 F https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
 $ENDCMP
 #
-$CMP SPST-ILLUM-RGB
-D Momentary RGB Illuminated Button
+$CMP SPST-ILLUM-RGB-r7b6g8
+D Momentary RGB Illuminated Button - Pin Order R=7, G=8, B=6
+K RBG LED Button Illuminated Switch SPST RunRun PB615303HL-7
+$ENDCMP
+#
+$CMP SPST-ILLUM-RGB-r7b8g6
+D Momentary RGB Illuminated Button - Pin Order R=7, G=6, B=8
 K RBG LED Button Illuminated Switch SPST Wellbuying TC002-N11AS2XT-RGB
 $ENDCMP
 #
