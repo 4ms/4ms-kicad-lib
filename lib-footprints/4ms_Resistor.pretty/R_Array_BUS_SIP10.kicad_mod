@@ -1,4 +1,4 @@
-(module R_Array_BUS_SIP10 (layer F.Cu) (tedit 5A3C0AFD)
+(module R_Array_BUS_SIP10 (layer F.Cu) (tedit 5A874E43)
   (descr "8-pin Resistor SIP pack")
   (tags R)
   (fp_text reference RA (at 0 2.54) (layer F.SilkS)
@@ -30,8 +30,8 @@
   (pad 1 thru_hole rect (at -11.43 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 9 thru_hole oval (at 8.89 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 10 thru_hole oval (at 11.43 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Resistors_THT.3dshapes/R_Array_SIP8.wrl
-    (at (xyz 0 0 0))
+  (model ${KISYS3DMOD}/Resistors_THT.3dshapes/R_Array_SIP10.wrl
+    (offset (xyz -11.43 0 -1))
     (scale (xyz 0.39 0.39 0.39))
     (rotate (xyz 0 0 0))
   )

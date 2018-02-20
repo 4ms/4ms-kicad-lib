@@ -1,5 +1,7 @@
 .DS_Store
 malekko*
+kicad-footprints/
+3rd-party/
 lib-cow/
 libKiCad/
 EtherkitKicadLibrary.pretty/
@@ -12,3 +14,5 @@ private/
 * (2).*
 *\ (1).*
 *\ (2).*
+
+kicad-footprints
