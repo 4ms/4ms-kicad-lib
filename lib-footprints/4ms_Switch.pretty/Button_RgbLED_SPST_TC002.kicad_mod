@@ -1,4 +1,4 @@
-(module Button-Rgb-SPST-LED-TC002 (layer F.Cu) (tedit 5A85DE47)
+(module Button_RgbLED_SPST_TC002 (layer F.Cu) (tedit 5A85DE47)
   (fp_text reference REF** (at 0.127 4.572) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

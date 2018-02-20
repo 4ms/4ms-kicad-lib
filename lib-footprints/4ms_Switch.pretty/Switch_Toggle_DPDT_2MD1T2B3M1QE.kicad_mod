@@ -1,4 +1,4 @@
-(module Switch_Toggle-DPDT-108-2MD1T2B3M1QE-EVX (layer F.Cu) (tedit 5A85DE8E)
+(module Switch_Toggle_DPDT_2MD1T2B3M1QE (layer F.Cu) (tedit 5A85DE8E)
   (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x03 2.54mm double row")
   (fp_text reference REF** (at 0.13 -4.8 180) (layer F.SilkS)

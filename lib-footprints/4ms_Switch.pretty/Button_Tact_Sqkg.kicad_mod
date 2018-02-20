@@ -1,4 +1,4 @@
-(module Button_Tact-Sqkg (layer F.Cu) (tedit 5A84C8B0)
+(module Button_Tact_Sqkg (layer F.Cu) (tedit 5A84C8B0)
   (fp_text reference REF** (at -1.87 4.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
