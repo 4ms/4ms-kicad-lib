@@ -46,6 +46,11 @@ D Switch, dual pole double throw, separate symbols
 K switch dual-pole double-throw DPDT spdt ON-ON
 $ENDCMP
 #
+$CMP SW_DPDT_x2_0
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
 $CMP TENTURN
 D Potentionmeter
 K resistor variable
