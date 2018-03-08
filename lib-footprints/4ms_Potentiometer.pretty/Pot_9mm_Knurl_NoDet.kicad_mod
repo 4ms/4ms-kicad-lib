@@ -36,9 +36,9 @@
   (pad 1 thru_hole circle (at 2.539837 -7.012243 270) (size 1.8034 1.8034) (drill 0.889) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -0.000163 -7.012243 270) (size 1.8034 1.8034) (drill 0.889) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -2.540163 -7.012243 270) (size 1.8034 1.8034) (drill 0.889) (layers *.Cu *.Mask))
-  (model ${GDOC}/_lib/packages3d/RK09K1130-20.wrl
-    (at (xyz 0 0 0.238))
+  (model ${KICAD_4MS_LIBS}/packages3d/RK09K1130-20.wrl
+    (offset (xyz 0 0 6.5))
     (scale (xyz 393 393 393))
-    (rotate (xyz 180 0 0))
+    (rotate (xyz 0 180 180))
   )
 )
