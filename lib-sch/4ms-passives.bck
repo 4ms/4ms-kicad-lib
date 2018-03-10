@@ -27,6 +27,11 @@ D Unpolarized capacitor
 K cap capacitor
 $ENDCMP
 #
+$CMP D
+D Diode
+K diode
+$ENDCMP
+#
 $CMP DIODE_TH
 D Diode, alternativ symbol
 K diode
