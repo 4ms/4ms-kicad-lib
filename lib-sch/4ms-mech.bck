@@ -1,8 +1,25 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DPDT-shielded-sep
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
 $CMP JACK-MONO
 D Jack, Mono with switch and ground
 K JACK
+$ENDCMP
+#
+$CMP Jack-Mono-2Switches
+D 3-pin (audio) jack receptable (stereo/TRS connector) with 3 switching contacts
+K audio jack receptable stereo headphones connector
+F ~
+$ENDCMP
+#
+$CMP Jack-Stereo-3Switches
+D 3-pin (audio) jack receptable (stereo/TRS connector) with 3 switching contacts
+K audio jack receptable stereo headphones connector
+F ~
 $ENDCMP
 #
 $CMP POT
@@ -42,11 +59,6 @@ K switch dp3t ON-ON-ON
 $ENDCMP
 #
 $CMP SW_DPDT_x2
-D Switch, dual pole double throw, separate symbols
-K switch dual-pole double-throw DPDT spdt ON-ON
-$ENDCMP
-#
-$CMP SW_DPDT_x2_0
 D Switch, dual pole double throw, separate symbols
 K switch dual-pole double-throw DPDT spdt ON-ON
 $ENDCMP
