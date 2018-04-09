@@ -42,6 +42,11 @@ D Double diode Shottky (Serie)
 K DEV DIODE
 $ENDCMP
 #
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
 $CMP LDR
 D light dependent resistor
 K light dependent photo resistor LDR
