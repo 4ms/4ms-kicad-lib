@@ -12,4 +12,9 @@ K ARM Cortex-M4 STM32F4 STM32F427/437
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
 $ENDCMP
 #
+$CMP V2164-separate-power
+D V2164 Quad VCA
+K VCA 2164
+$ENDCMP
+#
 #End Doc Library
