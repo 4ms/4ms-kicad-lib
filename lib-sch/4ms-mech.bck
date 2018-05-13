@@ -27,6 +27,16 @@ D Potentionmeter
 K resistor variable
 $ENDCMP
 #
+$CMP POT_DUAL
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP POT_DUAL_TABS
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
 $CMP POT_TABS
 D Potentionmeter
 K resistor variable
