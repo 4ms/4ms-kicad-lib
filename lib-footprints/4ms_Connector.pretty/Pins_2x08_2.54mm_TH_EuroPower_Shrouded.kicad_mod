@@ -1,4 +1,4 @@
-(module Pins_2x08_2.54mm_TH_EuroPower_Shrouded (layer F.Cu) (tedit 5A81E123)
+(module 4ms_Connector:Pins_2x08_2.54mm_TH_EuroPower_Shrouded (layer F.Cu) (tedit 5B045529)
   (fp_text reference H? (at -3 -10.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1016)) (justify left bottom))
   )
@@ -55,9 +55,9 @@
   (pad 14 thru_hole circle (at 1.27 6.35) (size 1.651 1.651) (drill 0.9) (layers *.Cu *.Mask))
   (pad 15 thru_hole circle (at -1.27 8.89) (size 1.651 1.651) (drill 0.9) (layers *.Cu *.Mask))
   (pad 16 thru_hole circle (at 1.27 8.89) (size 1.651 1.651) (drill 0.9) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x08_Pitch2.54mm.wrl
-    (offset (xyz -1.27 8.890000000000001 0))
+  (model ${KICAD_4MS_LIBS}/packages3d/TSS-108-01-G-D.stp
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 180 90))
   )
 )
