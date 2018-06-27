@@ -1,4 +1,4 @@
-(module CardSlot_MicroSD_YamaichiPJS008U-3000 (layer F.Cu) (tedit 5A81F270)
+(module CardSlot_MicroSD_YamaichiPJS008U-3000 (layer F.Cu) (tedit 5B17144F)
   (descr https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf)
   (tags "MICROSD SDCARD")
   (fp_text reference CON? (at 0.46 -4.66 180) (layer F.SilkS)
@@ -40,4 +40,9 @@
   (pad 7 thru_hole oval (at 3.149931 -1.62) (size 1.0922 1.397) (drill 0.6858) (layers *.Cu *.Mask))
   (pad 9 thru_hole oval (at -3.8926 1.54992) (size 1.524 1.524) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 10 thru_hole oval (at 4.6926 1.54992) (size 1.524 1.524) (drill 0.9144) (layers *.Cu *.Mask))
+  (model ${KICAD_4MS_LIBS}/packages3d/PJS008U-3000-0.WRL
+    (offset (xyz 0.4 -1.1 1))
+    (scale (xyz 393 393 393))
+    (rotate (xyz -90 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module Recom_78E_DCDC (layer F.Cu) (tedit 5A7E51A4)
+(module Recom_78E_DCDC (layer F.Cu) (tedit 5B172027)
   (descr "RECOM R-78E-0.5 DC/DC converter")
   (fp_text reference REF** (at -1.61 4.95) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
@@ -17,4 +17,9 @@
   (pad 2 thru_hole circle (at 0 0) (size 1.6764 1.6764) (drill 0.75) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.54 0) (size 1.6764 1.6764) (drill 0.75) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 2.54 0) (size 1.6764 1.6764) (drill 0.75) (layers *.Cu *.Mask))
+  (model ${KICAD_4MS_LIBS}/packages3d/R-78Exx-1_0.wrl
+    (offset (xyz 0 2.5 0))
+    (scale (xyz 393 393 393))
+    (rotate (xyz -90 0 0))
+  )
 )
