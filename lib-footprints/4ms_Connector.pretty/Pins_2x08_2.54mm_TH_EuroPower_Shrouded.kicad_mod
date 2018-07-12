@@ -1,4 +1,4 @@
-(module 4ms_Connector:Pins_2x08_2.54mm_TH_EuroPower_Shrouded (layer F.Cu) (tedit 5B045529)
+(module Pins_2x08_2.54mm_TH_EuroPower_Shrouded (layer F.Cu) (tedit 5B3BFE21)
   (fp_text reference H? (at -3 -10.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1016)) (justify left bottom))
   )
