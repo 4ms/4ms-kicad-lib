@@ -18,6 +18,18 @@ K ARM Cortex-M4 STM32F4 STM32F427/437
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
 $ENDCMP
 #
+$CMP Si2318
+D 0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f
+$ENDCMP
+#
+$CMP Si2347
+D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
 $CMP V2164-separate-power
 D V2164 Quad VCA
 K VCA 2164

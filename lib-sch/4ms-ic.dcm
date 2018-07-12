@@ -18,6 +18,18 @@ K ARM Cortex-M4 STM32F4 STM32F427/437
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
 $ENDCMP
 #
+$CMP Si2318
+D N-Channel MOSFET
+K N-Channel MOSFET
+F https://www.mouser.com/datasheet/2/427/72322-244644.pdf
+$ENDCMP
+#
+$CMP Si2347
+D P-Channel MOSFET
+K P-Channel MOSFET
+F https://www.mouser.com/datasheet/2/427/si2347ds-279626.pdf
+$ENDCMP
+#
 $CMP V2164-separate-power
 D V2164 Quad VCA
 K VCA 2164
