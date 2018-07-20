@@ -77,12 +77,6 @@ D Dual LED two-lead
 K LED
 $ENDCMP
 #
-$CMP Si2347
-D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
-K P-Channel MOSFET
-F http://www.vishay.com/docs/70209/70209.pdf
-$ENDCMP
-#
 $CMP TP0610L
 D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
