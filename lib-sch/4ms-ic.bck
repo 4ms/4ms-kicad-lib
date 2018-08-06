@@ -19,15 +19,15 @@ F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datas
 $ENDCMP
 #
 $CMP Si2318
-D 0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223
+D N-Channel MOSFET
 K N-Channel MOSFET
-F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f
+F https://www.mouser.com/datasheet/2/427/72322-244644.pdf
 $ENDCMP
 #
 $CMP Si2347
-D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
+D P-Channel MOSFET
 K P-Channel MOSFET
-F http://www.vishay.com/docs/70209/70209.pdf
+F https://www.mouser.com/datasheet/2/427/si2347ds-279626.pdf
 $ENDCMP
 #
 $CMP V2164-separate-power
