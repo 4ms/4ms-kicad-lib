@@ -1,4 +1,4 @@
-(module Barrel_Vert_PJ064 (layer F.Cu) (tedit 5B045778)
+(module Barrel_Vert_PJ064 (layer F.Cu) (tedit 5B57D2A3)
   (fp_text reference J? (at -1.524 6.858) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -83,9 +83,9 @@
   (pad 3 thru_hole circle (at 0 -3.800094) (size 3.8608 3.8608) (drill 2.199894) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.800094 0) (size 3.8608 3.8608) (drill 2.199894) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 3.50012) (size 3.8608 3.8608) (drill 2.199894) (layers *.Cu *.Mask))
-  (model ${KICAD_4MS_LIBS}/packages3d/pj064a.wrl
-    (offset (xyz 0 0 12.5))
-    (scale (xyz 0.393 0.393 0.393))
+  (model ${KICAD_4MS_LIBS}/packages3d/CUI_PJ-064A.step
+    (offset (xyz 0 0 12.44599981307983))
+    (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
 )
