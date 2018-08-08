@@ -77,6 +77,11 @@ D Dual LED two-lead
 K LED
 $ENDCMP
 #
+$CMP SOLDER
+D 2-pin jumper/solder bridge
+K jumper solder bridge
+$ENDCMP
+#
 $CMP TP0610L
 D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
 K P-Channel MOSFET

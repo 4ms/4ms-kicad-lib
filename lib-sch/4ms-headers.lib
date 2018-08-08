@@ -155,6 +155,40 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Conn_02x03
+#
+DEF Conn_02x03 J 0 1 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_02x03" 0 300 50 H V C CNN
+F2 "4ms-footprints:Header_2x05_Pitch2.54mm_TH_-12v_Label" 100 -550 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+$FPLIST
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+ IDC_Header_Straight_*
+$ENDFPLIST
+DRAW
+T 0 0 100 25 0 0 0 +12 Normal 0 C C
+T 0 0 -100 25 0 0 0 GND Normal 0 C C
+T 0 0 0 25 0 0 0 GND Normal 0 C C
+S -100 -95 -50 -105 0 1 0 N
+S -100 5 -50 -5 0 1 0 N
+S -100 105 -50 95 0 1 0 N
+S -100 150 100 -150 0 1 0 N
+S 50 -95 100 -105 0 1 0 N
+S 50 5 100 -5 0 1 0 N
+S 50 105 100 95 0 1 0 N
+X +12V 1 -250 100 150 R 50 50 1 1 P
+X +12V 2 250 100 150 L 50 50 1 1 P
+X GND 3 -250 0 150 R 50 50 1 1 P
+X GND 4 250 0 150 L 50 50 1 1 P
+X GND 5 -250 -100 150 R 50 50 1 1 P
+X GND 6 250 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Conn_02x04_Odd_Even
 #
 DEF Conn_02x04_Odd_Even J 0 40 Y N 1 F N
