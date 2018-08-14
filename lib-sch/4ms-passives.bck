@@ -42,6 +42,12 @@ D Double diode Shottky (Serie)
 K DEV DIODE
 $ENDCMP
 #
+$CMP Dual_Transistor
+D 40V Vce, 0.2A Ic, NPN, Small Signal Transistor, TO-92
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+$ENDCMP
+#
 $CMP L
 D Inductor
 K inductor choke coil reactor magnetic
