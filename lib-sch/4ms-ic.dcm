@@ -6,6 +6,12 @@ K DCDC Buck Converter Power
 F http://www.ti.com/lit/ds/symlink/lmzm33603.pdf
 $ENDCMP
 #
+$CMP NPN_DUAL
+D 100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.nxp.com/documents/data_sheet/BC846BS.pdf
+$ENDCMP
+#
 $CMP STM32F427VGTx
 D Core: ARM Cortex-M4, Package: LQFP100, Flash: 1024 kB, RAM: 192 kB, Frequency: 180 MHz, Voltage: 1.8..3.6V, I/O pins: 82
 K ARM Cortex-M4 STM32F4 STM32F427/437
