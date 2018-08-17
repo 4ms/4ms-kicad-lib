@@ -12,7 +12,7 @@ $FPLIST
  4ms-footprints:4ms-logo-4
 $ENDFPLIST
 DRAW
-T 0 0 100 100 0 0 0 4ms~Company Italic 1 C C
+T 0 0 100 100 0 0 0 "4ms Company" Italic 1 C C
 ENDDRAW
 ENDDEF
 #
@@ -745,7 +745,7 @@ ENDDEF
 #
 # TRIMPOT
 #
-DEF TRIMPOT RV 0 40 N N 1 F N
+DEF TRIMPOT RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
 F1 "TRIMPOT" -100 0 50 V V C CNN
 F2 "4ms-footprints:Trim_Round_Black_Small" 200 -250 50 H I C CNN
