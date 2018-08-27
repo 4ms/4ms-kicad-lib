@@ -1,4 +1,4 @@
-(module Pins_1x03_2.54mm_TH_AudioInsRGndL (layer F.Cu) (tedit 5A81EB57)
+(module Pins_1x03_2.54mm_TH_AudioInsRGndL (layer F.Cu) (tedit 5B84650D)
   (descr "Through hole pin header")
   (tags "pin header")
   (fp_text reference H? (at 0.07366 -4.9) (layer F.SilkS) hide
@@ -24,7 +24,7 @@
   (pad 1 thru_hole rect (at 0 -2.54) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 0) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 0 2.54) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step
     (offset (xyz 0 2.54 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
