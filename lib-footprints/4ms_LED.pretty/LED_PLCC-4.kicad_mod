@@ -1,4 +1,5 @@
-(module LED_PLCC-4 (layer F.Cu) (tedit 5B478C0B)
+(module LED_PLCC-4 (layer F.Cu) (tedit 5B887635)
+  (attr smd)
   (fp_text reference LED (at -1.36 -1.82) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.127)) (justify left bottom))
   )
@@ -26,4 +27,9 @@
   (pad 2 smd rect (at 1.5 -0.75 90) (size 1.1 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -1.5 0.75 90) (size 1.1 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.5 0.75 90) (size 1.1 1.5) (layers F.Cu F.Paste F.Mask))
+  (model "${KICAD_4MS_LIBS}/packages3d/PLCC4RGBCT-CA LED SMD RGB2.wrl"
+    (offset (xyz 1.75 -1.4 0))
+    (scale (xyz 0.393 0.393 0.393))
+    (rotate (xyz 90 180 0))
+  )
 )
