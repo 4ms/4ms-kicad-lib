@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4001
+D Quad Nor 2 inputs
+K CMOS Nor2
+F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf
+$ENDCMP
+#
 $CMP LMZM3360x
 D LMZM3360x DCDC Converter Buck
 K DCDC Buck Converter Power
