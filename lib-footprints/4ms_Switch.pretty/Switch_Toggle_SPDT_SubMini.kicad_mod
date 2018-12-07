@@ -1,4 +1,4 @@
-(module Switch_Toggle_SPDT_SubMini (layer F.Cu) (tedit 5A84DC10)
+(module Switch_Toggle_SPDT_SubMini (layer F.Cu) (tedit 5B980EA4)
   (fp_text reference REF** (at -1.88 -4.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
@@ -22,9 +22,9 @@
   (pad 1 thru_hole circle (at 0 -2.54) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0 2.54) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask))
-  (model "/Users/design/Google Drive/4ms/kicad/packages3d/spdt-toggle-submini.wrl"
-    (offset (xyz 0 0 2.79399995803833))
-    (scale (xyz 0.39 0.39 0.39))
-    (rotate (xyz 270 0 90))
+  (model ${KICAD_4MS_LIBS}/packages3d/spdt-toggle-submini.wrl
+    (offset (xyz 0 0 3))
+    (scale (xyz 0.393 0.393 0.393))
+    (rotate (xyz 90 180 90))
   )
 )
