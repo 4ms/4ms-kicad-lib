@@ -1,0 +1,10 @@
+(module Faceplate_Hole_Encoder_RGB_WithKnob (layer F.Cu) (tedit 5BFC6D8D)
+  (tags "Rotary Encoder RGB")
+  (fp_text reference REF** (at 0.15 6.18) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Faceplate_Hole_Encoder_RGB_WithKnob (at -0.05 4.68) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 8.255 8.255) (drill 8.001) (layers *.Cu *.Mask))
+)
