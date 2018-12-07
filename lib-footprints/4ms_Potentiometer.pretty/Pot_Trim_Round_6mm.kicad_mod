@@ -1,4 +1,4 @@
-(module Pot_Trim_Round_6mm (layer F.Cu) (tedit 5B88716C)
+(module Pot_Trim_Round_6mm (layer F.Cu) (tedit 5BBB8A0A)
   (fp_text reference TRIM (at -1.33 -3.77) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.125)) (justify left bottom))
   )
@@ -30,7 +30,7 @@
   (pad 2 thru_hole circle (at 0 -2.54) (size 1.25 1.25) (drill 0.75) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.667 2.54) (size 1.25 1.25) (drill 0.75) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 2.667 2.54) (size 1.25 1.25) (drill 0.75) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Potentiometers.3dshapes/Potentiometer_Trimmer_Piher_PT-6v_Horizontal.wrl
+  (model "/Library/Application Support/kicad/packages3d-kicad5/Potentiometers.3dshapes/Potentiometer_Trimmer_Piher_PT-6v_Horizontal.wrl"
     (offset (xyz 2.5 -2.5 -0.4))
     (scale (xyz 0.393 0.393 0.393))
     (rotate (xyz 0 0 -90))
