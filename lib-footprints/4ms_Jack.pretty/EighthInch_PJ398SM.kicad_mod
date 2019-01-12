@@ -1,4 +1,4 @@
-(module EighthInch_PJ398SM locked (layer F.Cu) (tedit 5AC506EA)
+(module EighthInch_PJ398SM (layer F.Cu) (tedit 5C38F906)
   (fp_text reference J7 (at -5.0172 -4.866) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.1524)) (justify left bottom))
   )
