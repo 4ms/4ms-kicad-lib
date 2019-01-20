@@ -6,6 +6,18 @@ K CMOS Nor2
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf
 $ENDCMP
 #
+$CMP AP65111A
+D 500kHz 18V 1.5A Synchronous DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
+$ENDCMP
+#
+$CMP AP65211A
+D 500kHz 18V 1.5A Synchronous DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
+$ENDCMP
+#
 $CMP LMZM3360x
 D LMZM3360x DCDC Converter Buck
 K DCDC Buck Converter Power
