@@ -83,6 +83,12 @@ D Dual LED two-lead
 K LED
 $ENDCMP
 #
+$CMP MMBD4448HTS
+D Diode
+K diode
+F https://www.mouser.com/datasheet/2/115/ds30263-61567.pdf
+$ENDCMP
+#
 $CMP SOLDER
 D 2-pin jumper/solder bridge
 K jumper solder bridge
