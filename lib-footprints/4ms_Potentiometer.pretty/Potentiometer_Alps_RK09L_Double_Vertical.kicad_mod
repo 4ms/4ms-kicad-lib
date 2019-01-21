@@ -1,4 +1,4 @@
-(module Potentiometer_Alps_RK09L_Double_Vertical (layer F.Cu) (tedit 5B8464B1)
+(module Potentiometer_Alps_RK09L_Double_Vertical (layer F.Cu) (tedit 5C38F8D2)
   (descr "Potentiometer, vertical, Alps RK09L Double, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09L/RK09L_list.html")
   (tags "Potentiometer vertical Alps RK09L Double")
   (fp_text reference REF** (at -5.825 -7.625 180) (layer F.SilkS)

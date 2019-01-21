@@ -1,4 +1,4 @@
-(module Pot_9mm_Knurl_NoDet locked (layer F.Cu) (tedit 5ACF9AB4)
+(module Pot_9mm_Knurl_NoDet (layer F.Cu) (tedit 5C38F8AA)
   (fp_text reference VR? (at -4.6 -4.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
