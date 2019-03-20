@@ -1,4 +1,4 @@
-(module XLR-NCJ6FA-V-0 (layer F.Cu) (tedit 5C8D5BC5)
+(module XLR-NCJ6FA-V-0 (layer F.Cu) (tedit 5C903315)
   (fp_text reference J (at -0.38 -0.39) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
@@ -25,7 +25,7 @@
   (pad 2 thru_hole circle (at -4.445 0 270) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 4.445 0 270) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 7.366 0 270) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at -8.128 0 270) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -7.366 0 270) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -4.445 4.445 270) (size 2.5 2.5) (drill 1.6) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 8.255 10.16 270) (size 2.5 2.5) (drill 1.6) (layers *.Cu *.Mask))
   (model ${KICAD_4MS_LIBS}/packages3d/RK09K1130-20.wrl
