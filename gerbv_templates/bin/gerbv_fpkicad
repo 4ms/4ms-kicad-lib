@@ -1,0 +1,3 @@
+#!/bin/bash
+sed "s/PROJECTNAME/$1/" $HOME/.gerbv/kicad_faceplate_template.gvp > "gerbv_$1.gvp"
+gerbv -p "gerbv_$1.gvp"
