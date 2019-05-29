@@ -22,6 +22,11 @@ D Unpolarized capacitor
 K cap capacitor
 $ENDCMP
 #
+$CMP C-NP
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
 $CMP CAP_TH
 D Unpolarized capacitor
 K cap capacitor
