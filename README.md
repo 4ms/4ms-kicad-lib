@@ -8,7 +8,7 @@ Inside this git repository are all the 4ms libraries, as well as the config file
 
 All 4ms projects should use the 4ms libraries for symbols and footprints. Official kicad libraries may be used for development or trying out ideas, but should be modified and copied into the 4ms libraries by the time it's used in a production PCB. 
 
-These should work with Kicad v5, but since we are using the nightlies, there may be experimental features in some of these libraries that will only work with the nightlies. They probably will not work well with Kicad 4.
+These should work with Kicad v5.1, but since we are using the nightlies, there may be experimental features in some of these libraries that will only work with the nightlies. They probably will not work well with Kicad 4.
 
 How to Install:
 ----------
