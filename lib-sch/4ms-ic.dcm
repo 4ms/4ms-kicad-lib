@@ -18,6 +18,11 @@ K buck switching converter
 F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
 $ENDCMP
 #
+$CMP IQS550
+D Trackpad/touchscreen controller
+F https://www.azoteq.com/images/stories/pdf/iqs5xx-b000_trackpad_datasheet.pdf
+$ENDCMP
+#
 $CMP LMZM3360x
 D LMZM3360x DCDC Converter Buck
 K DCDC Buck Converter Power
