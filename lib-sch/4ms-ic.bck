@@ -18,6 +18,15 @@ K buck switching converter
 F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
 $ENDCMP
 #
+$CMP IQS550
+D Trackpad/touchscreen controller
+F https://www.azoteq.com/images/stories/pdf/iqs5xx-b000_trackpad_datasheet.pdf
+$ENDCMP
+#
+$CMP IS25LQ020B
+D NOR Flash RAM SPI or QSPI
+$ENDCMP
+#
 $CMP LMZM3360x
 D LMZM3360x DCDC Converter Buck
 K DCDC Buck Converter Power
@@ -28,10 +37,18 @@ $CMP MAX11666AUB
 F https://www.mouser.com/datasheet/2/256/MAX11661-MAX11666-1514035.pdf
 $ENDCMP
 #
+$CMP NORFLASH
+D NOR Flash RAM SPI or QSPI
+$ENDCMP
+#
 $CMP NPN_DUAL
 D 100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
 F http://www.nxp.com/documents/data_sheet/BC846BS.pdf
+$ENDCMP
+#
+$CMP S25FL127
+D NOR Flash RAM SPI or QSPI
 $ENDCMP
 #
 $CMP STM32F427VGTx
