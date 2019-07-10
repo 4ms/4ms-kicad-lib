@@ -25,6 +25,10 @@ $CMP GNDADC2
 K POWER, PWR
 $ENDCMP
 #
+$CMP GNDAudio
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP LM7805
 D Linear Regulator +5V
 K POWER REGUL

@@ -75,6 +75,11 @@ K P-Channel MOSFET
 F https://www.mouser.com/datasheet/2/427/si2347ds-279626.pdf
 $ENDCMP
 #
+$CMP TLC5957
+D 48-channel PWM LED Driver
+F http://www.ti.com/lit/ds/symlink/tlc5957.pdf
+$ENDCMP
+#
 $CMP V2164-separate-power
 D V2164 Quad VCA
 K VCA 2164
