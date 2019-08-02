@@ -27,6 +27,10 @@ $CMP IS25LQ020B
 D NOR Flash RAM SPI or QSPI
 $ENDCMP
 #
+$CMP LMR33630x
+D DCDC Buck Converter
+$ENDCMP
+#
 $CMP LMZM3360x
 D LMZM3360x DCDC Converter Buck
 K DCDC Buck Converter Power
