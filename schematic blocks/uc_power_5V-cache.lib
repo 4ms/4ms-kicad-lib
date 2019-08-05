@@ -1,0 +1,158 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 4ms-headers_HEADER1x3
+#
+DEF 4ms-headers_HEADER1x3 H 0 40 Y Y 1 F N
+F0 "H" 250 -500 60 H V C CNN
+F1 "4ms-headers_HEADER1x3" 100 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 200 -50 350 -450 0 1 0 N
+X 1 1 0 -150 200 R 50 50 1 1 P
+X 2 2 0 -250 200 R 50 50 1 1 P
+X 3 3 0 -350 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4ms-ic_AP65211A
+#
+DEF 4ms-ic_AP65211A U 0 20 Y Y 1 F N
+F0 "U" -150 400 50 H V C CNN
+F1 "4ms-ic_AP65211A" 100 400 50 H V C CNN
+F2 "Package_TO_SOT_SMD:TSOT-23-6" 650 -700 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *TSOT*26*
+$ENDFPLIST
+DRAW
+S -200 350 200 -350 0 1 10 f
+X GND 1 0 -450 100 U 50 50 1 1 W
+X SW 2 300 50 100 L 50 50 1 1 w
+X IN 3 -300 250 100 R 50 50 1 1 W
+X FB 4 300 -150 100 L 50 50 1 1 I
+X EN 5 -300 50 100 R 50 50 1 1 I
+X BST 6 300 250 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# 4ms-passives_C
+#
+DEF 4ms-passives_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "4ms-passives_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4ms-passives_C_Small
+#
+DEF 4ms-passives_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "4ms-passives_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4ms-passives_L
+#
+DEF 4ms-passives_L L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "4ms-passives_L" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4ms-passives_R
+#
+DEF 4ms-passives_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "4ms-passives_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4ms-power_+3.3V
+#
+DEF 4ms-power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "4ms-power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library
