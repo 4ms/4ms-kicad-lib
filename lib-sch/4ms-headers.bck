@@ -18,6 +18,11 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_02x03
+D Connector, double row, 02x03, pin header
+K connector
+$ENDCMP
+#
 $CMP EURO_HEADER
 D Connector, double row, 02x08, pin header
 K connector
