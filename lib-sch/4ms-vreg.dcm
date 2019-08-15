@@ -12,23 +12,6 @@ K POWER REGUL
 F regulator\lm78lxx.pdf
 $ENDCMP
 #
-$CMP GNDA
-D (analog) ground power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP GNDADC
-K POWER, PWR
-$ENDCMP
-#
-$CMP GNDADC2
-K POWER, PWR
-$ENDCMP
-#
-$CMP GNDAudio
-K Power Flag Symbol
-$ENDCMP
-#
 $CMP LM7805
 D Linear Regulator +5V
 K POWER REGUL
