@@ -4,4 +4,5 @@
   (lib (name 4ms-mech)(type Legacy)(uri ${KICAD_4MS_LIBS}/lib-sch/4ms-mech.lib)(options "")(descr "Mechanical parts: jacks, buttons, pots, switches, etc"))
   (lib (name 4ms-passives)(type Legacy)(uri ${KICAD_4MS_LIBS}/lib-sch/4ms-passives.lib)(options "")(descr "Passive components"))
   (lib (name 4ms-power)(type Legacy)(uri ${KICAD_4MS_LIBS}/lib-sch/4ms-power.lib)(options "")(descr "Power symbols V+ V- etc"))
+  (lib (name 4ms-vreg)(type Legacy)(uri ${KICAD_4MS_LIBS}/lib-sch/4ms-vreg.lib)(options "")(descr "Voltage regulators and reference ICs"))
 )
