@@ -1,4 +1,4 @@
-(module Pins_2x10_1.27mm_SMT_Trace (layer F.Cu) (tedit 5A871D08)
+(module Pins_2x10_1.27mm_SMT_Trace (layer F.Cu) (tedit 5D65B2C4)
   (attr smd)
   (fp_text reference H? (at 0.001622 -7.339) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -36,7 +36,7 @@
   (pad 17 smd rect (at -1.95 4.445 270) (size 0.74 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at 1.95 5.715 270) (size 0.74 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 19 smd rect (at -1.95 5.715 270) (size 0.74 2.4) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x10_Pitch1.27mm_SMD.wrl
+  (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x10_P1.27mm_Vertical_SMD.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

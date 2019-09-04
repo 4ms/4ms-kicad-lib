@@ -1,13 +1,10 @@
-(module Pins_2x04_2.54mm_TH locked (layer F.Cu) (tedit 5A8719F5)
+(module Pins_2x04_2.54mm_TH locked (layer F.Cu) (tedit 5D65B3BE)
   (descr "Through hole straight socket strip, 2x04, 2.54mm pitch, double rows")
   (tags "Through hole socket strip THT 2x04 2.54mm double row")
   (fp_text reference H? (at -0.15 -6.5 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1905)))
   )
   (fp_text value ? (at -0.05 6.4 180) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_text user "" (at -0.205776 5.99103 180) (layer F.Fab)
     (effects (font (size 1.016 1.016) (thickness 0.1905)))
   )
   (fp_line (start -2.71 5.13) (end 2.71 5.13) (layer F.CrtYd) (width 0.05))
@@ -26,7 +23,7 @@
   (pad 5 thru_hole oval (at -1.27 1.27 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at 1.27 3.81 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at -1.27 3.81 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x04_Pitch2.54mm.wrl
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.wrl
     (offset (xyz -1.27 3.81 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
