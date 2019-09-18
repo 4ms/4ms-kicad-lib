@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +9V
+D Power symbol creates a global label with name "+9V"
+K power-flag
+$ENDCMP
+#
 $CMP GNDA
 D (analog) ground power-flag symbol
 K Power Flag Symbol
