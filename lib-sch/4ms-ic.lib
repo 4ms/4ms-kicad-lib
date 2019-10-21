@@ -227,6 +227,9 @@ F0 "U" -150 400 50 H V C CNN
 F1 "AP65211A" 100 400 50 H V C CNN
 F2 "Package_TO_SOT_SMD:TSOT-23-6" 650 -700 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "DC/DC Buck Converter 500kHz 18VinMax 2A Synchronous" 0 0 60 H I C CNN "Specifications"
+F5 "AP65211A" 0 0 60 H I C CNN "Part number"
+F6 "Diodes Inc." 0 0 60 H I C CNN "Manufacturer"
 $FPLIST
  *TSOT*26*
 $ENDFPLIST

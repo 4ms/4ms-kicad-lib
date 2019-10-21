@@ -13,9 +13,9 @@ F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
 $ENDCMP
 #
 $CMP AP65211A
-D 500kHz 18V 1.5A Synchronous DC/DC Buck Converter
+D 500kHz 18V 2A Synchronous DC/DC Buck Converter
 K buck switching converter
-F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
+F https://www.diodes.com/assets/Datasheets/AP65211A.pdf
 $ENDCMP
 #
 $CMP IQS550
