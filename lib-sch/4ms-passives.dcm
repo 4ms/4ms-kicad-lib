@@ -64,10 +64,6 @@ K light dependent photo resistor LDR
 F http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf
 $ENDCMP
 #
-$CMP LED
-D DO NOT USE -- ambigious pin numbering
-$ENDCMP
-#
 $CMP LED-C1-A2
 D LED: Cathode=pin 1, Anode=pin 2
 K LED Light Emitting Diode
