@@ -1,4 +1,4 @@
-(module Pot_16mm_21Det_RV16AF-4A (layer F.Cu) (tedit 5A85F84A)
+(module Pot_16mm_21Det_RV16AF-4A (layer F.Cu) (tedit 5DAF4690)
   (tags POT)
   (fp_text reference 16mm (at 2.19 8.61) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify right top))
@@ -54,4 +54,9 @@
     (solder_mask_margin 0.127) (clearance 0.254))
   (pad 3 thru_hole circle (at 5 12.954 90) (size 2.286 2.286) (drill 1.2) (layers *.Cu *.Mask)
     (solder_mask_margin 0.127))
+  (model ${ALT3DMOD}/potentiometers/AlphaTaiwan-RV16AF-4A-15FW.step
+    (offset (xyz 0 0 -0.3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
