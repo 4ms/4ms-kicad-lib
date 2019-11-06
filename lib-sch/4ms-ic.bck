@@ -13,9 +13,21 @@ F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
 $ENDCMP
 #
 $CMP AP65211A
-D 500kHz 18V 1.5A Synchronous DC/DC Buck Converter
+D 500kHz 18V 2A Synchronous DC/DC Buck Converter
 K buck switching converter
-F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
+F https://www.diodes.com/assets/Datasheets/AP65211A.pdf
+$ENDCMP
+#
+$CMP INA181
+D Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-6
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina181.pdf
+$ENDCMP
+#
+$CMP INA199
+D Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-6
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina181.pdf
 $ENDCMP
 #
 $CMP IQS550
