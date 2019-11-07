@@ -1,4 +1,4 @@
-(module MountingHole_XXXTAB_AdhesiveBase (layer F.Cu) (tedit 5B3EA19E)
+(module MountingHole_XXXTAB_AdhesiveBase (layer F.Cu) (tedit 5DC31238)
   (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
   (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
   (fp_text reference M? (at -2.36 -2.08) (layer F.SilkS) hide
@@ -12,5 +12,5 @@
   (fp_line (start 6.35 -6.35) (end 6.35 6.35) (layer F.Fab) (width 0.05))
   (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer F.Fab) (width 0.05))
   (fp_line (start -6.35 6.35) (end 6.35 6.35) (layer F.Fab) (width 0.05))
-  (pad 1 thru_hole circle (at 0 0) (size 3.5052 3.5052) (drill 3.175) (layers *.Cu))
+  (pad 1 thru_hole circle (at 0 0) (size 3.5052 3.5052) (drill 3.175) (layers *.Cu *.Mask))
 )
