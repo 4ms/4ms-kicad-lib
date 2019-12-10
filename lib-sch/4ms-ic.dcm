@@ -114,6 +114,12 @@ D 48-channel PWM LED Driver
 F http://www.ti.com/lit/ds/symlink/tlc5957.pdf
 $ENDCMP
 #
+$CMP TPS56339
+D 500kHz 18V 2A Synchronous DC/DC Buck Converter
+K buck switching converter
+F http://www.ti.com/lit/ds/symlink/tps56339.pdf
+$ENDCMP
+#
 $CMP V2164-separate-power
 D V2164 Quad VCA
 K VCA 2164
