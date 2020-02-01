@@ -39,6 +39,18 @@ $CMP IS25LQ020B
 D NOR Flash RAM SPI or QSPI
 $ENDCMP
 #
+$CMP LM13600
+D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16
+K operational transconductance amplifier OTA
+F http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF
+$ENDCMP
+#
+$CMP LM13700
+D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16
+K operational transconductance amplifier OTA
+F http://www.ti.com/lit/ds/symlink/lm13700.pdf
+$ENDCMP
+#
 $CMP LMR33630x
 D DCDC Buck Converter
 $ENDCMP
@@ -106,6 +118,12 @@ $ENDCMP
 $CMP TLC5957
 D 48-channel PWM LED Driver
 F http://www.ti.com/lit/ds/symlink/tlc5957.pdf
+$ENDCMP
+#
+$CMP TPS56339
+D 500kHz 18V 2A Synchronous DC/DC Buck Converter
+K buck switching converter
+F http://www.ti.com/lit/ds/symlink/tps56339.pdf
 $ENDCMP
 #
 $CMP V2164-separate-power

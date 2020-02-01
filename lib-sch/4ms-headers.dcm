@@ -23,6 +23,12 @@ D Connector, double row, 02x03, pin header
 K connector
 $ENDCMP
 #
+$CMP Conn_02x06_Odd_Even
+D Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP EURO_HEADER
 D Connector, double row, 02x08, pin header
 K connector
