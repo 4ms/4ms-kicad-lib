@@ -1,4 +1,4 @@
-(module Socket_2x08_2.54mm_TH locked (layer F.Cu) (tedit 5A81ED86)
+(module Socket_2x08_2.54mm_TH (layer F.Cu) (tedit 5E87BFB0)
   (descr "Through hole straight socket strip, 2x08, 2.54mm pitch, double rows")
   (tags "Through hole socket strip THT 2x08 2.54mm double row")
   (fp_text reference S? (at 0.03 -12.028) (layer F.SilkS) hide

@@ -1,4 +1,4 @@
-(module Socket_2x03_2.54mm_TH locked (layer F.Cu) (tedit 5B8ECA28)
+(module Socket_2x03_2.54mm_TH (layer F.Cu) (tedit 5E87BF95)
   (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x03 2.54mm double row")
   (fp_text reference H3B1 (at -0.05 -5.05) (layer F.SilkS)

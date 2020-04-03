@@ -1,4 +1,4 @@
-(module Pins_2x04_2.54mm_TH locked (layer F.Cu) (tedit 5D65B3BE)
+(module Pins_2x04_2.54mm_TH (layer F.Cu) (tedit 5E87BFF0)
   (descr "Through hole straight socket strip, 2x04, 2.54mm pitch, double rows")
   (tags "Through hole socket strip THT 2x04 2.54mm double row")
   (fp_text reference H? (at -0.15 -6.5 180) (layer F.SilkS)

@@ -1,4 +1,4 @@
-(module Pins_2x08_2.54mm_TH locked (layer F.Cu) (tedit 5AA197FD)
+(module Pins_2x08_2.54mm_TH (layer F.Cu) (tedit 5E87BF6A)
   (fp_text reference H2 (at -3 -10.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
