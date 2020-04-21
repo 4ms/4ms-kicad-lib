@@ -1,4 +1,4 @@
-(module Switch_Toggle_SPST_SubMini (layer F.Cu) (tedit 5A85DF1F)
+(module Switch_Toggle_SPST_SubMini (layer F.Cu) (tedit 5E9F747F)
   (fp_text reference REF** (at -1.98 -4.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
@@ -19,6 +19,7 @@
   (fp_line (start -2.5 4.1) (end 2.5 4.1) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.5 4.1) (end 2.5 -4.1) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.5 -4.1) (end -2.5 -4.1) (layer F.CrtYd) (width 0.05))
+  (fp_circle (center 0.000163 0.001843) (end 7.620163 0.001843) (layer Eco1.User) (width 0.127))
   (pad 1 thru_hole circle (at 0 -2.54) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 2.54) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask))
   (model "/Users/design/Google Drive/4ms/kicad/packages3d/spdt-toggle-submini.wrl"

@@ -1,4 +1,4 @@
-(module Pot_9mm_Knurl_Det (layer F.Cu) (tedit 5DAE4EE0)
+(module Pot_9mm_Knurl_Det (layer F.Cu) (tedit 5E9F6FC2)
   (fp_text reference VR? (at -4.45 -4.15) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
@@ -35,6 +35,7 @@
   (fp_text user DET (at 0 0.85) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_circle (center 0 0) (end 7.62 0) (layer Eco1.User) (width 0.127))
   (pad 5 thru_hole circle (at -4.394363 -0.001843) (size 2.667 2.667) (drill 2.0574) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 4.394037 -0.001843) (size 2.667 2.667) (drill 2.0574) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 2.539837 -7.012243 270) (size 1.8034 1.8034) (drill 0.889) (layers *.Cu *.Mask))
