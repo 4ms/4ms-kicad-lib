@@ -25,6 +25,12 @@ D LDO Voltage Regulator Imax=50mA
 F https://www.mouser.com/datasheet/2/115/AP7384-1360814.pdf
 $ENDCMP
 #
+$CMP LM4040DBZ-5.0
+D 5.0V Precision Micropower Shunt Voltage Reference, SOT-23
+K diode device voltage reference shunt
+F https://www.mouser.com/datasheet/2/115/LM4040-1293030.pdf
+$ENDCMP
+#
 $CMP LM7805
 D Linear Regulator +5V
 K POWER REGUL
