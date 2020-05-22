@@ -6,7 +6,7 @@ Intro:
 
 Inside this git repository are all the 4ms libraries, as well as the config files that tells Kicad to use them. These libraries were created by and for people working at 4ms Company. We share them publically in hopes they help others design cool circuits, but make no guarentees as to anything. Have fun.
 
-All 4ms projects should use the 4ms libraries for symbols and footprints. Official kicad libraries may be used for development or trying out ideas, but should be modified and copied into the 4ms libraries by the time it's used in a production PCB. 
+All 4ms projects should use the 4ms libraries for symbols and footprints. Official kicad libraries may be used for development or trying out ideas, but should be modified and copied into the 4ms libraries by the time it's used in a production PCB.
 
 These work with Kicad v5.1.6, and v5.1.5. We haven't fully tested other versions. We tried to follow the Kicad Library Conventions, although we made breaks from that where it made sense.
 
@@ -14,7 +14,9 @@ What's in here:
 --------------
 __Libraries:__
 
-`lib-sym`: The symbol library (schematic editor)
+`lib-sym`: The symbol library (schematic symbols). As of May 2020, we have switched to using a unique symbol for each physical component that might appear on a BOM line.
+
+`lib-sch`: The legacy symbol library. This is legacy as of May 2020, so you'll need these libraries in order to open most 4ms projects from 2020 or earlier.
 
 `lib-footprints`: The footprint library (pcb editor)
 
@@ -55,7 +57,7 @@ Here's how to enable a library in Kicad:
 
 __Step 2B) For 4ms projects: Setup the environment variables and copy lib tables__
 
-Create an environment variable called `KICAD_4MS_LIBS` and set it to the path to this repo folder. To do this, go to the kicad project window and select `Configure Paths` in the `Preferences` menu. Add a new entry with the name `KICAD_4MS_LIBS`. Set the value to the full path of the 4ms-kicad-lib folder. 
+Create an environment variable called `KICAD_4MS_LIBS` and set it to the path to this repo folder. To do this, go to the kicad project window and select `Configure Paths` in the `Preferences` menu. Add a new entry with the name `KICAD_4MS_LIBS`. Set the value to the full path of the 4ms-kicad-lib folder.
 
 Example:
 

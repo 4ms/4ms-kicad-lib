@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7381-50
+D LDO Voltage Regulator, 5v, 150mA
+K AP7381-50
+$ENDCMP
+#
+#
+$CMP AP7384-33
+D 3.3V Reg. Iout>20mA, Vin>15V
+K AP7384-33
+$ENDCMP
+#
+#
+$CMP AP7384-50
+D Vreg 5.0V, Iout>50mA, Vin>15V
+K AP7384-50
+$ENDCMP
+#

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3.5mm_Mono_Switched
+D Audio 3.5mm Jack, mono, switched, PC-pin Vertical
+K PJ398SM PJ301SM WQP518MA
+$ENDCMP
+#
+$CMP Barrel_2.0mmPin_PJ064
+D Barrel Jack, 2.0mm diameter center pin, Vertical, PC-pins
+K WQP-DC026M (2.0mm center pin)
+$ENDCMP
+#
+#End Doc Library

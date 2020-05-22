@@ -1,0 +1,125 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 16mm_21Det_10k
+#
+DEF 16mm_21Det_10k POT 0 40 N N 1 F N
+F0 "POT" -180 -5 50 V V C CNN
+F1 "16mm_21Det_10k" 0 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_16mm_21Det_RV16AF-4A" 833 -189 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "enosc56" -100 -250 50 H I L CNN "ID"
+F5 "10k Linear, 16mm pot, 21 Detent, D-shaft" -100 -310 50 H I L CNN "Specifications"
+F6 "Alpha Taiwan" -100 -370 50 H I L CNN "Manufacturer"
+F7 "RV16AF-4A-15FW-B10K-3E1" -100 -430 50 H I L CNN "Part Number"
+F8 "10k" -115 0 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+A 40 30 11 -634 634 0 1 5 N 45 20 45 40
+A 40 -90 11 -634 634 1 1 5 N 45 -100 45 -80
+A 40 -70 11 -634 634 1 1 5 N 45 -80 45 -60
+A 40 -50 11 -634 634 1 1 5 N 45 -60 45 -40
+A 40 -30 11 -634 634 1 1 5 N 45 -40 45 -20
+A 40 -10 11 -634 634 1 1 5 N 45 -20 45 0
+A 40 10 11 -634 634 1 1 5 N 45 0 45 20
+A 40 50 11 -634 634 1 1 5 N 45 40 45 60
+A 40 70 11 -634 634 1 1 5 N 45 60 45 80
+A 40 90 11 -634 634 1 1 5 N 45 80 45 100
+T 900 0 50 10 0 1 1 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 1 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 1 1 0 100 0 60 0 N
+P 3 1 1 0 45 0 90 20 90 -20 F
+X Left 1 0 150 50 D 50 50 1 1 P
+X Center 2 150 0 50 L 50 50 1 1 P
+X Right 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 16mm_CtrDet_10k
+#
+DEF 16mm_CtrDet_10k POT 0 40 N N 1 F N
+F0 "POT" -180 -5 50 V V C CNN
+F1 "16mm_CtrDet_10k" 0 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_16mm_CtrDet_RV16AF-4A" 833 -189 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "enosc56" -100 -250 50 H I L CNN "ID"
+F5 "10k Linear, 16mm pot, Center Detent, D-shaft" -100 -310 50 H I L CNN "Specifications"
+F6 "Alpha Taiwan" -100 -370 50 H I L CNN "Manufacturer"
+F7 "RV16AF-4A-15FW-B10k-3C" -100 -430 50 H I L CNN "Part Number"
+F8 "10k" -110 0 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+A 40 -10 11 -634 634 1 1 5 N 45 -20 45 0
+A 40 10 11 -634 634 1 1 5 N 45 0 45 20
+T 900 0 50 10 0 1 1 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 1 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 1 1 0 100 0 60 0 N
+P 3 1 1 0 45 0 90 20 90 -20 F
+X Left 1 0 150 50 D 50 50 1 1 P
+X Center 2 150 0 50 L 50 50 1 1 P
+X Right 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 16mm_NoDet_10k
+#
+DEF 16mm_NoDet_10k POT 0 40 N N 1 F N
+F0 "POT" -175 15 50 V V C CNN
+F1 "16mm_NoDet_10k" -5 280 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" 822 -191 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "enosc57" -100 -250 50 H I L CNN "ID"
+F5 "10k Linear, 16mm pot, No Detent, D-shaft" -100 -310 50 H I L CNN "Specifications"
+F6 "Alpha Taiwan" -100 -370 50 H I L CNN "Manufacturer"
+F7 "RV16AF-4A-15FW-B10k-3" -100 -430 50 H I L CNN "Part Number"
+F8 "10k" -100 10 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 1 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 1 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 1 1 0 100 0 60 0 N
+P 3 1 1 0 45 0 90 20 90 -20 F
+X Left 1 0 150 50 D 50 50 1 1 P
+X Center 2 150 0 50 L 50 50 1 1 P
+X Right 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TrimPot_TC33X_1k
+#
+DEF TrimPot_TC33X_1k TRIM 0 40 Y N 1 F N
+F0 "TRIM" -200 15 50 V V C CNN
+F1 "TrimPot_TC33X_1k" 50 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_Trim_SMT_TC33X" 0 -510 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "l4q39" -100 -250 50 H I L CNN "ID"
+F5 "Pot_Trim_SMT" -100 -310 50 H I L CNN "Specifications"
+F6 "Bourns" -100 -370 50 H I L CNN "Manufacturer"
+F7 "TC33X-2-102G" -100 -430 50 H I L CNN "Part Number"
+F8 "1k" -130 5 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 0 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 0 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 -90 -15 -65 -75 N
+P 2 0 1 0 -75 -45 60 0 N
+P 2 0 1 0 100 0 60 0 N
+X Left 1 0 150 50 D 20 50 1 1 P
+X Center 2 150 0 50 L 20 50 1 1 P
+X Right 3 0 -150 50 U 20 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

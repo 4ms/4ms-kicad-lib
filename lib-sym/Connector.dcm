@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_01x02
+D HEADER 1x2 MALE PINS 0.100” 180deg
+K Conn_01x02
+$ENDCMP
+#
+$CMP Conn_01x03
+D HEADER 1x3 MALE PINS 0.100” 180deg
+K Conn_01x03
+$ENDCMP
+#
+$CMP Conn_01x04
+D HEADER 1x4 MALE PINS 0.100” 180deg
+K Conn_01x04
+$ENDCMP
+#
+$CMP Conn_02x03
+D HEADER 2x3 MALE PINS 0.100” 180deg
+K Conn_02x03
+$ENDCMP
+#
+$CMP Conn_02x04
+D HEADER 2x4 MALE PINS 0.100” 180deg
+K Conn_02x04
+$ENDCMP
+#
+$CMP Eurorack_Power_10pin_Unshrouded
+D HEADER 2x5 MALE PINS 0.100” 180deg
+K Eurorack_Power_10pin_Unshrouded
+$ENDCMP
+#
+$CMP Eurorack_Power_16pin_Shrouded
+D Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed
+K Eurorack_Power_16pin_Shrouded
+$ENDCMP
+#
+$CMP Eurorack_Power_16pin_Unshrouded
+D HEADER 2x5 MALE PINS 0.100” 180deg
+K Eurorack_Power_16pin_Unshrouded
+$ENDCMP
+#
+#End Doc Library

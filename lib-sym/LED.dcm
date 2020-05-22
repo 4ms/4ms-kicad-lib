@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Blue_56mcd_0603
+D Blue 470nm 0603, >40mcd@20mA
+K Blue_56mcd_0603
+$ENDCMP
+#
+#
+$CMP Green_350mcd_0603
+D SMD True Green LED
+K Green_350mcd_0603
+$ENDCMP
+#
+#
+$CMP LED-C1-A2_rp4524
+D WHITE, LED White 0603 >200mcd
+K LED-C1-A2_rp4524
+$ENDCMP
+#
+#
+$CMP LED-C1-A2_rp4525
+D BLUE, LED Blue 0603 Lum>=100mcd @ 20mA
+K LED-C1-A2_rp4525
+$ENDCMP
+#
+#
+$CMP LED-RGB-CA
+D RGB LED, Common Anode PLCC4
+K LED-RGB-CA
+$ENDCMP
+#
+#
+$CMP Red_100mcd_0603
+D LED Red 0603 Lum>=100mcd @ 20mA
+K Red_100mcd_0603
+$ENDCMP
+#
+#
+$CMP White_min200mcd_0603
+D LED White 0603, >200mcd@20mA
+K White_min200mcd_0603
+$ENDCMP
+#

@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 16MHz_18pF_FA238
+D 16MHz 18pF 10ppm ESR:60ohms SMT
+$ENDCMP
+#
+#End Doc Library

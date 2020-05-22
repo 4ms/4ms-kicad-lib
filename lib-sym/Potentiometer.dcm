@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 16mm_21Det_10k
+D 10k Linear, 16mm pot, 21 Detent, D-shaft
+K 16mm_21Det_10k
+$ENDCMP
+#
+$CMP 16mm_CtrDet_10k
+D 10k Linear, 16mm pot, Center Detent, D-shaft
+K 16mm_CtrDet_10k
+$ENDCMP
+#
+$CMP 16mm_NoDet_10k
+D 10k Linear, 16mm pot, No Detent, D-shaft
+K 16mm_NoDet_10k
+$ENDCMP
+#
+$CMP TrimPot_TC33X_1k
+D Trimpot 1k SMT
+K TrimPot_TC33X_1k
+$ENDCMP
+#
+#End Doc Library
