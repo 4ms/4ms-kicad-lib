@@ -8,51 +8,65 @@ Inside this git repository are all the 4ms libraries, as well as the config file
 
 All 4ms projects should use the 4ms libraries for symbols and footprints. Official kicad libraries may be used for development or trying out ideas, but should be modified and copied into the 4ms libraries by the time it's used in a production PCB. 
 
-These should work with Kicad v5.1, but since we are using the nightlies, there may be experimental features in some of these libraries that will only work with the nightlies. They probably will not work well with Kicad 4.
+These work with Kicad v5.1.6, and v5.1.5. We haven't fully tested other versions. We tried to follow the Kicad Library Conventions, although we made breaks from that where it made sense.
 
-How to Install:
+What's in here:
+--------------
+__Libraries:__
+
+`lib-sym`: The symbol library (schematic editor)
+
+`lib-footprints`: The footprint library (pcb editor)
+
+`packages3d`: A badly organized sandbox of 3d files that often misrepresent a component's true dimensions. TODO: FIXME: someday. For entertainment purposes only.
+
+`packages3d-sources`: FreeCAD files used to create a few of the files in packages3d.
+
+`lib-table-files`: The library table files. People working on 4ms projects should copy these into a project directory (See step 2B below)
+
+`schematic-blocks`: Kicad schematic sheets of basic circuits we use over and over. These building blocks are intended to be used as heirarchical sheets, or just copy/pasted into your design.
+
+
+__Legacy stuff:__
+
+`lib-eagle` A legacy eagle library.
+
+`gerbv_templates` These are project templates for gerbv. Nothing special, they just set the colors and layer order to something nice. The `bin/` directory has shell scripts to add gerbers from the current directory to the .gvp project files.
+
+
+How to Install Symbol and Footprint Libraries:
 ----------
 
-
-__Step 1) Download the 4ms libraries__
+__Step 1) Download/Clone the 4ms libraries__
 
 Download or clone the 4ms-kicad-lib git repo onto your local hard drive.
-Put this repo folder in the same directory as all your kicad projects.
-Verify that inside this folder there are folders named `lib-sch/` and `lib-footprints/` and `packages3d/`. These must not change names.
+Put this repo folder in the same directory as all your kicad projects or wherever you keep you Kicad libraries.
 
-If you're not working on official 4ms Company projects, then you might want to skip steps 2 and 3 and just manually add the 4ms libraries using the `Manage Symbol Library Tables` (in eeschema) or `Footprint Library Table` (in pcbnew) features built into Kicad.
+__Step 2A) For non-4ms projects: Add the libraries to your library table__
 
-__Step 2) Setup the environment variables__
+If you're not working on official 4ms Company projects, then you probably don't want to only and always use 4ms libraries. In that case, you can just pick and choose which 4ms libraries to use. ally add the 4ms libraries using the `Manage Symbol Library Tables` (in eeschema) or `Footprint Library Table` (in pcbnew) features built into Kicad.
 
-Create an environment variable called `KICAD_4MS_LIBS` and set it to the path to this repo folder. To do this, go to the kicad project window and select `Configure Paths` in the `Preferences` menu. Add a new entry with the name `KICAD_4MS_LIBS`. Set the value to the full path of the 4ms-kicad-lib folder. This variable is referenced from insdie
+Here's how to enable a library in Kicad:
+
+  * Select `Manage Symbol Libraries` (in eeschema) or `Manage Footprint Libraries` (in pcbnew) in the Preferences menu.
+  * Select the Global tab (if you want to access these libraries from *all* your projects), or select the Project tab (if you just want to use the libraries in the current project).
+  * Click the folder icon and browse to the library/libraries you want to add. On MacOS you can Cmd-click to select multiple libraries at once.
+  * Libraries can be available but just hidden (disabled). To enable/disable a library, use the checkbox next to the libraries name.
+
+__Step 2B) For 4ms projects: Setup the environment variables and copy lib tables__
+
+Create an environment variable called `KICAD_4MS_LIBS` and set it to the path to this repo folder. To do this, go to the kicad project window and select `Configure Paths` in the `Preferences` menu. Add a new entry with the name `KICAD_4MS_LIBS`. Set the value to the full path of the 4ms-kicad-lib folder. 
 
 Example:
 
 `/Users/YOURUSERNAME/WhateverFolder/MyKicadProjects/4ms-kicad-lib`
 
-This Next, verify the KISYSMOD path is set to this (it should be by default)
+Next, copy the sym-lib-table and fp-lib-table files into your project directory.
 
-`/Library/Application Support/kicad/kicad-footprints`
+You can go to the Manage Footprint/Symbols Libraries windows at any time to enable/disable libraries, or add project-specific libraries.
 
+LICENSE
+-------
 
-__Step 3) Install the lib-table files__
+These are in the public domain. We make no guarantees as to their correctness of fitness for any particular purpose.
 
-Copy the `fp-lib-table` and `sym-lib-table` files from the `4ms and official lib tables` folder to your local preferences folder: `/Users/YOURUSERNAME/Library/Preferences/kicad/`
-
-Tip if you're not using terminal: Library is sometimes a hidden folder in OSX, so you have to tell the OS to display it, or else use the terminal or "Go To Folder..." command in Finder. Also, keep in mind that there are several Library folders in OSX, so make sure you are in the one that's located inside your Home Directory
-
-
-
-How to Use
------------
-
-If you used the lib tables included in this repo, then only the 4ms libraries are enabled. The official kicad libraries must be enabled to see them.
-Try to use the 4ms libraries as much as possible, but if you want to test a new part, enable whatever libraries you think might have the part. If we end up using it in a production board, then you need to copy the part over to the 4ms library (and rename it to match our naming conventions)
-
-Here's how to enable a library:
-
-  * Select `Manage Symbol Library Tables` (in eeschema) or `Footprint Library Table` (in pcbnew) in the Preferences menu
-  * Select the Global tab if it's not already opened
-  * Double click the checkbox next to whatever libraries you want to enable
-
-  
