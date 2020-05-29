@@ -5,33 +5,32 @@ D 12uH, Idc>=5.2A, Shielded, Rdc<23mΩ
 K 12uH_5.2A_1260
 $ENDCMP
 #
-#
 $CMP 15uH_1A_5040
 D 15uH, Isat>1A, Rdc<=100mOhms, shielded
 K 15uH_1A_5040
 $ENDCMP
-#
 #
 $CMP 5.6uH_4.25A_5030
 D 5.6uH, Isat=4.25A, Rdc=63mOhms, shielded
 K 5.6uH_4.25A_5030
 $ENDCMP
 #
-#
 $CMP 6.8uH_0.6A_4018
-D 6.8uH, Isat>625mA, Idc>600mA, Rdc<=100mOhms, shielded
-K 6.8uH_0.6A_4018
+D 6.8uH, Isat>1.4A, Idc>0.6A, Rdc<110mOhms, shielded
 $ENDCMP
 #
+$CMP 6.8uH_1.0A_4018
+D 6.8uH, Isat>1.4A, Idc>1.0A, Rdc<110mOhms, shielded
+$ENDCMP
 #
 $CMP 8.2uH_3.2A_6540
 D 8.2uH, DCR: <78mΩ, IDC: >3.2A
 K 8.2uH_3.2A_6540
 $ENDCMP
 #
-#
 $CMP FerriteBead_0603_1.5A
 D Chip Bead, Ferrite Chip Bead, Z=30Ω @ 100MHz, RmaxDC=90mΩ, ImaxDC=1.5A
 K FerriteBead_0603_1.5A
 $ENDCMP
 #
+#End Doc Library

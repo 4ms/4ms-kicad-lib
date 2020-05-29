@@ -73,4 +73,30 @@ X GND 3 0 -250 100 U 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MC78L05ACH
+#
+DEF MC78L05ACH U 0 40 Y Y 1 F N
+F0 "U" -200 200 50 H V C CNN
+F1 "MC78L05ACH" -50 200 50 H V L CNN
+F2 "4ms_Package_SOT:SOT89-3" 50 -400 50 H I C CIN
+F3 "" 0 0 50 H V C CNN
+F4 "ON Semiconductor" 50 -325 50 H I C CNN "Manufacturer"
+F5 "MC78L05ACHT1G" 0 325 50 H I C CNN "Part Number"
+F6 "5V 0.1A Voltage Regulator SOT89" -50 -225 50 H I C CNN "Specifications"
+F7 "5V, 0.1A" 0 275 50 H V C CNN "Display"
+F8 "Texas Instruments" -25 -475 50 H I C CNN "Manufacturer 2"
+F9 "UA78L05ACPKG3" 0 -550 50 H I C CNN "Part Number 2"
+F10 "NJR" 0 -625 50 H I C CNN "Manufacturer 3"
+F11 "NJM78L05UA-TE2" 0 -700 50 H I C CNN "Part Number 3"
+$FPLIST
+ SOT*
+$ENDFPLIST
+DRAW
+S -250 150 250 -150 0 1 10 f
+X OUT 1 400 50 150 L 40 40 1 1 w
+X GND 2 0 -250 100 U 40 40 1 1 w
+X IN 3 -400 50 150 R 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library

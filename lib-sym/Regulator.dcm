@@ -5,15 +5,18 @@ D LDO Voltage Regulator, 5v, 150mA
 K AP7381-50
 $ENDCMP
 #
-#
 $CMP AP7384-33
 D 3.3V Reg. Iout>20mA, Vin>15V
 K AP7384-33
 $ENDCMP
-#
 #
 $CMP AP7384-50
 D Vreg 5.0V, Iout>50mA, Vin>15V
 K AP7384-50
 $ENDCMP
 #
+$CMP MC78L05ACH
+D 5V 0.1A Voltage Regulator SOT89
+$ENDCMP
+#
+#End Doc Library

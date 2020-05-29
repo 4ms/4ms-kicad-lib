@@ -5,21 +5,19 @@ D SPST button with RGB LED, 7mm diffused cap
 K Button_SPST_RGB_7mmCap
 $ENDCMP
 #
-#
 $CMP Slide_DPDT_SS22D06
 D On/On, SubMini toggle 2-position
 K Slide_DPDT_SS22D06
 $ENDCMP
-#
 #
 $CMP Toggle_SPDT_SubMini_2pos
 D SPDT, 3-position, sub-mini toggle, PC-pin, vertical, on(off)on
 K Toggle_SPDT_SubMini_2pos
 $ENDCMP
 #
-#
 $CMP Toggle_SPDT_SubMini_3pos
 D SPDT, On/On, SubMini toggle 2-position
 K Toggle_SPDT_SubMini_3pos
 $ENDCMP
 #
+#End Doc Library

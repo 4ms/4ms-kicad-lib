@@ -223,8 +223,8 @@ F5 "LED White 0603, >200mcd@20mA" -100 -310 50 H I L CNN "Specifications"
 F6 "Inolux" -100 -370 50 H I L CNN "Manufacturer"
 F7 "IN-S63AT5UW" -100 -430 50 H I L CNN "Part Number"
 F8 "White" 0 -100 60 H V C CNN "Display"
-F9 "Inolux" 50 -500 60 H I C CNN "Manufacturer 2"
-F10 "HT-191TW" 150 -600 60 H I C CNN "Part Number 2"
+F9 "LiteOn" 50 -500 60 H I C CNN "Manufacturer 2"
+F10 "LTW-C191TS5" 150 -600 60 H I C CNN "Part Number 2"
 $FPLIST
  *LED*C1*A2*
 $ENDFPLIST

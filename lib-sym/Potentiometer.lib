@@ -50,6 +50,8 @@ F5 "10k Linear, 16mm pot, Center Detent, D-shaft" -100 -310 50 H I L CNN "Specif
 F6 "Alpha Taiwan" -100 -370 50 H I L CNN "Manufacturer"
 F7 "RV16AF-4A-15FW-B10k-3C" -100 -430 50 H I L CNN "Part Number"
 F8 "10k" -110 0 60 V V C CNN "Display"
+F9 "Song Huei" 0 -525 50 H I C CNN "Manufacturer 2"
+F10 "16K6-B10K L-15F/CI/4-8/CC/NS/H=13" 325 -625 50 H I C CNN "Part Number 2"
 $FPLIST
  Potentiometer*
 $ENDFPLIST
@@ -78,7 +80,9 @@ F4 "enosc57" -100 -250 50 H I L CNN "ID"
 F5 "10k Linear, 16mm pot, No Detent, D-shaft" -100 -310 50 H I L CNN "Specifications"
 F6 "Alpha Taiwan" -100 -370 50 H I L CNN "Manufacturer"
 F7 "RV16AF-4A-15FW-B10k-3" -100 -430 50 H I L CNN "Part Number"
-F8 "10k" -100 10 60 V V C CNN "Display"
+F8 "Song Huei" 25 -550 50 H I C CNN "Manufacturer 2"
+F9 "16K6-B10K L-15F/CI/4-8/NS/H=13" 250 -500 50 H I C CNN "Part Number 2"
+F10 "10k" -100 10 60 V V C CNN "Display"
 $FPLIST
  Potentiometer*
 $ENDFPLIST

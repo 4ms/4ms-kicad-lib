@@ -129,6 +129,8 @@ F4 "rp4541" -100 -250 50 H I L CNN "ID"
 F5 "SPDT, On/On, SubMini toggle 2-position" -100 -310 50 H I L CNN "Specifications"
 F6 "Mountain Switch" -100 -370 50 H I L CNN "Manufacturer"
 F7 "108-2MS1T2B3M2QE-EVX" -100 -430 50 H I L CNN "Part Number"
+F8 "(Posin's Supplier in China)" 50 -600 50 H I C CNN "Manufacturer 2"
+F9 "ST-0-103-C02-T000-RS" 25 -675 50 H I C CNN "Part Number 2"
 DRAW
 C -173 0 26 0 1 0 N
 C 174 -98 26 0 1 0 N
