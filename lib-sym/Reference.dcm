@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM4040
+D Precision Micropower Shunt Voltage Reference, SOT-23
+K diode device voltage reference shunt
+F https://www.mouser.com/datasheet/2/115/LM4040-1293030.pdf
+$ENDCMP
+#
 $CMP NCP51460SN33
 D Precision 3.3V Ref 1% 18PPM 28Vmax 20mAmax
 $ENDCMP
