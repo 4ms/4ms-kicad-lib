@@ -40,4 +40,10 @@ D HEADER 2x5 MALE PINS 0.100” 180deg
 K Eurorack_Power_16pin_Unshrouded
 $ENDCMP
 #
+$CMP microSDCon_Vert_TH_PJS008U-3000
+D Micro SD Card Reader
+K connector SD MICROSD
+F https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
+$ENDCMP
+#
 #End Doc Library
