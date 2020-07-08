@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8629
+D Precision Amplifiers Dual, Zero drift, RRIO, 5V OpAmp
+K NJM2068
+F https://www.mouser.com/datasheet/2/609/AD8629-EP-1601911.pdf
+$ENDCMP
+#
 $CMP AP65211AWU-7
 D DC/DC Buck Converter 500kHz 18VinMax 2A Synchronous
 K AP65211AWU-7
