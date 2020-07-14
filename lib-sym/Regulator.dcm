@@ -15,6 +15,11 @@ D Vreg 5.0V, Iout>50mA, Vin>15V
 K AP7384-50
 $ENDCMP
 #
+$CMP LD1117-3.3V-SOT223
+D 3.3V Voltage Regulator, SOT-223-3, Imax=0.8A, VinMax=15V, Vdrop=1V
+F https://www.mouser.com/datasheet/2/389/cd00000544-1795431.pdf
+$ENDCMP
+#
 $CMP MC78L05ACH
 D 5V 0.1A Voltage Regulator SOT89
 $ENDCMP

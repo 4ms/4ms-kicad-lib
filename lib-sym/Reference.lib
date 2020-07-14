@@ -1,6 +1,31 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# LM4040-2.5V
+#
+DEF LM4040-2.5V U 0 1 Y N 1 F N
+F0 "U" -97 167 50 H V L CNN
+F1 "LM4040-2.5V" -100 100 50 H V L CNN
+F2 "4ms_Package_SOT:SOT23-3_PO132" 0 -225 50 H I C CIN
+F3 "" 0 0 50 H I C CIN
+F4 "Voltage Reference 2.5V 0.2%, Imax=15mA, 20ppm/C" 0 -150 50 H I L CNN "Specifications"
+F5 "Diodes Incorporated" 0 -300 50 H I L CNN "Manufacturer"
+F6 "LM4040B25FTA" 0 -375 50 H I L CNN "Part Number"
+F7 "Texas Instruments" 0 -450 50 H I L CNN "Manufacturer 2"
+F8 "LM4040EIM3X-2.5/NOPB" 0 -525 50 H I L CNN "Part Number 2"
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+P 3 0 1 0 -50 0 0 0 50 0 N
+P 4 0 1 8 -50 -50 25 0 -50 50 -50 -50 N
+P 4 0 1 8 0 -50 25 -50 25 50 50 50 N
+X NC 3 100 200 100 L 50 50 0 0 N N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # LM4040-5V
 #
 DEF LM4040-5V U 0 1 Y N 1 F N

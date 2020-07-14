@@ -275,6 +275,30 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 191R_0603_0.1%
+#
+DEF 191R_0603_0.1% R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "191R_0603_0.1%" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "191Ω 0.1%" 150 -175 50 V V L CNN "Display"
+F5 "191R, 0.1%, 1/16W, 0603, 25ppm" -100 -310 50 H I L CNN "Specifications"
+F6 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
+F7 "ERA-3AEB1910V" -100 -430 50 H I L CNN "Part Number"
+F8 "Yageo" -75 -575 50 H I L CNN "Manufacturer 2"
+F9 "RT0603BRD07191RL" -75 -650 50 H I L CNN "Part Number 2"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 1M_0603
 #
 DEF 1M_0603 R 0 0 N Y 1 F N
@@ -310,6 +334,30 @@ F5 "1K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F7 "RC0603FR-071KL" -100 -430 50 H I L CNN "Part Number"
 F8 "1k" 150 0 50 V V C CNN "Display"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1k_0603_0.1%
+#
+DEF 1k_0603_0.1% R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "1k_0603_0.1%" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1k 0.1%" 150 -175 50 V V L CNN "Display"
+F5 "1k, 0.1%, 1/16W, 0603, 25ppm" -100 -310 50 H I L CNN "Specifications"
+F6 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
+F7 "ERA-3AEB102V" -100 -430 50 H I L CNN "Part Number"
+F8 "Yageo" -75 -575 50 H I L CNN "Manufacturer 2"
+F9 "RT0603BRD071KL" -75 -650 50 H I L CNN "Part Number 2"
 $FPLIST
  R_*
  R_*
