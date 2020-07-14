@@ -21,6 +21,11 @@ D INA199A3, Current Sense Amplifier, SC70-6, 200V/V
 K INA199A3
 $ENDCMP
 #
+$CMP LM4880M
+D Audio Amplifier Dual 200 mW Pwr Amp
+F https://www.ti.com/lit/ds/symlink/lm4880.pdf
+$ENDCMP
+#
 $CMP LMR33630x
 D LMR33630A, DC/DC Converter 400kHz, 36VinMax 3A
 K LMR33630x
