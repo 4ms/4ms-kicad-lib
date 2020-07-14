@@ -33,4 +33,8 @@ D Chip Bead, Ferrite Chip Bead, Z=30Ω @ 100MHz, RmaxDC=90mΩ, ImaxDC=1.5A
 K FerriteBead_0603_1.5A
 $ENDCMP
 #
+$CMP Speaker-generic
+D Speaker
+$ENDCMP
+#
 #End Doc Library
