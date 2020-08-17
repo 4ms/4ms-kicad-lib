@@ -76,4 +76,8 @@ D VXO7812-1000, Non-Isolated DC/DC Converters 16-36Vin 12Vout 1A 12W SIP non-Iso
 K VXO7812-1000
 $ENDCMP
 #
+$CMP WM8731
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
 #End Doc Library
