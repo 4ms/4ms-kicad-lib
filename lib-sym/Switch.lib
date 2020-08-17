@@ -8,7 +8,7 @@ F0 "S" -200 -450 60 H V C CNN
 F1 "Button_SPST_RGB_7mmCap" 150 -350 60 H V C CNN
 F2 "4ms_Switch:Button_RgbLED_SPST_PB615303HL-7mm" -8 -581 60 H I L CNN
 F3 "" -900 -50 60 H V C CNN
-F4 "enosc60" 0 -431 50 H I L CNN "ID"
+F4 "" 0 -431 50 H I L CNN "ID"
 F5 "SPST button with RGB LED, 7mm diffused cap" -1 -657 50 H I L CNN "Specifications"
 F6 "Run Run Enterprises" -4 -733 50 H I L CNN "Manufacturer"
 F7 "PB615303HL-7" -3 -503 50 H I L CNN "Part Number"
@@ -63,6 +63,40 @@ X B 8 -450 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Encoder_Rotary_12mm_SPST_DShaft
+#
+DEF Encoder_Rotary_12mm_SPST_DShaft ENC 0 0 N Y 2 L N
+F0 "ENC" -200 325 45 H V L BNN
+F1 "Encoder_Rotary_12mm_SPST_DShaft" -200 400 45 H V L BNN
+F2 "4ms_Encoder:ENC_SPST_12mm" 25 500 20 H I C CNN
+F3 "" -350 -250 60 H I C CNN
+$FPLIST
+ *ROTENC-12MM-BUT*
+$ENDFPLIST
+DRAW
+S -300 300 300 0 1 0 0 f
+P 2 1 0 0 -200 0 -200 100 N
+P 2 1 0 0 -200 100 -100 100 N
+P 2 1 0 0 -100 200 0 100 N
+P 2 1 0 0 0 0 0 100 N
+P 2 1 0 0 0 100 100 200 N
+P 2 1 0 0 200 0 200 100 N
+P 2 1 0 0 200 100 100 100 N
+P 2 2 0 0 -100 0 100 100 N
+P 2 2 0 0 -30 120 -30 140 N
+P 2 2 0 0 -30 140 30 140 N
+P 2 2 0 0 0 70 0 110 N
+P 2 2 0 0 30 140 30 120 N
+P 2 2 0 0 60 100 100 100 N
+P 2 2 0 0 100 100 80 70 N
+X 1 1 200 -200 200 U 40 40 1 1 B
+X 2 2 0 -200 200 U 40 40 1 1 B
+X 3 3 -200 -200 200 U 40 40 1 1 B
+X SW1 SW1 -200 0 100 R 40 40 2 1 P
+X SW2 SW2 200 0 100 L 40 40 2 1 P
+ENDDRAW
+ENDDEF
+#
 # Slide_DPDT_SS22D06
 #
 DEF Slide_DPDT_SS22D06 SW 0 0 Y N 3 L N
@@ -70,7 +104,7 @@ F0 "SW" 0 200 50 H V C CNN
 F1 "Slide_DPDT_SS22D06" 0 300 50 H V C CNN
 F2 "4ms_Switch:Slide_Switch_Runrun_SS22D06" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "pi38" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "On/On, SubMini toggle 2-position" -100 -310 50 H I L CNN "Specifications"
 F6 "RunRun" -100 -370 50 H I L CNN "Manufacturer"
 F7 "SS22D06" -100 -430 50 H I L CNN "Part Number"
@@ -103,7 +137,7 @@ F0 "SW" -200 150 50 H V C CNN
 F1 "Toggle_SPDT_SubMini_2pos" -150 -150 50 H V C CNN
 F2 "4ms_Switch:Switch_Toggle_SPDT_SubMini" 326 -527 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
-F4 "enosc58" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "SPDT, 3-position, sub-mini toggle, PC-pin, vertical, on(off)on" -100 -310 50 H I L CNN "Specifications"
 F6 "Taiway Switches" -100 -370 50 H I L CNN "Manufacturer"
 F7 "200-MSP3-T2B3M2QE" -100 -430 50 H I L CNN "Part Number"
@@ -125,7 +159,7 @@ F0 "SW" -200 150 50 H V C CNN
 F1 "Toggle_SPDT_SubMini_3pos" -150 -150 50 H V C CNN
 F2 "4ms_Switch:Switch_Toggle_SPDT_SubMini" 650 -500 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
-F4 "rp4541" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "SPDT, On/On, SubMini toggle 2-position" -100 -310 50 H I L CNN "Specifications"
 F6 "Mountain Switch" -100 -370 50 H I L CNN "Manufacturer"
 F7 "108-2MS1T2B3M2QE-EVX" -100 -430 50 H I L CNN "Part Number"

@@ -8,7 +8,7 @@ F0 "L" -50 0 50 V V C CNN
 F1 "12uH_5.2A_1260" 0 250 50 H I C CNN
 F2 "Inductor_SMD:L_Bourns_SRR1260" 100 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp4521" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "12uH, Idc>=5.2A, Shielded, Rdc<23mΩ" -100 -310 50 H I L CNN "Specifications"
 F6 "Bournes" -100 -370 50 H I L CNN "Manufacturer"
 F7 "SRR1260-120M" -100 -430 50 H I L CNN "Part Number"
@@ -37,7 +37,7 @@ F0 "L" -50 0 50 V V C CNN
 F1 "15uH_1A_5040" 0 200 50 H I C CNN
 F2 "4ms_Inductor:COIL_5040" 50 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "poddouble21" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "15uH, Isat>1A, Rdc<=100mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
 F6 "Bournes" -100 -370 50 H I L CNN "Manufacturer"
 F7 "SRN5040TA-150M" -100 -430 50 H I L CNN "Part Number"
@@ -66,7 +66,7 @@ F0 "L" -50 0 50 V V C CNN
 F1 "5.6uH_4.25A_5030" 0 200 50 H I C CNN
 F2 "4ms_Inductor:COIL_5030" 0 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp4519" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "5.6uH, Isat=4.25A, Rdc=63mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
 F6 "Bournes" -100 -370 50 H I L CNN "Manufacturer"
 F7 "SRP5030T-5R6M" -100 -430 50 H I L CNN "Part Number"
@@ -95,7 +95,7 @@ F0 "L" -50 0 50 V V C CNN
 F1 "6.8uH_1.0A_4018" 25 225 50 H I C CNN
 F2 "Inductor_SMD:L_Taiyo-Yuden_NR-40xx" 0 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc20" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "6.8uH, Isat>625mA, Idc>1.0A, Rdc<=100mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
 F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F7 "NRS4018T6R8MDGJ" -100 -430 50 H I L CNN "Part Number"
@@ -133,7 +133,7 @@ F0 "L" -50 0 50 V V C CNN
 F1 "8.2uH_3.2A_6540" 0 200 50 H I C CNN
 F2 "4ms_Inductor:COIL_SRP6540" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp4520" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "8.2uH, DCR: <78mΩ, IDC: >3.2A" -100 -310 50 H I L CNN "Specifications"
 F6 "Bournes" -100 -370 50 H I L CNN "Manufacturer"
 F7 "SRP6540-8R2M" -100 -430 50 H I L CNN "Part Number"
@@ -162,7 +162,7 @@ F0 "L" -50 0 50 V V C CNN
 F1 "FerriteBead_0603_1.5A" 0 250 50 H I C CNN
 F2 "4ms_Resistor:R_0603" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "poddouble15" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "Chip Bead, Ferrite Chip Bead, Z=30Ω @ 100MHz, RmaxDC=90mΩ, ImaxDC=1.5A" -100 -310 50 H I L CNN "Specifications"
 F6 "Laird" -100 -370 50 H I L CNN "Manufacturer"
 F7 "MI0603K300R-10" -100 -430 50 H I L CNN "Part Number"

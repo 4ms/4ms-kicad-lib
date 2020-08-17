@@ -8,7 +8,7 @@ F0 "C" 75 40 50 H V L CNN
 F1 "1.5nF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc13" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "1.5nF, 50V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM033R71H152KA12D" -100 -430 50 H I L CNN "Part Number"
@@ -31,7 +31,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "100nF_0603_16V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc9" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "0.1uF, Min. 16V 10%, X7R or X5R or similar" -100 -310 50 H I L CNN "Specifications"
 F6 "AVX Corporation" -100 -370 50 H I L CNN "Manufacturer"
 F7 "0603YC104KAT2A" -100 -430 50 H I L CNN "Part Number"
@@ -55,7 +55,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10nF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc8" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "10nF, Min 25V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
 F6 "AVX Corporation" -100 -370 50 H I L CNN "Manufacturer"
 F7 "06035C103KAT2A" -100 -430 50 H I L CNN "Part Number"
@@ -78,7 +78,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10uF_0603_10V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc14" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "10uF, Min. 10V X5R 10%" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM188R61A106KE69D" -100 -430 50 H I L CNN "Part Number"
@@ -101,7 +101,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10uF_0805_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "pi3" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "10uF, Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM21BR61E106MA73L" -100 -430 50 H I L CNN "Part Number"
@@ -124,7 +124,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10uF_1206_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_1206" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc4" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "10uF, Min. 25V, X5R or similar, 10%, MLCC" -100 -310 50 H I L CNN "Specifications"
 F6 "Yaego" -100 -370 50 H I L CNN "Manufacturer"
 F7 "CC1206KKX5R8BB106" -100 -430 50 H I L CNN "Part Number"
@@ -147,7 +147,7 @@ F0 "C" 100 50 50 H V L CNN
 F1 "10uF_1206_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_1206" -100 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp451" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "10uF, X6S, Min 35V" -100 -310 50 H I L CNN "Specifications"
 F6 "TDK" -100 -370 50 H I L CNN "Manufacturer"
 F7 "C3216X6S1V106K160AC" -100 -430 50 H I L CNN "Part Number"
@@ -170,7 +170,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10uF_1210_35V" 25 175 50 H I C CNN
 F2 "4ms_Capacitor:C_1210" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "poddouble2" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "10uF, Min. 35V, 20%, X5R or X7S or similar, 1210, MLCC" -100 -310 50 H I L CNN "Specifications"
 F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GMK325BJ106MN-T" -100 -430 50 H I L CNN "Part Number"
@@ -193,7 +193,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "18pF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc1" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "18pF, 50V 5% C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
 F6 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
 F7 "C0603C180J5GACTU" -100 -430 50 H I L CNN "Part Number"
@@ -216,7 +216,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "1nF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc10" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "1nF, 50V, 10%, C0G (NP0) or similar" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM1885C1H102JA01D" -100 -430 50 H I L CNN "Part Number"
@@ -239,7 +239,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "1uF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "poddouble4" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "1uF, Min. 25V, 0603, Ceramic/MLCC" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM188R61E105KA12D" -100 -430 50 H I L CNN "Part Number"
@@ -262,7 +262,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "2.2uF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" 325 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc11" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "2.2uF, Min 25V 10% X5R" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM188R6YA225KA12D" -100 -430 50 H I L CNN "Part Number"
@@ -285,7 +285,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "2.2uF_0603_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q7" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "2.2uF, 35V 10% X5R or X7R, 0603" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM188R6YA225KA12D" -100 -430 50 H I L CNN "Part Number"
@@ -308,7 +308,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "2.2uF_0805_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q8" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "2.2uF, 35V 10% X6S , 0805" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRT21BC8YA225KE13L" -100 -430 50 H I L CNN "Part Number"
@@ -331,7 +331,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "20pF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "pi5" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "20pF, Min 25V, C0G/NP0, 5% 0603" -100 -310 50 H I L CNN "Specifications"
 F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F7 "CC0603JRNPO9BN200" -100 -430 50 H I L CNN "Part Number"
@@ -354,7 +354,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "20pF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q3" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "20pF, 50V 5% C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata Electronics" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM1885C1H200JA01D" -100 -430 50 H I L CNN "Part Number"
@@ -377,7 +377,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "220pF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "pi1" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "220pF, Min 25V, C0G/NP0, 5% 0603" -100 -310 50 H I L CNN "Specifications"
 F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F7 "CC0603JRNPO9BN221" -100 -430 50 H I L CNN "Part Number"
@@ -400,7 +400,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_0603_16V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "pi9" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "22uF, 16V,10%,X5R or X7R,0603" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM219R61C226ME15K" -100 -430 50 H I L CNN "Part Number"
@@ -423,7 +423,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_0805_10V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "poddouble7" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "22uF, Min. 10V, 20%, X5R or X7S or similar, 0805, MLCC" -100 -310 50 H I L CNN "Specifications"
 F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F7 "LMK212BBJ226MG-T" -100 -430 50 H I L CNN "Part Number"
@@ -446,7 +446,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_0805_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp453" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "22uF, Min 25V, 0805, MLCC, X5R or similar" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GRM21BR61E226ME44L" -100 -430 50 H I L CNN "Part Number"
@@ -469,7 +469,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_0805_6.3V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc16" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "22uF, Min 6.3V, MLCC, X5R X7S or similar" -100 -310 50 H I L CNN "Specifications"
 F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F7 "JMK212ABJ226MD-T" -100 -430 50 H I L CNN "Part Number"
@@ -492,7 +492,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_1206_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_1206" -100 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp4511" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC" -100 -310 50 H I L CNN "Specifications"
 F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F7 "TMK316BBJ226ML-T" -100 -430 50 H I L CNN "Part Number"
@@ -515,7 +515,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_1210_16V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_1210" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp454" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "22uF, 16V, X5R/X6S/X7R/X7S, 1210, MLCC" -100 -310 50 H I L CNN "Specifications"
 F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F7 "EMK325BJ226MD-T" -100 -430 50 H I L CNN "Part Number"
@@ -538,7 +538,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "330pF_0603_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc5" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "330pF, Min 35V, C0G/NP0, 5%" -100 -310 50 H I L CNN "Specifications"
 F6 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
 F7 "C0603C331J5GACTU" -100 -430 50 H I L CNN "Part Number"
@@ -561,7 +561,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "33uF_NP_6.3x5.3_16V" 0 150 50 H I C CNN
 F2 "Capacitor_SMD:CP_Elec_6.3x5.3" -100 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q9" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "33uF, 20%, 16VDC, Non-polar Electrolytic" -100 -310 50 H I L CNN "Specifications"
 F6 "Nichicon" -100 -370 50 H I L CNN "Manufacturer"
 F7 "UWP1C330MCL1GB" -100 -430 50 H I L CNN "Part Number"
@@ -584,7 +584,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "4.7nF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc15" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "4.7nF, Min 25V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
 F6 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
 F7 "C0603C472K5RAC7411" -100 -430 50 H I L CNN "Part Number"
@@ -607,7 +607,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "470pF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc2" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "470pF, Min 25V, C0G/NP0, Min 10%" -100 -310 50 H I L CNN "Specifications"
 F6 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
 F7 "C0603C471J5GACTU" -100 -430 50 H I L CNN "Part Number"
@@ -630,7 +630,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "47nF_0603_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc12" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "47nF, Min 35V, X7R or similar, 10%" -100 -310 50 H I L CNN "Specifications"
 F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F7 "CC0603KRX7R9BB473" -100 -430 50 H I L CNN "Part Number"
@@ -653,7 +653,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "47pF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc6" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "47pF, 50V C0G/NPO 5%, MLCC" -100 -310 50 H I L CNN "Specifications"
 F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F7 "CC0603JRNPO9BN470" -100 -430 50 H I L CNN "Part Number"
@@ -676,7 +676,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "47uF_5x5.3_16V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:CP_Elec_5x5.3" -75 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc3" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃" -100 -310 50 H I L CNN "Specifications"
 F6 "Lelon" -100 -370 50 H I L CNN "Manufacturer"
 F7 "VE-470M1CTR-0505" -100 -430 50 H I L CNN "Part Number"
@@ -701,7 +701,7 @@ F0 "C" 75 50 50 H V L CNN
 F1 "8.2nF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp456" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "8.2nF, 50V, X7R or similar, 10%, 0603" -100 -310 50 H I L CNN "Specifications"
 F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F7 "CC0603KPX7R9BB822" -100 -430 50 H I L CNN "Part Number"
@@ -724,7 +724,7 @@ F0 "C" 25 100 50 H V L CNN
 F1 "9pF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q1" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "9pF, Min 50V, C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
 F6 "Murata Electronics" -100 -370 50 H I L CNN "Manufacturer"
 F7 "GCM1885C2A9R0CA16D" -100 -430 50 H I L CNN "Part Number"

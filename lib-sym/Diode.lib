@@ -8,7 +8,7 @@ F0 "D" 0 100 50 H V C CNN
 F1 "B140-E3" 0 -100 50 H V C CNN
 F2 "4ms_Diode:D_SMA" 0 200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "poddouble16" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "SCHOTTKY Diode SMA Vrrm>=40V If>=1.0A, Ifsm>=1.5A" -100 -310 50 H I L CNN "Specifications"
 F6 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
 F7 "B140-E3/5AT" -100 -430 50 H I L CNN "Part Number"
@@ -37,7 +37,7 @@ F0 "D" 0 100 50 H V C CNN
 F1 "B140HW-7" 0 -100 50 H V C CNN
 F2 "4ms_Diode:D_SOD-123" 0 200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q31" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf" -100 -310 50 H I L CNN "Specifications"
 F6 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
 F7 "B140HW-7" -100 -430 50 H I L CNN "Part Number"
@@ -62,7 +62,7 @@ F0 "D" 0 100 50 H V C CNN
 F1 "B360A" 0 -100 50 H V C CNN
 F2 "4ms_Diode:D_DO-214AC_SMA" -50 150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp4515" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "B360A, Vrrm=60V, If=3A" -100 -310 50 H I L CNN "Specifications"
 F6 "Vishay Semiconductors" -100 -370 50 H I L CNN "Manufacturer"
 F7 "B360A-E3/61T" -100 -430 50 H I L CNN "Part Number"
@@ -89,7 +89,7 @@ F0 "D" 100 -100 50 H V C CNN
 F1 "BAT54S" 0 100 50 H V C CNN
 F2 "4ms_Package_SOT:SOT23-3_PO132" -50 200 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
-F4 "enosc18" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "Dual schottky diode BAT54S" -100 -310 50 H I L CNN "Specifications"
 F6 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
 F7 "BAT54S-7-F" -100 -430 50 H I L CNN "Part Number"
@@ -118,7 +118,7 @@ F0 "D" 0 100 50 H V C CNN
 F1 "PDS560" 0 200 50 H V C CNN
 F2 "Diode_SMD:D_PowerDI-5" 0 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp4514" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "PDS560, 60Vrrm, 5A" -100 -310 50 H I L CNN "Specifications"
 F6 "Diodes Inc." -100 -370 50 H I L CNN "Manufacturer"
 F7 "PDS560Q-13" -100 -430 50 H I L CNN "Part Number"
@@ -145,7 +145,7 @@ F0 "D" 0 100 50 H V C CNN
 F1 "RB500SM" 0 200 50 H V C CNN
 F2 "Diode_SMD:D_SOD-523" 350 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp4513" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "RB500SM, VRRM >20V, Isurge >1A, If>100mA" -100 -310 50 H I L CNN "Specifications"
 F6 "ROHM Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
 F7 "RB500SM-30FHT2R" -100 -430 50 H I L CNN "Part Number"
@@ -172,7 +172,7 @@ F0 "D" 0 100 50 H V C CNN
 F1 "SD103" 0 -100 50 H V C CNN
 F2 "4ms_Diode:D_SOD-323F" 0 200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "pi11" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "SD103AWS, 5uA 40Volt 15A IFSM" -100 -310 50 H I L CNN "Specifications"
 F6 "Vishay" -100 -370 50 H I L CNN "Manufacturer"
 F7 "SD103AWS-E3-18" -100 -430 50 H I L CNN "Part Number"
@@ -199,7 +199,7 @@ F0 "D" 0 100 50 H V C CNN
 F1 "TVS_0402_24Vclamp_250Vbk" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0402_1005Metric" -101 -189 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q36" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "ESD Bi-dir Vop(min): 24V, Vbreakdown: 250V" -100 -310 50 H I L CNN "Specifications"
 F6 "Bournes" -100 -370 50 H I L CNN "Manufacturer"
 F7 "CG0402MLC-24LG" -100 -430 50 H I L CNN "Part Number"

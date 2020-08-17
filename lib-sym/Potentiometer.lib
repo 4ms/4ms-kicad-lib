@@ -8,7 +8,7 @@ F0 "POT" -180 -5 50 V V C CNN
 F1 "16mm_21Det_10k" 0 250 50 H I C CNN
 F2 "4ms_Potentiometer:Pot_16mm_21Det_RV16AF-4A" 833 -189 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc56" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "10k Linear, 16mm pot, 21 Detent, D-shaft" -100 -310 50 H I L CNN "Specifications"
 F6 "Alpha Taiwan" -100 -370 50 H I L CNN "Manufacturer"
 F7 "RV16AF-4A-15FW-B10K-3E1" -100 -430 50 H I L CNN "Part Number"
@@ -45,7 +45,7 @@ F0 "POT" -180 -5 50 V V C CNN
 F1 "16mm_CtrDet_10k" 0 250 50 H I C CNN
 F2 "4ms_Potentiometer:Pot_16mm_CtrDet_RV16AF-4A" 833 -189 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc56" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "10k Linear, 16mm pot, Center Detent, D-shaft" -100 -310 50 H I L CNN "Specifications"
 F6 "Alpha Taiwan" -100 -370 50 H I L CNN "Manufacturer"
 F7 "RV16AF-4A-15FW-B10k-3C" -100 -430 50 H I L CNN "Part Number"
@@ -76,7 +76,7 @@ F0 "POT" -175 15 50 V V C CNN
 F1 "16mm_NoDet_10k" -5 280 50 H I C CNN
 F2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" 822 -191 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc57" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "10k Linear, 16mm pot, No Detent, D-shaft" -100 -310 50 H I L CNN "Specifications"
 F6 "Alpha Taiwan" -100 -370 50 H I L CNN "Manufacturer"
 F7 "RV16AF-4A-15FW-B10k-3" -100 -430 50 H I L CNN "Part Number"
@@ -105,7 +105,7 @@ F0 "TRIM" -200 15 50 V V C CNN
 F1 "TrimPot_TC33X_1k" 50 250 50 H I C CNN
 F2 "4ms_Potentiometer:Pot_Trim_SMT_TC33X" 0 -510 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q39" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "Pot_Trim_SMT" -100 -310 50 H I L CNN "Specifications"
 F6 "Bourns" -100 -370 50 H I L CNN "Manufacturer"
 F7 "TC33X-2-102G" -100 -430 50 H I L CNN "Part Number"

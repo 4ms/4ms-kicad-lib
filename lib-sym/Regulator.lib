@@ -8,7 +8,7 @@ F0 "U" 150 -196 50 H V C CNN
 F1 "AP7381-50" 0 300 50 H I C CNN
 F2 "4ms_Package_SOT:SOT23-3_PO132" 50 -500 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
-F4 "pi43" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "LDO Voltage Regulator, 5v, 150mA" -100 -310 50 H I L CNN "Specifications"
 F6 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
 F7 "AP7381-50SA-7" -100 -430 50 H I L CNN "Part Number"
@@ -32,7 +32,7 @@ F0 "U" 150 -196 50 H V C CNN
 F1 "AP7384-33" 0 300 50 H I C CNN
 F2 "4ms_Package_SOT:SOT23-3_PO132" 100 -550 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
-F4 "enosc50" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "3.3V Reg. Iout>20mA, Vin>15V" -100 -310 50 H I L CNN "Specifications"
 F6 "TAD" -100 -370 50 H I L CNN "Manufacturer"
 F7 "AP7384-33SA-7" -100 -430 50 H I L CNN "Part Number"
@@ -56,7 +56,7 @@ F0 "U" 150 -196 50 H V C CNN
 F1 "AP7384-50" 0 300 50 H I C CNN
 F2 "4ms_Package_SOT:SOT23-3_PO132" 0 -500 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
-F4 "enosc51" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "Vreg 5.0V, Iout>50mA, Vin>15V" -100 -310 50 H I L CNN "Specifications"
 F6 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
 F7 "AP7384-50SA-7" -100 -430 50 H I L CNN "Part Number"

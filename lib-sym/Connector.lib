@@ -8,7 +8,7 @@ F0 "J" 0 100 50 H V C CNN
 F1 "Conn_01x02" 0 -200 50 H V C CNN
 F2 "4ms_Connector:Pins_1x02_2.54mm_TH" -25 175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp4517" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin" -100 -310 50 H I L CNN "Specifications"
 F6 "TAD" -100 -370 50 H I L CNN "Manufacturer"
 F7 "1-0201FBV0T" -100 -430 50 H I L CNN "Part Number"
@@ -36,7 +36,7 @@ F0 "J" 0 200 50 H V C CNN
 F1 "Conn_01x03" 0 -200 50 H V C CNN
 F2 "4ms_Connector:Pins_1x03_2.54mm_TH_AudioInsRGndL" 0 275 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q40" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "HEADER 1x3 MALE PINS 0.100” 180deg" -100 -310 50 H I L CNN "Specifications"
 F6 "TAD" -100 -370 50 H I L CNN "Manufacturer"
 F7 "1-0301FBV0T" -100 -430 50 H I L CNN "Part Number"
@@ -61,7 +61,7 @@ F0 "J" 0 200 50 H V C CNN
 F1 "Conn_01x04" 0 -300 50 H V C CNN
 F2 "4ms_Connector:Pins_1x04_2.54mm_TH_SWD" 0 275 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc54" -100 -500 50 H I L CNN "ID"
+F4 "" -100 -500 50 H I L CNN "ID"
 F5 "HEADER 1x4 MALE PINS 0.100” 180deg" -125 -575 50 H I L CNN "Specifications"
 F6 "TAD" -100 -370 50 H I L CNN "Manufacturer"
 F7 "1-0401FBV0T" -100 -430 50 H I L CNN "Part Number"
@@ -83,6 +83,41 @@ X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x06
+#
+DEF Conn_01x06 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Conn_01x06" 0 -400 50 H V C CNN
+F2 "4ms_Connector:Pins_1x06_2.54mm_TH_SWD" 0 -700 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "HEADER 1x6 MALE PINS 0.100” 180deg" -75 -625 50 H I L CNN "Specifications"
+F5 "TAD" -100 -500 50 H I L CNN "Manufacturer"
+F6 "1-0601FBV0T" -75 -575 50 H I L CNN "Part Number"
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -130,7 +165,7 @@ F0 "J" 0 200 50 H V C CNN
 F1 "Conn_02x03" 0 300 50 H V C CNN
 F2 "4ms_Connector:Pins_2x03_2.54mm_TH" 100 -550 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
-F4 "l4q42" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "HEADER 2x3 MALE PINS 0.100” 180deg" -100 -310 50 H I L CNN "Specifications"
 F6 "Cixi Langlin" -100 -370 50 H I L CNN "Manufacturer"
 F7 "LL1009-2A, 2.54MM 2*3PIN HEADER,LENGTH=20MM" -100 -430 50 H I L CNN "Part Number"
@@ -165,7 +200,7 @@ F0 "J" 50 200 50 H V C CNN
 F1 "Conn_02x04" 50 -300 50 H V C CNN
 F2 "4ms_Connector:Pins_2x04_2.54mm_TH" 125 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "enosc53" -125 -750 50 H I L CNN "ID"
+F4 "" -125 -750 50 H I L CNN "ID"
 F5 "HEADER 2x4 MALE PINS 0.100” 180deg" 0 -675 50 H I L CNN "Specifications"
 F6 "TAD" 0 -400 50 H I L CNN "Manufacturer"
 F7 "1-0802FBV0T" 0 -475 50 H I L CNN "Part Number"
@@ -259,7 +294,7 @@ F0 "J" 0 150 50 H V C CNN
 F1 "Eurorack_Power_10pin_Unshrouded" 0 250 50 H V C CNN
 F2 "4ms_Connector:Pins_2x05_2.54mm_TH_Europower" 100 -550 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
-F4 "enosc55" 0 -950 50 H I L CNN "ID"
+F4 "" 0 -950 50 H I L CNN "ID"
 F5 "HEADER 2x5 MALE PINS 0.100” 180deg" 0 -850 50 H I L CNN "Specifications"
 F6 "TAD" 0 -750 50 H I L CNN "Manufacturer"
 F7 "1-1002FBV0T" 0 -650 50 H I L CNN "Part Number"
@@ -309,7 +344,7 @@ F0 "J" 0 450 50 H V C CNN
 F1 "Eurorack_Power_16pin_Shrouded" 0 550 50 H V C CNN
 F2 "4ms_Connector:Pins_2x08_2.54mm_TH_EuroPower_Shrouded" 400 -900 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
-F4 "poddouble20" 0 -500 50 H I L CNN "ID"
+F4 "" 0 -500 50 H I L CNN "ID"
 F5 "Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed" 0 -600 50 H I L CNN "Specifications"
 F6 "Cixi LanLing" 0 -700 50 H I L CNN "Manufacturer"
 F7 "LL1007-1 (2*8 HITEMP)" 0 -800 50 H I L CNN "Part Number"
@@ -374,7 +409,7 @@ F0 "J" 0 450 50 H V C CNN
 F1 "Eurorack_Power_16pin_Unshrouded" 0 550 50 H V C CNN
 F2 "4ms_Connector:Pins_2x08_2.54mm_TH_EuroPower" 400 -900 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
-F4 "poddouble20" 0 -500 50 H I L CNN "ID"
+F4 "" 0 -500 50 H I L CNN "ID"
 F5 "Header, Male Pins, 2*8, spacing 2.54mm, straight pin" 0 -600 50 H I L CNN "Specifications"
 F6 "TAD" 0 -700 50 H I L CNN "Manufacturer"
 F7 "1-1602FBV0T" 0 -800 50 H I L CNN "Part Number"
@@ -432,6 +467,78 @@ X GND 9 -250 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Pins_02x03_SMT
+#
+DEF Pins_02x03_SMT J 0 1 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Pins_02x03_SMT" 0 300 50 H V C CNN
+F2 "4ms_Connector:Pins_2x03_1.27mm_SMD" 75 -475 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+F4 "Header 2x3 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, SMT" -125 -235 50 H I L CNN "Specifications"
+F5 "Samtec" -125 -295 50 H I L CNN "Manufacturer"
+F6 "FTSH-103-01-F-DV" -125 -355 50 H I L CNN "Part Number"
+$FPLIST
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+ IDC_Header_Straight_*
+$ENDFPLIST
+DRAW
+S -100 -95 -50 -105 0 1 6 N
+S -100 5 -50 -5 0 1 6 N
+S -100 105 -50 95 0 1 6 N
+S -100 150 100 -150 0 1 10 f
+S 50 -95 100 -105 0 1 6 N
+S 50 5 100 -5 0 1 6 N
+S 50 105 100 95 0 1 6 N
+X +12V 1 -250 100 150 R 50 50 1 1 P
+X +12V 2 250 100 150 L 50 50 1 1 P
+X GND 3 -250 0 150 R 50 50 1 1 P
+X GND 4 250 0 150 L 50 50 1 1 P
+X GND 5 -250 -100 150 R 50 50 1 1 P
+X GND 6 250 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Pins_02x05_SMT
+#
+DEF Pins_02x05_SMT J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Pins_02x05_SMT" 0 -300 50 H V C CNN
+F2 "4ms_Connector:Pins_2x05_1.27mm_SMD" 75 -650 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+F4 "Header 2x5 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, SMT" 50 -425 50 H I C CNN "Specifications"
+F5 "Samtec" -25 -500 50 H I C CNN "Manufacturer"
+F6 "FTSH-105-01-F-DV" -50 -575 50 H I C CNN "Part Number"
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -100 -195 -50 -205 1 1 6 N
+S -100 -95 -50 -105 1 1 6 N
+S -100 5 -50 -5 1 1 6 N
+S -100 105 -50 95 1 1 6 N
+S -100 205 -50 195 1 1 6 N
+S -100 250 100 -250 1 1 10 f
+S 100 -195 50 -205 1 1 6 N
+S 100 -95 50 -105 1 1 6 N
+S 100 5 50 -5 1 1 6 N
+S 100 105 50 95 1 1 6 N
+S 100 205 50 195 1 1 6 N
+X Pin_1 1 -250 200 150 R 50 50 1 1 P
+X Pin_10 10 250 -200 150 L 50 50 1 1 P
+X Pin_2 2 250 200 150 L 50 50 1 1 P
+X Pin_3 3 -250 100 150 R 50 50 1 1 P
+X Pin_4 4 250 100 150 L 50 50 1 1 P
+X Pin_5 5 -250 0 150 R 50 50 1 1 P
+X Pin_6 6 250 0 150 L 50 50 1 1 P
+X Pin_7 7 -250 -100 150 R 50 50 1 1 P
+X Pin_8 8 250 -100 150 L 50 50 1 1 P
+X Pin_9 9 -250 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Socket_01x02
 #
 DEF Socket_01x02 J 0 40 Y N 1 F N
@@ -439,7 +546,7 @@ F0 "J" 0 100 50 H V C CNN
 F1 "Socket_01x02" 0 -200 50 H V C CNN
 F2 "4ms_Connector:Socket_1x02_2.54mm_TH" -25 175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "rp4517" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "Socket Header, 1*2, spacing 2.54mm, Vertical" -100 -310 50 H I L CNN "Specifications"
 F6 "?" -100 -370 50 H I L CNN "Manufacturer"
 F7 "?" -100 -430 50 H I L CNN "Part Number"

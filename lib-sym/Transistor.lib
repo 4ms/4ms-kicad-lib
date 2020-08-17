@@ -8,7 +8,7 @@ F0 "Q" 200 50 50 H V L CNN
 F1 "MBT3904DW1" 200 -50 50 H V L CNN
 F2 "4ms_Package_SOT:SOT-363_SC-70-6" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "l4q33" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "Bipolar Transistor NPN, Gen Purpose, DW1 pinout" -100 -310 50 H I L CNN "Specifications"
 F6 "ON Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
 F7 "MBT3904DW1T1H" -100 -430 50 H I L CNN "Part Number"
@@ -40,7 +40,7 @@ F0 "Q" 200 75 50 H V L CNN
 F1 "Si2318" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-F4 "enosc22" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms" -100 -310 50 H I L CNN "Specifications"
 F6 "Vishay Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
 F7 "SI2318DS-T1-GE3" -100 -430 50 H I L CNN "Part Number"
@@ -79,7 +79,7 @@ F0 "Q" 200 75 50 H V L CNN
 F1 "Si2347" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-F4 "enosc21" -100 -250 50 H I L CNN "ID"
+F4 "" -100 -250 50 H I L CNN "ID"
 F5 "MOSFET P-chan Si2347" -100 -310 50 H I L CNN "Specifications"
 F6 "Vishay Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
 F7 "SI2347DS-T1-GE3" -100 -430 50 H I L CNN "Part Number"
