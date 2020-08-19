@@ -5,6 +5,11 @@ D SPST button with RGB LED, 7mm diffused cap
 K Button_SPST_RGB_7mmCap
 $ENDCMP
 #
+$CMP Encoder_Rotary_11mm_SPST_DShaft
+D Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft
+K Encoder Rotary Smooth
+$ENDCMP
+#
 $CMP Slide_DPDT_SS22D06
 D On/On, SubMini toggle 2-position
 K Slide_DPDT_SS22D06
