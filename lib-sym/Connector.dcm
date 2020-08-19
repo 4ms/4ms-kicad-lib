@@ -67,9 +67,21 @@ K 2x5 Pin Header SMT
 F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf
 $ENDCMP
 #
+$CMP Pins_02x08_P1.27mm_SMT
+D Header 2x8 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, SMT
+K 2x8 Pin Header SMT 0.05" 1.27mm
+F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf
+$ENDCMP
+#
 $CMP Socket_01x02
 D HEADER 1x2 MALE PINS 0.100” 180deg
 K Conn_01x02
+$ENDCMP
+#
+$CMP Socket_02x08_P1.27mm_SMT
+D Header 2x8 Socket, Pitch=1.27mm, Rcpt Height=3mm, Vertical, SMT
+K 2x8 Socket Header SMT 0.05" 1.27mm
+F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf
 $ENDCMP
 #
 $CMP Socket_02x32
