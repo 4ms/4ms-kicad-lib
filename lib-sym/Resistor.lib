@@ -8,11 +8,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "1.1k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "1K1, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-071K1L" -100 -430 50 H I L CNN "Part Number"
-F8 "1.1k" 150 0 50 V V C CNN "Display"
+F4 "1K1, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-071K1L" -100 -430 50 H I L CNN "Part Number"
+F7 "1.1k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -31,11 +30,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "1.2k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "1K2, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-071K2L" -100 -430 50 H I L CNN "Part Number"
-F8 "1.2k" 150 0 50 V V C CNN "Display"
+F4 "1K2, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-071K2L" -100 -430 50 H I L CNN "Part Number"
+F7 "1.2k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -54,11 +52,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "10.2k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10.2k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0710K2L" -100 -430 50 H I L CNN "Part Number"
-F8 "10.2k" 150 0 50 V V C CNN "Display"
+F4 "10.2k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0710K2L" -100 -430 50 H I L CNN "Part Number"
+F7 "10.2k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -77,11 +74,11 @@ F0 "R" 80 0 50 V V C CNN
 F1 "100k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "100K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-07100KL" -100 -430 50 H I L CNN "Part Number"
-F8 "100k" 150 0 50 V V C CNN "Display"
+F4 "100K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07100KL" -100 -430 50 H I L CNN "Part Number"
+F7 "100k" 150 0 50 V V C CNN "Display"
+F8 "C25803" 50 -600 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -100,11 +97,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "10R_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0710RL" -100 -430 50 H I L CNN "Part Number"
-F8 "10R" 150 0 50 V V C CNN "Display"
+F4 "10R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0710RL" -100 -430 50 H I L CNN "Part Number"
+F7 "10R" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -123,11 +119,11 @@ F0 "R" 80 0 50 V V C CNN
 F1 "10k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0710KL" -100 -430 50 H I L CNN "Part Number"
-F8 "10k" 150 0 50 V V C CNN "Display"
+F4 "10K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0710KL" -100 -430 50 H I L CNN "Part Number"
+F7 "10k" 150 0 50 V V C CNN "Display"
+F8 "C25804" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -146,11 +142,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "10m_1206_250mW" -150 -25 50 V I C CNN
 F2 "Resistor_SMD:R_1206_3216Metric" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10mΩ, 10mOhm, Min. 250mW, 100PPM/C" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "PF1206FRF070R01L" -100 -430 50 H I L CNN "Part Number"
-F8 "10mΩ/250mW" 150 0 50 V V C CNN "Display"
+F4 "10mΩ, 10mOhm, Min. 250mW, 100PPM/C" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "PF1206FRF070R01L" -100 -430 50 H I L CNN "Part Number"
+F7 "10mΩ/250mW" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -169,11 +164,33 @@ F0 "R" 80 0 50 V V C CNN
 F1 "13k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "13K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0713KL" -100 -430 50 H I L CNN "Part Number"
-F8 "13k" 150 0 50 V V C CNN "Display"
+F4 "13K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0713KL" -100 -430 50 H I L CNN "Part Number"
+F7 "13k" 150 0 50 V V C CNN "Display"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150R_0603
+#
+DEF 150R_0603 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "150R_0603" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "150R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07150RL" -100 -430 50 H I L CNN "Part Number"
+F7 "150R" 150 0 50 V V C CNN "Display"
+F8 "C22808 " 0 -600 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -192,11 +209,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "15k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "15k,1%,1/10W,0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0715KL" -100 -430 50 H I L CNN "Part Number"
-F8 "15k" 150 0 50 V V C CNN "Display"
+F4 "15k,1%,1/10W,0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0715KL" -100 -430 50 H I L CNN "Part Number"
+F7 "15k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -215,11 +231,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "16.5k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "16K5, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0716K5L" -100 -430 50 H I L CNN "Part Number"
-F8 "16.5k" 150 0 50 V V C CNN "Display"
+F4 "16K5, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0716K5L" -100 -430 50 H I L CNN "Part Number"
+F7 "16.5k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -306,11 +321,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "1M_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "1M, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-071ML" -100 -430 50 H I L CNN "Part Number"
-F8 "1M" 150 0 50 V V C CNN "Display"
+F4 "1M, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-071ML" -100 -430 50 H I L CNN "Part Number"
+F7 "1M" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -329,11 +343,11 @@ F0 "R" 80 0 50 V V C CNN
 F1 "1k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "1K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-071KL" -100 -430 50 H I L CNN "Part Number"
-F8 "1k" 150 0 50 V V C CNN "Display"
+F4 "1K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-071KL" -100 -430 50 H I L CNN "Part Number"
+F7 "1k" 150 0 50 V V C CNN "Display"
+F8 "C21190" 50 -600 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -369,6 +383,29 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 2.2k_0603
+#
+DEF 2.2k_0603 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "2.2k_0603" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "2.2k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-072K2L" -100 -430 50 H I L CNN "Part Number"
+F7 "2.2k" 150 0 50 V V C CNN "Display"
+F8 "C4190" 0 -550 50 H I C CNN "JLCPCB ID"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 2.7k_0603
 #
 DEF 2.7k_0603 R 0 0 N Y 1 F N
@@ -376,11 +413,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "2.7k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "2k7, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-072K7L" -100 -430 50 H I L CNN "Part Number"
-F8 "2.7k" 150 0 50 V V C CNN "Display"
+F4 "2k7, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-072K7L" -100 -430 50 H I L CNN "Part Number"
+F7 "2.7k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -399,11 +435,33 @@ F0 "R" 80 0 50 V V C CNN
 F1 "200k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "200k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-07200KL" -100 -430 50 H I L CNN "Part Number"
-F8 "200k" 150 0 50 V V C CNN "Display"
+F4 "200k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07200KL" -100 -430 50 H I L CNN "Part Number"
+F7 "200k" 150 0 50 V V C CNN "Display"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 20k_0603
+#
+DEF 20k_0603 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "20k_0603" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "20k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0720KL" -100 -430 50 H I L CNN "Part Number"
+F7 "20k" 150 0 50 V V C CNN "Display"
+F8 "C4184 " 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -422,11 +480,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "220R_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "220R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-07220RL" -100 -430 50 H I L CNN "Part Number"
-F8 "220R" 150 0 50 V V C CNN "Display"
+F4 "220R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07220RL" -100 -430 50 H I L CNN "Part Number"
+F7 "220R" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -445,11 +502,33 @@ F0 "R" 80 0 50 V V C CNN
 F1 "22k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "22K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0722KL" -100 -430 50 H I L CNN "Part Number"
-F8 "22k" 150 0 50 V V C CNN "Display"
+F4 "22K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0722KL" -100 -430 50 H I L CNN "Part Number"
+F7 "22k" 150 0 50 V V C CNN "Display"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 270R_0603
+#
+DEF 270R_0603 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "270R_0603" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "270R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07270RL" -100 -430 50 H I L CNN "Part Number"
+F7 "270R" 150 0 50 V V C CNN "Display"
+F8 "C22966" 0 -550 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -468,11 +547,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "2k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "2K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-072KL" -100 -430 50 H I L CNN "Part Number"
-F8 "2k" 150 0 50 V V C CNN "Display"
+F4 "2K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-072KL" -100 -430 50 H I L CNN "Part Number"
+F7 "2k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -491,11 +569,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "300k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "300K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-07300KL" -100 -430 50 H I L CNN "Part Number"
-F8 "300K" 150 0 50 V V C CNN "Display"
+F4 "300K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07300KL" -100 -430 50 H I L CNN "Part Number"
+F7 "300K" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -514,11 +591,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "30R_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "30Ω, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0730RL" -100 -430 50 H I L CNN "Part Number"
-F8 "30R" 150 0 50 V V C CNN "Display"
+F4 "30Ω, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0730RL" -100 -430 50 H I L CNN "Part Number"
+F7 "30R" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -537,11 +613,11 @@ F0 "R" 80 0 50 V V C CNN
 F1 "330R_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "330R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-07330RL" -100 -430 50 H I L CNN "Part Number"
-F8 "330R" 150 0 50 V V C CNN "Display"
+F4 "330R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07330RL" -100 -430 50 H I L CNN "Part Number"
+F7 "330R" 150 0 50 V V C CNN "Display"
+F8 "C23138" 50 -600 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -560,11 +636,11 @@ F0 "R" 80 0 50 V V C CNN
 F1 "33k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "33K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0733KL" -100 -430 50 H I L CNN "Part Number"
-F8 "33k" 150 0 50 V V C CNN "Display"
+F4 "33K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0733KL" -100 -430 50 H I L CNN "Part Number"
+F7 "33k" 150 0 50 V V C CNN "Display"
+F8 "C4216" 50 -550 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -583,11 +659,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "34.8k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "34K8, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0734K8L" -100 -430 50 H I L CNN "Part Number"
-F8 "34.8k" 150 0 50 V V C CNN "Display"
+F4 "34K8, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0734K8L" -100 -430 50 H I L CNN "Part Number"
+F7 "34.8k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -606,11 +681,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "37.4k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "37.4k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0737K4L" -100 -430 50 H I L CNN "Part Number"
-F8 "37.4k" 150 0 50 V V C CNN "Display"
+F4 "37.4k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0737K4L" -100 -430 50 H I L CNN "Part Number"
+F7 "37.4k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -619,6 +693,29 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 10 50 1 1 P
 X ~ 2 0 -150 50 U 0 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3R_2512_300mW
+#
+DEF 3R_2512_300mW R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "3R_2512_300mW" 150 -600 50 H I C CNN
+F2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "3Ω, 2512 package, Min 0.3W @ 150°C" -100 -310 50 H I L CNN "Specifications"
+F5 "Koa Speer" -100 -370 50 H I L CNN "Manufacturer"
+F6 "SL1TTER300F" -100 -430 50 H I L CNN "Part Number"
+F7 "3R/300mW" 150 0 50 V V C CNN "Display"
+F8 "C69478 " 50 -700 50 H I C CNN "JLCPCB ID"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -651,11 +748,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "4.7k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "4k7, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-074K7L" -100 -430 50 H I L CNN "Part Number"
-F8 "4.7k" 150 0 50 V V C CNN "Display"
+F4 "4k7, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-074K7L" -100 -430 50 H I L CNN "Part Number"
+F7 "4.7k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -674,11 +770,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "40.2k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "40K2, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0740K2L" -100 -430 50 H I L CNN "Part Number"
-F8 "40.2k" 150 0 50 V V C CNN "Display"
+F4 "40K2, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0740K2L" -100 -430 50 H I L CNN "Part Number"
+F7 "40.2k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -719,11 +814,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "42.2k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "42.2k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0742K2L" -100 -430 50 H I L CNN "Part Number"
-F8 "42.2k" 150 0 50 V V C CNN "Display"
+F4 "42.2k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0742K2L" -100 -430 50 H I L CNN "Part Number"
+F7 "42.2k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -742,11 +836,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "470R_0805_350mW" -125 0 50 V I C CNN
 F2 "Resistor_SMD:R_0805_2012Metric" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "470R, >=350mW, 5%" -100 -310 50 H I L CNN "Specifications"
-F6 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
-F7 "ERJ-P06J471V" -100 -430 50 H I L CNN "Part Number"
-F8 "470R/350mW" 150 0 50 V V C CNN "Display"
+F4 "470R, >=350mW, 5%" -100 -310 50 H I L CNN "Specifications"
+F5 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
+F6 "ERJ-P06J471V" -100 -430 50 H I L CNN "Part Number"
+F7 "470R/350mW" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -765,11 +858,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "47k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "47K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0747KL" -100 -430 50 H I L CNN "Part Number"
-F8 "47k" 150 0 50 V V C CNN "Display"
+F4 "47K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0747KL" -100 -430 50 H I L CNN "Part Number"
+F7 "47k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -810,11 +902,11 @@ F0 "R" 80 0 50 V V C CNN
 F1 "49.9k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "49K9, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0749K9L" -100 -430 50 H I L CNN "Part Number"
-F8 "49.9k" 150 0 50 V V C CNN "Display"
+F4 "49K9, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0749K9L" -100 -430 50 H I L CNN "Part Number"
+F7 "49.9k" 150 0 50 V V C CNN "Display"
+F8 "C23184" 50 -550 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -833,11 +925,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "52.3k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "52.3k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0752K3L" -100 -430 50 H I L CNN "Part Number"
-F8 "52.3k" 150 0 50 V V C CNN "Display"
+F4 "52.3k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0752K3L" -100 -430 50 H I L CNN "Part Number"
+F7 "52.3k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -856,11 +947,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "6.04k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "6K04, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-076K04L" -100 -430 50 H I L CNN "Part Number"
-F8 "6.04k" 150 0 50 V V C CNN "Display"
+F4 "6K04, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-076K04L" -100 -430 50 H I L CNN "Part Number"
+F7 "6.04k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -879,11 +969,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "6.2k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "6K2, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-076K2L" -100 -430 50 H I L CNN "Part Number"
-F8 "6.2k" 150 0 50 V V C CNN "Display"
+F4 "6K2, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-076K2L" -100 -430 50 H I L CNN "Part Number"
+F7 "6.2k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -902,11 +991,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "6.34k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "6K3, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-076K34L" -100 -430 50 H I L CNN "Part Number"
-F8 "6.34k" 150 0 50 V V C CNN "Display"
+F4 "6K3, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-076K34L" -100 -430 50 H I L CNN "Part Number"
+F7 "6.34k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -925,11 +1013,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "6.8k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "6K8, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-076K8L" -100 -430 50 H I L CNN "Part Number"
-F8 "6.8k" 150 0 50 V V C CNN "Display"
+F4 "6K8, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-076K8L" -100 -430 50 H I L CNN "Part Number"
+F7 "6.8k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -948,11 +1035,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "680R_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "680R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-07680RL" -100 -430 50 H I L CNN "Part Number"
-F8 "680" 150 0 50 V V C CNN "Display"
+F4 "680R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07680RL" -100 -430 50 H I L CNN "Part Number"
+F7 "680" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -971,11 +1057,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "68R_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "68R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0768RL" -100 -430 50 H I L CNN "Part Number"
-F8 "68R" 150 0 50 V V C CNN "Display"
+F4 "68R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0768RL" -100 -430 50 H I L CNN "Part Number"
+F7 "68R" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -994,11 +1079,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "68R_0805_350mW" -125 0 50 V I C CNN
 F2 "Resistor_SMD:R_0805_2012Metric" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "68R, >=350mW, 5%" -100 -310 50 H I L CNN "Specifications"
-F6 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
-F7 "ERJ-P06J680V" -100 -430 50 H I L CNN "Part Number"
-F8 "68R/350mW" 150 0 50 V V C CNN "Display"
+F4 "68R, >=350mW, 5%" -100 -310 50 H I L CNN "Specifications"
+F5 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
+F6 "ERJ-P06J680V" -100 -430 50 H I L CNN "Part Number"
+F7 "68R/350mW" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -1017,11 +1101,33 @@ F0 "R" 80 0 50 V V C CNN
 F1 "68k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "68k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0768KL" -100 -430 50 H I L CNN "Part Number"
-F8 "68k" 150 0 50 V V C CNN "Display"
+F4 "68k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0768KL" -100 -430 50 H I L CNN "Part Number"
+F7 "68k" 150 0 50 V V C CNN "Display"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 69.8k_0603
+#
+DEF 69.8k_0603 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "69.8k_0603" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "69.8k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0769K8L" -100 -430 50 H I L CNN "Part Number"
+F7 "69.8k" 150 0 50 V V C CNN "Display"
+F8 "C23098 " 50 -600 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1040,11 +1146,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "7.68k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "7.68K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-077.68KL" -100 -430 50 H I L CNN "Part Number"
-F8 "7.68k" 150 0 50 V V C CNN "Display"
+F4 "7.68K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-077.68KL" -100 -430 50 H I L CNN "Part Number"
+F7 "7.68k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -1063,11 +1168,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "732R_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "732, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-07732RL" -100 -430 50 H I L CNN "Part Number"
-F8 "732" 150 0 50 V V C CNN "Display"
+F4 "732, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07732RL" -100 -430 50 H I L CNN "Part Number"
+F7 "732" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -1130,11 +1234,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "75R_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "75R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0775RL" -100 -430 50 H I L CNN "Part Number"
-F8 "75R" 150 0 50 V V C CNN "Display"
+F4 "75R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0775RL" -100 -430 50 H I L CNN "Part Number"
+F7 "75R" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -1153,11 +1256,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "75k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "75K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-0775KL" -100 -430 50 H I L CNN "Part Number"
-F8 "75k" 150 0 50 V V C CNN "Display"
+F4 "75K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-0775KL" -100 -430 50 H I L CNN "Part Number"
+F7 "75k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -1176,11 +1278,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "820k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "820k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-07820KL" -100 -430 50 H I L CNN "Part Number"
-F8 "820k" 150 0 50 V V C CNN "Display"
+F4 "820k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-07820KL" -100 -430 50 H I L CNN "Part Number"
+F7 "820k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
@@ -1199,11 +1300,10 @@ F0 "R" 80 0 50 V V C CNN
 F1 "9.09k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "9.09k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "RC0603FR-079K09L" -100 -430 50 H I L CNN "Part Number"
-F8 "9.09k" 150 0 50 V V C CNN "Display"
+F4 "9.09k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RC0603FR-079K09L" -100 -430 50 H I L CNN "Part Number"
+F7 "9.09k" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*

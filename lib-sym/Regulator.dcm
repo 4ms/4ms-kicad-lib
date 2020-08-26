@@ -24,4 +24,10 @@ $CMP MC78L05ACH
 D 5V 0.1A Voltage Regulator SOT89
 $ENDCMP
 #
+$CMP Polyfuse_3A_15V
+D 3A trip, 1.5A hold Resettable fuse, polymeric positive temperature coefficient
+K Fuse
+F ~
+$ENDCMP
+#
 #End Doc Library

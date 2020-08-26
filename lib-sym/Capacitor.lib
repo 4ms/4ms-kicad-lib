@@ -8,11 +8,10 @@ F0 "C" 75 40 50 H V L CNN
 F1 "1.5nF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "1.5nF, 50V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM033R71H152KA12D" -100 -430 50 H I L CNN "Part Number"
-F8 "1.5nF" 75 -50 50 H V L CNN "Display"
+F4 "1.5nF, 50V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM033R71H152KA12D" -100 -430 50 H I L CNN "Part Number"
+F7 "1.5nF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -31,12 +30,35 @@ F0 "C" 75 50 50 H V L CNN
 F1 "100nF_0603_16V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "0.1uF, Min. 16V 10%, X7R or X5R or similar" -100 -310 50 H I L CNN "Specifications"
-F6 "AVX Corporation" -100 -370 50 H I L CNN "Manufacturer"
-F7 "0603YC104KAT2A" -100 -430 50 H I L CNN "Part Number"
-F8 "0.1uF" 75 -50 50 H V L CNN "Display"
+F4 "0.1uF, Min. 16V 10%, X7R or X5R or similar" -100 -310 50 H I L CNN "Specifications"
+F5 "AVX Corporation" -100 -370 50 H I L CNN "Manufacturer"
+F6 "0603YC104KAT2A" -100 -430 50 H I L CNN "Part Number"
+F7 "0.1uF" 75 -50 50 H V L CNN "Display"
+F8 "C14663" 50 -500 50 H I C CNN "JLCPCB ID"
 ALIAS 0.1uF_0603_16V
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100pF_0603_50V
+#
+DEF 100pF_0603_50V C 0 10 N N 1 F N
+F0 "C" 75 50 50 H V L CNN
+F1 "100pF_0603_50V" 0 150 50 H I C CNN
+F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "100pF, Min. 50V 10% NP0 or C0G" -100 -310 50 H I L CNN "Specifications"
+F5 "?" -100 -370 50 H I L CNN "Manufacturer"
+F6 "?" -100 -430 50 H I L CNN "Part Number"
+F7 "100pF" 75 -50 50 H V L CNN "Display"
+F8 "C14858" 50 -500 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -55,11 +77,11 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10nF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10nF, Min 25V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
-F6 "AVX Corporation" -100 -370 50 H I L CNN "Manufacturer"
-F7 "06035C103KAT2A" -100 -430 50 H I L CNN "Part Number"
-F8 "10nF" 75 -50 50 H V L CNN "Display"
+F4 "10nF, Min 25V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
+F5 "AVX Corporation" -100 -370 50 H I L CNN "Manufacturer"
+F6 "06035C103KAT2A" -100 -430 50 H I L CNN "Part Number"
+F7 "10nF" 75 -50 50 H V L CNN "Display"
+F8 "C57112" 0 -500 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -78,11 +100,11 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10uF_0603_10V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10uF, Min. 10V X5R 10%" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM188R61A106KE69D" -100 -430 50 H I L CNN "Part Number"
-F8 "10uF/10V" 75 -50 50 H V L CNN "Display"
+F4 "10uF, Min. 10V X5R 10%" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM188R61A106KE69D" -100 -430 50 H I L CNN "Part Number"
+F7 "10uF/10V" 75 -50 50 H V L CNN "Display"
+F8 "C19702" 50 -500 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -101,11 +123,11 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10uF_0805_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10uF, Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM21BR61E106MA73L" -100 -430 50 H I L CNN "Part Number"
-F8 "10uF/25V" 75 -50 50 H V L CNN "Display"
+F4 "10uF, Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM21BR61E106MA73L" -100 -430 50 H I L CNN "Part Number"
+F7 "10uF/25V" 75 -50 50 H V L CNN "Display"
+F8 "C15850" 50 -550 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -124,11 +146,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10uF_1206_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_1206" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10uF, Min. 25V, X5R or similar, 10%, MLCC" -100 -310 50 H I L CNN "Specifications"
-F6 "Yaego" -100 -370 50 H I L CNN "Manufacturer"
-F7 "CC1206KKX5R8BB106" -100 -430 50 H I L CNN "Part Number"
-F8 "10uF/25V" 75 -50 50 H V L CNN "Display"
+F4 "10uF, Min. 25V, X5R or similar, 10%, MLCC" -100 -310 50 H I L CNN "Specifications"
+F5 "Yaego" -100 -370 50 H I L CNN "Manufacturer"
+F6 "CC1206KKX5R8BB106" -100 -430 50 H I L CNN "Part Number"
+F7 "10uF/25V" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -147,11 +168,10 @@ F0 "C" 100 50 50 H V L CNN
 F1 "10uF_1206_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_1206" -100 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10uF, X6S, Min 35V" -100 -310 50 H I L CNN "Specifications"
-F6 "TDK" -100 -370 50 H I L CNN "Manufacturer"
-F7 "C3216X6S1V106K160AC" -100 -430 50 H I L CNN "Part Number"
-F8 "10uF" 100 -50 50 H V L CNN "Display"
+F4 "10uF, X6S, Min 35V" -100 -310 50 H I L CNN "Specifications"
+F5 "TDK" -100 -370 50 H I L CNN "Manufacturer"
+F6 "C3216X6S1V106K160AC" -100 -430 50 H I L CNN "Part Number"
+F7 "10uF" 100 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -170,11 +190,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "10uF_1210_35V" 25 175 50 H I C CNN
 F2 "4ms_Capacitor:C_1210" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "10uF, Min. 35V, 20%, X5R or X7S or similar, 1210, MLCC" -100 -310 50 H I L CNN "Specifications"
-F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GMK325BJ106MN-T" -100 -430 50 H I L CNN "Part Number"
-F8 "10uF/50V" 75 -50 50 H V L CNN "Display"
+F4 "10uF, Min. 35V, 20%, X5R or X7S or similar, 1210, MLCC" -100 -310 50 H I L CNN "Specifications"
+F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GMK325BJ106MN-T" -100 -430 50 H I L CNN "Part Number"
+F7 "10uF/50V" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -193,11 +212,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "18pF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "18pF, 50V 5% C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
-F7 "C0603C180J5GACTU" -100 -430 50 H I L CNN "Part Number"
-F8 "18pF" 75 -50 50 H V L CNN "Display"
+F4 "18pF, 50V 5% C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
+F6 "C0603C180J5GACTU" -100 -430 50 H I L CNN "Part Number"
+F7 "18pF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -216,11 +234,11 @@ F0 "C" 75 50 50 H V L CNN
 F1 "1nF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "1nF, 50V, 10%, C0G (NP0) or similar" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM1885C1H102JA01D" -100 -430 50 H I L CNN "Part Number"
-F8 "1nF" 75 -50 50 H V L CNN "Display"
+F4 "1nF, 50V, 10%, C0G (NP0) or similar" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM1885C1H102JA01D" -100 -430 50 H I L CNN "Part Number"
+F7 "1nF" 75 -50 50 H V L CNN "Display"
+F8 "C163508" 0 -550 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -239,11 +257,11 @@ F0 "C" 75 50 50 H V L CNN
 F1 "1uF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "1uF, Min. 25V, 0603, Ceramic/MLCC" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM188R61E105KA12D" -100 -430 50 H I L CNN "Part Number"
-F8 "1uF/25V" 75 -50 50 H V L CNN "Display"
+F4 "1uF, Min. 25V, 0603, Ceramic/MLCC" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM188R61E105KA12D" -100 -430 50 H I L CNN "Part Number"
+F7 "1uF/25V" 75 -50 50 H V L CNN "Display"
+F8 "C15849" 50 -500 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -262,11 +280,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "2.2uF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" 325 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "2.2uF, Min 25V 10% X5R" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM188R6YA225KA12D" -100 -430 50 H I L CNN "Part Number"
-F8 "2.2uF" 75 -50 50 H V L CNN "Display"
+F4 "2.2uF, Min 25V 10% X5R" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM188R6YA225KA12D" -100 -430 50 H I L CNN "Part Number"
+F7 "2.2uF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -285,11 +302,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "2.2uF_0603_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "2.2uF, 35V 10% X5R or X7R, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM188R6YA225KA12D" -100 -430 50 H I L CNN "Part Number"
-F8 "2.2uF" 75 -50 50 H V L CNN "Display"
+F4 "2.2uF, 35V 10% X5R or X7R, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM188R6YA225KA12D" -100 -430 50 H I L CNN "Part Number"
+F7 "2.2uF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -308,11 +324,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "2.2uF_0805_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "2.2uF, 35V 10% X6S , 0805" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRT21BC8YA225KE13L" -100 -430 50 H I L CNN "Part Number"
-F8 "2.2uF/35V" 75 -50 50 H V L CNN "Display"
+F4 "2.2uF, 35V 10% X6S , 0805" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRT21BC8YA225KE13L" -100 -430 50 H I L CNN "Part Number"
+F7 "2.2uF/35V" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -331,11 +346,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "20pF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "20pF, Min 25V, C0G/NP0, 5% 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "CC0603JRNPO9BN200" -100 -430 50 H I L CNN "Part Number"
-F8 "20pF" 75 -50 50 H V L CNN "Display"
+F4 "20pF, Min 25V, C0G/NP0, 5% 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "CC0603JRNPO9BN200" -100 -430 50 H I L CNN "Part Number"
+F7 "20pF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -354,11 +368,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "20pF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "20pF, 50V 5% C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata Electronics" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM1885C1H200JA01D" -100 -430 50 H I L CNN "Part Number"
-F8 "20pF" 75 -50 50 H V L CNN "Display"
+F4 "20pF, 50V 5% C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata Electronics" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM1885C1H200JA01D" -100 -430 50 H I L CNN "Part Number"
+F7 "20pF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -377,11 +390,33 @@ F0 "C" 75 50 50 H V L CNN
 F1 "220pF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "220pF, Min 25V, C0G/NP0, 5% 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "CC0603JRNPO9BN221" -100 -430 50 H I L CNN "Part Number"
-F8 "220pF" 75 -50 50 H V L CNN "Display"
+F4 "220pF, Min 25V, C0G/NP0, 5% 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "CC0603JRNPO9BN221" -100 -430 50 H I L CNN "Part Number"
+F7 "220pF" 75 -50 50 H V L CNN "Display"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 22nF_0603_50V
+#
+DEF 22nF_0603_50V C 0 10 N N 1 F N
+F0 "C" 75 50 50 H V L CNN
+F1 "22nF_0603_50V" 0 150 50 H I C CNN
+F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "22nF, Min 50V, X7R or similar, 10%" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "CC0603KRX7R9BB223" -100 -430 50 H I L CNN "Part Number"
+F7 "22nF" 75 -50 50 H V L CNN "Display"
+F8 "C21122" 50 -500 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -400,11 +435,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_0603_16V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "22uF, 16V,10%,X5R or X7R,0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM219R61C226ME15K" -100 -430 50 H I L CNN "Part Number"
-F8 "22uF/16V" 75 -50 50 H V L CNN "Display"
+F4 "22uF, 16V,10%,X5R or X7R,0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM219R61C226ME15K" -100 -430 50 H I L CNN "Part Number"
+F7 "22uF/16V" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -423,11 +457,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_0805_10V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "22uF, Min. 10V, 20%, X5R or X7S or similar, 0805, MLCC" -100 -310 50 H I L CNN "Specifications"
-F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
-F7 "LMK212BBJ226MG-T" -100 -430 50 H I L CNN "Part Number"
-F8 "22uF/10V" 75 -50 50 H V L CNN "Display"
+F4 "22uF, Min. 10V, 20%, X5R or X7S or similar, 0805, MLCC" -100 -310 50 H I L CNN "Specifications"
+F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
+F6 "LMK212BBJ226MG-T" -100 -430 50 H I L CNN "Part Number"
+F7 "22uF/10V" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -446,11 +479,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_0805_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "22uF, Min 25V, 0805, MLCC, X5R or similar" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GRM21BR61E226ME44L" -100 -430 50 H I L CNN "Part Number"
-F8 "22uF/25V" 75 -50 50 H V L CNN "Display"
+F4 "22uF, Min 25V, 0805, MLCC, X5R or similar" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GRM21BR61E226ME44L" -100 -430 50 H I L CNN "Part Number"
+F7 "22uF/25V" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -469,11 +501,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_0805_6.3V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0805" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "22uF, Min 6.3V, MLCC, X5R X7S or similar" -100 -310 50 H I L CNN "Specifications"
-F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
-F7 "JMK212ABJ226MD-T" -100 -430 50 H I L CNN "Part Number"
-F8 "22uF/6.3V" 75 -50 50 H V L CNN "Display"
+F4 "22uF, Min 6.3V, MLCC, X5R X7S or similar" -100 -310 50 H I L CNN "Specifications"
+F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
+F6 "JMK212ABJ226MD-T" -100 -430 50 H I L CNN "Part Number"
+F7 "22uF/6.3V" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -492,11 +523,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_1206_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_1206" -100 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC" -100 -310 50 H I L CNN "Specifications"
-F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
-F7 "TMK316BBJ226ML-T" -100 -430 50 H I L CNN "Part Number"
-F8 "22uF/25V" 75 -50 50 H V L CNN "Display"
+F4 "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC" -100 -310 50 H I L CNN "Specifications"
+F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
+F6 "TMK316BBJ226ML-T" -100 -430 50 H I L CNN "Part Number"
+F7 "22uF/25V" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -515,11 +545,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "22uF_1210_16V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_1210" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "22uF, 16V, X5R/X6S/X7R/X7S, 1210, MLCC" -100 -310 50 H I L CNN "Specifications"
-F6 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
-F7 "EMK325BJ226MD-T" -100 -430 50 H I L CNN "Part Number"
-F8 "22uF/16V" 75 -50 50 H V L CNN "Display"
+F4 "22uF, 16V, X5R/X6S/X7R/X7S, 1210, MLCC" -100 -310 50 H I L CNN "Specifications"
+F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
+F6 "EMK325BJ226MD-T" -100 -430 50 H I L CNN "Part Number"
+F7 "22uF/16V" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -538,11 +567,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "330pF_0603_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "330pF, Min 35V, C0G/NP0, 5%" -100 -310 50 H I L CNN "Specifications"
-F6 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
-F7 "C0603C331J5GACTU" -100 -430 50 H I L CNN "Part Number"
-F8 "330pF" 75 -50 50 H V L CNN "Display"
+F4 "330pF, Min 35V, C0G/NP0, 5%" -100 -310 50 H I L CNN "Specifications"
+F5 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
+F6 "C0603C331J5GACTU" -100 -430 50 H I L CNN "Part Number"
+F7 "330pF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -561,11 +589,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "33uF_NP_6.3x5.3_16V" 0 150 50 H I C CNN
 F2 "Capacitor_SMD:CP_Elec_6.3x5.3" -100 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "33uF, 20%, 16VDC, Non-polar Electrolytic" -100 -310 50 H I L CNN "Specifications"
-F6 "Nichicon" -100 -370 50 H I L CNN "Manufacturer"
-F7 "UWP1C330MCL1GB" -100 -430 50 H I L CNN "Part Number"
-F8 "33uF/16V/NP" 75 -50 50 H V L CNN "Display"
+F4 "33uF, 20%, 16VDC, Non-polar Electrolytic" -100 -310 50 H I L CNN "Specifications"
+F5 "Nichicon" -100 -370 50 H I L CNN "Manufacturer"
+F6 "UWP1C330MCL1GB" -100 -430 50 H I L CNN "Part Number"
+F7 "33uF/16V/NP" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -584,11 +611,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "4.7nF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "4.7nF, Min 25V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
-F6 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
-F7 "C0603C472K5RAC7411" -100 -430 50 H I L CNN "Part Number"
-F8 "4.7nF" 75 -50 50 H V L CNN "Display"
+F4 "4.7nF, Min 25V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
+F5 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
+F6 "C0603C472K5RAC7411" -100 -430 50 H I L CNN "Part Number"
+F7 "4.7nF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -607,11 +633,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "470pF_0603_25V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "470pF, Min 25V, C0G/NP0, Min 10%" -100 -310 50 H I L CNN "Specifications"
-F6 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
-F7 "C0603C471J5GACTU" -100 -430 50 H I L CNN "Part Number"
-F8 "470pF" 75 -50 50 H V L CNN "Display"
+F4 "470pF, Min 25V, C0G/NP0, Min 10%" -100 -310 50 H I L CNN "Specifications"
+F5 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
+F6 "C0603C471J5GACTU" -100 -430 50 H I L CNN "Part Number"
+F7 "470pF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -630,11 +655,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "47nF_0603_35V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "47nF, Min 35V, X7R or similar, 10%" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "CC0603KRX7R9BB473" -100 -430 50 H I L CNN "Part Number"
-F8 "47nF" 75 -50 50 H V L CNN "Display"
+F4 "47nF, Min 35V, X7R or similar, 10%" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "CC0603KRX7R9BB473" -100 -430 50 H I L CNN "Part Number"
+F7 "47nF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -653,11 +677,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "47pF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "47pF, 50V C0G/NPO 5%, MLCC" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "CC0603JRNPO9BN470" -100 -430 50 H I L CNN "Part Number"
-F8 "47pF" 75 -50 50 H V L CNN "Display"
+F4 "47pF, 50V C0G/NPO 5%, MLCC" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "CC0603JRNPO9BN470" -100 -430 50 H I L CNN "Part Number"
+F7 "47pF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -676,11 +699,11 @@ F0 "C" 75 50 50 H V L CNN
 F1 "47uF_5x5.3_16V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:CP_Elec_5x5.3" -75 -175 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃" -100 -310 50 H I L CNN "Specifications"
-F6 "Lelon" -100 -370 50 H I L CNN "Manufacturer"
-F7 "VE-470M1CTR-0505" -100 -430 50 H I L CNN "Part Number"
-F8 "47uF/16V" 75 -50 50 H V L CNN "Display"
+F4 "47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃" -100 -310 50 H I L CNN "Specifications"
+F5 "Lelon" -100 -370 50 H I L CNN "Manufacturer"
+F6 "VE-470M1CTR-0505" -100 -430 50 H I L CNN "Part Number"
+F7 "47uF/16V" 75 -50 50 H V L CNN "Display"
+F8 "C134798" 0 -500 50 H I C CNN "JLCPCB ID"
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -694,6 +717,29 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 560pF_0603_25V
+#
+DEF 560pF_0603_25V C 0 10 N N 1 F N
+F0 "C" 75 50 50 H V L CNN
+F1 "560pF_0603_25V" 0 150 50 H I C CNN
+F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "560pF, Min. 25V 10% NP0 or C0G" -100 -310 50 H I L CNN "Specifications"
+F5 "?" -100 -370 50 H I L CNN "Manufacturer"
+F6 "?" -100 -430 50 H I L CNN "Part Number"
+F7 "560pF" 75 -50 50 H V L CNN "Display"
+F8 "C84721" 50 -500 50 H I C CNN "JLCPCB ID"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 8.2nF_0603_50V
 #
 DEF 8.2nF_0603_50V C 0 10 N Y 1 F N
@@ -701,11 +747,10 @@ F0 "C" 75 50 50 H V L CNN
 F1 "8.2nF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "8.2nF, 50V, X7R or similar, 10%, 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
-F7 "CC0603KPX7R9BB822" -100 -430 50 H I L CNN "Part Number"
-F8 "8.2nF" 75 -50 50 H V L CNN "Display"
+F4 "8.2nF, 50V, X7R or similar, 10%, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "CC0603KPX7R9BB822" -100 -430 50 H I L CNN "Part Number"
+F7 "8.2nF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -724,11 +769,10 @@ F0 "C" 25 100 50 H V L CNN
 F1 "9pF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "9pF, Min 50V, C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
-F6 "Murata Electronics" -100 -370 50 H I L CNN "Manufacturer"
-F7 "GCM1885C2A9R0CA16D" -100 -430 50 H I L CNN "Part Number"
-F8 "9pF" 75 -50 50 H V L CNN "Display"
+F4 "9pF, Min 50V, C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Murata Electronics" -100 -370 50 H I L CNN "Manufacturer"
+F6 "GCM1885C2A9R0CA16D" -100 -430 50 H I L CNN "Part Number"
+F7 "9pF" 75 -50 50 H V L CNN "Display"
 $FPLIST
  C_*
 $ENDFPLIST
