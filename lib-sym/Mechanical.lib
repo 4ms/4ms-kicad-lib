@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Heatsink_RA-T2X-51E
+#
+DEF Heatsink_RA-T2X-51E K? 0 0 N Y 1 F N
+F0 "K?" 225 125 59 H V L BNN
+F1 "Heatsink_RA-T2X-51E" -450 -500 59 H I L BNN
+F2 "Heatsink:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm" -200 -600 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "2\" height, 3.5°C/W Max, <2°C/W @ 100ft/min" 50 -350 50 H I C CNN "Specifications"
+F5 "Ohmite" -50 -650 50 H I C CNN "Manufacturer"
+F6 "RA-T2X-51E" 0 -750 50 H I C CNN "Part Number"
+DRAW
+P 2 1 0 0 -200 0 200 0 N
+P 2 1 0 0 -200 200 -200 0 N
+P 2 1 0 0 -175 50 -175 200 N
+P 2 1 0 0 -175 200 -200 200 N
+P 2 1 0 0 -125 50 -175 50 N
+P 2 1 0 0 -125 200 -125 50 N
+P 2 1 0 0 -100 50 -100 200 N
+P 2 1 0 0 -100 200 -125 200 N
+P 2 1 0 0 100 50 -100 50 N
+P 2 1 0 0 100 200 100 50 N
+P 2 1 0 0 125 50 125 200 N
+P 2 1 0 0 125 200 100 200 N
+P 2 1 0 0 175 50 125 50 N
+P 2 1 0 0 175 200 175 50 N
+P 2 1 0 0 200 0 200 200 N
+P 2 1 0 0 200 200 175 200 N
+X PCB 1 0 -300 300 U 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library
