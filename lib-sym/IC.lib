@@ -279,6 +279,7 @@ F3 "" 0 50 125 H I C CNN
 F4 "IS25LQ020B, 2Mbit QSPI NOR FLASH" -50 -800 50 H I L CNN "Specifications"
 F5 "ISSI" 0 -750 50 H I L CNN "Manufacturer"
 F6 "IS25LQ020B-JNLE" 0 -900 50 H I L CNN "Part Number"
+F7 "C412875 " 0 0 50 H I C CNN "JLCPCB ID"
 DRAW
 S -400 450 400 -450 0 1 10 f
 X ~CS 1 600 150 200 L 50 50 1 1 B
@@ -327,6 +328,7 @@ F4 "16-channel LED Driver PWM 12-bit" 0 -1075 50 H I C CNN "Specifications"
 F5 "NXP Semiconductors" 25 -1225 50 H I C CNN "Manufacturer"
 F6 "PCA9685PW,118" 0 -1375 50 H I C CNN "Part Number"
 F7 "PCA9685PW,112" 0 -1300 50 H I C CNN "Part Number 2"
+F8 "C92206" 0 0 50 H I C CNN "JLCPCB ID"
 DRAW
 S -350 750 350 -950 0 1 0 f
 X A0 1 -550 -150 200 R 50 50 1 1 I
@@ -853,6 +855,7 @@ F3 "" 0 0 60 H I C CNN
 F4 "Cirrus Logic/Wolfson" 50 -1150 50 H I C CNN "Manufacturer"
 F5 "WM8731SEDS/V" 50 -1250 50 H I C CNN "Part Number"
 F6 "Stereo Audio Codec 96kHz 24bit" 0 -1300 50 H I C CNN "Specifications"
+F7 "C41511" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  *28-SSOP*
 $ENDFPLIST

@@ -216,6 +216,7 @@ F4 "18pF, 50V 5% C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
 F6 "C0603C180J5GACTU" -100 -430 50 H I L CNN "Part Number"
 F7 "18pF" 75 -50 50 H V L CNN "Display"
+F8 "C1647" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -284,6 +285,7 @@ F4 "2.2uF, Min 25V 10% X5R" -100 -310 50 H I L CNN "Specifications"
 F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F6 "GRM188R6YA225KA12D" -100 -430 50 H I L CNN "Part Number"
 F7 "2.2uF" 75 -50 50 H V L CNN "Display"
+F8 "C57895" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -461,6 +463,7 @@ F4 "22uF, Min. 10V, 20%, X5R or X7S or similar, 0805, MLCC" -100 -310 50 H I L C
 F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F6 "LMK212BBJ226MG-T" -100 -430 50 H I L CNN "Part Number"
 F7 "22uF/10V" 75 -50 50 H V L CNN "Display"
+F8 "C45783" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -483,6 +486,7 @@ F4 "22uF, Min 25V, 0805, MLCC, X5R or similar" -100 -310 50 H I L CNN "Specifica
 F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F6 "GRM21BR61E226ME44L" -100 -430 50 H I L CNN "Part Number"
 F7 "22uF/25V" 75 -50 50 H V L CNN "Display"
+F8 "C45783" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -505,6 +509,7 @@ F4 "22uF, Min 6.3V, MLCC, X5R X7S or similar" -100 -310 50 H I L CNN "Specificat
 F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F6 "JMK212ABJ226MD-T" -100 -430 50 H I L CNN "Part Number"
 F7 "22uF/6.3V" 75 -50 50 H V L CNN "Display"
+F8 "C45783" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -527,6 +532,7 @@ F4 "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC" -100 -310 50 H I L C
 F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F6 "TMK316BBJ226ML-T" -100 -430 50 H I L CNN "Part Number"
 F7 "22uF/25V" 75 -50 50 H V L CNN "Display"
+F8 "C12891" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -571,6 +577,7 @@ F4 "330pF, Min 35V, C0G/NP0, 5%" -100 -310 50 H I L CNN "Specifications"
 F5 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
 F6 "C0603C331J5GACTU" -100 -430 50 H I L CNN "Part Number"
 F7 "330pF" 75 -50 50 H V L CNN "Display"
+F8 "C1664" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -615,6 +622,7 @@ F4 "4.7nF, Min 25V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
 F5 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
 F6 "C0603C472K5RAC7411" -100 -430 50 H I L CNN "Part Number"
 F7 "4.7nF" 75 -50 50 H V L CNN "Display"
+F8 "C53987" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -681,6 +689,7 @@ F4 "47pF, 50V C0G/NPO 5%, MLCC" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "CC0603JRNPO9BN470" -100 -430 50 H I L CNN "Part Number"
 F7 "47pF" 75 -50 50 H V L CNN "Display"
+F8 "C1671" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
