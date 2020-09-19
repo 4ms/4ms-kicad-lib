@@ -1222,8 +1222,8 @@ F1 "750R_0603_0.1%" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "750R, 0.1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F5 "TE Connectivity / Neohm" -100 -370 50 H I L CNN "Manufacturer"
-F6 "CPF0603B18RE1" -100 -430 50 H I L CNN "Part Number"
+F5 "Susumu" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RG1608P-751-B-T5 " -100 -430 50 H I L CNN "Part Number"
 F7 "750R 0.1%" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
