@@ -75,6 +75,12 @@ D 1M, 1%, 1/10W, 0603
 K 1M_0603
 $ENDCMP
 #
+$CMP 1R_TO220-2_50W
+D 1Ω, 1%, 50W, TO220-2, TH
+K 1Ω 50W TO-220-2 TO220 TH
+F https://www.mouser.com/datasheet/2/54/pwr221t-50-1862154.pdf
+$ENDCMP
+#
 $CMP 1k_0603
 D 1K, 1%, 1/10W, 0603
 K 1k_0603
