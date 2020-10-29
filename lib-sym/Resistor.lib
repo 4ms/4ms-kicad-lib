@@ -150,6 +150,7 @@ F4 "10mΩ, 10mOhm, Min. 250mW, 100PPM/C" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "PF1206FRF070R01L" -100 -430 50 H I L CNN "Part Number"
 F7 "10mΩ/250mW" 150 0 50 V V C CNN "Display"
+F8 "C127703" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -840,7 +841,7 @@ F4 "42.2k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0742K2L" -100 -430 50 H I L CNN "Part Number"
 F7 "42.2k" 150 0 50 V V C CNN "Display"
-F8 "C12447" 150 0 50 V V C CNN "JLCPCB ID"
+F8 "C23167" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
