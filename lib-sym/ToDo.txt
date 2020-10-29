@@ -1,0 +1,40 @@
+To do list
+*in progress
+**done
+
+
+Capacitor.lib  
+Diode.lib     
+Jack.lib        
+Net-tie.lib        
+Reference.lib  
+Switch.lib
+Connector.lib  
+IC.lib        
+LED.lib         
+Potentiometer.lib  
+Regulator.lib  
+Transistor.lib
+Crystal.lib    
+Inductor.lib  
+Mechanical.lib  
+Power-symbol.lib   
+**Resistor.lib
+
+-----------------------------------------
+
+NOTES:
+
+----Resistors.lib----
+
+
+Parts left to find:
+-18R_0603_0.1%
+-191R_0603_0.1%
+-40.4k_0603
+-470R_0805_350mW
+-68R_0805_350mW
+
+
+
+----------------------------------------

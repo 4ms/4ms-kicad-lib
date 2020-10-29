@@ -12,6 +12,7 @@ F4 "1K1, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-071K1L" -100 -430 50 H I L CNN "Part Number"
 F7 "1.1k" 150 0 50 V V C CNN "Display"
+F8 "C22764" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -34,6 +35,7 @@ F4 "1K2, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-071K2L" -100 -430 50 H I L CNN "Part Number"
 F7 "1.2k" 150 0 50 V V C CNN "Display"
+F8 "C22765" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -56,6 +58,7 @@ F4 "10.2k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0710K2L" -100 -430 50 H I L CNN "Part Number"
 F7 "10.2k" 150 0 50 V V C CNN "Display"
+F8 "C22772" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -101,6 +104,7 @@ F4 "10R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0710RL" -100 -430 50 H I L CNN "Part Number"
 F7 "10R" 150 0 50 V V C CNN "Display"
+F8 "C22859" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -146,6 +150,7 @@ F4 "10mΩ, 10mOhm, Min. 250mW, 100PPM/C" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "PF1206FRF070R01L" -100 -430 50 H I L CNN "Part Number"
 F7 "10mΩ/250mW" 150 0 50 V V C CNN "Display"
+F8 "C127703" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -168,6 +173,7 @@ F4 "13K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0713KL" -100 -430 50 H I L CNN "Part Number"
 F7 "13k" 150 0 50 V V C CNN "Display"
+F8 "C22797" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -213,6 +219,7 @@ F4 "15k,1%,1/10W,0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0715KL" -100 -430 50 H I L CNN "Part Number"
 F7 "15k" 150 0 50 V V C CNN "Display"
+F8 "C22809" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -235,6 +242,7 @@ F4 "16K5, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0716K5L" -100 -430 50 H I L CNN "Part Number"
 F7 "16.5k" 150 0 50 V V C CNN "Display"
+F8 "C22812" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -257,6 +265,7 @@ F4 "18R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0718RL" -100 -430 50 H I L CNN "Part Number"
 F7 "18R" 150 0 50 V V C CNN "Display"
+F8 "C22830" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -325,6 +334,7 @@ F4 "1M, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-071ML" -100 -430 50 H I L CNN "Part Number"
 F7 "1M" 150 0 50 V V C CNN "Display"
+F8 "C22935" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -394,6 +404,7 @@ F6 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
 F7 "ERA-3AEB102V" -100 -430 50 H I L CNN "Part Number"
 F8 "Yageo" -75 -575 50 H I L CNN "Manufacturer 2"
 F9 "RT0603BRD071KL" -75 -650 50 H I L CNN "Part Number 2"
+F10 "C54019" -75 -650 50 H I L CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -439,6 +450,7 @@ F4 "2k7, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-072K7L" -100 -430 50 H I L CNN "Part Number"
 F7 "2.7k" 150 0 50 V V C CNN "Display"
+F8 "C13167" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -461,6 +473,7 @@ F4 "200k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-07200KL" -100 -430 50 H I L CNN "Part Number"
 F7 "200k" 150 0 50 V V C CNN "Display"
+F8 "C25811" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -506,6 +519,7 @@ F4 "220R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-07220RL" -100 -430 50 H I L CNN "Part Number"
 F7 "220R" 150 0 50 V V C CNN "Display"
+F8 "C8218" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -528,6 +542,7 @@ F4 "22K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0722KL" -100 -430 50 H I L CNN "Part Number"
 F7 "22k" 150 0 50 V V C CNN "Display"
+F8 "C31850" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -573,6 +588,7 @@ F4 "2K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-072KL" -100 -430 50 H I L CNN "Part Number"
 F7 "2k" 150 0 50 V V C CNN "Display"
+F8 "C22975" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -595,6 +611,7 @@ F4 "300K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-07300KL" -100 -430 50 H I L CNN "Part Number"
 F7 "300K" 150 0 50 V V C CNN "Display"
+F8 "C23024" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -617,6 +634,7 @@ F4 "30Ω, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0730RL" -100 -430 50 H I L CNN "Part Number"
 F7 "30R" 150 0 50 V V C CNN "Display"
+F8 "C22985" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -685,6 +703,7 @@ F4 "34K8, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0734K8L" -100 -430 50 H I L CNN "Part Number"
 F7 "34.8k" 150 0 50 V V C CNN "Display"
+F8 "C23141" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -707,6 +726,7 @@ F4 "37.4k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0737K4L" -100 -430 50 H I L CNN "Part Number"
 F7 "37.4k" 150 0 50 V V C CNN "Display"
+F8 "C23033" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -752,6 +772,7 @@ F4 "4.7M, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-074M7L" -100 -430 50 H I L CNN "Part Number"
 F7 "4.7M" 150 0 50 V V C CNN "Display"
+F8 "C23163" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -774,6 +795,7 @@ F4 "4k7, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-074K7L" -100 -430 50 H I L CNN "Part Number"
 F7 "4.7k" 150 0 50 V V C CNN "Display"
+F8 "C23162" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -792,10 +814,11 @@ F0 "R" 80 0 50 V V C CNN
 F1 "40.2k_0603" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "40K2, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F4 "40.2k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0740K2L" -100 -430 50 H I L CNN "Part Number"
 F7 "40.2k" 150 0 50 V V C CNN "Display"
+F8 "C12447" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -840,6 +863,7 @@ F4 "42.2k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0742K2L" -100 -430 50 H I L CNN "Part Number"
 F7 "42.2k" 150 0 50 V V C CNN "Display"
+F8 "C23167" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -884,6 +908,7 @@ F4 "47K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0747KL" -100 -430 50 H I L CNN "Part Number"
 F7 "47k" 150 0 50 V V C CNN "Display"
+F8 "C25819" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -905,7 +930,8 @@ F3 "" 0 0 50 H I C CNN
 F4 "49.9Ω, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-1049R9L" -100 -430 50 H I L CNN "Part Number"
-F7 "1.1k" 150 0 50 V V C CNN "Display"
+F7 "49.9Ω" 150 0 50 V V C CNN "Display"
+F8 "C23185" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -951,6 +977,7 @@ F4 "52.3k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0752K3L" -100 -430 50 H I L CNN "Part Number"
 F7 "52.3k" 150 0 50 V V C CNN "Display"
+F8 "C23198" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -973,6 +1000,7 @@ F4 "6K04, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-076K04L" -100 -430 50 H I L CNN "Part Number"
 F7 "6.04k" 150 0 50 V V C CNN "Display"
+F8 "C25977" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -995,6 +1023,7 @@ F4 "6K2, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-076K2L" -100 -430 50 H I L CNN "Part Number"
 F7 "6.2k" 150 0 50 V V C CNN "Display"
+F8 "C4260" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1017,6 +1046,7 @@ F4 "6K3, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-076K34L" -100 -430 50 H I L CNN "Part Number"
 F7 "6.34k" 150 0 50 V V C CNN "Display"
+F8 "C23087" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1039,6 +1069,7 @@ F4 "6K8, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-076K8L" -100 -430 50 H I L CNN "Part Number"
 F7 "6.8k" 150 0 50 V V C CNN "Display"
+F8 "C23212" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1061,6 +1092,7 @@ F4 "680R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-07680RL" -100 -430 50 H I L CNN "Part Number"
 F7 "680" 150 0 50 V V C CNN "Display"
+F8 "C128777" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1083,6 +1115,7 @@ F4 "68R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0768RL" -100 -430 50 H I L CNN "Part Number"
 F7 "68R" 150 0 50 V V C CNN "Display"
+F8 "C27592" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1127,6 +1160,7 @@ F4 "68k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0768KL" -100 -430 50 H I L CNN "Part Number"
 F7 "68k" 150 0 50 V V C CNN "Display"
+F8 "C23231" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1172,6 +1206,7 @@ F4 "7.68K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-077.68KL" -100 -430 50 H I L CNN "Part Number"
 F7 "7.68k" 150 0 50 V V C CNN "Display"
+F8 "C23102" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1194,6 +1229,7 @@ F4 "732, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-07732RL" -100 -430 50 H I L CNN "Part Number"
 F7 "732" 150 0 50 V V C CNN "Display"
+F8 "C23106" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1216,6 +1252,7 @@ F4 "750R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-07750RL" -100 -430 50 H I L CNN "Part Number"
 F7 "750R" 150 0 50 V V C CNN "Display"
+F8 "C23241" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1235,9 +1272,10 @@ F1 "750R_0603_0.1%" -100 0 50 V I C CNN
 F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "750R, 0.1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
-F5 "TE Connectivity / Neohm" -100 -370 50 H I L CNN "Manufacturer"
-F6 "CPF0603B18RE1" -100 -430 50 H I L CNN "Part Number"
+F5 "Susumu" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RG1608P-751-B-T5 " -100 -430 50 H I L CNN "Part Number"
 F7 "750R 0.1%" 150 0 50 V V C CNN "Display"
+F8 "C148465" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1260,6 +1298,7 @@ F4 "75R, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0775RL" -100 -430 50 H I L CNN "Part Number"
 F7 "75R" 150 0 50 V V C CNN "Display"
+F8 "C4275" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1282,6 +1321,7 @@ F4 "75K, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0775KL" -100 -430 50 H I L CNN "Part Number"
 F7 "75k" 150 0 50 V V C CNN "Display"
+F8 "C23242" 50 -250 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1304,6 +1344,7 @@ F4 "820k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-07820KL" -100 -430 50 H I L CNN "Part Number"
 F7 "820k" 150 0 50 V V C CNN "Display"
+F8 "C23252" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1326,6 +1367,7 @@ F4 "9.09k, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-079K09L" -100 -430 50 H I L CNN "Part Number"
 F7 "9.09k" 150 0 50 V V C CNN "Display"
+F8 "C23125" 150 0 50 V V C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
