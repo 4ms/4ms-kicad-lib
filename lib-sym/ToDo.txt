@@ -3,8 +3,8 @@ To do list
 **done
 
 
-*Capacitor.lib  
-Diode.lib     
+**Capacitor.lib  
+*Diode.lib     
 Jack.lib        
 Net-tie.lib        
 Reference.lib  
@@ -24,7 +24,6 @@ Power-symbol.lib
 -----------------------------------------
 
 ----Resistors.lib----
-
 
 N/F:
 -18R_0603_0.1%
@@ -49,5 +48,15 @@ N/F:
 
 
 
+
+----------------------------------------
+
+----Diode.lib----
+
+-According to datasheet, SD103AWS-E3-08 or SD103AWS-E3-18 works. Our lib had E3-18 and JLC Has E3-18, so I used that ID.
+
+N/F:
+-B140-E3
+-
 
 ----------------------------------------
