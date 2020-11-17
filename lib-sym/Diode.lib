@@ -171,6 +171,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "SD103AWS, 5uA 40Volt 15A IFSM" -100 -310 50 H I L CNN "Specifications"
 F5 "Vishay" -100 -370 50 H I L CNN "Manufacturer"
 F6 "SD103AWS-E3-18" -100 -430 50 H I L CNN "Part Number"
+F7 "C142592" -100 -430 50 H I L CNN "JLCPCB ID"
 $FPLIST
  TO-???*
  *SingleDiode

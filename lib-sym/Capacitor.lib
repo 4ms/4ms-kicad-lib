@@ -12,6 +12,7 @@ F4 "1.5nF, 50V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
 F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F6 "GRM033R71H152KA12D" -100 -430 50 H I L CNN "Part Number"
 F7 "1.5nF" 75 -50 50 H V L CNN "Display"
+F8 "C1595" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -150,6 +151,7 @@ F4 "10uF, Min. 25V, X5R or similar, 10%, MLCC" -100 -310 50 H I L CNN "Specifica
 F5 "Yaego" -100 -370 50 H I L CNN "Manufacturer"
 F6 "CC1206KKX5R8BB106" -100 -430 50 H I L CNN "Part Number"
 F7 "10uF/25V" 75 -50 50 H V L CNN "Display"
+F8 "C90538" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -172,6 +174,7 @@ F4 "10uF, X6S, Min 35V" -100 -310 50 H I L CNN "Specifications"
 F5 "TDK" -100 -370 50 H I L CNN "Manufacturer"
 F6 "C3216X6S1V106K160AC" -100 -430 50 H I L CNN "Part Number"
 F7 "10uF" 100 -50 50 H V L CNN "Display"
+F8 "C13585" 100 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -308,6 +311,7 @@ F4 "2.2uF, 35V 10% X5R or X7R, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F6 "GRM188R6YA225KA12D" -100 -430 50 H I L CNN "Part Number"
 F7 "2.2uF" 75 -50 50 H V L CNN "Display"
+F8 "C57895" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -330,6 +334,7 @@ F4 "2.2uF, 35V 10% X6S , 0805" -100 -310 50 H I L CNN "Specifications"
 F5 "Murata" -100 -370 50 H I L CNN "Manufacturer"
 F6 "GRT21BC8YA225KE13L" -100 -430 50 H I L CNN "Part Number"
 F7 "2.2uF/35V" 75 -50 50 H V L CNN "Display"
+F8 "C49217" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -352,6 +357,7 @@ F4 "20pF, Min 25V, C0G/NP0, 5% 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "CC0603JRNPO9BN200" -100 -430 50 H I L CNN "Part Number"
 F7 "20pF" 75 -50 50 H V L CNN "Display"
+F8 "C1648" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -374,6 +380,7 @@ F4 "20pF, 50V 5% C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Murata Electronics" -100 -370 50 H I L CNN "Manufacturer"
 F6 "GRM1885C1H200JA01D" -100 -430 50 H I L CNN "Part Number"
 F7 "20pF" 75 -50 50 H V L CNN "Display"
+F8 "C1648" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -396,6 +403,7 @@ F4 "220pF, Min 25V, C0G/NP0, 5% 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "CC0603JRNPO9BN221" -100 -430 50 H I L CNN "Part Number"
 F7 "220pF" 75 -50 50 H V L CNN "Display"
+F8 "C1603" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -645,6 +653,7 @@ F4 "470pF, Min 25V, C0G/NP0, Min 10%" -100 -310 50 H I L CNN "Specifications"
 F5 "Kemet" -100 -370 50 H I L CNN "Manufacturer"
 F6 "C0603C471J5GACTU" -100 -430 50 H I L CNN "Part Number"
 F7 "470pF" 75 -50 50 H V L CNN "Display"
+F8 "C1620" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -667,6 +676,7 @@ F4 "47nF, Min 35V, X7R or similar, 10%" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "CC0603KRX7R9BB473" -100 -430 50 H I L CNN "Part Number"
 F7 "47nF" 75 -50 50 H V L CNN "Display"
+F8 "C1622" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -760,6 +770,7 @@ F4 "8.2nF, 50V, X7R or similar, 10%, 0603" -100 -310 50 H I L CNN "Specification
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "CC0603KPX7R9BB822" -100 -430 50 H I L CNN "Part Number"
 F7 "8.2nF" 75 -50 50 H V L CNN "Display"
+F8 "C27920" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -782,6 +793,7 @@ F4 "9pF, Min 50V, C0G (NP0) 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Murata Electronics" -100 -370 50 H I L CNN "Manufacturer"
 F6 "GCM1885C2A9R0CA16D" -100 -430 50 H I L CNN "Part Number"
 F7 "9pF" 75 -50 50 H V L CNN "Display"
+F8 "C170141" 75 -50 50 H V L CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST

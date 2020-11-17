@@ -1,0 +1,9 @@
+Refs,JLCPCB ID,Manufacturer,Manufacturer 2,Part Number,Part Number 2,Specifications,datasheet,footprint,prefix,value
+B140-E3,,Diodes Incorporated,Diodes Incorporated,B140-E3/5AT,B140-E3/61T,"SCHOTTKY Diode SMA Vrrm>=40V If>=1.0A, Ifsm>=1.5A",,4ms_Diode:D_SMA,D,B140-E3
+B140HW-7,C134429,Diodes Incorporated,,B140HW-7,,SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf,,4ms_Diode:D_SOD-123,D,B140HW-7
+B360A,,Vishay Semiconductors,,B360A-E3/61T,,"B360A, Vrrm=60V, If=3A",,4ms_Diode:D_DO-214AC_SMA,D,B360A
+BAT54S,C83574,Diodes Incorporated,,BAT54S-7-F,,Dual schottky diode BAT54S,,4ms_Package_SOT:SOT23-3_PO132,D,BAT54S
+PDS560,,Diodes Inc.,,PDS560Q-13,,"PDS560, 60Vrrm, 5A",,Diode_SMD:D_PowerDI-5,D,PDS560
+RB500SM,,ROHM Semiconductor,,RB500SM-30FHT2R,,"RB500SM, VRRM >20V, Isurge >1A, If>100mA",,Diode_SMD:D_SOD-523,D,RB500SM
+SD103,C142592,Vishay,,SD103AWS-E3-18,,"SD103AWS, 5uA 40Volt 15A IFSM",,4ms_Diode:D_SOD-323F,D,SD103
+TVS_0402_24Vclamp_250Vbk,,Bournes,,CG0402MLC-24LG,,"ESD Bi-dir Vop(min): 24V, Vbreakdown: 250V",,Resistor_SMD:R_0402_1005Metric,D,TVS_0402_24Vclamp_250Vbk
