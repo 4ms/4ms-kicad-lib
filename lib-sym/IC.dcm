@@ -21,6 +21,11 @@ D INA199A3, Current Sense Amplifier, SC70-6, 200V/V
 K INA199A3
 $ENDCMP
 #
+$CMP LM358
+D LM358 Dual Opamp TSSOP-8
+K LM358 TSSOP-8
+$ENDCMP
+#
 $CMP LM4880M
 D Audio Amplifier Dual 200 mW Pwr Amp
 F https://www.ti.com/lit/ds/symlink/lm4880.pdf
