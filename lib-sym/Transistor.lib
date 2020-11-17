@@ -10,7 +10,7 @@ F2 "4ms_Package_SOT:SOT-363_SC-70-6" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Bipolar Transistor NPN, Gen Purpose, DW1 pinout" -100 -310 50 H I L CNN "Specifications"
 F5 "ON Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
-F6 "MBT3904DW1T1H" -100 -430 50 H I L CNN "Part Number"
+F6 "MBT3904DW1T1G" -100 -430 50 H I L CNN "Part Number"
 $FPLIST
  SC?70*
  SC?88*
