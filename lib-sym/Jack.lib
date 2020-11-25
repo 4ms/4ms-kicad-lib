@@ -8,10 +8,9 @@ F0 "J" -250 -300 60 H V C CNN
 F1 "3.5mm_Mono_Switched" 250 260 60 H V C CNN
 F2 "4ms_Jack:EighthInch_PJ398SM" -5 -555 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "Audio 3.5mm Jack, mono, switched, PC-pin Vertical" -100 -310 50 H I L CNN "Specifications"
-F6 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
-F7 "WQP-WQP518MA" -100 -430 50 H I L CNN "Part Number"
+F4 "Audio 3.5mm Jack, mono, switched, PC-pin Vertical" -100 -310 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP518MA" -100 -430 50 H I L CNN "Part Number"
 DRAW
 S -250 200 -150 -200 0 0 0 N
 P 2 0 0 0 -50 0 50 0 N
@@ -29,10 +28,9 @@ F0 "J" 0 210 50 H V C CNN
 F1 "Barrel_2.0mmPin_PJ064" 0 -200 50 H V C CNN
 F2 "4ms_Jack:Barrel_Vert_PJ064_slotted" 15 270 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
-F4 "" -100 -250 50 H I L CNN "ID"
-F5 "Barrel Jack, 2.0mm diameter center pin, Vertical, PC-pins" -100 -310 50 H I L CNN "Specifications"
-F6 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
-F7 "WQP-DC026M (2.0mm center pin)" -100 -430 50 H I L CNN "Part Number"
+F4 "Barrel Jack, 2.0mm diameter center pin, Vertical, PC-pins" -100 -310 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
+F6 "WQP-DC026M (2.0mm center pin)" -100 -430 50 H I L CNN "Part Number"
 $FPLIST
  BarrelJack*
 $ENDFPLIST
