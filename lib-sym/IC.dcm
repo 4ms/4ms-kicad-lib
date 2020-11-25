@@ -97,6 +97,12 @@ D TPS56339, DC/DC Buck Converter 500kHz 24VinMax 3A Synchronous
 K TPS56339
 $ENDCMP
 #
+$CMP V2164M
+D V2164 Quad VCA
+K VCA 2164
+F https://www.coolaudio.com/docs/COOLAUDIO_V2164MD_DATASHEET.pdf
+$ENDCMP
+#
 $CMP VXO7812-1000
 D VXO7812-1000, Non-Isolated DC/DC Converters 16-36Vin 12Vout 1A 12W SIP non-Iso
 K VXO7812-1000
