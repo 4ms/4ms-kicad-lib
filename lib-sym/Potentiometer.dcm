@@ -17,12 +17,22 @@ $ENDCMP
 #
 $CMP 9mm_CtrDet_100k_Knurled_Lined
 D 100k Linear, 9mm pot, Center Detent, Knurled, Lined
-K 9mm_CtrDet_100k
+K 9mm_CtrDet_100k_Knurled_Lined
+$ENDCMP
+#
+$CMP 9mm_CtrDet_10k_DShaft
+D 10k Linear, 9mm pot, Center Detent, D-Shaft
+K 9mm_CtrDet_10k_DShaft
 $ENDCMP
 #
 $CMP 9mm_NoDet_100k_Knurled_Lined
 D 100k Linear, 9mm pot, No Detent, Knurled, Lined
-K 9mm_NoDet_100k
+K 9mm_NoDet_100k_Knurled_Lined
+$ENDCMP
+#
+$CMP 9mm_NoDet_10k_DShaft
+D 10k Linear, 9mm pot, No Detent, D-Shaft
+K 9mm_NoDet_10k_DShaft
 $ENDCMP
 #
 $CMP TrimPot_TC33X_1k
