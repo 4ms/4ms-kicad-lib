@@ -15,6 +15,16 @@ D 10k Linear, 16mm pot, No Detent, D-shaft
 K 16mm_NoDet_10k
 $ENDCMP
 #
+$CMP 9mm_CtrDet_100k_Knurled_Lined
+D 100k Linear, 9mm pot, Center Detent, Knurled, Lined
+K 9mm_CtrDet_100k
+$ENDCMP
+#
+$CMP 9mm_NoDet_100k_Knurled_Lined
+D 100k Linear, 9mm pot, No Detent, Knurled, Lined
+K 9mm_NoDet_100k
+$ENDCMP
+#
 $CMP TrimPot_TC33X_1k
 D Trimpot 1k SMT
 K TrimPot_TC33X_1k
