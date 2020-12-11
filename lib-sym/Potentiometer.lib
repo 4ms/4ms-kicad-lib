@@ -246,6 +246,87 @@ X Right 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TrimPot_T73YEt_100k
+#
+DEF TrimPot_T73YEt_100k TRIM 0 40 Y N 1 F N
+F0 "TRIM" -200 15 50 V V C CNN
+F1 "TrimPot_T73YEt_100k" 50 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_Trim_7x6.6mm_T73YE" 0 -510 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Trimpot, TH, 100k, single turn, square" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay" -100 -370 50 H I L CNN "Manufacturer"
+F6 "T73YE104KT20" -100 -430 50 H I L CNN "Part Number"
+F7 "100k" -130 5 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 0 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 0 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 -90 -15 -65 -75 N
+P 2 0 1 0 -75 -45 60 0 N
+P 2 0 1 0 100 0 60 0 N
+X Left 1 0 150 50 D 20 50 1 1 P
+X Center 2 150 0 50 L 20 50 1 1 P
+X Right 3 0 -150 50 U 20 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TrimPot_T73YEt_10k
+#
+DEF TrimPot_T73YEt_10k TRIM 0 40 Y N 1 F N
+F0 "TRIM" -200 15 50 V V C CNN
+F1 "TrimPot_T73YEt_10k" 50 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_Trim_7x6.6mm_T73YE" 0 -510 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Trimpot, TH, 10k, single turn, square" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay" -100 -370 50 H I L CNN "Manufacturer"
+F6 "T73YE103KT20" -100 -430 50 H I L CNN "Part Number"
+F7 "10k" -130 5 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 0 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 0 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 -90 -15 -65 -75 N
+P 2 0 1 0 -75 -45 60 0 N
+P 2 0 1 0 100 0 60 0 N
+X Left 1 0 150 50 D 20 50 1 1 P
+X Center 2 150 0 50 L 20 50 1 1 P
+X Right 3 0 -150 50 U 20 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TrimPot_T73YEt_1k
+#
+DEF TrimPot_T73YEt_1k TRIM 0 40 Y N 1 F N
+F0 "TRIM" -200 15 50 V V C CNN
+F1 "TrimPot_T73YEt_1k" 50 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_Trim_7x6.6mm_T73YE" 0 -510 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Trimpot, TH, 1k, single turn, square" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay" -100 -370 50 H I L CNN "Manufacturer"
+F6 "T73YE102KT20" -100 -430 50 H I L CNN "Part Number"
+F7 "1k" -130 5 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 0 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 0 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 -90 -15 -65 -75 N
+P 2 0 1 0 -75 -45 60 0 N
+P 2 0 1 0 100 0 60 0 N
+X Left 1 0 150 50 D 20 50 1 1 P
+X Center 2 150 0 50 L 20 50 1 1 P
+X Right 3 0 -150 50 U 20 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TrimPot_TC33X_1k
 #
 DEF TrimPot_TC33X_1k TRIM 0 40 Y N 1 F N
