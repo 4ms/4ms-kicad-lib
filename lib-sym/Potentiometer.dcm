@@ -40,6 +40,11 @@ D 10k Linear, 9mm pot, No Detent, D-Shaft
 K 9mm_NoDet_10k_DShaft
 $ENDCMP
 #
+$CMP 9mm_NoDet_10k_DShaft_copy
+D 10k Linear, 9mm pot, No Detent, D-Shaft
+K 9mm_NoDet_10k_DShaft
+$ENDCMP
+#
 $CMP TrimPot_T73YEt_100k
 D Trimpot, TH, 100k, single turn, square
 K TrimPo_T73YEt_100k
