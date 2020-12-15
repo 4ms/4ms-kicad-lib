@@ -97,29 +97,34 @@ ENDDEF
 #
 # 9mm_CtrDet_100k_Knurled_Lined
 #
-DEF 9mm_CtrDet_100k_Knurled_Lined POT 0 40 N N 1 F N
-F0 "POT" -180 -5 50 V V C CNN
+DEF 9mm_CtrDet_100k_Knurled_Lined POT 0 40 Y N 2 L N
+F0 "POT" -200 200 50 H V C CNN
 F1 "9mm_CtrDet_100k_Knurled_Lined" 0 250 50 H I C CNN
 F2 "4ms_Potentiometer:Pot_9mm_Knurl_Det" 833 -189 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "100k Linear, 9mm pot, Center Detent, Knurled, Lined" -100 -310 50 H I L CNN "Specifications"
 F5 " Song Huei " -100 -370 50 H I L CNN "Manufacturer"
 F6 " R0904N-B100K,L-25KQ-CC-White line " -100 -430 50 H I L CNN "Part Number"
-F7 "100k" -110 0 60 V V C CNN "Display"
+F7 "100k" -200 100 60 H V C CNN "Display"
 $FPLIST
  Potentiometer*
 $ENDFPLIST
 DRAW
-A 40 -10 11 -634 634 1 1 5 N 45 -20 45 0
-A 40 10 11 -634 634 1 1 5 N 45 0 45 20
+A 40 -10 11 -634 634 1 1 5 f 45 -20 45 0
+A 40 10 11 -634 634 1 1 5 f 45 0 45 20
 T 900 0 50 10 0 1 1 Left/1 Normal 0 C C
 T 900 0 -50 10 0 1 1 Right/3 Normal 0 C C
-S 40 100 -40 -100 0 1 10 N
+S 40 100 -40 -100 1 1 10 f
+S -100 0 -50 0 2 1 10 N
+S 40 100 -40 -100 2 1 10 f
+S 50 0 100 0 2 1 10 N
 P 2 1 1 0 100 0 60 0 N
 P 3 1 1 0 45 0 90 20 90 -20 F
 X Left 1 0 150 50 D 50 50 1 1 P
 X Center 2 150 0 50 L 50 50 1 1 P
 X Right 3 0 -150 50 U 50 50 1 1 P
+X Tab1 4 -100 -50 50 U 50 50 2 1 P
+X Tab2 5 100 -50 50 U 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
@@ -148,6 +153,39 @@ P 3 1 1 0 45 0 90 20 90 -20 F
 X Left 1 0 150 50 D 50 50 1 1 P
 X Center 2 150 0 50 L 50 50 1 1 P
 X Right 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 9mm_CtrDet_10k_DShaft_copy
+#
+DEF 9mm_CtrDet_10k_DShaft_copy POT 0 40 Y N 2 L N
+F0 "POT" -180 -5 50 V V C CNN
+F1 "9mm_CtrDet_10k_DShaft_copy" 0 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_9mm_Dshaft_Det" 833 -189 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10k Linear, 9mm pot, Center Detent, D-Shaft" -100 -310 50 H I L CNN "Specifications"
+F5 " Alpha Taiwan " -100 -370 50 H I L CNN "Manufacturer"
+F6 " RV09BCF-40-25F-B10K-0C7 " -100 -430 50 H I L CNN "Part Number"
+F7 "10k" -110 0 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+A 40 -10 11 -634 634 1 1 5 f 45 -20 45 0
+A 40 10 11 -634 634 1 1 5 f 45 0 45 20
+T 900 0 50 10 0 1 1 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 1 Right/3 Normal 0 C C
+S 40 100 -40 -100 1 1 10 f
+S -100 0 -50 0 2 1 10 N
+S 40 100 -40 -100 2 1 10 f
+S 50 0 100 0 2 1 10 N
+P 2 1 1 0 100 0 60 0 N
+P 3 1 1 0 45 0 90 20 90 -20 F
+X Left 1 0 150 50 D 50 50 1 1 P
+X Center 2 150 0 50 L 50 50 1 1 P
+X Right 3 0 -150 50 U 50 50 1 1 P
+X Tab1 4 -100 -50 50 U 50 50 2 1 P
+X Tab2 5 100 -50 50 U 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
@@ -218,6 +256,37 @@ X Right 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 9mm_NoDet_100k_Knurled_Lined_copy
+#
+DEF 9mm_NoDet_100k_Knurled_Lined_copy POT 0 40 Y N 2 L N
+F0 "POT" -180 -5 50 V V C CNN
+F1 "9mm_NoDet_100k_Knurled_Lined_copy" 0 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_9mm_Knurl_NoDet" 833 -189 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "100k Linear, 9mm pot, No Detent, Knurled, Lined" -100 -310 50 H I L CNN "Specifications"
+F5 " Song Huei " -100 -370 50 H I L CNN "Manufacturer"
+F6 " RV16AF-4A-15FW-B100K-3 " -100 -430 50 H I L CNN "Part Number"
+F7 "100k" -110 0 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 1 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 1 Right/3 Normal 0 C C
+S 40 100 -40 -100 1 1 10 f
+S -100 0 -50 0 2 1 10 N
+S 40 100 -40 -100 2 1 10 f
+S 50 0 100 0 2 1 10 N
+P 2 1 1 0 100 0 60 0 N
+P 3 1 1 0 45 0 90 20 90 -20 F
+X Left 1 0 150 50 D 50 50 1 1 P
+X Center 2 150 0 50 L 50 50 1 1 P
+X Right 3 0 -150 50 U 50 50 1 1 P
+X Tab1 4 -100 -50 50 U 50 50 2 1 P
+X Tab2 5 100 -50 50 U 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
 # 9mm_NoDet_10k_DShaft
 #
 DEF 9mm_NoDet_10k_DShaft POT 0 40 N N 1 F N
@@ -243,6 +312,118 @@ P 3 1 1 0 45 0 90 20 90 -20 F
 X Left 1 0 150 50 D 50 50 1 1 P
 X Center 2 150 0 50 L 50 50 1 1 P
 X Right 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 9mm_NoDet_10k_DShaft_copy
+#
+DEF 9mm_NoDet_10k_DShaft_copy POT 0 40 Y N 2 L N
+F0 "POT" -180 -5 50 V V C CNN
+F1 "9mm_NoDet_10k_DShaft_copy" 0 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_9mm_DShaft" 833 -189 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10k Linear, 9mm pot, No Detent, D-Shaft" -100 -310 50 H I L CNN "Specifications"
+F5 " Alpha Taiwan " -100 -370 50 H I L CNN "Manufacturer"
+F6 " RV09BCF-40-25F-B10K-007 " -100 -430 50 H I L CNN "Part Number"
+F7 "10k" -110 0 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 1 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 1 Right/3 Normal 0 C C
+S 40 100 -40 -100 1 1 10 f
+S -100 0 -50 0 2 1 10 N
+S 40 100 -40 -100 2 1 10 f
+S 50 0 100 0 2 1 10 N
+P 2 1 1 0 100 0 60 0 N
+P 3 1 1 0 45 0 90 20 90 -20 F
+X Left 1 0 150 50 D 50 50 1 1 P
+X Center 2 150 0 50 L 50 50 1 1 P
+X Right 3 0 -150 50 U 50 50 1 1 P
+X Tab1 4 -100 -50 50 U 50 50 2 1 P
+X Tab2 5 100 -50 50 U 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# TrimPot_T73YEt_100k
+#
+DEF TrimPot_T73YEt_100k TRIM 0 40 Y N 1 F N
+F0 "TRIM" -200 15 50 V V C CNN
+F1 "TrimPot_T73YEt_100k" 50 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_Trim_7x6.6mm_T73YE" 0 -510 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Trimpot, TH, 100k, single turn, square" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay" -100 -370 50 H I L CNN "Manufacturer"
+F6 "T73YE104KT20" -100 -430 50 H I L CNN "Part Number"
+F7 "100k" -130 5 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 0 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 0 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 -90 -15 -65 -75 N
+P 2 0 1 0 -75 -45 60 0 N
+P 2 0 1 0 100 0 60 0 N
+X Left 1 0 150 50 D 20 50 1 1 P
+X Center 2 150 0 50 L 20 50 1 1 P
+X Right 3 0 -150 50 U 20 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TrimPot_T73YEt_10k
+#
+DEF TrimPot_T73YEt_10k TRIM 0 40 Y N 1 F N
+F0 "TRIM" -200 15 50 V V C CNN
+F1 "TrimPot_T73YEt_10k" 50 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_Trim_7x6.6mm_T73YE" 0 -510 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Trimpot, TH, 10k, single turn, square" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay" -100 -370 50 H I L CNN "Manufacturer"
+F6 "T73YE103KT20" -100 -430 50 H I L CNN "Part Number"
+F7 "10k" -130 5 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 0 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 0 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 -90 -15 -65 -75 N
+P 2 0 1 0 -75 -45 60 0 N
+P 2 0 1 0 100 0 60 0 N
+X Left 1 0 150 50 D 20 50 1 1 P
+X Center 2 150 0 50 L 20 50 1 1 P
+X Right 3 0 -150 50 U 20 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TrimPot_T73YEt_1k
+#
+DEF TrimPot_T73YEt_1k TRIM 0 40 Y N 1 F N
+F0 "TRIM" -200 15 50 V V C CNN
+F1 "TrimPot_T73YEt_1k" 50 250 50 H I C CNN
+F2 "4ms_Potentiometer:Pot_Trim_7x6.6mm_T73YE" 0 -510 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Trimpot, TH, 1k, single turn, square" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay" -100 -370 50 H I L CNN "Manufacturer"
+F6 "T73YE102KT20" -100 -430 50 H I L CNN "Part Number"
+F7 "1k" -130 5 60 V V C CNN "Display"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+T 900 0 50 10 0 1 0 Left/1 Normal 0 C C
+T 900 0 -50 10 0 1 0 Right/3 Normal 0 C C
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 -90 -15 -65 -75 N
+P 2 0 1 0 -75 -45 60 0 N
+P 2 0 1 0 100 0 60 0 N
+X Left 1 0 150 50 D 20 50 1 1 P
+X Center 2 150 0 50 L 20 50 1 1 P
+X Right 3 0 -150 50 U 20 50 1 1 P
 ENDDRAW
 ENDDEF
 #
