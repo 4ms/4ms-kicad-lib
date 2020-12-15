@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1.01k_0603_0.1%
+D 1.01k, 0.1%, 1/16W, 0603 25ppm
+K 1.01k 0603 0.1% Resistor
+$ENDCMP
+#
 $CMP 1.1k_0603
 D 1K1, 1%, 1/10W, 0603
 K 1.1k_0603
@@ -8,6 +13,11 @@ $ENDCMP
 $CMP 1.2k_0603
 D 1K2, 1%, 1/10W, 0603
 K 1.2k_0603
+$ENDCMP
+#
+$CMP 1.58k_0603_0.1%
+D 1.58k, 0.1%, 1/16W, 0603 25ppm
+K 1.58k 0603 0.1% Resistor
 $ENDCMP
 #
 $CMP 10.2k_0603
@@ -134,6 +144,11 @@ $ENDCMP
 $CMP 270R_0603
 D 270R, 1%, 1/10W, 0603
 K 270R_0603
+$ENDCMP
+#
+$CMP 28.4k_0603_0.1%
+D 28.4k, 0.1%, 1/16W, 0603 25ppm
+K 28.4k 0603 0.1% Resistor
 $ENDCMP
 #
 $CMP 2k_0603
