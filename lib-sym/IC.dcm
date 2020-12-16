@@ -88,8 +88,8 @@ K TL072 TSSOP-8
 $ENDCMP
 #
 $CMP TMUX1308DYYR
-D 16-channel LED Driver PWM 12-bit
-K LED Driver PCA9685
+D 8:1, 1-Channel, MUX, CMOS
+K MUX
 F https://www.ti.com/lit/ds/symlink/tmux1308.pdf?ts=1607975087135&ref_url=https%253A%252F%252Fwww.mouser.com%252F
 $ENDCMP
 #

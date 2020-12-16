@@ -813,11 +813,9 @@ F0 "U?" 250 700 39 H V C CNN
 F1 "TMUX1308DYYR" 300 600 39 H V C CNN
 F2 "4ms_Package_SOT:SOT-23-THIN-16" 600 -950 39 H I C CNN
 F3 "" 550 -150 39 V I C CNN
-F4 "16-channel LED Driver PWM 12-bit" 450 -1050 50 H I C CNN "Specifications"
-F5 "NXP Semiconductors" 150 -1150 50 H I C CNN "Manufacturer"
-F6 "PCA9685PW,118" 50 -1350 50 H I C CNN "Part Number"
-F7 "PCA9685PW,112" 50 -1250 50 H I C CNN "Part Number 2"
-F8 "C92206" 0 0 50 H I C CNN "JLCPCB ID"
+F4 "8:1, 1-Channel, MUX, CMOS" 450 -1050 50 H I C CNN "Specifications"
+F5 "Texas Instruments " 150 -1150 50 H I C CNN "Manufacturer"
+F6 "TMUX1308DYYR " 50 -1350 50 H I C CNN "Part Number"
 DRAW
 P 5 0 1 0 -350 550 -350 -550 350 -550 350 550 -350 550 f
 X A1 10 550 -200 200 L 50 50 1 1 I
