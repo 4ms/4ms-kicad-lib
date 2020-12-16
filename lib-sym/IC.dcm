@@ -53,6 +53,12 @@ D MAX11666 2-ch 12-bit ADC
 K MAX11666AUB
 $ENDCMP
 #
+$CMP MCP48FVB22
+D MCP48FVB22, DAC, 12-Bit, Dual
+K MCP48FVB22, DAC
+F https://www.mouser.com/datasheet/2/268/microchip_technology_mchp-s-a0001280364-1-1738071.pdf
+$ENDCMP
+#
 $CMP NJM2068
 D NJM2068 Dual Opamp
 K NJM2068
