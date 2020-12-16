@@ -6,6 +6,12 @@ K NJM2068
 F https://www.mouser.com/datasheet/2/609/AD8629-EP-1601911.pdf
 $ENDCMP
 #
+$CMP ADS7142IRUG
+D ADS7142IRUG, ADC, Nanopower, Dual-Channel, Programmable Sensor Monitor
+K ADS7142IRUG, ADC
+F https://www.ti.com/lit/ds/symlink/ads7142.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1607718821839
+$ENDCMP
+#
 $CMP AP65211AWU-7
 D DC/DC Buck Converter 500kHz 18VinMax 2A Synchronous
 K AP65211AWU-7
