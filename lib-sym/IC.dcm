@@ -87,6 +87,12 @@ D TL072 Dual Opamp TSSOP-8
 K TL072 TSSOP-8
 $ENDCMP
 #
+$CMP TMUX1308DYYR
+D 16-channel LED Driver PWM 12-bit
+K LED Driver PCA9685
+F https://www.ti.com/lit/ds/symlink/tmux1308.pdf?ts=1607975087135&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
 $CMP TPS54332
 D TPS54332, DC/DC Converter 1MHz, 28VinMax 3.5A
 K TPS54332
