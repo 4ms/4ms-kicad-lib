@@ -39,7 +39,7 @@ DEF ADS7142IRUG U 0 10 Y Y 1 F N
 F0 "U" -100 800 60 H V C CNN
 F1 "ADS7142IRUG" 50 650 60 H V C CNN
 F2 "" 50 740 60 H I C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
 F4 "ADS7142IRUG, ADC, Dual-Channel, Programmable Sensor Monitor" -700 -660 50 H I L CNN "Specifications"
 F5 "Texas Instruments" -700 -720 50 H I L CNN "Manufacturer"
 F6 "ADS7142IRUG" -700 -780 50 H I L CNN "Part Number"
