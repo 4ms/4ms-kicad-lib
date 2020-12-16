@@ -21,4 +21,9 @@ $CMP NCP51460SN33
 D Precision 3.3V Ref 1% 18PPM 28Vmax 20mAmax
 $ENDCMP
 #
+$CMP WIP_ADR381
+D LDV Voltage Reference 2.5V Reference SOT-23-3
+K ADR381 2.5v Reference LDV
+$ENDCMP
+#
 #End Doc Library

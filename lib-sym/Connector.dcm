@@ -25,6 +25,12 @@ D HEADER 1x8 MALE PINS 0.100” 180deg
 K Conn_01x08
 $ENDCMP
 #
+$CMP Conn_01x09
+D Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_02x03
 D HEADER 2x3 MALE PINS 0.100” 180deg
 K Conn_02x03
