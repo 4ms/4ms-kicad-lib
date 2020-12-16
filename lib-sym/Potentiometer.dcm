@@ -25,11 +25,6 @@ D 10k Linear, 9mm pot, Center Detent, D-Shaft
 K 9mm_CtrDet_10k_DShaft
 $ENDCMP
 #
-$CMP 9mm_CtrDet_10k_DShaft_copy
-D 10k Linear, 9mm pot, Center Detent, D-Shaft
-K 9mm_CtrDet_10k_DShaft
-$ENDCMP
-#
 $CMP 9mm_Dual_50k_DShaft_DualRow
 D 50k Linear, 9mm pot, Dual, D-Shaft, Dual Row
 K 9mm_Dual_50k_DShaft_DualRow
@@ -40,17 +35,7 @@ D 100k Linear, 9mm pot, No Detent, Knurled, Lined
 K 9mm_NoDet_100k_Knurled_Lined
 $ENDCMP
 #
-$CMP 9mm_NoDet_100k_Knurled_Lined_copy
-D 100k Linear, 9mm pot, No Detent, Knurled, Lined
-K 9mm_NoDet_100k_Knurled_Lined
-$ENDCMP
-#
 $CMP 9mm_NoDet_10k_DShaft
-D 10k Linear, 9mm pot, No Detent, D-Shaft
-K 9mm_NoDet_10k_DShaft
-$ENDCMP
-#
-$CMP 9mm_NoDet_10k_DShaft_copy
 D 10k Linear, 9mm pot, No Detent, D-Shaft
 K 9mm_NoDet_10k_DShaft
 $ENDCMP
