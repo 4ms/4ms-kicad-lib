@@ -36,6 +36,12 @@ D LMR33630A, DC/DC Converter 400kHz, 36VinMax 3A
 K LMR33630x
 $ENDCMP
 #
+$CMP MAX11645EUA+
+D MAX11645EUA+  12-bit ADC, 2-Channel Single-Ended or 1-Channel FullyDifferential
+K MAX11645EUA+  ADC
+F https://www.mouser.com/datasheet/2/256/MAX11644-MAX11645-1512065.pdf
+$ENDCMP
+#
 $CMP MAX11666AUB
 D MAX11666 2-ch 12-bit ADC
 K MAX11666AUB
