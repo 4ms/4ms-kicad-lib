@@ -80,19 +80,16 @@ K LED Driver PCA9685
 F https://www.mouser.com/datasheet/2/302/PCA9685-1127478.pdf
 $ENDCMP
 #
-$CMP PCM1753
-D PCM1753, DAC 2ch 12-bit I2S
-K PCM1753
-$ENDCMP
-#
 $CMP SDRAM_W9825G6KH-6
 D SDRAM 256Mb 16bit, 166MHz TSOP-54
 K SDRAM DRAM
+F https://www.winbond.com/resource-files/w9825g6kh_a04.pdf
 $ENDCMP
 #
-$CMP SDRAM_W9825G6KH-6_copy
+$CMP SDRAM_W9825G6KH-x
 D SDRAM 256Mb 16bit, 166MHz TSOP-54
 K SDRAM DRAM
+F https://www.winbond.com/resource-files/w9825g6kh_a04.pdf
 $ENDCMP
 #
 $CMP STM32F755IITx
