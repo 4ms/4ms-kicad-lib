@@ -100,6 +100,12 @@ D ARM Microcontroller 32-bit 216MHz, 144-pin QFP
 K ARM STM32 STM32F7
 $ENDCMP
 #
+$CMP TCA9535PWR
+D Interface - I/O Expanders Remt 16Bit I2C SMBus Lo-Pwr I/O Expnder, TSSOP-24
+K TCA9535PWR, I/O Expander 16 Bit
+F https://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
 $CMP TL072
 D TL072 Dual Opamp TSSOP-8
 K TL072 TSSOP-8
