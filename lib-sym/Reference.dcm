@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADR381
+D LDV Voltage Reference 2.5V 5mA Reference SOT-23-3
+K ADR381 2.5v Reference LDV
+F https://www.mouser.com/datasheet/2/609/ADR380_381-1503604.pdf
+$ENDCMP
+#
 $CMP LM4040-2.5V
 D Precision Micropower 2.5V Shunt Voltage Reference, SOT-23
 K Voltage reference shunt 2.5V
@@ -19,11 +25,6 @@ $ENDCMP
 #
 $CMP NCP51460SN33
 D Precision 3.3V Ref 1% 18PPM 28Vmax 20mAmax
-$ENDCMP
-#
-$CMP WIP_ADR381
-D LDV Voltage Reference 2.5V Reference SOT-23-3
-K ADR381 2.5v Reference LDV
 $ENDCMP
 #
 #End Doc Library
