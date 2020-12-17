@@ -159,11 +159,19 @@ ENDDEF
 #
 DEF Conn_01x09 J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "Conn_01x09" 0 -500 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "Conn_01x09" 50 -550 50 H V C CNN
+F2 "4ms_Connector:Pins_1x09_2.54mm_TH" 50 -850 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "HEADER 1x6 MALE PINS 0.100” 180deg" -25 -775 50 H I L CNN "Specifications"
+F5 "TAD" -50 -650 50 H I L CNN "Manufacturer"
+F6 "1-0901FBV0T" -25 -725 50 H I L CNN "Part Number"
 $FPLIST
- Connector*:*_1x??_*
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
