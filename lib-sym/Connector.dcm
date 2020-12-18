@@ -106,6 +106,18 @@ K Connector Socket 2x32
 F ~
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_Small
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
 $CMP microSDCon_Vert_TH_PJS008U-3000
 D Micro SD Card Reader
 K connector SD MICROSD

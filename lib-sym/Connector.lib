@@ -959,6 +959,40 @@ X Pin_9 9 -250 1150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TestPoint
+#
+DEF TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TestPoint_Small
+#
+DEF TestPoint_Small TP 0 30 N N 1 F N
+F0 "TP" 0 150 50 H V C CNN
+F1 "TestPoint_Small" 0 80 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 0 20 0 1 0 N
+X 1 1 0 0 0 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # microSDCon_Vert_TH_PJS008U-3000
 #
 DEF microSDCon_Vert_TH_PJS008U-3000 CON 0 40 Y Y 1 F N
