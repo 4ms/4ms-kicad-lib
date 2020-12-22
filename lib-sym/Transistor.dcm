@@ -5,6 +5,12 @@ D Bipolar Transistor NPN, Gen Purpose, DW1 pinout
 K MBT3904DW1
 $ENDCMP
 #
+$CMP MBT3906DW1
+D Bipolar Transistor NPN, Gen Purpose, DW1 pinout
+K MBT3904DW1
+F https://www.mouser.com/datasheet/2/308/MBT3906DW1T1_D-1811000.pdf
+$ENDCMP
+#
 $CMP NMOS_BTS141BKSA1
 D N-MOSFET transistor BTS141
 K NMOS MOSFET BTS141BKSA1 TO-220-3
