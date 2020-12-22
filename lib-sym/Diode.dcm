@@ -20,6 +20,11 @@ D Dual schottky diode BAT54S
 K BAT54S
 $ENDCMP
 #
+$CMP D_Generic
+D Diode
+K diode
+$ENDCMP
+#
 $CMP PDS560
 D PDS560, 60Vrrm, 5A
 K PDS560
