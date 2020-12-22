@@ -11,6 +11,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "Bipolar Transistor NPN, Gen Purpose, DW1 pinout" -100 -310 50 H I L CNN "Specifications"
 F5 "ON Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
 F6 "MBT3904DW1T1G" -100 -430 50 H I L CNN "Part Number"
+F7 "3904" 0 0 50 H I C CNN "Display"
 $FPLIST
  SC?70*
  SC?88*
@@ -42,6 +43,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "Bipolar Transistor PNP, Gen Purpose, DW1 pinout" -100 -310 50 H I L CNN "Specifications"
 F5 "ON Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
 F6 "MBT3906DW1T1G " -100 -430 50 H I L CNN "Part Number"
+F7 "3906" 0 0 50 H I C CNN "Display"
 $FPLIST
  SC?70*
  SC?88*
