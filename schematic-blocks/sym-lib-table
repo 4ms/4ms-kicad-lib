@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name audio-codec-cs4271-rescue)(type Legacy)(uri ${KIPRJMOD}/audio-codec-cs4271-rescue.lib)(options "")(descr ""))
-  (lib (name audio-codec-WM8731-rescue)(type Legacy)(uri ${KIPRJMOD}/audio-codec-WM8731-rescue.lib)(options "")(descr ""))
-)
