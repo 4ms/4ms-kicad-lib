@@ -12,8 +12,8 @@ F4 "DNP" 0 150 50 H I C CNN "Specifications"
 F5 "DNP" 0 150 50 H I C CNN "Manufacturer"
 F6 "Do Not Place" 0 100 50 H I C CNN "Part Number"
 DRAW
-X 1 1 -100 0 100 R 50 50 1 1 I
-X 2 2 100 0 100 L 50 50 1 1 I
+X 1 1 -100 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
