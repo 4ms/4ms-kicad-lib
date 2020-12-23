@@ -10,6 +10,11 @@ D 15uH, Isat>1A, Rdc<=100mOhms, shielded
 K 15uH_1A_5040
 $ENDCMP
 #
+$CMP 2.2uH_2.4A_2016
+D 2.2uH, Isat>2.4A, Imax>=1.8A, Rdc<=120mOhms, shielded
+K 2.2uH_2.4A_2016 2.2µH
+$ENDCMP
+#
 $CMP 5.6uH_4.25A_5030
 D 5.6uH, Isat=4.25A, Rdc=63mOhms, shielded
 K 5.6uH_4.25A_5030
