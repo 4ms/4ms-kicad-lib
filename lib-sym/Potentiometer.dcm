@@ -10,6 +10,11 @@ D 10k Linear, 16mm pot, Center Detent, D-shaft
 K 16mm_CtrDet_10k
 $ENDCMP
 #
+$CMP 16mm_NoDet_100k
+D 100k Linear, 16mm pot, No Detent, D-shaft
+K 16mm_NoDet_100k
+$ENDCMP
+#
 $CMP 16mm_NoDet_10k
 D 10k Linear, 16mm pot, No Detent, D-shaft
 K 16mm_NoDet_10k
