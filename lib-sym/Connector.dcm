@@ -105,6 +105,11 @@ K 2x8 Socket Header SMT 0.05" 1.27mm
 F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf
 $ENDCMP
 #
+$CMP Socket_02x08_P1.27mm_TH
+D Header 2x08 Socket, Pitch=1.27mm, Pin Height=3mm, Vertical, TH
+K 2x08 Header Socket 2x8 16-pin TH 1.27mm
+$ENDCMP
+#
 $CMP Socket_02x10_P1.27mm_SMT
 D Header 2x10 Socket, Pitch=1.27mm, Rcpt Height=3mm, Vertical, SMT
 K 2x10 Socket Header SMT 0.05" 1.27mm
