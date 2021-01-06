@@ -1,4 +1,4 @@
-(module Socket_2x08_1.27mm_TH (layer F.Cu) (tedit 5FEE5E9E)
+(module Socket_2x08_1.27mm_TH (layer F.Cu) (tedit 5FF5075B)
   (descr "Through hole straight pin header, 2x08, 1.27mm pitch, double rows")
   (tags "Through hole pin header THT 2x08 1.27mm double row")
   (fp_text reference REF** (at 0.31 -6.14) (layer F.SilkS)
@@ -48,8 +48,8 @@
   (pad 14 thru_hole oval (at -0.635 3.175) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
   (pad 15 thru_hole oval (at 0.635 4.445) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
   (pad 16 thru_hole oval (at -0.635 4.445) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x08_P1.27mm_Vertical.wrl
-    (at (xyz 0 0 0))
+  (model ${KISYS3DMOD}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x08_P1.27mm_Vertical.wrl
+    (offset (xyz 0.635 4.445 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
