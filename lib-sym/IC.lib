@@ -1267,6 +1267,7 @@ F3 "" -1750 1850 60 H I C CNN
 F4 " TSSOP-24, Interface - I/O Expanders Remt 16Bit I2C SMBus Lo-Pwr I/O Expndr " -600 -1060 50 H I L CNN "Specifications"
 F5 "Texas Instruments" -450 -1170 50 H I L CNN "Manufacturer"
 F6 "TCA9535PWR " -450 -1230 50 H I L CNN "Part Number"
+F7 "C130204 " 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  21-0109D
  21-0109D-M

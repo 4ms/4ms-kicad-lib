@@ -12,6 +12,7 @@ F4 "LDV Voltage References 2.5V 5mA Reference SOT-23-3" -750 -660 50 H I L CNN "
 F5 "Analog Devices" -750 -720 50 H I L CNN "Manufacturer"
 F6 "ADR381ARTZ-REEL7" -750 -780 50 H I L CNN "Part Number"
 F7 "2.5V, 5mA" 0 200 60 H V C CNN "Display"
+F8 "C27459" 0 0 50 H V C CNN "JLCPCB ID"
 $FPLIST
  *SOT-89*
  *SOT89*
@@ -113,6 +114,7 @@ F5 "ON Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
 F6 "NCP51460SN33T1G" -100 -430 50 H I L CNN "Part Number"
 F7 "3.3V" -150 400 60 H V C CNN "Display"
 F8 "18ppm" -100 300 60 H V C CNN "Display 2"
+F9 "C233715 " 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  *SOT-89*
  *SOT89*

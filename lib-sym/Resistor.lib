@@ -82,6 +82,7 @@ F4 "1.58k 0.1%" 150 -175 50 V V L CNN "Display"
 F5 "1.58k, 0.1%, 1/16W, 0603, 25ppm" -100 -310 50 H I L CNN "Specifications"
 F6 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
 F7 "ERA-3AEB1581V" -100 -430 50 H I L CNN "Part Number"
+F8 "C22768 " 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
