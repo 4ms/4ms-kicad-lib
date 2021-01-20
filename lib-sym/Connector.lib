@@ -630,6 +630,10 @@ F1 "Pins_02x08_P1.27mm_TH" 0 -450 50 H V C CNN
 F2 "4ms_Connector:Pins_2x08_1.27mm_TH" 75 -900 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 F4 "Header 2x08 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, TH" 0 -1000 50 H I C CNN "Specifications"
+F5 "Samtec" 0 0 50 H I C CNN "Manufacturer"
+F6 "FTSH-108-01-L-D" 0 0 50 H I C CNN "Part Number"
+F7 "Hawrin" 0 0 50 H I C CNN "Manufacturer 2"
+F8 "M50-3500842 " 0 0 50 H I C CNN "Part Number 2"
 $FPLIST
  Connector*:*_2x??_*
 $ENDFPLIST
@@ -868,6 +872,10 @@ F1 "Socket_02x08_P1.27mm_TH" 0 -450 50 H V C CNN
 F2 "4ms_Connector:Socket_2x08_1.27mm_TH" 75 -900 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 F4 "Header 2x08 Socket, Pitch=1.27mm, Pin Height=3mm, Vertical, TH" 0 -1000 50 H I C CNN "Specifications"
+F5 "Samtec" 0 0 50 H I C CNN "Manufacturer"
+F6 "SFMC-108-03-S-D" 0 0 50 H I C CNN "Part Number"
+F7 "Harwin" 0 0 50 H I C CNN "Manufacturer 2"
+F8 "M50-3000845" 0 0 50 H I C CNN "Part Number 2"
 $FPLIST
  Connector*:*_2x??_*
 $ENDFPLIST
