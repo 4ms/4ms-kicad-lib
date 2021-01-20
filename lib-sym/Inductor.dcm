@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10uH_1.0A_4018
+D 10uH, Idc>1.0A, Rdc<=200mOhms, shielded
+$ENDCMP
+#
 $CMP 12uH_5.2A_1260
 D 12uH, Idc>=5.2A, Shielded, Rdc<23mΩ
 K 12uH_5.2A_1260

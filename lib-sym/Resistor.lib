@@ -48,6 +48,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 1.24k_0603_0.1%
+#
+DEF 1.24k_0603_0.1% R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "1.24k_0603_0.1%" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1.24k 0.1%" 150 -175 50 V V L CNN "Display"
+F5 "1.24k, 0.1%, 1/16W, 0603, 25ppm" -100 -310 50 H I L CNN "Specifications"
+F6 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
+F7 "ERA-3AEB1241V" -100 -430 50 H I L CNN "Part Number"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 1.2k_0603
 #
 DEF 1.2k_0603 R 0 0 N Y 1 F N
@@ -163,6 +185,28 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 102k_0603_0.1%
+#
+DEF 102k_0603_0.1% R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "102k_0603_0.1%" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "102k, 0.1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
+F6 "ERA-3AEB1023V" -100 -430 50 H I L CNN "Part Number"
+F7 "102k 0.1%" 150 0 50 V V C CNN "Display"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 10R_0603
 #
 DEF 10R_0603 R 0 0 N Y 1 F N
@@ -198,6 +242,30 @@ F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0710KL" -100 -430 50 H I L CNN "Part Number"
 F7 "10k" 150 0 50 V V C CNN "Display"
 F8 "C25804" 0 0 50 H I C CNN "JLCPCB ID"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10k_0603_0.1%
+#
+DEF 10k_0603_0.1% R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "10k_0603_0.1%" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10k 0.1%" 150 -175 50 V V L CNN "Display"
+F5 "10k, 0.1%, 1/16W, 0603, 25ppm" -100 -310 50 H I L CNN "Specifications"
+F6 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
+F7 "ERJ-PB3B1002V" -100 -430 50 H I L CNN "Part Number"
+F8 "Yageo" -75 -575 50 H I L CNN "Manufacturer 2"
+F9 "RT0603BRD1010KL" -75 -650 50 H I L CNN "Part Number 2"
 $FPLIST
  R_*
  R_*
@@ -636,6 +704,30 @@ F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0722KL" -100 -430 50 H I L CNN "Part Number"
 F7 "22k" 150 0 50 V V C CNN "Display"
 F8 "C31850" 150 0 50 V I C CNN "JLCPCB ID"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 249R_0603_0.1%
+#
+DEF 249R_0603_0.1% R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "249R_0603_0.1%" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "249Ω 0.1%" 150 -175 50 V V L CNN "Display"
+F5 "249R, 0.1%, 1/16W, 0603, 25ppm" -100 -310 50 H I L CNN "Specifications"
+F6 "Panasonic" -100 -370 50 H I L CNN "Manufacturer"
+F7 "ERA-3AEB2490V" -100 -430 50 H I L CNN "Part Number"
+F8 "Yageo" -75 -575 50 H I L CNN "Manufacturer 2"
+F9 "RT0603BRD07249RL" -75 -650 50 H I L CNN "Part Number 2"
 $FPLIST
  R_*
  R_*
@@ -1507,6 +1599,28 @@ F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-0775KL" -100 -430 50 H I L CNN "Part Number"
 F7 "75k" 150 0 50 V V C CNN "Display"
 F8 "C23242" 50 -250 50 H I C CNN "JLCPCB ID"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 79.6k_0603_0.1%
+#
+DEF 79.6k_0603_0.1% R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "79.6k_0603_0.1%" -100 0 50 V I C CNN
+F2 "4ms_Resistor:R_0603" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "79.6k, 0.1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RT0603BRD0779K6L" -100 -430 50 H I L CNN "Part Number"
+F7 "79.6k 0.1%" 150 0 50 V V C CNN "Display"
 $FPLIST
  R_*
  R_*
