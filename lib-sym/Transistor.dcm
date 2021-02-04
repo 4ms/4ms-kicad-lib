@@ -33,4 +33,10 @@ D MOSFET P-chan Si2347
 K Si2347
 $ENDCMP
 #
+$CMP ZHB6718
+D BJT H-Bridge, SM-8
+K ZHB6718
+F https://www.mouser.com/datasheet/2/115/ZHB6718-93331.pdf
+$ENDCMP
+#
 #End Doc Library
