@@ -56,8 +56,8 @@ F1 "100pF_0603_50V" 0 150 50 H I C CNN
 F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "100pF, Min. 50V 10% NP0 or C0G" -100 -310 50 H I L CNN "Specifications"
-F5 "?" -100 -370 50 H I L CNN "Manufacturer"
-F6 "?" -100 -430 50 H I L CNN "Part Number"
+F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
+F6 "CC0603JRNPO9BN101" -100 -430 50 H I L CNN "Part Number"
 F7 "100pF" 75 -50 50 H V L CNN "Display"
 F8 "C14858" 50 -500 50 H I C CNN "JLCPCB ID"
 $FPLIST
