@@ -30,4 +30,10 @@ K Fuse
 F ~
 $ENDCMP
 #
+$CMP UA78L09
+D Vreg 9.0V, Iout>100mA, Vin>11.5V
+K UA78L09
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fua78l
+$ENDCMP
+#
 #End Doc Library
