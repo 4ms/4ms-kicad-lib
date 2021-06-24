@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 40106BPWR
+F https://www.ti.com/lit/ds/symlink/cd40106b.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1624570529286&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
 $CMP AD8629
 D Precision Amplifiers Dual, Zero drift, RRIO, 5V OpAmp
 K NJM2068
