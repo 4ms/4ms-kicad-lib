@@ -90,10 +90,14 @@ ENDDEF
 # ATMEGA328-AU
 #
 DEF ATMEGA328-AU U 0 20 Y Y 1 F N
-F0 "U" -500 1450 50 H V L BNN
-F1 "ATMEGA328-AU" -350 -650 50 H V L TNN
-F2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" 0 0 50 H I C CIN
+F0 "U" 0 50 50 H V C CNN
+F1 "ATMEGA328-AU" 0 -50 50 H I C CNN
+F2 "4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm" 600 250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz" -100 -310 50 H I L CNN "Specifications"
+F5 "Microchip Technology / Atmel" -100 -370 50 H I L CNN "Manufacturer"
+F6 "ATMEGA328-AU" -100 -430 50 H I L CNN "Part Number"
+F7 "ATMEGA328" 0 0 50 H V C CNN "Display"
 $FPLIST
  TQFP*7x7mm*P0.8mm*
 $ENDFPLIST

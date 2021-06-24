@@ -18,7 +18,7 @@ K AP65211AWU-7
 $ENDCMP
 #
 $CMP ATMEGA328-AU
-D 10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, TQFP-32
+D 8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
 $ENDCMP
