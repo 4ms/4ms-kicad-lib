@@ -21,6 +21,28 @@ X SW 3 250 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 3.5mm_Mono_Switched_SymSmall_0.05
+#
+DEF 3.5mm_Mono_Switched_SymSmall_0.05 J 0 0 Y N 1 F N
+F0 "J" -100 225 60 H V C CNN
+F1 "3.5mm_Mono_Switched_SymSmall_0.05" 425 -425 24 H I C CIB
+F2 "4ms_Jack:EighthInch_PJ398SM" 750 -350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Audio 3.5mm Jack, mono, switched, PC-pin Vertical" 50 -160 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" 50 -220 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP518MA" 50 -280 50 H I L CNN "Part Number"
+F7 "3.5mm_Mono" 25 150 30 H V C CIB "Display"
+DRAW
+S -125 100 -75 -75 0 1 0 N
+P 2 0 0 0 -50 0 50 0 N
+P 2 0 1 0 -100 -100 -100 -75 N
+P 4 0 1 0 -50 100 -25 50 0 100 100 100 N
+X SIG 1 300 100 200 L 50 50 1 1 P
+X SHEILD 2 -100 -150 50 U 50 50 1 1 P
+X SW 3 150 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 3.5mm_Stereo
 #
 DEF 3.5mm_Stereo J 0 0 Y N 1 F N
@@ -40,6 +62,30 @@ P 4 0 1 0 200 0 0 0 -50 100 -100 0 N
 X SIG 1 400 150 100 L 50 50 1 1 P
 X SHEILD 2 -200 -250 100 U 50 50 1 1 P
 X SW 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.5mm_Stereo_SymSmall_0.05
+#
+DEF 3.5mm_Stereo_SymSmall_0.05 J 0 0 Y N 1 F N
+F0 "J" -105 205 60 H V C CNN
+F1 "3.5mm_Stereo_SymSmall_0.05" 275 -575 60 H I C CNN
+F2 "4ms_Jack:EighthInch_Stereo_PJ366ST" -400 -900 60 H I L CNN
+F3 "" 100 0 60 H V C CNN
+F4 "Audio 3.5mm Jack, Stereo, PC-pin Vertical" -400 -660 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -400 -720 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP419GR" -400 -780 50 H I L CNN "Part Number"
+F7 "3.5mm_Stereo" 35 139 30 H V C CIB "Display"
+DRAW
+T 0 -25 3 30 0 0 0 R Normal 0 C C
+T 0 25 85 30 0 0 0 T Normal 0 C C
+S -125 100 -75 -75 0 1 0 N
+P 2 0 1 0 -100 -100 -100 -75 N
+P 4 0 1 0 -50 0 -25 50 0 0 200 0 N
+P 4 0 1 0 0 100 25 50 50 100 150 100 N
+X SIG 1 250 100 200 L 50 50 1 1 P
+X SHEILD 2 -100 -150 50 U 50 50 1 1 P
+X SW 3 200 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

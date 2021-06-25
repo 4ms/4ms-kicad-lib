@@ -17,9 +17,19 @@ D DC/DC Buck Converter 500kHz 18VinMax 2A Synchronous
 K AP65211AWU-7
 $ENDCMP
 #
+$CMP ATMEGA328-AU
+D 8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
 $CMP CD4001BM
 D CMOS, NOR Gate, Quad 2-In, SOIC-14
 K CD4001BM
+$ENDCMP
+#
+$CMP CD40106BPWR
+F https://www.ti.com/lit/ds/symlink/cd40106b.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1624570529286&ref_url=https%253A%252F%252Fwww.mouser.com%252F
 $ENDCMP
 #
 $CMP INA199A3
