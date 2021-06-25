@@ -80,6 +80,12 @@ K LED Driver PCA9685
 F https://www.mouser.com/datasheet/2/302/PCA9685-1127478.pdf
 $ENDCMP
 #
+$CMP PCM3168
+D 6-in 8-out Audio Codec 96kHz 24bit
+K Codec Audio
+F https://www.ti.com/lit/ds/symlink/pcm3168a.pdf
+$ENDCMP
+#
 $CMP SDRAM_W9825G6KH-6
 D SDRAM 256Mb 16bit, 166MHz TSOP-54
 K SDRAM DRAM
