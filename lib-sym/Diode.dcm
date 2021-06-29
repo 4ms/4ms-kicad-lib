@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1N914BWS
+D 1N914BWS, 75V, 150mA, 1V @ 100mA SOD-323F
+K 1N914, General Purpose, 75V 150mA 1V @ 100mA SOD-323F
+F https://www.mouser.com/datasheet/2/308/1N914BWS_D-2309364.pdf
+$ENDCMP
+#
 $CMP B140-E3
 D SCHOTTKY Diode SMA Vrrm>=40V If>=1.0A, Ifsm>=1.5A
 K B140-E3
