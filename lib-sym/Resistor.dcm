@@ -411,6 +411,12 @@ D 9.09k, 1%, 1/10W, 0603
 K 9.09k_0603
 $ENDCMP
 #
+$CMP RTD_500R_0805
+D Resistance Temperature Detector
+K RTD_500R_0805
+F https://www.mouser.com/datasheet/2/427/ptsserie-1762313.pdf
+$ENDCMP
+#
 $CMP R_DNP
 D Do Not Populate
 $ENDCMP
