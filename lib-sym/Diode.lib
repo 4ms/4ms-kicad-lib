@@ -1,6 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1N914BWS
+#
+DEF 1N914BWS D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "1N914BWS" 0 -100 50 H I C CNN
+F2 "4ms_Diode:D_SOD-323F" 0 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1N914BWS, 75V, 150mA, 1V @ 100mA SOD-323F" -100 -310 50 H I L CNN "Specifications"
+F5 "ON Semiconductor / Fairchild" -100 -370 50 H I L CNN "Manufacturer"
+F6 "1N914BWS" -100 -430 50 H I L CNN "Part Number"
+F7 "C258181" -100 -430 50 H I L CNN "JLCPCB ID"
+F8 "1N914" 0 -100 50 H V C CNN "Display"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # B140-E3
 #
 DEF B140-E3 D 0 40 N N 1 F N
@@ -115,8 +142,8 @@ ENDDEF
 # D_Generic
 #
 DEF D_Generic D 0 40 N N 1 F N
-F0 "D" 0 -100 50 H V C CNN
-F1 "D_Generic" 0 100 50 H V C CNN
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Generic" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -127,10 +154,10 @@ $FPLIST
  D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 50 -50 50 50 N
-P 4 0 1 8 -50 -50 -50 50 50 0 -50 -50 N
-X K 1 150 0 100 L 50 50 1 1 P
-X A 2 -150 0 100 R 50 50 1 1 P
+P 2 0 1 8 -50 50 -50 -50 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

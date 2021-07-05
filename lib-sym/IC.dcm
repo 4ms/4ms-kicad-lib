@@ -17,9 +17,25 @@ D DC/DC Buck Converter 500kHz 18VinMax 2A Synchronous
 K AP65211AWU-7
 $ENDCMP
 #
+$CMP ATMEGA328-AU
+D 8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
 $CMP CD4001BM
 D CMOS, NOR Gate, Quad 2-In, SOIC-14
 K CD4001BM
+$ENDCMP
+#
+$CMP CD4001BPWR
+D CMOS, NOR Gate, Quad 2-In, TSSOP-14
+K CD4001BPWR
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd4001b
+$ENDCMP
+#
+$CMP CD40106BPWR
+F https://www.ti.com/lit/ds/symlink/cd40106b.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1624570529286&ref_url=https%253A%252F%252Fwww.mouser.com%252F
 $ENDCMP
 #
 $CMP INA199A3
@@ -78,6 +94,12 @@ $CMP PCA9685
 D 16-channel LED Driver PWM 12-bit
 K LED Driver PCA9685
 F https://www.mouser.com/datasheet/2/302/PCA9685-1127478.pdf
+$ENDCMP
+#
+$CMP PCM3168
+D 6-in 8-out Audio Codec 96kHz 24bit
+K Codec Audio
+F https://www.ti.com/lit/ds/symlink/pcm3168a.pdf
 $ENDCMP
 #
 $CMP SDRAM_W9825G6KH-6

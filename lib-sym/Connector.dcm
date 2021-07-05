@@ -60,7 +60,7 @@ D HEADER 2x5 MALE PINS 0.100” 180deg
 K Eurorack_Power_16pin_Unshrouded
 $ENDCMP
 #
-$CMP Pins_02x03_SMT
+$CMP Pins_02x03_P1.27mm_SMT
 D Header 2x3 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, SMT
 K 2x3 Pin Header SMT
 F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf

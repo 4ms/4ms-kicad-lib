@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Button_DPDT_Orange_Latching
+F https://www.mouser.com/datasheet/2/435/wells00109_1-2286045.pdf
+$ENDCMP
+#
 $CMP Button_SPST_RGB_7mmCap
 D SPST button with RGB LED, 7mm diffused cap
 K Button_SPST_RGB_7mmCap
