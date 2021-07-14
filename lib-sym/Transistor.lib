@@ -140,12 +140,13 @@ ENDDEF
 #
 DEF Si2318 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Si2318" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F1 "Si2318" 200 0 50 H I L CNN
+F2 "4ms_Package_SOT:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 F4 "MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms" -100 -310 50 H I L CNN "Specifications"
 F5 "Vishay Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
 F6 "SI2318DS-T1-GE3" -100 -430 50 H I L CNN "Part Number"
+F7 "Si2318" 325 0 50 H V C CNN "Display"
 $FPLIST
  SOT?23*
 $ENDFPLIST

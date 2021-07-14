@@ -28,6 +28,12 @@ D CMOS, NOR Gate, Quad 2-In, SOIC-14
 K CD4001BM
 $ENDCMP
 #
+$CMP CD4001BPWR
+D CMOS, NOR Gate, Quad 2-In, TSSOP-14
+K CD4001BPWR
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd4001b
+$ENDCMP
+#
 $CMP CD40106BPWR
 F https://www.ti.com/lit/ds/symlink/cd40106b.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1624570529286&ref_url=https%253A%252F%252Fwww.mouser.com%252F
 $ENDCMP

@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0R_0603
+D 0R, 1%, 1/10W, 0603
+K 0R_0603
+$ENDCMP
+#
 $CMP 1.01k_0603_0.1%
 D 1.01k, 0.1%, 1/16W, 0603 25ppm
 K 1.01k 0603 0.1% Resistor
@@ -78,6 +83,11 @@ $ENDCMP
 $CMP 120k_0603
 D 120K, 1%, 1/10W, 0603
 K 120k_0603
+$ENDCMP
+#
+$CMP 12k_0603
+D 12K, 1%, 1/10W, 0603
+K 12k_0603
 $ENDCMP
 #
 $CMP 13k_0603
@@ -209,6 +219,11 @@ $ENDCMP
 $CMP 30R_0603
 D 30Ω, 1%, 1/10W, 0603
 K 30R_0603
+$ENDCMP
+#
+$CMP 30k_0603
+D 30K, 1%, 1/10W, 0603
+K 30k_0603
 $ENDCMP
 #
 $CMP 330R_0603
@@ -429,6 +444,16 @@ $ENDCMP
 $CMP 9.09k_0603
 D 9.09k, 1%, 1/10W, 0603
 K 9.09k_0603
+$ENDCMP
+#
+$CMP RTD_500R_0805
+D Resistance Temperature Detector
+K RTD_500R_0805
+F https://www.mouser.com/datasheet/2/427/ptsserie-1762313.pdf
+$ENDCMP
+#
+$CMP R_DNP
+D Do Not Populate
 $ENDCMP
 #
 $CMP R_Generic
