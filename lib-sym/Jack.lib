@@ -43,6 +43,26 @@ X SW 3 150 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 3.5mm_Mono_Switched_sm
+#
+DEF 3.5mm_Mono_Switched_sm J 0 0 Y N 1 F N
+F0 "J" -300 350 60 H V C CNN
+F1 "3.5mm_Mono_Switched_sm" 250 260 60 H V C CNN
+F2 "4ms_Jack:EighthInch_PJ398SM" -5 -555 60 H I C CNN
+F3 "" -50 0 60 H V C CNN
+F4 "Audio 3.5mm Jack, mono, switched, PC-pin Vertical" -100 -310 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP518MA" -100 -430 50 H I L CNN "Part Number"
+DRAW
+S -250 200 -150 -100 0 0 0 N
+P 2 0 0 0 -100 0 0 0 N
+P 4 0 0 0 -100 150 -50 50 0 150 150 150 N
+X SIG 1 200 150 50 L 50 50 1 1 P
+X SHEILD 2 -200 -200 100 U 50 50 1 1 P
+X SW 3 50 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 3.5mm_Stereo
 #
 DEF 3.5mm_Stereo J 0 0 Y N 1 F N
