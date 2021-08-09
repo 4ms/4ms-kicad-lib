@@ -84,7 +84,8 @@ F3 "" 0 0 50 H V C CNN
 F4 "Voltage References uP LDO 5V Reference" -750 -660 50 H I L CNN "Specifications"
 F5 "Analog Devices / Linear Technology" -750 -720 50 H I L CNN "Manufacturer"
 F6 "LT1461CCS8-5#PBF" -750 -780 50 H I L CNN "Part Number"
-F7 "5.0V, 100mA" 0 200 60 H V C CNN "Display"
+F7 "100mA" 0 200 60 H V C CNN "Display"
+ALIAS LT1461CCS8-4#PBF
 $FPLIST
  *SOT-89*
  *SOT89*

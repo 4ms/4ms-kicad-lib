@@ -18,6 +18,11 @@ K diode device voltage reference shunt
 F https://www.mouser.com/datasheet/2/115/LM4040-1293030.pdf
 $ENDCMP
 #
+$CMP LT1461CCS8-4#PBF
+D Voltage References uP LDO 4.096V Reference
+K LT1461 Reference 4.096V
+$ENDCMP
+#
 $CMP LT1461CCS8-5#PBF
 D Voltage References uP LDO 5V Reference
 K AP7381-50

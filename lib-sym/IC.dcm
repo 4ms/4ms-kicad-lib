@@ -75,6 +75,11 @@ K MCP48FVB22, DAC
 F https://www.mouser.com/datasheet/2/268/microchip_technology_mchp-s-a0001280364-1-1738071.pdf
 $ENDCMP
 #
+$CMP NCS20071
+D NCS20071, Rail-to-rail opamp, Vsupply>=24V
+K OpAmp_Single_TSOP5_R2R
+$ENDCMP
+#
 $CMP NJM2068
 D NJM2068 Dual Opamp
 K NJM2068
