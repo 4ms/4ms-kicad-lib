@@ -49,17 +49,17 @@ DEF 3.5mm_Mono_Switched_sm J 0 0 Y N 1 F N
 F0 "J" -300 350 60 H V C CNN
 F1 "3.5mm_Mono_Switched_sm" 250 260 60 H V C CNN
 F2 "4ms_Jack:EighthInch_PJ398SM" -5 -555 60 H I C CNN
-F3 "" -50 0 60 H V C CNN
+F3 "" -50 50 60 H V C CNN
 F4 "Audio 3.5mm Jack, mono, switched, PC-pin Vertical" -100 -310 50 H I L CNN "Specifications"
 F5 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
 F6 "WQP-WQP518MA" -100 -430 50 H I L CNN "Part Number"
 DRAW
 S -250 200 -150 -100 0 0 0 N
-P 2 0 0 0 -100 0 0 0 N
-P 4 0 0 0 -100 150 -50 50 0 150 150 150 N
-X SIG 1 200 150 50 L 50 50 1 1 P
-X SHEILD 2 -200 -200 100 U 50 50 1 1 P
-X SW 3 50 0 50 L 50 50 1 1 P
+P 2 0 0 0 -100 50 0 50 N
+P 4 0 0 0 -100 200 -50 100 0 200 150 200 N
+X SIG 1 200 200 50 L 35 50 1 1 P
+X SHEILD 2 -200 -200 100 U 35 50 1 1 P
+X SW 3 50 50 50 L 35 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -82,6 +82,28 @@ P 4 0 1 0 200 0 0 0 -50 100 -100 0 N
 X SIG 1 400 150 100 L 50 50 1 1 P
 X SHEILD 2 -200 -250 100 U 50 50 1 1 P
 X SW 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.5mm_Stereo_Switched_sm
+#
+DEF 3.5mm_Stereo_Switched_sm J 0 0 Y N 1 F N
+F0 "J" -300 350 60 H V C CNN
+F1 "3.5mm_Stereo_Switched_sm" 250 260 60 H V C CNN
+F2 "4ms_Jack:EighthInch_Stereo_PJ366ST" -5 -555 60 H I C CNN
+F3 "" -50 50 60 H V C CNN
+F4 "Audio 3.5mm Jack, Stereo, PC-pin Vertical" -100 -310 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP518MA" -100 -430 50 H I L CNN "Part Number"
+DRAW
+T 0 -75 80 25 0 0 0 R Normal 0 C C
+T 0 50 165 25 0 0 0 T Normal 0 C C
+S -250 200 -150 -100 0 0 0 N
+P 4 0 0 0 0 200 50 100 100 200 155 200 N
+P 4 1 1 0 -125 50 -75 150 -25 50 30 50 N
+X SIG 1 200 200 50 L 35 50 1 1 P
+X SHEILD 2 -200 -200 100 U 35 50 1 1 P
+X SW 3 50 50 50 L 35 50 1 1 P
 ENDDRAW
 ENDDEF
 #
