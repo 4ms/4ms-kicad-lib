@@ -20,13 +20,13 @@ D Audio 3.5mm Jack, stereo, PC-pin Vertical
 K WQP419GR PJ366ST
 $ENDCMP
 #
-$CMP 3.5mm_Stereo_Switched_sm
-D Audio 3.5mm Jack, Stereo, PC-pin Vertical
+$CMP 3.5mm_Stereo_SymSmall_0.05
+D Audio 3.5mm Jack, stereo, PC-pin Vertical
 K WQP419GR PJ366ST
 $ENDCMP
 #
-$CMP 3.5mm_Stereo_SymSmall_0.05
-D Audio 3.5mm Jack, stereo, PC-pin Vertical
+$CMP 3.5mm_Stereo_sm
+D Audio 3.5mm Jack, Stereo, PC-pin Vertical
 K WQP419GR PJ366ST
 $ENDCMP
 #
