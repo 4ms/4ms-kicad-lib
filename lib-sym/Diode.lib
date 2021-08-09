@@ -121,6 +121,7 @@ F4 "Dual schottky diode BAT54S" -100 -310 50 H I L CNN "Specifications"
 F5 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
 F6 "BAT54S-7-F" -100 -430 50 H I L CNN "Part Number"
 F7 "C83574" 50 -500 50 H I C CNN "JLCPCB ID"
+F8 "C122856" 0 0 50 H I C CNN "Alt JLCPCB ID"
 DRAW
 P 2 0 1 0 0 0 0 -100 N
 P 2 0 1 0 250 0 300 0 N

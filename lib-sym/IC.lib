@@ -98,6 +98,8 @@ F4 "8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz" 250 -1560
 F5 "Microchip Technology / Atmel" 250 -1620 50 H I L CNN "Manufacturer"
 F6 "ATMEGA328-AU" 250 -1680 50 H I L CNN "Part Number"
 F7 "ATMEGA328" 0 -50 50 H V C CNN "Display"
+F8 "C14877" 0 0 50 H I C CNN "JLCPCB ID"
+F9 "C618731" 0 0 50 H I C CNN "Alt JLCPCB ID"
 $FPLIST
  TQFP*7x7mm*P0.8mm*
 $ENDFPLIST
@@ -306,6 +308,7 @@ F6 "CD40106BPWR" -100 -430 50 H I L CNN "Part Number"
 F7 "Texas Instruments" 250 -500 50 H I C CNN "Manufacturer 2"
 F8 "CD40106BPWR" 150 -600 50 H I C CNN "Part Number 2"
 F9 "40106" 100 150 50 H V C CNN "Display"
+F10 "C58834" 0 0 50 H I C CNN "JLCPCB ID"
 DRAW
 T 0 -50 25 42 0 7 0 VDD Normal 0 R T
 T 0 180 25 42 0 7 0 VSS Normal 0 R T
@@ -1656,6 +1659,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "TL082 Dual Opamp TSSOP-8" -100 -310 50 H I L CNN "Specifications"
 F5 "STMicroelectronics" -100 -370 50 H I L CNN "Manufacturer"
 F6 "TL082CPT" -100 -430 50 H I L CNN "Part Number"
+F7 "C2652280" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  SOIC*Pitch1.27mm*
  DIP*W7.62mm*

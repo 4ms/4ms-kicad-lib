@@ -81,6 +81,8 @@ F4 "Vreg 5.0V, Iout>500mA, Vin>7V" -100 -310 50 H I L CNN "Specifications"
 F5 "STMicroelectronics" -100 -370 50 H I L CNN "Manufacturer"
 F6 "L78M05CDT-TR" -100 -430 50 H I L CNN "Part Number"
 F7 "5.0V, 500mA" 50 200 60 H V C CNN "Display"
+F8 "C58069" 0 0 50 H I C CNN "JLCPCB ID"
+F9 "C55509" 0 0 50 H I C CNN "Alt JLCPCB ID"
 $FPLIST
  *SOT-89*
  *SOT89*
@@ -179,6 +181,8 @@ F4 "Vreg 9.0V, Iout>100mA, Vin>11.5V" -100 -310 50 H I L CNN "Specifications"
 F5 "Texas Instruments" -100 -370 50 H I L CNN "Manufacturer"
 F6 "UA78L09ACPK" -100 -430 50 H I L CNN "Part Number"
 F7 "9.0V, 100mA" 50 200 60 H V C CNN "Display"
+F8 "C122847" 0 0 50 H I C CNN "JLCPCB ID"
+F9 "C8614" 0 0 50 H I C CNN "Alt JLCPCB ID"
 $FPLIST
  *SOT-89*
  *SOT89*
