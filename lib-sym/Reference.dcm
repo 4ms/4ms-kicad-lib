@@ -28,6 +28,11 @@ D Voltage References uP LDO 5V Reference
 K AP7381-50
 $ENDCMP
 #
+$CMP MAX6070BAUT41+T
+D Precision 4.096V Ref 0.4% 6PPM/C, Vin=5Vmax
+F https://www.mouser.com/datasheet/2/256/MAX6070_MAX6071-217862.pdf
+$ENDCMP
+#
 $CMP NCP51460SN33
 D Precision 3.3V Ref 1% 18PPM 28Vmax 20mAmax
 $ENDCMP
