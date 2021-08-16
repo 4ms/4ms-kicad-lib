@@ -73,6 +73,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "DC/DC Buck Converter 500kHz 18VinMax 2A Synchronous" -100 -310 50 H I L CNN "Specifications"
 F5 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
 F6 "AP65211AWU-7" -100 -430 50 H I L CNN "Part Number"
+F7 "C441829" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  *TSOT*26*
 $ENDFPLIST

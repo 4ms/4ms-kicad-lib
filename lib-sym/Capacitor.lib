@@ -219,6 +219,7 @@ F4 "10uF, Min. 35V, 20%, X5R or X7S or similar, 1210, MLCC" -100 -310 50 H I L C
 F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F6 "GMK325BJ106MN-T" -100 -430 50 H I L CNN "Part Number"
 F7 "10uF/50V" 75 -50 50 H V L CNN "Display"
+F8 "C172721" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST

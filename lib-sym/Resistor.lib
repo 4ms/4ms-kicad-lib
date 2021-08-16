@@ -1002,6 +1002,7 @@ F4 "3.0k, 0.1%, 1/16W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Vishay / Dale" -100 -370 50 H I L CNN "Manufacturer"
 F6 "TNPW06033K00BEEA" -100 -430 50 H I L CNN "Part Number"
 F7 "3.0k 0.1%" 150 0 50 V V C CNN "Display"
+F8 "C126481" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
@@ -1852,6 +1853,7 @@ F4 "715, 1%, 1/10W, 0603" -100 -310 50 H I L CNN "Specifications"
 F5 "Yageo" -100 -370 50 H I L CNN "Manufacturer"
 F6 "RC0603FR-07715RL" -100 -430 50 H I L CNN "Part Number"
 F7 "715Ω" 150 0 50 V V C CNN "Display"
+F8 "C178047" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  R_*
  R_*
