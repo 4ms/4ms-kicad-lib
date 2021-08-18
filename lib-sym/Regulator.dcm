@@ -36,6 +36,12 @@ K Fuse
 F ~
 $ENDCMP
 #
+$CMP UA78L08
+D Vreg 8.0V, Iout>100mA, Vin>10.5V
+K UA78L08
+F https://www.ti.com/lit/ds/symlink/ua78l.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1629320595639
+$ENDCMP
+#
 $CMP UA78L09
 D Vreg 9.0V, Iout>100mA, Vin>11.5V
 K UA78L09
