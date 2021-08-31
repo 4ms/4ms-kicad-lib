@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0.22uF_0603_25V
+D 0.22uF, Min 25V, 10%, X7R or similar
+K 0.22uF 220nF 0603
+$ENDCMP
+#
 $CMP 1.5nF_0603_50V
 D 1.5nF, 50V, 10%, X7R or similar
 K 1.5nF_0603_50V

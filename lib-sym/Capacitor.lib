@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 0.22uF_0603_25V
+#
+DEF 0.22uF_0603_25V C 0 10 N N 1 F N
+F0 "C" 75 50 50 H V L CNN
+F1 "0.22uF_0603_25V" 0 150 50 H I C CNN
+F2 "4ms_Capacitor:C_0603" -100 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0.22uF, Min 25V, 10%, X7R or similar" -100 -310 50 H I L CNN "Specifications"
+F5 "TDK" -100 -370 50 H I L CNN "Manufacturer"
+F6 "CGA3E2X5R1E224K080AA" -100 -430 50 H I L CNN "Part Number"
+F7 "0.22uF" 75 -50 50 H V L CNN "Display"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 1.5nF_0603_50V
 #
 DEF 1.5nF_0603_50V C 0 10 N N 1 F N
