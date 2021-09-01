@@ -83,6 +83,7 @@ $ENDCMP
 $CMP NCS20071
 D NCS20071, Rail-to-rail opamp, Vsupply>=24V
 K OpAmp_Single_TSOP5_R2R
+F https://datasheet.lcsc.com/lcsc/1912111437_ON-Semiconductor-NCS20071SN2T1G_C457774.pdf
 $ENDCMP
 #
 $CMP NJM2068
