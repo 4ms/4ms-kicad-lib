@@ -1,6 +1,35 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1.5uH_7A_5252
+#
+DEF 1.5uH_7A_5252 L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "1.5uH_7A_5252" 0 200 50 H I C CNN
+F2 "4ms_Inductor:COIL_5252metric_2020" 0 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1.5uH, Imax=7.2A, Isat=11A, Rdc=20mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay Dale" -100 -370 50 H I L CNN "Manufacturer"
+F6 "IHLP-2020CZER1R5M11" -100 -430 50 H I L CNN "Part Number"
+F7 "IHLP-2020CZER1R5M01" 0 0 50 H I C CNN "Part Number 2"
+F8 "1.5uH" 100 0 50 V V C CNN "Display"
+F9 "7.2A" 171 0 50 V V C CNN "Display 2"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 10uH_1.0A_4018
 #
 DEF 10uH_1.0A_4018 L 0 40 N N 1 F N

@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1.5uH_7A_5252
+D 1.5uH, Imax=7.2A, Isat=11A, Rdc=20mOhms, shielded
+K 1.5uH 7A 5252metric 2020
+F https://www.vishay.com/docs/34280/ihlp-2020cz-01.pdf
+$ENDCMP
+#
 $CMP 10uH_1.0A_4018
 D 10uH, Idc>1.0A, Rdc<=200mOhms, shielded
 $ENDCMP
