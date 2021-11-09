@@ -43,9 +43,20 @@ D INA199A3, Current Sense Amplifier, SC70-6, 200V/V
 K INA199A3
 $ENDCMP
 #
+$CMP LM321-TR
+D LM321-TR, General Purpose single opamp, Vsupply>=24V, JLCPCB ID: C280706
+K LM321-TR Gainsil
+F https://datasheet.lcsc.com/lcsc/1912111437_Gainsil-LM321-TR_C280706.pdf
+$ENDCMP
+#
 $CMP LM321M5X
-D LM325M5X,Genearl purpose Opamp, Vsupply>=24V, JLCPCB ID: C398143
+D LM321M5X,Genearl purpose Opamp, Vsupply=32V, JLCPCB ID: C398143
 F https://datasheet.lcsc.com/lcsc/1912111437_HGSEMI-LM321M5X-TR_C398143.pdf
+$ENDCMP
+#
+$CMP LM321MFX_NOPB
+D LM321MFX/NOPB, General Purpose single opamp, Vsupply>=32V, JLCPCB ID: C9405
+K LM321MXF/NOPB
 $ENDCMP
 #
 $CMP LM358
@@ -81,7 +92,7 @@ F https://www.mouser.com/datasheet/2/268/microchip_technology_mchp-s-a0001280364
 $ENDCMP
 #
 $CMP NCS20071
-D NCS20071, Rail-to-rail opamp, Vsupply>=24V
+D NCS20071, Rail-to-rail opamp, Vsupply ~5V
 K OpAmp_Single_TSOP5_R2R
 F https://datasheet.lcsc.com/lcsc/1912111437_ON-Semiconductor-NCS20071SN2T1G_C457774.pdf
 $ENDCMP
@@ -97,8 +108,8 @@ K NORFLASH
 $ENDCMP
 #
 $CMP OpAmp_Single_TSOP5_R2R
-D NCS20071, Rail-to-rail opamp, Vsupply>=24V
-K OpAmp_Single_TSOP5_R2R
+D DEPRECATED -- USE LM321 or TLV321 or NCS20071 etc
+K DEPRECATED -- USE LM321 or TLV321 or NCS20071 etc
 $ENDCMP
 #
 $CMP PCA9685
@@ -188,7 +199,7 @@ K TL082
 $ENDCMP
 #
 $CMP TLV172
-D TLV172, Rail-to-rail opamp, Vsupply >=24V
+D TLV172, Rail-to-rail opamp, Vsupply =36V
 K JLCPCB ID: C130210
 F https://www.ti.com/lit/ds/symlink/tlv172.pdf?ts=1629143798221&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV172
 $ENDCMP
