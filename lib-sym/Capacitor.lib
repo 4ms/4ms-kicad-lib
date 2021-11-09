@@ -150,6 +150,7 @@ F4 "10uF, Min. 16V, ESR<=20mΩ@1MHz, 0805, MLCC" -100 -310 50 H I L CNN "Specifi
 F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
 F6 "EMK212ABJ106KG-T" -100 -430 50 H I L CNN "Part Number"
 F7 "10uF/16V/20mΩ" 75 -50 50 H V L CNN "Display"
+F8 "C190442" 0 0 50 H I C CNN "JLCPCB ID"
 $FPLIST
  C_*
 $ENDFPLIST
