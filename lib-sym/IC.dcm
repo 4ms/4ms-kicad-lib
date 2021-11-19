@@ -43,6 +43,12 @@ D INA199A3, Current Sense Amplifier, SC70-6, 200V/V
 K INA199A3
 $ENDCMP
 #
+$CMP LM321
+D LM321 single opamp, Vsupply >=24V
+K opamp single LM321
+F https://www.ti.com/lit/ds/symlink/lm321.pdf?ts=1637093711368&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
 $CMP LM321-TR
 D LM321-TR, General Purpose single opamp, Vsupply>=24V, JLCPCB ID: C280706
 K LM321-TR Gainsil
@@ -92,8 +98,8 @@ F https://www.mouser.com/datasheet/2/268/microchip_technology_mchp-s-a0001280364
 $ENDCMP
 #
 $CMP NCS20071
-D NCS20071, Rail-to-rail opamp, Vsupply ~5V
-K OpAmp_Single_TSOP5_R2R
+D NCS20071, Rail-to-rail opamp, Vsupply ~5V pinout: 3+ 4- 1o
+K opamp single R2R
 F https://datasheet.lcsc.com/lcsc/1912111437_ON-Semiconductor-NCS20071SN2T1G_C457774.pdf
 $ENDCMP
 #
@@ -198,8 +204,14 @@ D TL082 Dual Opamp TSSOP-8
 K TL082
 $ENDCMP
 #
-$CMP TLV172
-D TLV172, Rail-to-rail opamp, Vsupply =36V
+$CMP TLV171
+D TLV171, Vsupply +/-20Vmax,
+K opamp single TI TL17x pinout: 3+ 4- 1out
+F https://www.ti.com/lit/ds/symlink/tlv171.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1637109957038&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
+$CMP TLV172xDVB
+D TLV172, single opamp, Vsupply =36V pinout: 3+ 4- 1o
 K JLCPCB ID: C130210
 F https://www.ti.com/lit/ds/symlink/tlv172.pdf?ts=1629143798221&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV172
 $ENDCMP
