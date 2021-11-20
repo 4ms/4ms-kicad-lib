@@ -1,0 +1,9 @@
+(module Faceplate_Hole_Jack_Quarter_Inch (layer F.Cu) (tedit 5A7E4E59)
+  (fp_text reference REF** (at 0.22 8.23) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Faceplate_Hole_Jack_quarter_inch (at 1.47 6.53) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 11 11) (drill 10) (layers *.Cu *.Mask))
+)

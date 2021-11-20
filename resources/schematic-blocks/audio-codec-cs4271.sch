@@ -1,0 +1,1712 @@
+EESchema Schematic File Version 4
+LIBS:audio-codec-cs4271-cache
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D40345
+P 7725 1225
+F 0 "C?" H 7425 1225 50  0000 L CNN
+F 1 "10uF/25V" H 7250 1125 50  0000 L CNN
+F 2 "4ms-footprints:C1206" H 7725 1225 50  0001 C CNN
+F 3 "" H 7725 1225 50  0000 C CNN
+	1    7725 1225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-vreg:KA78L05 V?
+U 1 1 56D40346
+P 7150 1175
+F 0 "V?" H 7150 1491 50  0000 C CNN
+F 1 "KA78L05" H 7150 1399 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT89-3_Housing" H 7150 1399 50  0001 C CNN
+F 3 "" H 7150 1175 50  0000 C CNN
+	1    7150 1175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D40347
+P 6750 1225
+F 0 "C?" H 6700 1475 50  0000 L CNN
+F 1 "0.1uF" H 6700 1400 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 6750 1225 50  0001 C CNN
+F 3 "" H 6750 1225 50  0000 C CNN
+	1    6750 1225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D40348
+P 6525 1225
+F 0 "C?" H 6500 1475 50  0000 L CNN
+F 1 "10uF" H 6500 1400 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 6616 1133 50  0001 L CNN
+F 3 "" H 6525 1225 50  0000 C CNN
+	1    6525 1225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D40349
+P 7150 1425
+F 0 "#PWR?" H 7150 1175 50  0001 C CNN
+F 1 "GNDA" H 7158 1251 50  0000 C CNN
+F 2 "" H 7150 1425 50  0000 C CNN
+F 3 "" H 7150 1425 50  0000 C CNN
+	1    7150 1425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D4034A
+P 5750 2800
+F 0 "#PWR?" H 5750 2550 50  0001 C CNN
+F 1 "GNDA" H 5758 2626 50  0000 C CNN
+F 2 "" H 5750 2800 50  0000 C CNN
+F 3 "" H 5750 2800 50  0000 C CNN
+	1    5750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4034B
+P 5975 2700
+F 0 "C?" H 6066 2746 50  0000 L CNN
+F 1 "1uF" H 6066 2654 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 6066 2608 50  0001 L CNN
+F 3 "" H 5975 2700 50  0000 C CNN
+	1    5975 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4034C
+P 5750 2700
+F 0 "C?" H 5475 2725 50  0000 L CNN
+F 1 "0.1uF" H 5475 2650 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 5750 2700 50  0001 C CNN
+F 3 "" H 5750 2700 50  0000 C CNN
+	1    5750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D4034D
+P 6100 1975
+F 0 "#PWR?" H 6100 1725 50  0001 C CNN
+F 1 "GNDA" H 6225 1950 50  0000 C CNN
+F 2 "" H 6100 1975 50  0000 C CNN
+F 3 "" H 6100 1975 50  0000 C CNN
+	1    6100 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4034E
+P 4300 1000
+F 0 "C?" H 4392 1046 50  0000 L CNN
+F 1 "0.1uF" H 4392 954 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 4300 1000 50  0001 C CNN
+F 3 "" H 4300 1000 50  0000 C CNN
+	1    4300 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+3.3V #PWR?
+U 1 1 56D4034F
+P 2625 2150
+AR Path="/56D4034F" Ref="#PWR?"  Part="1" 
+AR Path="/56D3F81E/56D4034F" Ref="#PWR0296"  Part="1" 
+AR Path="/5D4DE894/56D4034F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2625 2000 50  0001 C CNN
+F 1 "+3.3V" H 2525 2300 50  0000 C CNN
+F 2 "" H 2625 2150 50  0000 C CNN
+F 3 "" H 2625 2150 50  0000 C CNN
+	1    2625 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D40350
+P 4675 1000
+F 0 "C?" H 4767 1046 50  0000 L CNN
+F 1 "0.1uF" H 4750 950 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 4675 1000 50  0001 C CNN
+F 3 "" H 4675 1000 50  0000 C CNN
+	1    4675 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 56D40351
+P 4675 1100
+F 0 "#PWR?" H 4675 850 50  0001 C CNN
+F 1 "GND" H 4675 950 50  0001 C CNN
+F 2 "" H 4675 1100 50  0000 C CNN
+F 3 "" H 4675 1100 50  0000 C CNN
+	1    4675 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D40352
+P 2950 2250
+F 0 "R?" H 3025 2375 50  0000 L CNN
+F 1 "4k7" H 3025 2300 50  0000 L CNN
+F 2 "4ms-footprints:R0603" V 2880 2250 50  0001 C CNN
+F 3 "" H 2950 2250 50  0000 C CNN
+	1    2950 2250
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3850 1300
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 56D40354
+P 4725 2125
+F 0 "#PWR?" H 4725 1875 50  0001 C CNN
+F 1 "GND" H 4733 1951 50  0001 C CNN
+F 2 "" H 4725 2125 50  0000 C CNN
+F 3 "" H 4725 2125 50  0000 C CNN
+	1    4725 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-headers:Test_Point W?
+U 1 1 56D40355
+P 4600 2125
+F 0 "W?" H 4475 2250 50  0000 L CNN
+F 1 "AGND" H 4500 2150 50  0000 L CNN
+F 2 "4ms-footprints:PAD-06" H 4800 2125 50  0001 C CNN
+F 3 "" H 4800 2125 50  0000 C CNN
+	1    4600 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-headers:Test_Point W?
+U 1 1 56D40356
+P 4725 2125
+F 0 "W?" H 4750 2250 50  0000 L CNN
+F 1 "GND" H 4675 1925 50  0000 L CNN
+F 2 "4ms-footprints:PAD-06" H 4925 2125 50  0001 C CNN
+F 3 "" H 4925 2125 50  0000 C CNN
+	1    4725 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D40357
+P 4600 2125
+F 0 "#PWR?" H 4600 1875 50  0001 C CNN
+F 1 "GNDA" H 4600 1975 50  0000 C CNN
+F 2 "" H 4600 2125 50  0000 C CNN
+F 3 "" H 4600 2125 50  0000 C CNN
+	1    4600 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-dualpwr IC?
+U 2 1 56D40358
+P 6875 3550
+F 0 "IC?" H 6925 3700 50  0000 L CNN
+F 1 "NJM2068" H 6825 3550 50  0000 L CNN
+F 2 "4ms-footprints:TSSOP-8_4.4x3mm_Pitch0.65mm" H 6775 3600 50  0001 C CNN
+F 3 "" H 6875 3700 50  0000 C CNN
+	2    6875 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 56D40359
+P 6975 3850
+F 0 "#PWR?" H 6975 3700 50  0001 C CNN
+F 1 "-12VA" H 7125 3925 50  0000 C CNN
+F 2 "" H 6975 3850 50  0000 C CNN
+F 3 "" H 6975 3850 50  0000 C CNN
+	1    6975 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D4035B
+P 8050 3725
+F 0 "R?" V 7950 3675 50  0000 L CNN
+F 1 "10k" V 7875 3675 50  0000 L CNN
+F 2 "4ms-footprints:R0603" H 8120 3633 50  0001 L CNN
+F 3 "" H 8050 3725 50  0000 C CNN
+	1    8050 3725
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D40360
+P 6325 3550
+F 0 "R?" V 6117 3550 50  0000 C CNN
+F 1 "100" V 6209 3550 50  0000 C CNN
+F 2 "4ms-footprints:R0603" H 6395 3458 50  0001 L CNN
+F 3 "" H 6325 3550 50  0000 C CNN
+	1    6325 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-dualpwr IC?
+U 2 1 56D40362
+P 6825 5600
+F 0 "IC?" H 6850 5750 50  0000 L CNN
+F 1 "NJM2068" H 6725 5600 50  0000 L CNN
+F 2 "4ms-footprints:TSSOP-8_4.4x3mm_Pitch0.65mm" H 6725 5650 50  0001 C CNN
+F 3 "" H 6825 5750 50  0000 C CNN
+	2    6825 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-dualpwr IC?
+U 1 1 56D40363
+P 9350 6275
+F 0 "IC?" H 9400 6425 50  0000 L CNN
+F 1 "NJM2068" H 9250 6275 50  0000 L CNN
+F 2 "4ms-footprints:TSSOP-8_4.4x3mm_Pitch0.65mm" H 9250 6325 50  0001 C CNN
+F 3 "" H 9350 6425 50  0000 C CNN
+	1    9350 6275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 56D40364
+P 6925 5900
+F 0 "#PWR?" H 6925 5750 50  0001 C CNN
+F 1 "-12VA" H 7075 5975 50  0000 C CNN
+F 2 "" H 6925 5900 50  0000 C CNN
+F 3 "" H 6925 5900 50  0000 C CNN
+	1    6925 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 56D40365
+P 6925 5300
+F 0 "#PWR?" H 6925 5150 50  0001 C CNN
+F 1 "+12V" H 6825 5450 50  0000 C CNN
+F 2 "" H 6925 5300 50  0000 C CNN
+F 3 "" H 6925 5300 50  0000 C CNN
+	1    6925 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D4036B
+P 8825 5500
+F 0 "R?" V 8925 5500 50  0000 C CNN
+F 1 "34k" V 9025 5500 50  0000 C CNN
+F 2 "4ms-footprints:R0603" H 8895 5408 50  0001 L CNN
+F 3 "" H 8825 5500 50  0000 C CNN
+	1    8825 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D4036C
+P 6275 6425
+F 0 "R?" V 6075 6400 50  0000 C CNN
+F 1 "715" V 6175 6400 50  0000 C CNN
+F 2 "4ms-footprints:R0603" H 6345 6333 50  0001 L CNN
+F 3 "" H 6275 6425 50  0000 C CNN
+	1    6275 6425
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4036D
+P 7075 6225
+F 0 "C?" V 7150 6100 50  0000 C CNN
+F 1 "470pF" V 7225 6050 50  0000 C CNN
+F 2 "4ms-footprints:C0603" H 7075 6225 50  0001 C CNN
+F 3 "" H 7075 6225 50  0000 C CNN
+	1    7075 6225
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4036E
+P 7075 3250
+F 0 "C?" V 6900 3175 50  0000 L CNN
+F 1 "0.1uF" V 6975 3050 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 7075 3250 50  0001 C CNN
+F 3 "" H 7075 3250 50  0000 C CNN
+	1    7075 3250
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4036F
+P 7025 5900
+F 0 "C?" V 6900 5675 50  0000 L CNN
+F 1 "0.1uF" V 6975 5650 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 7025 5900 50  0001 C CNN
+F 3 "" H 7025 5900 50  0000 C CNN
+	1    7025 5900
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D40370
+P 7125 5900
+F 0 "#PWR?" H 7125 5650 50  0001 C CNN
+F 1 "GNDA" H 7175 5750 50  0000 C CNN
+F 2 "" H 7125 5900 50  0000 C CNN
+F 3 "" H 7125 5900 50  0000 C CNN
+	1    7125 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 56D40371
+P 6975 3250
+F 0 "#PWR?" H 6975 3100 50  0001 C CNN
+F 1 "+12V" H 6850 3325 50  0000 C CNN
+F 2 "" H 6975 3250 50  0000 C CNN
+F 3 "" H 6975 3250 50  0000 C CNN
+	1    6975 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D40372
+P 7175 3250
+F 0 "#PWR?" H 7175 3000 50  0001 C CNN
+F 1 "GNDA" H 7300 3150 50  0000 C CNN
+F 2 "" H 7175 3250 50  0000 C CNN
+F 3 "" H 7175 3250 50  0000 C CNN
+	1    7175 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D40373
+P 7025 5300
+F 0 "C?" V 7200 5125 50  0000 L CNN
+F 1 "0.1uF" V 7125 5125 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 7025 5300 50  0001 C CNN
+F 3 "" H 7025 5300 50  0000 C CNN
+	1    7025 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D40374
+P 7075 3850
+F 0 "C?" V 6925 3600 50  0000 L CNN
+F 1 "0.1uF" V 7025 3600 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 7075 3850 50  0001 C CNN
+F 3 "" H 7075 3850 50  0000 C CNN
+	1    7075 3850
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D40375
+P 7175 3850
+F 0 "#PWR?" H 7175 3600 50  0001 C CNN
+F 1 "GNDA" H 7200 3700 50  0000 C CNN
+F 2 "" H 7175 3850 50  0000 C CNN
+F 3 "" H 7175 3850 50  0000 C CNN
+	1    7175 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D40376
+P 7125 5325
+F 0 "#PWR?" H 7125 5075 50  0001 C CNN
+F 1 "GNDA" H 7275 5250 50  0000 C CNN
+F 2 "" H 7125 5325 50  0000 C CNN
+F 3 "" H 7125 5325 50  0000 C CNN
+	1    7125 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D40377
+P 2725 4425
+F 0 "R?" V 2825 4425 50  0000 C CNN
+F 1 "715" V 2925 4425 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 2609 4425 50  0001 C CNN
+F 3 "" H 2725 4425 50  0000 C CNN
+	1    2725 4425
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D40378
+P 2725 5125
+F 0 "R?" V 2650 5125 50  0000 C CNN
+F 1 "7.87k" V 2575 5125 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 2609 5125 50  0001 C CNN
+F 3 "" H 2725 5125 50  0000 C CNN
+	1    2725 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 56D40379
+P 4675 4725
+F 0 "#PWR?" H 4675 4575 50  0001 C CNN
+F 1 "-12VA" H 4850 4825 50  0000 C CNN
+F 2 "" H 4675 4725 50  0000 C CNN
+F 3 "" H 4675 4725 50  0000 C CNN
+	1    4675 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4037A
+P 4575 5325
+F 0 "C?" V 4700 5100 50  0000 L CNN
+F 1 "0.1uF" V 4625 5100 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 4575 5325 50  0001 C CNN
+F 3 "" H 4575 5325 50  0000 C CNN
+	1    4575 5325
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D4037B
+P 4475 5325
+F 0 "#PWR?" H 4475 5075 50  0001 C CNN
+F 1 "GNDA" H 4400 5175 50  0000 C CNN
+F 2 "" H 4475 5325 50  0000 C CNN
+F 3 "" H 4475 5325 50  0000 C CNN
+	1    4475 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4037C
+P 4575 4725
+F 0 "C?" V 4750 4575 50  0000 L CNN
+F 1 "0.1uF" V 4675 4575 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 4575 4725 50  0001 C CNN
+F 3 "" H 4575 4725 50  0000 C CNN
+	1    4575 4725
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D4037D
+P 4475 4725
+F 0 "#PWR?" H 4475 4475 50  0001 C CNN
+F 1 "GNDA" H 4300 4650 50  0000 C CNN
+F 2 "" H 4475 4725 50  0000 C CNN
+F 3 "" H 4475 4725 50  0000 C CNN
+	1    4475 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 56D4037E
+P 4675 5325
+F 0 "#PWR?" H 4675 5175 50  0001 C CNN
+F 1 "+12V" H 4675 5475 50  0000 C CNN
+F 2 "" H 4675 5325 50  0000 C CNN
+F 3 "" H 4675 5325 50  0000 C CNN
+	1    4675 5325
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D4037F
+P 1250 4325
+F 0 "R?" V 1450 4325 50  0000 C CNN
+F 1 "1k" V 1350 4325 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 1134 4325 50  0001 C CNN
+F 3 "" H 1250 4325 50  0000 C CNN
+	1    1250 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D40380
+P 2725 5575
+F 0 "R?" V 2925 5575 50  0000 C CNN
+F 1 "7.15k" V 2825 5575 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 2609 5575 50  0001 C CNN
+F 3 "" H 2725 5575 50  0000 C CNN
+	1    2725 5575
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D40381
+P 1200 6450
+F 0 "R?" V 1400 6450 50  0000 C CNN
+F 1 "1k" V 1300 6450 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 1084 6450 50  0001 C CNN
+F 3 "" H 1200 6450 50  0000 C CNN
+	1    1200 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D40382
+P 2750 6550
+F 0 "R?" V 2850 6550 50  0000 C CNN
+F 1 "715" V 2950 6550 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 2634 6550 50  0001 C CNN
+F 3 "" H 2750 6550 50  0000 C CNN
+	1    2750 6550
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4038E
+P 6000 1900
+F 0 "C?" H 6075 2000 50  0000 L CNN
+F 1 "0.1uF" H 6075 1925 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 6000 1900 50  0001 C CNN
+F 3 "" H 6000 1900 50  0000 C CNN
+	1    6000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:CS4271 U?
+U 1 1 56D4038F
+P 4650 1950
+F 0 "U?" H 4500 2600 60  0000 C CNN
+F 1 "CS4271" H 4625 1125 60  0000 C CNN
+F 2 "4ms-footprints:TSSOP-28_4.4x9.7mm_Pitch0.65mm" H 4650 1150 60  0001 C CNN
+F 3 "" H 4650 1150 60  0000 C CNN
+	1    4650 1950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5450 1300
+NoConn ~ 5450 1800
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 56D40390
+P 3750 2000
+F 0 "#PWR?" H 3750 1750 50  0001 C CNN
+F 1 "GND" H 3750 1850 50  0001 C CNN
+F 2 "" H 3750 2000 50  0000 C CNN
+F 3 "" H 3750 2000 50  0000 C CNN
+	1    3750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D40391
+P 3225 2150
+F 0 "R?" H 3295 2196 50  0000 L CNN
+F 1 "4k7" H 3295 2104 50  0000 L CNN
+F 2 "4ms-footprints:R0603" V 3155 2150 50  0001 C CNN
+F 3 "" H 3225 2150 50  0000 C CNN
+	1    3225 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D40392
+P 5075 1000
+F 0 "C?" H 5167 1046 50  0000 L CNN
+F 1 "10uF" H 5167 954 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 5075 1000 50  0001 C CNN
+F 3 "" H 5075 1000 50  0000 C CNN
+	1    5075 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+3.3V #PWR?
+U 1 1 56D40393
+P 4675 900
+AR Path="/56D40393" Ref="#PWR?"  Part="1" 
+AR Path="/56D3F81E/56D40393" Ref="#PWR0313"  Part="1" 
+AR Path="/5D4DE894/56D40393" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4675 750 50  0001 C CNN
+F 1 "+3.3V" H 4693 1074 50  0000 C CNN
+F 2 "" H 4675 900 50  0000 C CNN
+F 3 "" H 4675 900 50  0000 C CNN
+	1    4675 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 56D40394
+P 3725 1325
+F 0 "#PWR?" H 3725 1075 50  0001 C CNN
+F 1 "GND" H 3725 1175 50  0001 C CNN
+F 2 "" H 3725 1325 50  0000 C CNN
+F 3 "" H 3725 1325 50  0000 C CNN
+	1    3725 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:CP1_Small C?
+U 1 1 56D40395
+P 5675 1900
+F 0 "C?" H 5750 1950 50  0000 L CNN
+F 1 "47uF" H 5725 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_5x5.3" H 5675 1900 50  0001 C CNN
+F 3 "" H 5675 1900 50  0000 C CNN
+	1    5675 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 56D40396
+P 3775 2500
+F 0 "#PWR?" H 3775 2250 50  0001 C CNN
+F 1 "GND" H 3775 2350 50  0001 C CNN
+F 2 "" H 3775 2500 50  0000 C CNN
+F 3 "" H 3775 2500 50  0000 C CNN
+	1    3775 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 56D40397
+P 7725 1050
+F 0 "#PWR?" H 7725 900 50  0001 C CNN
+F 1 "+12V" H 7625 1200 50  0000 C CNN
+F 2 "" H 7725 1050 50  0000 C CNN
+F 3 "" H 7725 1050 50  0000 C CNN
+	1    7725 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D40398
+P 5800 3750
+F 0 "C?" V 5675 3775 50  0000 C CNN
+F 1 "2.7nF" V 5600 3675 50  0000 C CNN
+F 2 "4ms-footprints:C0603" H 5800 3750 50  0001 C CNN
+F 3 "" H 5800 3750 50  0000 C CNN
+	1    5800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D4039A
+P 5775 5825
+F 0 "C?" V 5575 5825 50  0000 C CNN
+F 1 "2.7nF" V 5675 5925 50  0000 C CNN
+F 2 "4ms-footprints:C0603" H 5775 5825 50  0001 C CNN
+F 3 "" H 5775 5825 50  0000 C CNN
+	1    5775 5825
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 56D4039B
+P 9525 3925
+F 0 "#PWR?" H 9525 3775 50  0001 C CNN
+F 1 "+12V" H 9650 4025 50  0000 C CNN
+F 2 "" H 9525 3925 50  0000 C CNN
+F 3 "" H 9525 3925 50  0000 C CNN
+	1    9525 3925
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 56D4039C
+P 9525 4525
+F 0 "#PWR?" H 9525 4375 50  0001 C CNN
+F 1 "-12VA" H 9350 4600 50  0000 C CNN
+F 2 "" H 9525 4525 50  0000 C CNN
+F 3 "" H 9525 4525 50  0000 C CNN
+	1    9525 4525
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D4039D
+P 2725 4225
+F 0 "R?" V 2825 4225 50  0000 C CNN
+F 1 "2.7k" V 2925 4225 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 2609 4225 50  0001 C CNN
+F 3 "" H 2725 4225 50  0000 C CNN
+	1    2725 4225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D4039E
+P 3150 4225
+F 0 "R?" V 3250 4225 50  0000 C CNN
+F 1 "1.5k" V 3350 4225 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 3034 4225 50  0001 C CNN
+F 3 "" H 3150 4225 50  0000 C CNN
+	1    3150 4225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D4039F
+P 3150 4425
+F 0 "R?" V 3250 4425 50  0000 C CNN
+F 1 "1.2k" V 3350 4425 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 3034 4425 50  0001 C CNN
+F 3 "" H 3150 4425 50  0000 C CNN
+	1    3150 4425
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D403A0
+P 2025 3725
+F 0 "C?" V 2175 3775 50  0000 L CNN
+F 1 "470pF" V 2100 3775 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 2025 3725 50  0001 C CNN
+F 3 "" H 2025 3725 50  0000 C CNN
+	1    2025 3725
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D403A1
+P 2000 4975
+F 0 "C?" V 2050 5025 50  0000 L CNN
+F 1 "2.7nF" V 1950 5025 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 2000 4975 50  0001 C CNN
+F 3 "" H 2000 4975 50  0000 C CNN
+	1    2000 4975
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D403A2
+P 1625 5125
+F 0 "#PWR?" H 1625 4875 50  0001 C CNN
+F 1 "GNDA" H 1633 4951 50  0000 C CNN
+F 2 "" H 1625 5125 50  0000 C CNN
+F 3 "" H 1625 5125 50  0000 C CNN
+	1    1625 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D403A3
+P 2700 3450
+F 0 "R?" V 2800 3400 50  0000 C CNN
+F 1 "7.15k" V 2875 3450 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 2584 3450 50  0001 C CNN
+F 3 "" H 2700 3450 50  0000 C CNN
+	1    2700 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D403A4
+P 3125 3450
+F 0 "C?" V 3000 3375 50  0000 L CNN
+F 1 "4.7nF" V 2925 3375 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 3125 3450 50  0001 C CNN
+F 3 "" H 3125 3450 50  0000 C CNN
+	1    3125 3450
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D403A5
+P 3425 3475
+F 0 "#PWR?" H 3425 3225 50  0001 C CNN
+F 1 "GNDA" H 3433 3301 50  0000 C CNN
+F 2 "" H 3425 3475 50  0000 C CNN
+F 3 "" H 3425 3475 50  0000 C CNN
+	1    3425 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D403A6
+P 2750 7250
+F 0 "R?" V 2675 7250 50  0000 C CNN
+F 1 "7.87k" V 2600 7250 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 2634 7250 50  0001 C CNN
+F 3 "" H 2750 7250 50  0000 C CNN
+	1    2750 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D403A7
+P 2750 6350
+F 0 "R?" V 2850 6350 50  0000 C CNN
+F 1 "2.7k" V 2950 6350 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 2634 6350 50  0001 C CNN
+F 3 "" H 2750 6350 50  0000 C CNN
+	1    2750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D403A8
+P 3175 6350
+F 0 "R?" V 3275 6350 50  0000 C CNN
+F 1 "1.5k" V 3375 6350 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 3059 6350 50  0001 C CNN
+F 3 "" H 3175 6350 50  0000 C CNN
+	1    3175 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D403A9
+P 3175 6550
+F 0 "R?" V 3275 6550 50  0000 C CNN
+F 1 "1.2k" V 3375 6550 50  0000 C CNN
+F 2 "4ms-footprints:R0603" V 3059 6550 50  0001 C CNN
+F 3 "" H 3175 6550 50  0000 C CNN
+	1    3175 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D403AA
+P 2050 5850
+F 0 "C?" V 2200 5900 50  0000 L CNN
+F 1 "470pF" V 2125 5900 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 2050 5850 50  0001 C CNN
+F 3 "" H 2050 5850 50  0000 C CNN
+	1    2050 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D403AB
+P 2025 7100
+F 0 "C?" V 2075 7150 50  0000 L CNN
+F 1 "2.7nF" V 1975 7150 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 2025 7100 50  0001 C CNN
+F 3 "" H 2025 7100 50  0000 C CNN
+	1    2025 7100
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D403AC
+P 1650 7250
+F 0 "#PWR?" H 1650 7000 50  0001 C CNN
+F 1 "GNDA" H 1658 7076 50  0000 C CNN
+F 2 "" H 1650 7250 50  0000 C CNN
+F 3 "" H 1650 7250 50  0000 C CNN
+	1    1650 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D403AD
+P 3150 5575
+F 0 "C?" V 3025 5500 50  0000 L CNN
+F 1 "4.7nF" V 2950 5500 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 3150 5575 50  0001 C CNN
+F 3 "" H 3150 5575 50  0000 C CNN
+	1    3150 5575
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 56D403AE
+P 3450 5600
+F 0 "#PWR?" H 3450 5350 50  0001 C CNN
+F 1 "GNDA" H 3458 5426 50  0000 C CNN
+F 2 "" H 3450 5600 50  0000 C CNN
+F 3 "" H 3450 5600 50  0000 C CNN
+	1    3450 5600
+	1    0    0    -1  
+$EndComp
+Text Label 5450 1400 0    60   ~ 0
+AOUTB1_M
+Text Label 5450 1500 0    60   ~ 0
+AOUTB1_P
+Text Label 5450 1600 0    60   ~ 0
+AOUTA1_P
+Text Label 5450 1700 0    60   ~ 0
+AOUTA1_M
+Text Label 3550 6350 0    60   ~ 0
+AOUTB1_M
+Text Label 3550 6550 0    60   ~ 0
+AOUTB1_P
+Text Label 3525 4225 0    60   ~ 0
+AOUTA1_M
+Text Label 3525 4425 0    60   ~ 0
+AOUTA1_P
+Text Label 7000 2400 0    60   ~ 0
+INA-1
+Text Label 7000 2300 0    60   ~ 0
+INB-1
+Text Label 5725 4600 2    60   ~ 0
+VCOM-A
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 56D403B0
+P 7025 4175
+F 0 "C?" V 7075 4250 50  0000 L CNN
+F 1 "470pF" V 7150 4225 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 7025 4175 50  0001 C CNN
+F 3 "" H 7025 4175 50  0000 C CNN
+	1    7025 4175
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D403B1
+P 6325 4400
+F 0 "R?" V 6125 4400 50  0000 C CNN
+F 1 "715" V 6225 4375 50  0000 C CNN
+F 2 "4ms-footprints:R0603" H 6395 4308 50  0001 L CNN
+F 3 "" H 6325 4400 50  0000 C CNN
+	1    6325 4400
+	0    1    1    0   
+$EndComp
+Text Label 5600 3550 2    60   ~ 0
+INA-1
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D403B2
+P 8825 3450
+F 0 "R?" V 8725 3350 50  0000 L CNN
+F 1 "34k" V 8625 3375 50  0000 L CNN
+F 2 "4ms-footprints:R0603" H 8895 3358 50  0001 L CNN
+F 3 "" H 8825 3450 50  0000 C CNN
+	1    8825 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D403B3
+P 6275 5600
+F 0 "R?" V 6075 5600 50  0000 C CNN
+F 1 "100" V 6175 5600 50  0000 C CNN
+F 2 "4ms-footprints:R0603" H 6345 5508 50  0001 L CNN
+F 3 "" H 6275 5600 50  0000 C CNN
+	1    6275 5600
+	0    1    1    0   
+$EndComp
+Text Label 5575 5600 2    60   ~ 0
+INB-1
+$Comp
+L 4ms-passives:R R?
+U 1 1 56D403B5
+P 8000 5900
+F 0 "R?" V 7825 5900 50  0000 C CNN
+F 1 "10k" V 7900 5900 50  0000 C CNN
+F 2 "4ms-footprints:R0603" H 8070 5808 50  0001 L CNN
+F 3 "" H 8000 5900 50  0000 C CNN
+	1    8000 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-dualpwr IC?
+U 2 1 56D4041B
+P 4575 5025
+F 0 "IC?" H 4625 5125 50  0000 L CNN
+F 1 "NJM2068" H 4525 5025 50  0000 L CNN
+F 2 "4ms-footprints:TSSOP-8_4.4x3mm_Pitch0.65mm" H 4475 5075 50  0001 C CNN
+F 3 "" H 4575 5175 50  0000 C CNN
+	2    4575 5025
+	-1   0    0    1   
+$EndComp
+Text Notes 6325 900  0    60   ~ 0
+38mA @ 5V
+Text HLabel 1000 4325 0    80   Output ~ 0
+OUTL
+Text HLabel 1000 6450 0    80   Output ~ 0
+OUTR
+Text HLabel 10000 3450 2    80   Input ~ 0
+INL
+Text HLabel 9975 5500 2    80   Input ~ 0
+INR
+Text HLabel 2850 1500 0    50   Input ~ 0
+I2S_MCLK
+Text HLabel 2850 1600 0    50   Input ~ 0
+I2S_LRCK
+Text HLabel 2850 1700 0    50   Input ~ 0
+I2S_SCLK
+Text HLabel 2850 1800 0    50   Output ~ 0
+I2S_SDI
+Text HLabel 2850 1900 0    50   Input ~ 0
+I2S_SDO
+Text HLabel 2800 2400 0    50   BiDi ~ 0
+I2C_SDA
+Text HLabel 2800 2300 0    50   Input ~ 0
+I2C_SCL
+Text HLabel 2800 2750 0    50   Input ~ 0
+RESET
+Text Label 6950 2500 0    60   ~ 0
+VCOM-A
+Text Label 6950 2200 0    60   ~ 0
+VCOM-B
+Text Label 5725 6675 2    60   ~ 0
+VCOM-B
+Text Label 6150 2600 0    60   ~ 0
+VCOM
+Text Label 9900 4125 0    60   ~ 0
+VCOM
+Text Label 9825 6175 0    60   ~ 0
+VCOM
+$Comp
+L 4ms-ic:NJM2068-dualpwr IC?
+U 1 1 57F0A3D3
+P 2025 6450
+F 0 "IC?" H 2150 6350 50  0000 L CNN
+F 1 "NJM2068" H 1875 6450 50  0000 L CNN
+F 2 "4ms-footprints:TSSOP-8_4.4x3mm_Pitch0.65mm" H 1925 6500 50  0001 C CNN
+F 3 "" H 2025 6600 50  0000 C CNN
+	1    2025 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-dualpwr IC?
+U 2 1 57F0A4AB
+P 4575 7300
+F 0 "IC?" H 4625 7400 50  0000 L CNN
+F 1 "NJM2068" H 4375 7300 50  0000 L CNN
+F 2 "4ms-footprints:TSSOP-8_4.4x3mm_Pitch0.65mm" H 4475 7350 50  0001 C CNN
+F 3 "" H 4575 7450 50  0000 C CNN
+	2    4575 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 57F0AC1F
+P 4675 7000
+F 0 "#PWR?" H 4675 6850 50  0001 C CNN
+F 1 "-12VA" H 4850 7100 50  0000 C CNN
+F 2 "" H 4675 7000 50  0000 C CNN
+F 3 "" H 4675 7000 50  0000 C CNN
+	1    4675 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 57F0AC25
+P 4575 7000
+F 0 "C?" V 4750 6850 50  0000 L CNN
+F 1 "0.1uF" V 4675 6850 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 4575 7000 50  0001 C CNN
+F 3 "" H 4575 7000 50  0000 C CNN
+	1    4575 7000
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 57F0AC2B
+P 4475 7000
+F 0 "#PWR?" H 4475 6750 50  0001 C CNN
+F 1 "GNDA" H 4300 6925 50  0000 C CNN
+F 2 "" H 4475 7000 50  0000 C CNN
+F 3 "" H 4475 7000 50  0000 C CNN
+	1    4475 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-dualpwr IC?
+U 1 1 56D403AF
+P 2000 4325
+F 0 "IC?" H 2125 4225 50  0000 L CNN
+F 1 "NJM2068" H 1850 4325 50  0000 L CNN
+F 2 "4ms-footprints:TSSOP-8_4.4x3mm_Pitch0.65mm" H 1900 4375 50  0001 C CNN
+F 3 "" H 2000 4475 50  0000 C CNN
+	1    2000 4325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7725 1050 7725 1125
+Wire Wire Line
+	7725 1125 7550 1125
+Wire Wire Line
+	7725 1425 7725 1325
+Wire Wire Line
+	6525 1425 6750 1425
+Wire Wire Line
+	6750 1425 6750 1325
+Wire Wire Line
+	6525 1425 6525 1325
+Connection ~ 6750 1425
+Wire Wire Line
+	6175 1125 6350 1125
+Wire Wire Line
+	6000 2000 6100 1975
+Wire Wire Line
+	2950 2100 2950 2000
+Wire Wire Line
+	2725 2000 2950 2000
+Wire Notes Line
+	4525 2000 4800 2000
+Wire Wire Line
+	6575 2875 6575 3550
+Wire Wire Line
+	6575 3550 6475 3550
+Connection ~ 6575 3550
+Wire Wire Line
+	5725 6675 5775 6675
+Wire Wire Line
+	9650 6175 9825 6175
+Wire Wire Line
+	7125 5500 8000 5500
+Wire Wire Line
+	7475 3650 7475 4175
+Wire Wire Line
+	7475 3650 7175 3650
+Wire Wire Line
+	9650 6675 9650 6375
+Wire Wire Line
+	2300 4425 2475 4425
+Wire Wire Line
+	1600 3450 1600 3725
+Wire Wire Line
+	1400 4325 1600 4325
+Connection ~ 1600 4325
+Wire Wire Line
+	1100 4325 1000 4325
+Wire Wire Line
+	1050 6450 1000 6450
+Wire Wire Line
+	5450 2100 6350 2100
+Wire Wire Line
+	3850 2000 3750 2000
+Wire Wire Line
+	3375 2200 3850 2200
+Wire Wire Line
+	3850 2200 3850 2100
+Wire Wire Line
+	3850 1400 3725 1325
+Wire Wire Line
+	5450 1900 5550 1900
+Wire Wire Line
+	5550 1900 5550 1800
+Wire Wire Line
+	3850 2500 3775 2500
+Wire Wire Line
+	3850 2600 3850 2750
+Wire Wire Line
+	3850 2750 2800 2750
+Wire Wire Line
+	9725 4325 9725 4675
+Wire Wire Line
+	9725 4675 9125 4675
+Wire Wire Line
+	2300 4225 2475 4225
+Wire Wire Line
+	2875 4425 2925 4425
+Wire Wire Line
+	2875 4225 2925 4225
+Connection ~ 2925 4425
+Connection ~ 2925 4225
+Wire Wire Line
+	1600 3725 1925 3725
+Wire Wire Line
+	2125 3725 2475 3725
+Wire Wire Line
+	2475 3725 2475 4225
+Connection ~ 2475 4225
+Wire Wire Line
+	2475 4425 2475 4975
+Wire Wire Line
+	2475 4975 2100 4975
+Connection ~ 2475 4425
+Wire Wire Line
+	1900 4975 1625 4975
+Wire Wire Line
+	1625 4975 1625 5125
+Wire Wire Line
+	1625 5125 2575 5125
+Wire Wire Line
+	2925 4425 2925 5125
+Wire Wire Line
+	2925 5125 2875 5125
+Wire Wire Line
+	3300 4425 3525 4425
+Wire Wire Line
+	3300 4225 3525 4225
+Wire Wire Line
+	2925 4225 2925 3450
+Wire Wire Line
+	2850 3450 2925 3450
+Wire Wire Line
+	2550 3450 1600 3450
+Connection ~ 1600 3725
+Connection ~ 2925 3450
+Wire Wire Line
+	3225 3450 3425 3450
+Wire Wire Line
+	3425 3450 3425 3475
+Wire Wire Line
+	2325 6550 2500 6550
+Wire Wire Line
+	1625 5575 1625 5850
+Wire Wire Line
+	1350 6450 1625 6450
+Connection ~ 1625 6450
+Wire Wire Line
+	2325 6350 2500 6350
+Wire Wire Line
+	2900 6550 2950 6550
+Wire Wire Line
+	2900 6350 2950 6350
+Connection ~ 2950 6550
+Connection ~ 2950 6350
+Wire Wire Line
+	1625 5850 1950 5850
+Wire Wire Line
+	2150 5850 2500 5850
+Wire Wire Line
+	2500 5850 2500 6350
+Connection ~ 2500 6350
+Wire Wire Line
+	2500 6550 2500 7100
+Wire Wire Line
+	2500 7100 2125 7100
+Connection ~ 2500 6550
+Wire Wire Line
+	1925 7100 1650 7100
+Wire Wire Line
+	1650 7100 1650 7250
+Wire Wire Line
+	1650 7250 2600 7250
+Wire Wire Line
+	2950 6550 2950 7250
+Wire Wire Line
+	2950 7250 2900 7250
+Wire Wire Line
+	3325 6550 3550 6550
+Wire Wire Line
+	3325 6350 3550 6350
+Wire Wire Line
+	2950 6350 2950 5575
+Wire Wire Line
+	2875 5575 2950 5575
+Wire Wire Line
+	2575 5575 1625 5575
+Connection ~ 1625 5850
+Connection ~ 2950 5575
+Wire Wire Line
+	3250 5575 3450 5575
+Wire Wire Line
+	3450 5575 3450 5600
+Wire Wire Line
+	5975 2800 5750 2800
+Wire Wire Line
+	5450 2300 7000 2300
+Wire Wire Line
+	5450 2400 7000 2400
+Wire Wire Line
+	6950 2500 5450 2500
+Wire Wire Line
+	6350 2100 6350 1125
+Connection ~ 8050 3450
+Wire Wire Line
+	6575 4175 6925 4175
+Wire Wire Line
+	7125 4175 7475 4175
+Wire Wire Line
+	6175 3550 6175 4400
+Wire Wire Line
+	7475 4400 6475 4400
+Connection ~ 7475 4175
+Wire Wire Line
+	5600 3550 5800 3550
+Wire Wire Line
+	7175 3450 8050 3450
+Wire Wire Line
+	7125 5700 7425 5700
+Wire Wire Line
+	6425 5600 6525 5600
+Wire Wire Line
+	7425 5700 7425 6225
+Wire Wire Line
+	7425 6225 7175 6225
+Wire Wire Line
+	6525 6225 6975 6225
+Wire Wire Line
+	6525 4925 6525 5600
+Connection ~ 6525 5600
+Wire Wire Line
+	7425 6425 6425 6425
+Connection ~ 7425 6225
+Wire Wire Line
+	6125 5600 6125 6425
+Wire Wire Line
+	5575 5600 5775 5600
+Wire Wire Line
+	9050 6275 9050 6675
+Connection ~ 8000 5500
+Wire Wire Line
+	8975 3450 9050 3450
+Wire Wire Line
+	8975 5500 9075 5500
+Wire Wire Line
+	3850 1500 2850 1500
+Wire Wire Line
+	2850 1600 3850 1600
+Wire Wire Line
+	3850 1700 2850 1700
+Wire Wire Line
+	2850 1800 3850 1800
+Wire Wire Line
+	3850 1900 2850 1900
+Wire Wire Line
+	3375 2000 3375 2200
+Wire Wire Line
+	2625 2150 2725 2150
+Wire Wire Line
+	2725 2150 2725 2000
+Connection ~ 2950 2000
+Wire Wire Line
+	5800 3550 5800 3650
+Connection ~ 5800 3550
+Wire Wire Line
+	5775 5600 5775 5725
+Connection ~ 5775 5600
+Wire Wire Line
+	5450 2200 6950 2200
+Wire Wire Line
+	5800 4600 5800 3850
+Wire Wire Line
+	5775 5925 5775 6675
+Connection ~ 5775 6675
+Connection ~ 5800 4600
+Wire Wire Line
+	9725 4125 9900 4125
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 57F0CCF9
+P 4575 7600
+F 0 "C?" V 4700 7375 50  0000 L CNN
+F 1 "0.1uF" V 4625 7375 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 4575 7600 50  0001 C CNN
+F 3 "" H 4575 7600 50  0000 C CNN
+	1    4575 7600
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 57F0CCFF
+P 4475 7600
+F 0 "#PWR?" H 4475 7350 50  0001 C CNN
+F 1 "GNDA" H 4400 7450 50  0000 C CNN
+F 2 "" H 4475 7600 50  0000 C CNN
+F 3 "" H 4475 7600 50  0000 C CNN
+	1    4475 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 57F0CD05
+P 4675 7600
+F 0 "#PWR?" H 4675 7450 50  0001 C CNN
+F 1 "+12V" H 4675 7750 50  0000 C CNN
+F 2 "" H 4675 7600 50  0000 C CNN
+F 3 "" H 4675 7600 50  0000 C CNN
+	1    4675 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 57F0D6D5
+P 4975 7450
+F 0 "#PWR?" H 4975 7200 50  0001 C CNN
+F 1 "GNDA" H 4900 7300 50  0000 C CNN
+F 2 "" H 4975 7450 50  0000 C CNN
+F 3 "" H 4975 7450 50  0000 C CNN
+	1    4975 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 7400 4975 7400
+Wire Wire Line
+	4975 7400 4975 7450
+Wire Wire Line
+	4875 7200 4275 7200
+Wire Wire Line
+	4275 7200 4275 7300
+Wire Wire Line
+	4275 5025 4275 4925
+Wire Wire Line
+	4275 4925 4875 4925
+$Comp
+L 4ms-power:GNDA #PWR?
+U 1 1 57F0DB0D
+P 4975 5175
+F 0 "#PWR?" H 4975 4925 50  0001 C CNN
+F 1 "GNDA" H 4900 5025 50  0000 C CNN
+F 2 "" H 4975 5175 50  0000 C CNN
+F 3 "" H 4975 5175 50  0000 C CNN
+	1    4975 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 5125 4975 5125
+Wire Wire Line
+	4975 5125 4975 5175
+Wire Wire Line
+	8050 3450 8050 3575
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5899215C
+P 8600 3725
+F 0 "C?" V 8650 3800 50  0000 L CNN
+F 1 "120pF" V 8725 3775 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 8600 3725 50  0001 C CNN
+F 3 "Yaego CC0603FRNPO9BN121" H 8600 3725 50  0001 C CNN
+F 4 "C0G" V 8825 3900 60  0000 C CNN "Dialectric"
+F 5 "1%" V 8600 3725 60  0001 C CNN "Tolerance"
+	1    8600 3725
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8600 3625 8600 3450
+Connection ~ 8600 3450
+Wire Wire Line
+	8050 4600 8050 3875
+Wire Wire Line
+	8600 4600 8600 3825
+Connection ~ 8600 4600
+$Comp
+L 4ms-passives:R R?
+U 1 1 58992AF5
+P 9275 3450
+F 0 "R?" V 9150 3425 50  0000 L CNN
+F 1 "30k" V 9075 3400 50  0000 L CNN
+F 2 "4ms-footprints:R0603" H 9345 3358 50  0001 L CNN
+F 3 "" H 9275 3450 50  0000 C CNN
+	1    9275 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 58992CAC
+P 7950 2875
+F 0 "C?" V 8075 2825 50  0000 L CNN
+F 1 "330pF" V 8150 2650 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 7950 2875 50  0001 C CNN
+F 3 "Murata GRM1885C1H331FA01D" H 7950 2875 50  0001 C CNN
+F 4 "C0G" V 8250 2800 60  0000 C CNN "Dialectric"
+F 5 "1%" V 7950 2875 60  0001 C CNN "Tolerance"
+	1    7950 2875
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6575 2875 7850 2875
+Wire Wire Line
+	8050 2875 9050 2875
+Wire Wire Line
+	9050 2875 9050 3450
+Connection ~ 9050 3450
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 58993956
+P 9625 3450
+F 0 "C?" V 9750 3400 50  0000 L CNN
+F 1 "2.2uF" V 9825 3325 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 9625 3450 50  0001 C CNN
+F 3 "" H 9625 3450 50  0000 C CNN
+	1    9625 3450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9525 3450 9425 3450
+Wire Wire Line
+	9725 3450 10000 3450
+Wire Wire Line
+	8000 5500 8000 5750
+Wire Wire Line
+	8000 6050 8000 6675
+$Comp
+L 4ms-passives:R R?
+U 1 1 58995D1D
+P 9300 5500
+F 0 "R?" V 9175 5475 50  0000 L CNN
+F 1 "30k" V 9100 5450 50  0000 L CNN
+F 2 "4ms-footprints:R0603" H 9370 5408 50  0001 L CNN
+F 3 "" H 9300 5500 50  0000 C CNN
+	1    9300 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 58995D23
+P 9650 5500
+F 0 "C?" V 9775 5450 50  0000 L CNN
+F 1 "2.2uF" V 9850 5375 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 9650 5500 50  0001 C CNN
+F 3 "" H 9650 5500 50  0000 C CNN
+	1    9650 5500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9550 5500 9450 5500
+Wire Wire Line
+	9750 5500 9975 5500
+Wire Wire Line
+	6525 4925 7800 4925
+Wire Wire Line
+	8000 4925 9075 4925
+Wire Wire Line
+	9075 4925 9075 5500
+Connection ~ 9075 5500
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5899636C
+P 8600 5775
+F 0 "C?" V 8650 5850 50  0000 L CNN
+F 1 "120pF" V 8725 5825 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 8600 5775 50  0001 C CNN
+F 3 "Yaego CC0603FRNPO9BN121" H 8600 5775 50  0001 C CNN
+F 4 "C0G" V 8825 5950 60  0000 C CNN "Dialectric"
+F 5 "1%" V 8600 5775 60  0001 C CNN "Tolerance"
+	1    8600 5775
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8600 5675 8600 5500
+Wire Wire Line
+	8600 5875 8600 6675
+Connection ~ 8600 5500
+Connection ~ 8600 6675
+Wire Wire Line
+	7125 5300 7125 5325
+Connection ~ 8050 4600
+Connection ~ 9125 4600
+Wire Wire Line
+	9125 4675 9125 4600
+Connection ~ 8000 6675
+Connection ~ 9050 6675
+$Comp
+L 4ms-ic:NJM2068-dualpwr IC?
+U 1 1 56D40399
+P 9425 4225
+F 0 "IC?" H 9475 4075 50  0000 L CNN
+F 1 "NJM2068" H 9375 4225 50  0000 L CNN
+F 2 "4ms-footprints:TSSOP-8_4.4x3mm_Pitch0.65mm" H 9325 4275 50  0001 C CNN
+F 3 "" H 9425 4375 50  0000 C CNN
+	1    9425 4225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+5V #PWR?
+U 1 1 58ADE745
+P 6175 1125
+F 0 "#PWR?" H 6225 1175 50  0001 C CNN
+F 1 "+5VA" H 6200 1325 50  0000 C CNN
+F 2 "" H -2350 -625 50  0001 C CNN
+F 3 "" H -2350 -625 50  0001 C CNN
+	1    6175 1125
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 1125
+Wire Wire Line
+	5725 4600 5800 4600
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 599E8C7B
+P 7900 4925
+F 0 "C?" V 8025 4875 50  0000 L CNN
+F 1 "330pF" V 8100 4700 50  0000 L CNN
+F 2 "4ms-footprints:C0603" H 7900 4925 50  0001 C CNN
+F 3 "Murata GRM1885C1H331FA01D" H 7900 4925 50  0001 C CNN
+F 4 "C0G" V 8200 4850 60  0000 C CNN "Dialectric"
+F 5 "1%" V 7900 4925 60  0001 C CNN "Tolerance"
+	1    7900 4925
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6575 3550 6575 4175
+Wire Wire Line
+	1600 4325 1700 4325
+Wire Wire Line
+	2925 4425 3000 4425
+Wire Wire Line
+	2925 4225 3000 4225
+Wire Wire Line
+	2475 4225 2575 4225
+Wire Wire Line
+	2475 4425 2575 4425
+Wire Wire Line
+	1600 3725 1600 4325
+Wire Wire Line
+	2925 3450 3025 3450
+Wire Wire Line
+	1625 6450 1725 6450
+Wire Wire Line
+	2950 6550 3025 6550
+Wire Wire Line
+	2950 6350 3025 6350
+Wire Wire Line
+	2500 6350 2600 6350
+Wire Wire Line
+	2500 6550 2600 6550
+Wire Wire Line
+	1625 5850 1625 6450
+Wire Wire Line
+	2950 5575 3050 5575
+Wire Wire Line
+	8050 3450 8600 3450
+Wire Wire Line
+	7475 4175 7475 4400
+Wire Wire Line
+	6525 5600 6525 6225
+Wire Wire Line
+	7425 6225 7425 6425
+Wire Wire Line
+	8000 5500 8600 5500
+Wire Wire Line
+	5800 3550 6175 3550
+Wire Wire Line
+	5775 5600 6125 5600
+Wire Wire Line
+	5775 6675 8000 6675
+Wire Wire Line
+	5800 4600 8050 4600
+Wire Wire Line
+	8600 3450 8675 3450
+Wire Wire Line
+	8600 4600 9125 4600
+Wire Wire Line
+	9050 3450 9125 3450
+Wire Wire Line
+	9075 5500 9150 5500
+Wire Wire Line
+	8600 5500 8675 5500
+Wire Wire Line
+	8600 6675 9050 6675
+Wire Wire Line
+	8050 4600 8600 4600
+Wire Wire Line
+	9125 4600 9125 4225
+Wire Wire Line
+	8000 6675 8600 6675
+Wire Wire Line
+	9050 6675 9650 6675
+Wire Wire Line
+	5450 2000 6000 2000
+Wire Wire Line
+	5550 1800 6000 1800
+Wire Wire Line
+	2800 2400 3850 2400
+Wire Wire Line
+	2800 2300 3850 2300
+Wire Wire Line
+	4300 1100 5075 1100
+Wire Wire Line
+	4300 900  5075 900 
+Wire Wire Line
+	6350 1125 6750 1125
+Wire Wire Line
+	6750 1425 7725 1425
+Wire Wire Line
+	2950 2000 3375 2000
+Wire Wire Line
+	5450 2600 6150 2600
+$EndSCHEMATC

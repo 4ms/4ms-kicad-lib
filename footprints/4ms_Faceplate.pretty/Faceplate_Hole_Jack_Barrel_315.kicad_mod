@@ -1,0 +1,9 @@
+(module Faceplate_Hole_Jack_Barrel_315 (layer F.Cu) (tedit 5B6E15E6)
+  (fp_text reference REF** (at 0.22 8.23) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Faceplate_Hole_Jack_Barrel_315 (at 1.47 6.53) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 9.779 9.779) (drill 8.001) (layers *.Cu *.Mask))
+)

@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 16MHz_18pF_FA238
+#
+DEF 16MHz_18pF_FA238 Y 0 40 N N 1 F N
+F0 "Y" 0 100 50 H V C CNN
+F1 "16MHz_18pF_FA238" 0 -100 50 H I C CNN
+F2 "4ms_Crystal:FA-238" 50 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "16MHz 18pF 10ppm ESR:60ohms" -100 -310 50 H I L CNN "Specifications"
+F5 "Epson Timing" -100 -370 50 H I L CNN "Manufacturer"
+F6 "TSX-3225 16.0000MF18X-AC3" -100 -430 50 H I L CNN "Part Number"
+F7 "16MHz" -150 -100 60 H V L CNN "Display"
+F8 "18pF" -124 -175 60 H V L CNN "Display 2"
+F9 "C90906 (12pF)" 0 0 50 H I C CNN "JLCPCB ID"
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

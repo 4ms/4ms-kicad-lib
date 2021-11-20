@@ -1,0 +1,154 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_01x02
+D HEADER 1x2 MALE PINS 0.100” 180deg
+K Conn_01x02
+$ENDCMP
+#
+$CMP Conn_01x03
+D HEADER 1x3 MALE PINS 0.100” 180deg
+K Conn_01x03
+$ENDCMP
+#
+$CMP Conn_01x04
+D HEADER 1x4 MALE PINS 0.100” 180deg
+K Conn_01x04
+$ENDCMP
+#
+$CMP Conn_01x06
+D HEADER 1x6 MALE PINS 0.100” 180deg
+K Conn_01x06
+$ENDCMP
+#
+$CMP Conn_01x08
+D HEADER 1x8 MALE PINS 0.100” 180deg
+K Conn_01x08
+$ENDCMP
+#
+$CMP Conn_01x09
+D HEADER 1x9 MALE PINS 0.100” 180deg
+K Conn_01x09
+$ENDCMP
+#
+$CMP Conn_01x50
+D Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x03
+D HEADER 2x3 MALE PINS 0.100” 180deg
+K Conn_02x03
+$ENDCMP
+#
+$CMP Conn_02x04
+D HEADER 2x4 MALE PINS 0.100” 180deg
+K Conn_02x04
+$ENDCMP
+#
+$CMP Conn_02x08
+D HEADER 2x5 MALE PINS 0.100” 180deg
+K Connector 2x8 Pins
+$ENDCMP
+#
+$CMP Eurorack_Power_10pin_Unshrouded
+D HEADER 2x5 MALE PINS 0.100” 180deg
+K Eurorack_Power_10pin_Unshrouded
+$ENDCMP
+#
+$CMP Eurorack_Power_16pin_Shrouded
+D Header, Male Pins, 2*8, spacing 2.54mm, straight pin, shrouded and keyed
+K Eurorack_Power_16pin_Shrouded
+$ENDCMP
+#
+$CMP Eurorack_Power_16pin_Unshrouded
+D HEADER 2x5 MALE PINS 0.100” 180deg
+K Eurorack_Power_16pin_Unshrouded
+$ENDCMP
+#
+$CMP Pins_02x03_P1.27mm_SMT
+D Header 2x3 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, SMT
+K 2x3 Pin Header SMT
+F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf
+$ENDCMP
+#
+$CMP Pins_02x05_SMT
+D Header 2x5 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, SMT
+K 2x5 Pin Header SMT
+F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf
+$ENDCMP
+#
+$CMP Pins_02x08_P1.27mm_H4.9mm_SMT
+D Samtec P/N: FTSH-108-02-F-DV, Low Profile SMT, 2x8, Pitch=1.27mm, PinHeight=1.9mm, TotalHeight=4.9mm
+K Low Profile 2x8 Pin Header SMT 0.05" 1.27mm
+F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf
+$ENDCMP
+#
+$CMP Pins_02x08_P1.27mm_SMT
+D Header 2x8 Pins, Pitch=1.27mm, Pin Height=3mm, TotalHeight=6mm, Vertical, SMT
+K 2x8 Pin Header SMT 0.05" 1.27mm
+F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf
+$ENDCMP
+#
+$CMP Pins_02x08_P1.27mm_TH
+D Header 2x08 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, TH
+K 2x08 Header 2x8 16-pin TH 1.27mm
+$ENDCMP
+#
+$CMP Pins_02x10_P1.27mm_SMT
+D Header 2x10 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, SMT
+K 2x10 Pin Header SMT 0.05" 1.27mm
+F https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf
+$ENDCMP
+#
+$CMP Pins_02x10_P1.27mm_TH
+D Header 2x10 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, TH
+K 2x10 Pin Header TH 0.05" 1.27mm
+$ENDCMP
+#
+$CMP Socket_01x02
+D HEADER 1x2 MALE PINS 0.100” 180deg
+K Conn_01x02
+$ENDCMP
+#
+$CMP Socket_02x08_P1.27mm_SMT
+D Header 2x8 Socket, Pitch=1.27mm, Rcpt Height=3mm, Vertical, SMT
+K 2x8 Socket Header SMT 0.05" 1.27mm Low profile
+F https://www.mouser.com/datasheet/2/527/clp_sm-1369947.pdf
+$ENDCMP
+#
+$CMP Socket_02x08_P1.27mm_TH
+D Header 2x08 Socket, Pitch=1.27mm, Pin Height=3mm, Vertical, TH
+K 2x08 Header Socket 2x8 16-pin TH 1.27mm
+$ENDCMP
+#
+$CMP Socket_02x10_P1.27mm_SMT
+D Header 2x10 Socket, Pitch=1.27mm, Rcpt Height=3mm, Vertical, SMT
+K 2x10 Socket Header SMT 0.05" 1.27mm
+$ENDCMP
+#
+$CMP Socket_02x32
+D Pin Socket, double row, 02x32
+K Connector Socket 2x32
+F ~
+$ENDCMP
+#
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_Small
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP microSDCon_Vert_TH_PJS008U-3000
+D Micro SD Card Reader
+K connector SD MICROSD
+F https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
+$ENDCMP
+#
+#End Doc Library

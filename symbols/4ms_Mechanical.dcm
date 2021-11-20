@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Heatsink_RA-T2X-51E
+D 2" height, 3.5°C/W Max, <2°C/W @ 100ft/min
+K Heatsink_RA-T2X-51E
+F https://www.mouser.com/datasheet/2/303/sink_f_r-1265536.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,162 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 3.5mm_Mono_Switched
+#
+DEF 3.5mm_Mono_Switched J 0 0 Y N 1 F N
+F0 "J" -250 -300 60 H V C CNN
+F1 "3.5mm_Mono_Switched" 250 260 60 H V C CNN
+F2 "4ms_Jack:EighthInch_PJ398SM" -5 -555 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Audio 3.5mm Jack, mono, switched, PC-pin Vertical" -100 -310 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP518MA" -100 -430 50 H I L CNN "Part Number"
+DRAW
+S -250 200 -150 -200 0 0 0 N
+P 2 0 0 0 -50 0 50 0 N
+P 4 0 0 0 -50 150 0 50 50 150 450 150 N
+X SIG 1 650 150 200 L 50 50 1 1 P
+X SHEILD 2 -200 -400 200 U 50 50 1 1 P
+X SW 3 250 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.5mm_Mono_Switched_SymSmall_0.05
+#
+DEF 3.5mm_Mono_Switched_SymSmall_0.05 J 0 0 Y N 1 F N
+F0 "J" -100 225 60 H V C CNN
+F1 "3.5mm_Mono_Switched_SymSmall_0.05" 425 -425 24 H I C CIB
+F2 "4ms_Jack:EighthInch_PJ398SM" 750 -350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Audio 3.5mm Jack, mono, switched, PC-pin Vertical" 50 -160 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" 50 -220 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP518MA" 50 -280 50 H I L CNN "Part Number"
+F7 "3.5mm_Mono" 25 150 30 H V C CIB "Display"
+DRAW
+S -125 100 -75 -75 0 1 0 N
+P 2 0 0 0 -50 0 50 0 N
+P 2 0 1 0 -100 -100 -100 -75 N
+P 4 0 1 0 -50 100 -25 50 0 100 100 100 N
+X SIG 1 300 100 200 L 50 50 1 1 P
+X SHEILD 2 -100 -150 50 U 50 50 1 1 P
+X SW 3 150 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.5mm_Mono_Switched_sm
+#
+DEF 3.5mm_Mono_Switched_sm J 0 0 Y N 1 F N
+F0 "J" -300 350 60 H V C CNN
+F1 "3.5mm_Mono_Switched_sm" 250 260 60 H V C CNN
+F2 "4ms_Jack:EighthInch_PJ398SM" -5 -555 60 H I C CNN
+F3 "" -50 50 60 H V C CNN
+F4 "Audio 3.5mm Jack, mono, switched, PC-pin Vertical" -100 -310 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP518MA" -100 -430 50 H I L CNN "Part Number"
+DRAW
+S -250 200 -150 -100 0 0 0 N
+P 2 0 0 0 -100 50 0 50 N
+P 4 0 0 0 -100 200 -50 100 0 200 150 200 N
+X SIG 1 200 200 50 L 35 50 1 1 P
+X SHEILD 2 -200 -200 100 U 35 50 1 1 P
+X SW 3 50 50 50 L 35 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.5mm_Stereo
+#
+DEF 3.5mm_Stereo J 0 0 Y N 1 F N
+F0 "J" -250 -300 60 H V C CNN
+F1 "3.5mm_Stereo" 250 260 60 H V C CNN
+F2 "4ms_Jack:EighthInch_Stereo_PJ366ST" -400 -900 60 H I L CNN
+F3 "" 100 0 60 H V C CNN
+F4 "Audio 3.5mm Jack, Stereo, PC-pin Vertical" -400 -660 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -400 -720 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP419GR" -400 -780 50 H I L CNN "Part Number"
+DRAW
+T 0 -50 0 50 0 0 0 R Normal 0 C C
+T 0 100 150 50 0 0 0 T Normal 0 C C
+S -250 200 -150 -150 0 0 0 N
+P 4 0 0 0 50 150 100 50 150 150 300 150 N
+P 4 0 1 0 200 0 0 0 -50 100 -100 0 N
+X SIG 1 400 150 100 L 50 50 1 1 P
+X SHEILD 2 -200 -250 100 U 50 50 1 1 P
+X SW 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.5mm_Stereo_SymSmall_0.05
+#
+DEF 3.5mm_Stereo_SymSmall_0.05 J 0 0 Y N 1 F N
+F0 "J" -105 205 60 H V C CNN
+F1 "3.5mm_Stereo_SymSmall_0.05" 275 -575 60 H I C CNN
+F2 "4ms_Jack:EighthInch_Stereo_PJ366ST" -400 -900 60 H I L CNN
+F3 "" 100 0 60 H V C CNN
+F4 "Audio 3.5mm Jack, Stereo, PC-pin Vertical" -400 -660 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -400 -720 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP419GR" -400 -780 50 H I L CNN "Part Number"
+F7 "3.5mm_Stereo" 35 139 30 H V C CIB "Display"
+DRAW
+T 0 -25 3 30 0 0 0 R Normal 0 C C
+T 0 25 85 30 0 0 0 T Normal 0 C C
+S -125 100 -75 -75 0 1 0 N
+P 2 0 1 0 -100 -100 -100 -75 N
+P 4 0 1 0 -50 0 -25 50 0 0 200 0 N
+P 4 0 1 0 0 100 25 50 50 100 150 100 N
+X SIG 1 250 100 200 L 50 50 1 1 P
+X SHEILD 2 -100 -150 50 U 50 50 1 1 P
+X SW 3 200 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.5mm_Stereo_sm
+#
+DEF 3.5mm_Stereo_sm J 0 0 Y N 1 F N
+F0 "J" -250 350 60 H V L CNN
+F1 "3.5mm_Stereo_sm" -250 250 60 H V L CNN
+F2 "4ms_Jack:EighthInch_Stereo_PJ366ST" -5 -555 60 H I C CNN
+F3 "" -50 0 60 H V C CNN
+F4 "Audio 3.5mm Jack, Stereo, PC-pin Vertical" -150 -310 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -150 -370 50 H I L CNN "Manufacturer"
+F6 "WQP-WQP518MA" -100 -430 50 H I L CNN "Part Number"
+DRAW
+T 0 -75 30 25 0 0 0 R Normal 0 C C
+T 0 50 115 25 0 0 0 T Normal 0 C C
+S -250 150 -150 -150 0 0 0 N
+P 4 0 0 0 0 150 50 50 100 150 155 150 N
+P 4 1 1 0 -125 0 -75 100 -25 0 30 0 N
+X SIG 1 200 150 50 L 35 50 1 1 P
+X SHEILD 2 -200 -250 100 U 35 50 1 1 P
+X SW 3 50 0 50 L 35 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Barrel_2.0mmPin_PJ064
+#
+DEF Barrel_2.0mmPin_PJ064 J 0 20 Y N 1 F N
+F0 "J" 0 210 50 H V C CNN
+F1 "Barrel_2.0mmPin_PJ064" 0 -200 50 H V C CNN
+F2 "4ms_Jack:Barrel_Vert_PJ064_slotted" 15 270 50 H I C CNN
+F3 "" 50 -40 50 H I C CNN
+F4 "Barrel Jack, 2.0mm diameter center pin, Vertical, PC-pins" -100 -310 50 H I L CNN "Specifications"
+F5 "Wenzhou QingPu Electronics Co" -100 -370 50 H I L CNN "Manufacturer"
+F6 "WQP-DC026M (2.0mm center pin)" -100 -430 50 H I L CNN "Part Number"
+$FPLIST
+ BarrelJack*
+$ENDFPLIST
+DRAW
+A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
+A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
+S -200 150 200 -150 0 1 10 f
+S 145 125 -130 75 0 1 10 F
+P 2 0 1 10 50 -90 75 -65 N
+P 2 0 1 10 200 100 150 100 N
+P 4 0 1 10 200 0 50 0 50 -90 25 -65 N
+P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
+X ~ 1 300 100 100 L 50 50 1 1 P
+X ~ 2 300 -100 100 L 50 50 1 1 P
+X ~ 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

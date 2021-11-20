@@ -1,0 +1,220 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Button_DPDT_Orange_Latching
+#
+DEF Button_DPDT_Orange_Latching SW 0 40 Y N 1 F N
+F0 "SW" -300 400 50 H V C CNN
+F1 "Button_DPDT_Orange_Latching" 550 350 50 H I C CNN
+F2 "4ms_Switch:Button_LED_PB61303" -100 -500 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DPDT, Latching, On/On, 8.7mm base, 7.5mm cap, Orange" 100 -600 50 H I L CNN "Specifications"
+F5 "RunRun" 100 -400 50 H I L CNN "Manufacturer"
+F6 "PB-61303AL-2" 100 -500 50 H I L CNN "Part Number"
+F7 "Orange Button" -300 300 50 H V C CNN "Display"
+DRAW
+C 0 0 71 0 1 0 N
+T 0 -100 -200 60 0 0 0 down Normal 0 C C
+T 0 -100 200 60 0 0 0 up Normal 0 C C
+S -250 250 250 -250 0 1 0 N
+P 2 0 1 0 -250 -150 -150 -150 N
+P 2 0 1 0 -250 0 -200 0 N
+P 2 0 1 0 -250 150 -150 150 N
+P 2 0 1 0 -50 -50 50 -50 N
+P 2 0 1 0 0 -50 0 -150 N
+P 2 0 1 0 150 100 200 100 N
+P 2 0 1 0 250 -150 150 -150 N
+P 2 0 1 0 250 150 150 150 N
+P 4 0 1 0 250 0 200 0 150 100 150 50 N
+P 5 0 1 0 -200 0 -150 100 -200 100 -150 100 -150 50 N
+P 6 0 1 0 0 200 0 50 50 50 0 -50 -50 50 0 50 N
+X UP-A 1 -450 150 200 R 50 50 1 1 I
+X POLE-A 2 -450 0 200 R 50 50 1 1 I
+X DOWN-A 3 -450 -150 200 R 50 50 1 1 I
+X UP-B 4 450 150 200 L 50 50 1 1 I
+X POLE-B 5 450 0 200 L 50 50 1 1 I
+X DOWN-B 6 450 -150 200 L 50 50 1 1 I
+X A 7 0 450 200 D 50 50 1 1 I
+X C 8 0 -450 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Button_SPST_RGB_7mmCap
+#
+DEF Button_SPST_RGB_7mmCap S 0 40 Y N 1 F N
+F0 "S" -200 -450 60 H V C CNN
+F1 "Button_SPST_RGB_7mmCap" 150 -350 60 H V C CNN
+F2 "4ms_Switch:Button_RgbLED_SPST_PB615303HL-7mm" -8 -581 60 H I L CNN
+F3 "" -900 -50 60 H V C CNN
+F4 "SPST button with RGB LED, 7mm diffused cap" -1 -657 50 H I L CNN "Specifications"
+F5 "Run Run Enterprises" -4 -733 50 H I L CNN "Manufacturer"
+F6 "PB615303HL-7" -3 -503 50 H I L CNN "Part Number"
+$FPLIST
+ 4ms-footprints:RGB-SPST-LED-TC002
+$ENDFPLIST
+DRAW
+C -120 -150 57 0 1 0 N
+C -120 50 58 0 1 0 N
+C -40 150 10 0 1 0 N
+C 40 150 10 0 1 0 N
+C 120 -150 57 0 1 0 N
+T 0 220 -120 40 0 0 0 B Normal 0 C C
+T 0 200 80 40 0 0 0 CA Normal 0 C C
+T 0 -210 80 40 0 0 0 G Normal 0 C C
+T 0 -210 -120 40 0 0 0 R Normal 0 C C
+S -250 250 250 -250 0 1 0 N
+P 2 0 1 0 -200 -150 -250 -150 N
+P 2 0 1 0 -200 50 -250 50 N
+P 2 0 1 0 -200 150 -50 150 N
+P 2 0 1 0 -200 250 -200 150 N
+P 2 0 1 0 -150 -150 -200 -150 N
+P 2 0 1 0 -150 -100 -150 -200 N
+P 2 0 1 0 -150 50 -200 50 N
+P 2 0 1 0 -150 100 -150 0 N
+P 2 0 1 0 -100 250 -100 150 N
+P 2 0 1 0 -50 -150 0 -150 N
+P 2 0 1 0 -50 50 0 50 N
+P 2 0 1 0 0 50 0 -150 N
+P 2 0 1 0 50 -150 0 -150 N
+P 2 0 1 0 50 50 0 50 N
+P 2 0 1 0 50 50 250 50 N
+P 2 0 1 0 50 190 -50 190 N
+P 2 0 1 0 100 250 100 150 N
+P 2 0 1 0 150 -150 200 -150 N
+P 2 0 1 0 150 -100 150 -200 N
+P 2 0 1 0 200 -150 250 -150 N
+P 2 0 1 0 200 150 50 150 N
+P 2 0 1 0 200 250 200 150 N
+P 4 0 1 0 -20 190 -20 210 20 210 20 190 N
+P 6 0 1 0 -50 -150 -100 -150 -100 -100 -150 -150 -100 -200 -100 -150 N
+P 6 0 1 0 -50 50 -100 50 -100 100 -150 50 -100 0 -100 50 N
+P 6 0 1 0 50 -150 100 -150 100 -100 150 -150 100 -200 100 -150 N
+X UP-A 1 100 450 200 D 50 50 1 1 I
+X POLE-A 2 200 450 200 D 50 50 1 1 I
+X DOWN-A 3 -100 450 200 D 50 50 1 1 I
+X UP-B 4 -200 450 200 D 50 50 1 1 I
+X CA 5 450 50 200 L 50 50 1 1 I
+X G 6 450 -150 200 L 50 50 1 1 I
+X R 7 -450 -150 200 R 50 50 1 1 I
+X B 8 -450 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Encoder_Rotary_11mm_SPST_DShaft
+#
+DEF Encoder_Rotary_11mm_SPST_DShaft ENC 0 0 N Y 2 L N
+F0 "ENC" -200 325 45 H V L BNN
+F1 "Encoder_Rotary_11mm_SPST_DShaft" -200 400 45 H V L BNN
+F2 "4ms_Encoder:ENC_SPST_12mm" 25 500 20 H I C CNN
+F3 "" -350 -250 60 H I C CNN
+F4 "Alpha Taiwan" 0 -500 50 H I C CNN "Manufacturer"
+F5 "RE111F-41B3N-20F-20P-N" 0 -600 50 H I C CNN "Part Number"
+F6 "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft" 100 -400 50 H I C CNN "Specifications"
+F7 "Bourns" 0 -700 50 H I C CNN "Manufacturer 2"
+F8 "PEC11L-4020F-S0020" 50 -800 50 H I C CNN "Part Number 2"
+$FPLIST
+ *ROTENC-12MM-BUT*
+$ENDFPLIST
+DRAW
+S -300 300 300 0 1 0 0 f
+P 2 1 0 0 -200 0 -200 100 N
+P 2 1 0 0 -200 100 -100 100 N
+P 2 1 0 0 -100 200 0 100 N
+P 2 1 0 0 0 0 0 100 N
+P 2 1 0 0 0 100 100 200 N
+P 2 1 0 0 200 0 200 100 N
+P 2 1 0 0 200 100 100 100 N
+P 2 2 0 0 -100 0 100 100 N
+P 2 2 0 0 -30 120 -30 140 N
+P 2 2 0 0 -30 140 30 140 N
+P 2 2 0 0 0 70 0 110 N
+P 2 2 0 0 30 140 30 120 N
+P 2 2 0 0 60 100 100 100 N
+P 2 2 0 0 100 100 80 70 N
+X 1 1 200 -200 200 U 40 40 1 1 P
+X 2 2 0 -200 200 U 40 40 1 1 P
+X 3 3 -200 -200 200 U 40 40 1 1 P
+X SW1 SW1 -200 0 100 R 40 40 2 1 P
+X SW2 SW2 200 0 100 L 40 40 2 1 P
+ENDDRAW
+ENDDEF
+#
+# Slide_DPDT_SS22D06
+#
+DEF Slide_DPDT_SS22D06 SW 0 0 Y N 3 L N
+F0 "SW" 0 200 50 H V C CNN
+F1 "Slide_DPDT_SS22D06" 0 300 50 H V C CNN
+F2 "4ms_Switch:Slide_Switch_Runrun_SS22D06" -100 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "On/On, SubMini toggle 2-position" -100 -310 50 H I L CNN "Specifications"
+F5 "RunRun" -100 -370 50 H I L CNN "Manufacturer"
+F6 "SS22D06" -100 -430 50 H I L CNN "Part Number"
+$FPLIST
+ *DPDT*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+S -150 150 150 -150 3 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+P 2 3 1 0 -200 0 -150 0 N
+P 2 3 1 0 200 0 150 0 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+X A 4 200 100 100 L 50 50 2 1 P
+X B 5 -200 0 100 R 50 50 2 1 P
+X C 6 200 -100 100 L 50 50 2 1 P
+X SHIELD 7 -200 -100 100 U 50 50 3 1 P
+X SHIELD 8 200 -100 100 U 50 50 3 1 P
+ENDDRAW
+ENDDEF
+#
+# Toggle_SPDT_SubMini_2pos
+#
+DEF Toggle_SPDT_SubMini_2pos SW 0 0 N Y 1 F N
+F0 "SW" -200 150 50 H V C CNN
+F1 "Toggle_SPDT_SubMini_2pos" -150 -150 50 H V C CNN
+F2 "4ms_Switch:Switch_Toggle_SPDT_SubMini" 326 -527 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+F4 "SPDT, 3-position, sub-mini toggle, PC-pin, vertical, on(off)on" -100 -310 50 H I L CNN "Specifications"
+F5 "Taiway Switches" -100 -370 50 H I L CNN "Manufacturer"
+F6 "200-MSP3-T2B3M2QE" -100 -430 50 H I L CNN "Part Number"
+DRAW
+C -174 0 26 1 1 0 N
+C 173 -98 26 1 1 0 N
+C 173 99 26 1 1 0 N
+P 2 1 1 0 -146 0 149 50 N
+X 1 1 500 100 300 L 50 50 1 1 P
+X 2 2 -500 0 300 R 50 50 1 1 P
+X 3 3 500 -100 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Toggle_SPDT_SubMini_3pos
+#
+DEF Toggle_SPDT_SubMini_3pos SW 0 0 N Y 1 F N
+F0 "SW" -200 150 50 H V C CNN
+F1 "Toggle_SPDT_SubMini_3pos" -150 -150 50 H V C CNN
+F2 "4ms_Switch:Switch_Toggle_SPDT_SubMini" 650 -500 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+F4 "SPDT, On/On, SubMini toggle 2-position" -100 -310 50 H I L CNN "Specifications"
+F5 "Mountain Switch" -100 -370 50 H I L CNN "Manufacturer"
+F6 "108-2MS1T2B3M2QE-EVX" -100 -430 50 H I L CNN "Part Number"
+F7 "(Posin's Supplier in China)" 50 -600 50 H I C CNN "Manufacturer 2"
+F8 "ST-0-103-C02-T000-RS" 25 -675 50 H I C CNN "Part Number 2"
+F9 "(Posin Supplier in China Oct2020)" 0 -750 50 H I C CNN "Manufacturer 3"
+F10 "MS-100793-1172333" 0 -850 50 H I C CNN "Part Number 3"
+DRAW
+C -173 0 26 0 1 0 N
+C 174 -98 26 0 1 0 N
+C 174 99 26 0 1 0 N
+P 2 0 1 0 -145 0 150 50 N
+X 1 1 500 100 300 L 50 50 1 1 P
+X 2 2 -500 0 300 R 50 50 1 1 P
+X 3 3 500 -100 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

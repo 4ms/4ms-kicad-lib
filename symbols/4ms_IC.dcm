@@ -1,0 +1,257 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8629
+D Precision Amplifiers Dual, Zero drift, RRIO, 5V OpAmp
+K NJM2068
+F https://www.mouser.com/datasheet/2/609/AD8629-EP-1601911.pdf
+$ENDCMP
+#
+$CMP ADS7142IRUG
+D ADS7142IRUG, ADC, Nanopower, Dual-Channel, Programmable Sensor Monitor
+K ADS7142IRUG, ADC
+F https://www.ti.com/lit/ds/symlink/ads7142.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1607718821839
+$ENDCMP
+#
+$CMP AP65211AWU-7
+D DC/DC Buck Converter 500kHz 18VinMax 2A Synchronous
+K AP65211AWU-7
+$ENDCMP
+#
+$CMP ATMEGA328-AU
+D 8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
+$CMP CD4001BM
+D CMOS, NOR Gate, Quad 2-In, SOIC-14
+K CD4001BM
+$ENDCMP
+#
+$CMP CD4001BPWR
+D CMOS, NOR Gate, Quad 2-In, TSSOP-14
+K CD4001BPWR
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd4001b
+$ENDCMP
+#
+$CMP CD40106BPWR
+F https://www.ti.com/lit/ds/symlink/cd40106b.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1624570529286&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
+$CMP INA199A3
+D INA199A3, Current Sense Amplifier, SC70-6, 200V/V
+K INA199A3
+$ENDCMP
+#
+$CMP LM321
+D LM321 single opamp, Vsupply >=24V
+K opamp single LM321
+F https://www.ti.com/lit/ds/symlink/lm321.pdf?ts=1637093711368&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP LM321-TR
+D LM321-TR, General Purpose single opamp, Vsupply>=24V, JLCPCB ID: C280706
+K LM321-TR Gainsil
+F https://datasheet.lcsc.com/lcsc/1912111437_Gainsil-LM321-TR_C280706.pdf
+$ENDCMP
+#
+$CMP LM321M5X
+D LM321M5X,Genearl purpose Opamp, Vsupply=32V, JLCPCB ID: C398143
+F https://datasheet.lcsc.com/lcsc/1912111437_HGSEMI-LM321M5X-TR_C398143.pdf
+$ENDCMP
+#
+$CMP LM321MFX_NOPB
+D LM321MFX/NOPB, General Purpose single opamp, Vsupply>=32V, JLCPCB ID: C9405
+K LM321MXF/NOPB
+$ENDCMP
+#
+$CMP LM358
+D LM358 Dual Opamp TSSOP-8
+K LM358 TSSOP-8
+$ENDCMP
+#
+$CMP LM4880M
+D Audio Amplifier Dual 200 mW Pwr Amp
+F https://www.ti.com/lit/ds/symlink/lm4880.pdf
+$ENDCMP
+#
+$CMP LMR33630x
+D LMR33630A, DC/DC Converter 400kHz, 36VinMax 3A
+K LMR33630x
+$ENDCMP
+#
+$CMP MAX11645EUA+
+D MAX11645EUA+  12-bit ADC, 2-Channel Single-Ended or 1-Channel FullyDifferential
+K MAX11645EUA+  ADC
+F https://www.mouser.com/datasheet/2/256/MAX11644-MAX11645-1512065.pdf
+$ENDCMP
+#
+$CMP MAX11666AUB
+D MAX11666 2-ch 12-bit ADC
+K MAX11666AUB+
+$ENDCMP
+#
+$CMP MCP48FVB22
+D MCP48FVB22, DAC, 12-Bit, Dual
+K MCP48FVB22, DAC
+F https://www.mouser.com/datasheet/2/268/microchip_technology_mchp-s-a0001280364-1-1738071.pdf
+$ENDCMP
+#
+$CMP NCS20071
+D NCS20071, Rail-to-rail opamp, Vsupply ~5V pinout: 3+ 4- 1o
+K opamp single R2R
+F https://datasheet.lcsc.com/lcsc/1912111437_ON-Semiconductor-NCS20071SN2T1G_C457774.pdf
+$ENDCMP
+#
+$CMP NJM2068
+D NJM2068 Dual Opamp
+K NJM2068
+$ENDCMP
+#
+$CMP NORFLASH_IS25LQ020B
+D IS25LQ020B, 2Mbit QSPI NOR FLASH
+K NORFLASH
+$ENDCMP
+#
+$CMP OpAmp_Single_TSOP5_R2R
+D DEPRECATED -- USE LM321 or TLV321 or NCS20071 etc
+K DEPRECATED -- USE LM321 or TLV321 or NCS20071 etc
+$ENDCMP
+#
+$CMP PCA9685
+D 16-channel LED Driver PWM 12-bit
+K LED Driver PCA9685
+F https://www.mouser.com/datasheet/2/302/PCA9685-1127478.pdf
+$ENDCMP
+#
+$CMP PCM3168
+D 6-in 8-out Audio Codec 96kHz 24bit
+K Codec Audio
+F https://www.ti.com/lit/ds/symlink/pcm3168a.pdf
+$ENDCMP
+#
+$CMP SDRAM_W9825G6KH-6
+D SDRAM 256Mb 16bit, 166MHz TSOP-54
+K SDRAM DRAM
+F https://www.winbond.com/resource-files/w9825g6kh_a04.pdf
+$ENDCMP
+#
+$CMP SDRAM_W9825G6KH-x
+D SDRAM 256Mb 16bit, 166MHz TSOP-54
+K SDRAM DRAM
+F https://www.winbond.com/resource-files/w9825g6kh_a04.pdf
+$ENDCMP
+#
+$CMP STM32F755IITx
+D ARM Cortex-M7/M4 dual-core MCU, crypto, 2048KB flash, 1024KB RAM, 480MHz, LQFP-176
+K ARM Cortex-M7 STM32H7 STM32H755
+F https://www.st.com/resource/en/datasheet/stm32h755bi.pdf
+$ENDCMP
+#
+$CMP STM32F756VGTx
+D ARM Cortex-M7 MCU
+K STM32F756VGTx
+$ENDCMP
+#
+$CMP STM32F757IITx
+D ARM Cortex-M7/M4 dual-core MCU, MIPI-DSI, crypto, 2048KB flash, 1024KB RAM, 480MHz, LQFP-176
+K ARM Cortex-M7 STM32H7
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00387108.pdf
+$ENDCMP
+#
+$CMP STM32F7x5Zx
+D ARM Microcontroller 32-bit 216MHz, 144-pin QFP
+K ARM STM32 STM32F7
+$ENDCMP
+#
+$CMP STM32H745IGTx
+D ARM Cortex-M7/M4 dual-core MCU, 1024KB flash, 1024KB RAM, 480MHz, LQFP-176
+K ARM Cortex-M7 STM32H7 STM32H745
+F https://www.st.com/resource/en/datasheet/stm32h745zg.pdf
+$ENDCMP
+#
+$CMP STM32H745IITx
+D ARM Cortex-M7/M4 dual-core MCU, 2048KB flash, 1024KB RAM, 480MHz, LQFP-176
+K ARM Cortex-M7 STM32H7
+F https://www.st.com/resource/en/datasheet/stm32h745zg.pdf
+$ENDCMP
+#
+$CMP STM32H747IGTx
+D ARM Cortex-M7/M4 dual-core MCU, MIPI-DSI, 1024KB flash, 1024KB RAM, 480MHz, LQFP-176
+K ARM Cortex-M7 STM32H7
+F https://www.st.com/resource/en/datasheet/stm32h747ag.pdf
+$ENDCMP
+#
+$CMP STM32H747IITx
+D ARM Cortex-M7/M4 dual-core MCU, MIPI-DSI, 2048KB flash, 1024KB RAM, 480MHz, LQFP-176
+K ARM Cortex-M7 STM32H7
+F https://www.st.com/resource/en/datasheet/stm32h747ag.pdf
+$ENDCMP
+#
+$CMP TCA9535PWR
+D Interface - I/O Expanders Remt 16Bit I2C SMBus Lo-Pwr I/O Expnder, TSSOP-24
+K TCA9535PWR, I/O Expander 16 Bit
+F https://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TL072
+D TL072 Dual Opamp TSSOP-8
+K TL072 TSSOP-8
+$ENDCMP
+#
+$CMP TL082
+D TL082 Dual Opamp TSSOP-8
+K TL082
+$ENDCMP
+#
+$CMP TLV171
+D TLV171, Vsupply +/-20Vmax,
+K opamp single TI TL17x pinout: 3+ 4- 1out
+F https://www.ti.com/lit/ds/symlink/tlv171.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1637109957038&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
+$CMP TLV172xDVB
+D TLV172, single opamp, Vsupply =36V pinout: 3+ 4- 1o
+K JLCPCB ID: C130210
+F https://www.ti.com/lit/ds/symlink/tlv172.pdf?ts=1629143798221&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV172
+$ENDCMP
+#
+$CMP TMUX1308DYYR
+D 8:1, 1-Channel, MUX, CMOS
+K MUX
+F https://www.ti.com/lit/ds/symlink/tmux1308.pdf?ts=1607975087135&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
+$CMP TPS54332
+D TPS54332, DC/DC Converter 1MHz, 28VinMax 3.5A
+K TPS54332
+$ENDCMP
+#
+$CMP TPS56339
+D TPS56339, DC/DC Buck Converter 500kHz 24VinMax 3A Synchronous
+K TPS56339
+$ENDCMP
+#
+$CMP TPS62933
+D TPS62933, DC/DC Buck Converter 3A, 30Vin Max, 0.2-2.2MHz
+K TPS62933
+$ENDCMP
+#
+$CMP V2164M
+D V2164 Quad VCA
+K VCA 2164
+F https://www.coolaudio.com/docs/COOLAUDIO_V2164MD_DATASHEET.pdf
+$ENDCMP
+#
+$CMP VXO7812-1000
+D VXO7812-1000, Non-Isolated DC/DC Converters 16-36Vin 12Vout 1A 12W SIP non-Iso
+K VXO7812-1000
+$ENDCMP
+#
+$CMP WM8731
+D Stereo Audio Codec 96kHz 24bit
+K Codec Audio
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
+#End Doc Library

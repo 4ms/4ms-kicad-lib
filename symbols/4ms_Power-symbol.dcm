@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3VADC
+D Power symbol creates a global label with name "+3.3VADC"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3VDAC
+D Power symbol creates a global label with name "+3.3VDAC"
+K power-flag
+$ENDCMP
+#
+$CMP +9V
+D Power symbol creates a global label with name "+9V"
+K power-flag
+$ENDCMP
+#
+$CMP GNDA
+D (analog) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GNDADC
+K POWER, PWR
+$ENDCMP
+#
+$CMP GNDADC2
+K POWER, PWR
+$ENDCMP
+#
+$CMP GNDAudio
+K Power Flag Symbol
+$ENDCMP
+#
+#End Doc Library

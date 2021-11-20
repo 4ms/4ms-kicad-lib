@@ -1,0 +1,35 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "4ms Kicad Libraries",
+    "description": "Kicad symbol and footprint libraries used at 4ms Company",
+    "description_full": "Kicad symbol and footprint libraries used at 4ms Company for analog and digital audio electronics. Most symbols include manufacturer name and part number, and sometimes multiple alternatives. Some parts have JLCPCB numbers as well, which is used by our BOM and XYPOS scripts in order to streamline using their services.\n\nThe symbols are 'atomic' parts in each symbol represents a unique part. For example, there is a separate symbol for each combination of resistor value, tolerance, and size. While this makes for a lot of symbols, Kicad's filter toolbar in the symbol chooser makes finding something a breeze. It also means that BOM generation has very little chance for error (and in fact our BOM error rate plummetted once we switched to this system).",
+    "identifier": "com.github.4ms.4ms-kicad-lib",
+    "type": "library",
+    "author": {
+        "name": "4ms Company",
+        "contact": {
+            "web": "https://4mscompany.com"
+        }
+    },
+    "maintainer": {
+        "name": "4ms Company",
+        "contact": {
+            "web": "https://4mscompany.com"
+        }
+    },
+    "license": "Unlicense",
+    "resources": {
+        "homepage": "https://github.com/4ms/4ms-kicad-lib"
+    },
+    "versions": [
+        {
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "5.99",
+            "download_sha256": "YOUR_SHA256_HERE",
+            "download_size": 1234,
+            "download_url": "https://github.com/4ms/4ms-kicad-lib/archive/refs/tags/1.0.0.zip",
+            "install_size": 5678
+        }
+    ]
+}

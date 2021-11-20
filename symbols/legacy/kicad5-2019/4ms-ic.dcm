@@ -1,0 +1,144 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4001
+D Quad Nor 2 inputs
+K CMOS Nor2
+F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf
+$ENDCMP
+#
+$CMP AP65111A
+D 500kHz 18V 1.5A Synchronous DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
+$ENDCMP
+#
+$CMP AP65211A
+D 500kHz 18V 2A Synchronous DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP65211A.pdf
+$ENDCMP
+#
+$CMP INA181
+D Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-6
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina181.pdf
+$ENDCMP
+#
+$CMP INA199
+D Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SC-70
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina199.pdf
+$ENDCMP
+#
+$CMP IQS550
+D Trackpad/touchscreen controller
+F https://www.azoteq.com/images/stories/pdf/iqs5xx-b000_trackpad_datasheet.pdf
+$ENDCMP
+#
+$CMP IS25LQ020B
+D NOR Flash RAM SPI or QSPI
+$ENDCMP
+#
+$CMP LM13600
+D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16
+K operational transconductance amplifier OTA
+F http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF
+$ENDCMP
+#
+$CMP LM13700
+D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16
+K operational transconductance amplifier OTA
+F http://www.ti.com/lit/ds/symlink/lm13700.pdf
+$ENDCMP
+#
+$CMP LMR33630x
+D DCDC Buck Converter
+$ENDCMP
+#
+$CMP LMZM3360x
+D LMZM3360x DCDC Converter Buck
+K DCDC Buck Converter Power
+F http://www.ti.com/lit/ds/symlink/lmzm33603.pdf
+$ENDCMP
+#
+$CMP MAX11666AUB
+F https://www.mouser.com/datasheet/2/256/MAX11661-MAX11666-1514035.pdf
+$ENDCMP
+#
+$CMP MOSFET-Nchan-DGS
+D N-Channel MOSFET
+K N-Channel MOSFET
+$ENDCMP
+#
+$CMP MOSFET-Pchan-DGS
+D P-Channel MOSFET
+K P-Channel MOSFET
+$ENDCMP
+#
+$CMP NORFLASH
+D NOR Flash RAM SPI or QSPI
+$ENDCMP
+#
+$CMP NPN_DUAL
+D 100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.nxp.com/documents/data_sheet/BC846BS.pdf
+$ENDCMP
+#
+$CMP S25FL127
+D NOR Flash RAM SPI or QSPI
+$ENDCMP
+#
+$CMP STM32F427VGTx
+D Core: ARM Cortex-M4, Package: LQFP100, Flash: 1024 kB, RAM: 192 kB, Frequency: 180 MHz, Voltage: 1.8..3.6V, I/O pins: 82
+K ARM Cortex-M4 STM32F4 STM32F427/437
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
+$ENDCMP
+#
+$CMP STM32F427VITx
+D Core: ARM Cortex-M4, Package: LQFP100, Flash: 1024 kB, RAM: 192 kB, Frequency: 180 MHz, Voltage: 1.8..3.6V, I/O pins: 82
+K ARM Cortex-M4 STM32F4 STM32F427/437
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
+$ENDCMP
+#
+$CMP STM32G070Kx
+D ARM Cortex-M0+ MCU, 128KB flash, 36KB RAM, 64MHz, 2.4-3.6V, 30 GPIO, LQFP-32
+K ARM Cortex-M0 STM32G0 STM32G0x0 Value Line
+F https://www.mouser.com/datasheet/2/389/stm32g070cb-1517433.pdf
+$ENDCMP
+#
+$CMP STM32G431Cx
+D ARM Cortex-M4 MCU, 170MHz,  LQFP-48
+K ARM Cortex-M4 STM32G4 STM32LG4x1
+F https://www.mouser.com/datasheet/2/389/stm32g431cb-1600855.pdf
+$ENDCMP
+#
+$CMP Si2318
+D N-Channel MOSFET
+K N-Channel MOSFET
+F https://www.mouser.com/datasheet/2/427/72322-244644.pdf
+$ENDCMP
+#
+$CMP Si2347
+D P-Channel MOSFET
+K P-Channel MOSFET
+F https://www.mouser.com/datasheet/2/427/si2347ds-279626.pdf
+$ENDCMP
+#
+$CMP TLC5957
+D 48-channel PWM LED Driver
+F http://www.ti.com/lit/ds/symlink/tlc5957.pdf
+$ENDCMP
+#
+$CMP TPS56339
+D 500kHz 18V 2A Synchronous DC/DC Buck Converter
+K buck switching converter
+F http://www.ti.com/lit/ds/symlink/tps56339.pdf
+$ENDCMP
+#
+$CMP V2164-separate-power
+D V2164 Quad VCA
+K VCA 2164
+$ENDCMP
+#
+#End Doc Library

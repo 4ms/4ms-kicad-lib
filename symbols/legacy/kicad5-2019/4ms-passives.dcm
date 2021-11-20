@@ -1,0 +1,110 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N3904_TH
+D 40V Vce, 0.2A Ic, NPN, Small Signal Transistor, TO-92
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+$ENDCMP
+#
+$CMP 2N7000
+D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+K N-Channel MOSFET Logic-Level
+F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
+$ENDCMP
+#
+$CMP B140HW-7
+D Schottky Barrier Rectifier Diode, SOD-123
+K diode Schottky
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP C-NP
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP CAP_TH
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+$ENDCMP
+#
+$CMP DIODE_TH
+D Diode, alternativ symbol
+K diode
+$ENDCMP
+#
+$CMP D_Schottky_x2_Serial
+D Double diode Shottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP Dual_Transistor
+D 40V Vce, 0.2A Ic, NPN, Small Signal Transistor, TO-92
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP LDR
+D light dependent resistor
+K light dependent photo resistor LDR
+F http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf
+$ENDCMP
+#
+$CMP LED-C1-A2
+D LED: Cathode=pin 1, Anode=pin 2
+K LED Light Emitting Diode
+$ENDCMP
+#
+$CMP LED_Dual_1Red_2Cathode_3White
+D LED dual, common cathode
+K led diode bicolor dual
+$ENDCMP
+#
+$CMP LED_Dual_RedWhite_CC
+D LED dual, red/white, 3-lead, common cathode
+K led diode bicolor dual red white
+$ENDCMP
+#
+$CMP Led_x2
+D Dual LED two-lead
+K LED
+$ENDCMP
+#
+$CMP MMBD4448HTS
+D Diode
+K diode
+F https://www.mouser.com/datasheet/2/115/ds30263-61567.pdf
+$ENDCMP
+#
+$CMP SOLDER
+D 2-pin jumper/solder bridge
+K jumper solder bridge
+$ENDCMP
+#
+$CMP TP0610L
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP VP0610L
+D -60V Vds, -0.18A Id, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+#End Doc Library

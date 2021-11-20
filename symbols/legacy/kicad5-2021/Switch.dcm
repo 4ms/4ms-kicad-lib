@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Button_DPDT_Orange_Latching
+F https://www.mouser.com/datasheet/2/435/wells00109_1-2286045.pdf
+$ENDCMP
+#
+$CMP Button_SPST_RGB_7mmCap
+D SPST button with RGB LED, 7mm diffused cap
+K Button_SPST_RGB_7mmCap
+$ENDCMP
+#
+$CMP Encoder_Rotary_11mm_SPST_DShaft
+D Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft
+K Encoder Rotary Smooth
+$ENDCMP
+#
+$CMP Slide_DPDT_SS22D06
+D On/On, SubMini toggle 2-position
+K Slide_DPDT_SS22D06
+$ENDCMP
+#
+$CMP Toggle_SPDT_SubMini_2pos
+D SPDT, 3-position, sub-mini toggle, PC-pin, vertical, on(off)on
+K Toggle_SPDT_SubMini_2pos
+$ENDCMP
+#
+$CMP Toggle_SPDT_SubMini_3pos
+D SPDT, On/On, SubMini toggle 2-position
+K Toggle_SPDT_SubMini_3pos
+$ENDCMP
+#
+#End Doc Library

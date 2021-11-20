@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3.5mm_Mono_Switched
+D Audio 3.5mm Jack, mono, switched, PC-pin Vertical
+K PJ398SM PJ301SM WQP518MA
+$ENDCMP
+#
+$CMP 3.5mm_Mono_Switched_SymSmall_0.05
+D Audio 3.5mm Jack, mono, switched, PC-pin Vertical
+K PJ398SM PJ301SM WQP518MA
+$ENDCMP
+#
+$CMP 3.5mm_Mono_Switched_sm
+D Audio 3.5mm Jack, mono, switched, PC-pin Vertical
+K PJ398SM PJ301SM WQP518MA
+$ENDCMP
+#
+$CMP 3.5mm_Stereo
+D Audio 3.5mm Jack, stereo, PC-pin Vertical
+K WQP419GR PJ366ST
+$ENDCMP
+#
+$CMP 3.5mm_Stereo_SymSmall_0.05
+D Audio 3.5mm Jack, stereo, PC-pin Vertical
+K WQP419GR PJ366ST
+$ENDCMP
+#
+$CMP 3.5mm_Stereo_sm
+D Audio 3.5mm Jack, Stereo, PC-pin Vertical
+K WQP419GR PJ366ST
+$ENDCMP
+#
+$CMP Barrel_2.0mmPin_PJ064
+D Barrel Jack, 2.0mm diameter center pin, Vertical, PC-pins
+K WQP-DC026M (2.0mm center pin)
+$ENDCMP
+#
+#End Doc Library

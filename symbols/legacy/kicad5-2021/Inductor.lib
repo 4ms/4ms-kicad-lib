@@ -1,0 +1,295 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1.5uH_7A_5252
+#
+DEF 1.5uH_7A_5252 L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "1.5uH_7A_5252" 0 200 50 H I C CNN
+F2 "4ms_Inductor:COIL_5252metric_2020" 0 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1.5uH, Imax=7.2A, Isat=11A, Rdc=20mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay Dale" -100 -370 50 H I L CNN "Manufacturer"
+F6 "IHLP-2020CZER1R5M11" -100 -430 50 H I L CNN "Part Number"
+F7 "IHLP-2020CZER1R5M01" 0 0 50 H I C CNN "Part Number 2"
+F8 "1.5uH" 100 0 50 V V C CNN "Display"
+F9 "7.2A" 171 0 50 V V C CNN "Display 2"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10uH_1.0A_4018
+#
+DEF 10uH_1.0A_4018 L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "10uH_1.0A_4018" 25 225 50 H I C CNN
+F2 "Inductor_SMD:L_Taiyo-Yuden_NR-40xx" 0 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10uH, Idc>1.2A, Rdc<=200mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
+F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
+F6 "NRS4018T100MDGJ" -100 -430 50 H I L CNN "Part Number"
+F7 "10uH" 100 0 50 V V C CNN "Display"
+F8 "1.2A" 170 -2 50 V V C CNN "Display 2"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 12uH_5.2A_1260
+#
+DEF 12uH_5.2A_1260 L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "12uH_5.2A_1260" 0 250 50 H I C CNN
+F2 "Inductor_SMD:L_Bourns_SRR1260" 100 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "12uH, Idc>=5.2A, Shielded, Rdc<23mΩ" -100 -310 50 H I L CNN "Specifications"
+F5 "Bournes" -100 -370 50 H I L CNN "Manufacturer"
+F6 "SRR1260-120M" -100 -430 50 H I L CNN "Part Number"
+F7 "12uH" 100 0 50 V V C CNN "Display"
+F8 "5.2A" 200 0 50 V V C CNN "Display 2"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 15uH_1A_5040
+#
+DEF 15uH_1A_5040 L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "15uH_1A_5040" 0 200 50 H I C CNN
+F2 "4ms_Inductor:COIL_5040" 50 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "15uH, Isat>1A, Rdc<=100mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
+F5 "Bournes" -100 -370 50 H I L CNN "Manufacturer"
+F6 "SRN5040TA-150M" -100 -430 50 H I L CNN "Part Number"
+F7 "15uH" 100 0 50 V V C CNN "Display"
+F8 "1A" 174 4 50 V V C CNN "Display 2"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.2uH_2.4A_2016
+#
+DEF 2.2uH_2.4A_2016 L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "2.2uH_2.4A_2016" 0 200 50 H I C CNN
+F2 "Inductor_SMD:L_Taiyo-Yuden_NR-20xx_HandSoldering" 50 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "2.2uH, Isat>2.4A, Imax>=1.8A, Rdc<=120mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
+F5 "TDK" -100 -370 50 H I L CNN "Manufacturer"
+F6 "DFE201612E-2R2M=P2" -100 -430 50 H I L CNN "Part Number"
+F7 "2.2uH" 100 0 50 V V C CNN "Display"
+F8 "1.8A" 174 4 50 V V C CNN "Display 2"
+F9 "NRH2412T2R2MNGH" 0 0 50 H I C CNN "Part Number 2"
+F10 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer 2"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5.6uH_4.25A_5030
+#
+DEF 5.6uH_4.25A_5030 L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "5.6uH_4.25A_5030" 0 200 50 H I C CNN
+F2 "4ms_Inductor:COIL_5030" 0 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "5.6uH, Isat=4.25A, Rdc=63mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
+F5 "Bournes" -100 -370 50 H I L CNN "Manufacturer"
+F6 "SRP5030T-5R6M" -100 -430 50 H I L CNN "Part Number"
+F7 "5.6uH" 100 0 50 V V C CNN "Display"
+F8 "4.25A" 171 0 50 V V C CNN "Display 2"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6.8uH_1.0A_4018
+#
+DEF 6.8uH_1.0A_4018 L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "6.8uH_1.0A_4018" 25 225 50 H I C CNN
+F2 "Inductor_SMD:L_Taiyo-Yuden_NR-40xx" 0 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "6.8uH, Isat>625mA, Idc>1.0A, Rdc<=100mOhms, shielded" -100 -310 50 H I L CNN "Specifications"
+F5 "Taiyo Yuden" -100 -370 50 H I L CNN "Manufacturer"
+F6 "NRS4018T6R8MDGJ" -100 -430 50 H I L CNN "Part Number"
+F7 "6.8uH" 100 0 50 V V C CNN "Display"
+F8 "1.6A" 170 -2 50 V V C CNN "Display 2"
+F9 "Taiyo Yuden" 100 -575 50 H I C CNN "Manufacturer 2"
+F10 "NRS4018T6R8MDGJV" 100 -575 50 H I C CNN "Part Number 2"
+F11 "Taiyo Yuden" 100 -575 50 H I C CNN "Manufacturer 3"
+F12 "NR4018T6R8M" 100 -575 50 H I C CNN "Part Number 3"
+F13 "Bournes" 100 -575 50 H I C CNN "Manufacturer 4"
+F14 "SRN4018TA-6R8M" 100 -575 50 H I C CNN "Part Number 4"
+F15 "ABRACON" 100 -575 50 H I C CNN "Manufacturer 5"
+F16 "ASPI-0418FS-6R8M-T3" 100 -575 50 H I C CNN "Part Number 5"
+F17 "C223055" 0 0 50 H I C CNN "JLCPCB ID"
+ALIAS 6.8uH_0.6A_4018
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 8.2uH_3.2A_6540
+#
+DEF 8.2uH_3.2A_6540 L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "8.2uH_3.2A_6540" 0 200 50 H I C CNN
+F2 "4ms_Inductor:COIL_SRP6540" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "8.2uH, DCR: <78mΩ, IDC: >3.2A" -100 -310 50 H I L CNN "Specifications"
+F5 "Bournes" -100 -370 50 H I L CNN "Manufacturer"
+F6 "SRP6540-8R2M" -100 -430 50 H I L CNN "Part Number"
+F7 "8.2uH" 100 0 50 V V C CNN "Display"
+F8 "3.2A" 172 0 50 V V C CNN "Display 2"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FerriteBead_0603_1.5A
+#
+DEF FerriteBead_0603_1.5A L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "FerriteBead_0603_1.5A" 0 250 50 H I C CNN
+F2 "4ms_Resistor:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Chip Bead, Ferrite Chip Bead, Z=30Ω @ 100MHz, RmaxDC=90mΩ, ImaxDC=1.5A" -100 -310 50 H I L CNN "Specifications"
+F5 "Laird" -100 -370 50 H I L CNN "Manufacturer"
+F6 "MI0603K300R-10" -100 -430 50 H I L CNN "Part Number"
+F7 "Ferrite Bead" 100 50 60 V V C CNN "Display"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Speaker-generic
+#
+DEF Speaker-generic SPK 0 40 Y N 1 F N
+F0 "SPK" 0 225 50 H V C CNN
+F1 "Speaker-generic" 0 200 50 H I C CNN
+F2 "" 0 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+S -35 125 50 -120 0 1 0 f
+P 2 0 1 0 0 -100 -50 -100 N
+P 5 0 1 0 50 125 125 185 125 -170 50 -120 50 125 f
+P 2 1 1 0 0 100 -50 100 N
+X + + -100 100 50 R 50 50 1 1 P
+X - - -100 -100 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

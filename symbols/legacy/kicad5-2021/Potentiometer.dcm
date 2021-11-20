@@ -1,0 +1,68 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 16mm_21Det_10k
+D 10k Linear, 16mm pot, 21 Detent, D-shaft
+K 16mm_21Det_10k
+$ENDCMP
+#
+$CMP 16mm_CtrDet_10k
+D 10k Linear, 16mm pot, Center Detent, D-shaft
+K 16mm_CtrDet_10k
+$ENDCMP
+#
+$CMP 16mm_NoDet_100k
+D 100k Linear, 16mm pot, No Detent, D-shaft
+K 16mm_NoDet_100k
+$ENDCMP
+#
+$CMP 16mm_NoDet_10k
+D 10k Linear, 16mm pot, No Detent, D-shaft
+K 16mm_NoDet_10k
+$ENDCMP
+#
+$CMP 9mm_CtrDet_100k_Knurled_Lined
+D 100k Linear, 9mm pot, Center Detent, Knurled, Lined
+K 9mm_CtrDet_100k_Knurled_Lined
+$ENDCMP
+#
+$CMP 9mm_CtrDet_10k_DShaft
+D 10k Linear, 9mm pot, Center Detent, D-Shaft
+K 9mm_CtrDet_10k_DShaft
+$ENDCMP
+#
+$CMP 9mm_Dual_50k_DShaft_DualRow
+D 50k Linear, 9mm pot, Dual, D-Shaft, Dual Row
+K 9mm_Dual_50k_DShaft_DualRow
+$ENDCMP
+#
+$CMP 9mm_NoDet_100k_Knurled_Lined
+D 100k Linear, 9mm pot, No Detent, Knurled, Lined
+K 9mm_NoDet_100k_Knurled_Lined
+$ENDCMP
+#
+$CMP 9mm_NoDet_10k_DShaft
+D 10k Linear, 9mm pot, No Detent, D-Shaft
+K 9mm_NoDet_10k_DShaft
+$ENDCMP
+#
+$CMP TrimPot_T73YEt_100k
+D Trimpot, TH, 100k, single turn, square
+K TrimPo_T73YEt_100k
+$ENDCMP
+#
+$CMP TrimPot_T73YEt_10k
+D Trimpot, TH, 10k, single turn, square
+K TrimPo_T73YEt_10k
+$ENDCMP
+#
+$CMP TrimPot_T73YEt_1k
+D Trimpot, TH, 1k, single turn, square
+K TrimPot_T73YEt_1k
+$ENDCMP
+#
+$CMP TrimPot_TC33X_1k
+D Trimpot 1k SMT
+K TrimPot_TC33X_1k
+$ENDCMP
+#
+#End Doc Library

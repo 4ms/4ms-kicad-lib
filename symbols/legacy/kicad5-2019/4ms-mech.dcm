@@ -1,0 +1,102 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DPDT-shielded-sep
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
+$CMP JACK-MONO
+D Jack, Mono with switch and ground
+K JACK
+$ENDCMP
+#
+$CMP JACK-STEREO
+D Jack, Mono with switch and ground
+K JACK
+$ENDCMP
+#
+$CMP JACK-TRS
+D Jack, TRS Stereo
+K JACK
+$ENDCMP
+#
+$CMP Jack-Mono-2Switches
+D 3-pin (audio) jack receptable (stereo/TRS connector) with 3 switching contacts
+K audio jack receptable stereo headphones connector
+F ~
+$ENDCMP
+#
+$CMP Jack-Stereo-3Switches
+D 3-pin (audio) jack receptable (stereo/TRS connector) with 3 switching contacts
+K audio jack receptable stereo headphones connector
+F ~
+$ENDCMP
+#
+$CMP POT
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP POT_DUAL
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP POT_DUAL_TABS
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP POT_TABS
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP Pot_Dual_ComGND
+D Dual Potentiometer, one common pin
+K resistor variable
+$ENDCMP
+#
+$CMP SD_Card
+D Micro SD Card Reader
+K connector SD MICROSD
+F https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
+$ENDCMP
+#
+$CMP SPST-ILLUM-RGB-r7b6g8
+D Momentary RGB Illuminated Button - Pin Order R=7, G=8, B=6
+K RBG LED Button Illuminated Switch SPST RunRun PB615303HL-7
+$ENDCMP
+#
+$CMP SPST-ILLUM-RGB-r7b8g6
+D Momentary RGB Illuminated Button - Pin Order R=7, G=6, B=8
+K RBG LED Button Illuminated Switch SPST Wellbuying TC002-N11AS2XT-RGB
+$ENDCMP
+#
+$CMP SW_DP3T
+D Switch, three position, double pole triple throw, 3 position switch, DP3T
+K switch dp3t ON-ON-ON
+$ENDCMP
+#
+$CMP SW_DPDT_x2
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
+$CMP TENTURN
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP TRIMPOT
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP microSD_Card
+D Micro SD Card Reader
+K connector SD MICROSD
+F https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
+$ENDCMP
+#
+#End Doc Library

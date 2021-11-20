@@ -1,0 +1,272 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1N914BWS
+#
+DEF 1N914BWS D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "1N914BWS" 0 -100 50 H I C CNN
+F2 "4ms_Diode:D_SOD-323F" 0 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1N914BWS, 75V, 150mA, 1V @ 100mA SOD-323F" -100 -310 50 H I L CNN "Specifications"
+F5 "ON Semiconductor / Fairchild" -100 -370 50 H I L CNN "Manufacturer"
+F6 "1N914BWS" -100 -430 50 H I L CNN "Part Number"
+F7 "C258181" -100 -430 50 H I L CNN "JLCPCB ID"
+F8 "1N914" 0 -100 50 H V C CNN "Display"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# B140-E3
+#
+DEF B140-E3 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "B140-E3" 0 -100 50 H V C CNN
+F2 "4ms_Diode:D_SMA" 0 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "SCHOTTKY Diode SMA Vrrm>=40V If>=1.0A, Ifsm>=1.5A" -100 -310 50 H I L CNN "Specifications"
+F5 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
+F6 "B140-E3/5AT" -100 -430 50 H I L CNN "Part Number"
+F7 "Diodes Incorporated" -100 -500 50 H I L CNN "Manufacturer 2"
+F8 "B140-E3/61T" -100 -600 50 H I L CNN "Part Number 2"
+F9 "C15759" 0 0 50 H I C CNN "JLCPCB ID"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 1 1 0 50 0 -50 0 N
+P 4 1 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 1 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# B140HW-7
+#
+DEF B140HW-7 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "B140HW-7" 0 -100 50 H V C CNN
+F2 "4ms_Diode:D_SOD-123" 0 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "SCHOTTKY RECTIFIER 1.0A 40Vrrm 0.55Vf" -100 -310 50 H I L CNN "Specifications"
+F5 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
+F6 "B140HW-7" -100 -430 50 H I L CNN "Part Number"
+F7 "C134429" 100 -500 50 H I C CNN "JLCPCB ID"
+F8 "C8598" 0 0 50 H I C CNN "Alt JLCPCB ID"
+F9 "B5819W" 0 0 50 H I C CNN "Alt JLCPCB Part"
+$FPLIST
+ D*SOD*123
+ D_SOD-123
+ SOD*123
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# B360A
+#
+DEF B360A D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "B360A" 0 -100 50 H V C CNN
+F2 "4ms_Diode:D_DO-214AC_SMA" -50 150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "B360A, Vrrm=60V, If=3A" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay Semiconductors" -100 -370 50 H I L CNN "Manufacturer"
+F6 "B360A-E3/61T" -100 -430 50 H I L CNN "Part Number"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BAT54S
+#
+DEF BAT54S D 0 30 Y N 1 F N
+F0 "D" 100 -100 50 H V C CNN
+F1 "BAT54S" 0 100 50 H V C CNN
+F2 "4ms_Package_SOT:SOT23-3_PO132" -50 200 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Dual schottky diode BAT54S" -100 -310 50 H I L CNN "Specifications"
+F5 "Diodes Incorporated" -100 -370 50 H I L CNN "Manufacturer"
+F6 "BAT54S-7-F" -100 -430 50 H I L CNN "Part Number"
+F7 "C83574" 50 -500 50 H I C CNN "JLCPCB ID"
+F8 "C122856" 0 0 50 H I C CNN "Alt JLCPCB ID"
+DRAW
+P 2 0 1 0 0 0 0 -100 N
+P 2 0 1 0 250 0 300 0 N
+P 3 0 1 10 -50 -50 -50 50 -50 50 N
+P 3 0 1 10 -50 0 50 0 50 0 N
+P 3 0 1 10 150 50 150 -50 150 -50 N
+P 4 0 1 10 -50 -50 -30 -50 -30 -40 -30 -40 N
+P 4 0 1 10 150 -50 170 -50 170 -40 170 -40 N
+P 4 0 1 10 150 50 130 50 130 40 130 40 N
+P 5 0 1 10 -70 40 -70 50 -50 50 -50 50 -50 50 N
+P 6 0 1 10 -150 50 -50 0 -150 -50 -150 50 -150 50 -150 50 N
+P 6 0 1 10 50 50 150 0 50 -50 50 50 50 50 50 50 N
+X Anode 1 -400 0 250 R 40 40 0 1 P
+X cathode 2 400 0 250 L 40 40 0 1 P
+X AK 3 0 -200 100 U 40 40 0 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Generic
+#
+DEF D_Generic D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Generic" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PDS560
+#
+DEF PDS560 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "PDS560" 0 200 50 H V C CNN
+F2 "Diode_SMD:D_PowerDI-5" 0 -200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PDS560, 60Vrrm, 5A" -100 -310 50 H I L CNN "Specifications"
+F5 "Diodes Inc." -100 -370 50 H I L CNN "Manufacturer"
+F6 "PDS560Q-13" -100 -430 50 H I L CNN "Part Number"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RB500SM
+#
+DEF RB500SM D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "RB500SM" 0 200 50 H V C CNN
+F2 "Diode_SMD:D_SOD-523" 350 -200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "RB500SM, VRRM >20V, Isurge >1A, If>100mA" -100 -310 50 H I L CNN "Specifications"
+F5 "ROHM Semiconductor" -100 -370 50 H I L CNN "Manufacturer"
+F6 "RB500SM-30FHT2R" -100 -430 50 H I L CNN "Part Number"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SD103
+#
+DEF SD103 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "SD103" 0 -100 50 H V C CNN
+F2 "4ms_Diode:D_SOD-323F" 0 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "SD103AWS, 5uA 40Volt 15A IFSM" -100 -310 50 H I L CNN "Specifications"
+F5 "Vishay" -100 -370 50 H I L CNN "Manufacturer"
+F6 "SD103AWS-E3-18" -100 -430 50 H I L CNN "Part Number"
+F7 "C142592" -100 -430 50 H I L CNN "JLCPCB ID"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 1 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TVS_0402_24Vclamp_250Vbk
+#
+DEF TVS_0402_24Vclamp_250Vbk D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "TVS_0402_24Vclamp_250Vbk" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" -101 -189 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "ESD Bi-dir Vop(min): 24V, Vbreakdown: 250V" -100 -310 50 H I L CNN "Specifications"
+F5 "Bussman/Eaton" 200 -500 50 H I C CNN "Manufacturer"
+F6 "0402ESDB-MLP1" 150 -600 50 H I C CNN "Part Number"
+F7 "Bournes" -100 -370 50 H I L CNN "Manufacturer 2"
+F8 "CG0402MLC-24LG" -100 -430 50 H I L CNN "Part Number 2"
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 -100 -50 0 0 -100 50 -100 -50 N
+P 4 0 1 8 20 50 0 50 0 -50 -20 -50 N
+P 4 0 1 8 100 50 100 -50 0 0 100 50 N
+X A1 1 -150 0 100 R 50 50 1 1 P
+X A2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,42 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_01x02
+D Generic connector, single row, 01x02
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x05
+D Generic connector, single row, 01x05
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x03
+D Connector, double row, 02x03, pin header
+K connector
+$ENDCMP
+#
+$CMP Conn_02x06_Odd_Even
+D Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP EURO_HEADER
+D Connector, double row, 02x08, pin header
+K connector
+$ENDCMP
+#
+$CMP EURO_HEADER_10pin
+D Connector, double row, 02x08, pin header
+K connector
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,55 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1.5uH_7A_5252
+D 1.5uH, Imax=7.2A, Isat=11A, Rdc=20mOhms, shielded
+K 1.5uH 7A 5252metric 2020
+F https://www.vishay.com/docs/34280/ihlp-2020cz-01.pdf
+$ENDCMP
+#
+$CMP 10uH_1.0A_4018
+D 10uH, Idc>1.0A, Rdc<=200mOhms, shielded
+$ENDCMP
+#
+$CMP 12uH_5.2A_1260
+D 12uH, Idc>=5.2A, Shielded, Rdc<23mΩ
+K 12uH_5.2A_1260
+$ENDCMP
+#
+$CMP 15uH_1A_5040
+D 15uH, Isat>1A, Rdc<=100mOhms, shielded
+K 15uH_1A_5040
+$ENDCMP
+#
+$CMP 2.2uH_2.4A_2016
+D 2.2uH, Isat>2.4A, Imax>=1.8A, Rdc<=120mOhms, shielded
+K 2.2uH_2.4A_2016 2.2µH
+$ENDCMP
+#
+$CMP 5.6uH_4.25A_5030
+D 5.6uH, Isat=4.25A, Rdc=63mOhms, shielded
+K 5.6uH_4.25A_5030
+$ENDCMP
+#
+$CMP 6.8uH_0.6A_4018
+D 6.8uH, Isat>1.4A, Idc>0.6A, Rdc<110mOhms, shielded
+$ENDCMP
+#
+$CMP 6.8uH_1.0A_4018
+D 6.8uH, Isat>1.4A, Idc>1.0A, Rdc<110mOhms, shielded
+$ENDCMP
+#
+$CMP 8.2uH_3.2A_6540
+D 8.2uH, DCR: <78mΩ, IDC: >3.2A
+K 8.2uH_3.2A_6540
+$ENDCMP
+#
+$CMP FerriteBead_0603_1.5A
+D Chip Bead, Ferrite Chip Bead, Z=30Ω @ 100MHz, RmaxDC=90mΩ, ImaxDC=1.5A
+K FerriteBead_0603_1.5A
+$ENDCMP
+#
+$CMP Speaker-generic
+D Speaker
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NetTie
+#
+DEF NetTie TIE 0 0 N N 1 F N
+F0 "TIE" 0 -75 50 H I C CNN
+F1 "NetTie" 0 50 50 H V C CNN
+F2 "4ms_SolderJumper:Net_Tie_0.16mm_6mil" -25 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DNP" 0 150 50 H I C CNN "Specifications"
+F5 "DNP" 0 150 50 H I C CNN "Manufacturer"
+F6 "Do Not Place" 0 100 50 H I C CNN "Part Number"
+DRAW
+X 1 1 -100 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

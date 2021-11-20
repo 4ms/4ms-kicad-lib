@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7381-50
+D LDO Voltage Regulator, 5v, 150mA
+K AP7381-50
+$ENDCMP
+#
+$CMP AP7384-33
+D 3.3V Reg. Iout>20mA, Vin>15V
+K AP7384-33
+$ENDCMP
+#
+$CMP AP7384-50
+D Vreg 5.0V, Iout>50mA, Vin>15V
+K AP7384-50
+$ENDCMP
+#
+$CMP L78M05CDT
+D Vreg 5.0V, Iout>500mA, Vin>7V
+K L78M05
+F https://www.mouser.com/datasheet/2/389/cd00000447-1795461.pdf
+$ENDCMP
+#
+$CMP LD1117-3.3V-SOT223
+D 3.3V Voltage Regulator, SOT-223-3, Imax=0.8A, VinMax=15V, Vdrop=1V
+F https://www.mouser.com/datasheet/2/389/cd00000544-1795431.pdf
+$ENDCMP
+#
+$CMP MC78L05ACH
+D 5V 0.1A Voltage Regulator SOT89
+$ENDCMP
+#
+$CMP Polyfuse_3A_15V
+D 3A trip, 1.5A hold Resettable fuse, polymeric positive temperature coefficient
+K Fuse
+F ~
+$ENDCMP
+#
+$CMP UA78L08
+D Vreg 8.0V, Iout>100mA, Vin>10.5V
+K UA78L08
+F https://www.ti.com/lit/ds/symlink/ua78l.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1629320595639
+$ENDCMP
+#
+$CMP UA78L09
+D Vreg 9.0V, Iout>100mA, Vin>11.5V
+K UA78L09
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fua78l
+$ENDCMP
+#
+#End Doc Library

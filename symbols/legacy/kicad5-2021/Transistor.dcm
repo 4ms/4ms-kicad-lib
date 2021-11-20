@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBT3904DW1
+D Bipolar Transistor NPN, Gen Purpose, DW1 pinout
+K MBT3904DW1
+$ENDCMP
+#
+$CMP MBT3906DW1
+D Bipolar Transistor NPN, Gen Purpose, DW1 pinout
+K MBT3904DW1
+F https://www.mouser.com/datasheet/2/308/MBT3906DW1T1_D-1811000.pdf
+$ENDCMP
+#
+$CMP NMOS_BTS141BKSA1
+D N-MOSFET transistor BTS141
+K NMOS MOSFET BTS141BKSA1 TO-220-3
+F Datasheet
+$ENDCMP
+#
+$CMP PMOS_IRF5305PBF
+D PMOSFET 55V -31A 60mOhm
+K PMOS MOSFET IRF5305
+F Datasheet
+$ENDCMP
+#
+$CMP Si2318
+D MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms
+K Si2318
+F https://www.mouser.com/datasheet/2/427/72322-1765729.pdf
+$ENDCMP
+#
+$CMP Si2347
+D MOSFET P-chan Si2347
+K Si2347
+$ENDCMP
+#
+$CMP ZHB6718
+D BJT H-Bridge, SM-8
+K ZHB6718
+F https://www.mouser.com/datasheet/2/115/ZHB6718-93331.pdf
+$ENDCMP
+#
+#End Doc Library

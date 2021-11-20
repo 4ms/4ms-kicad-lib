@@ -1,0 +1,10 @@
+(module Faceplate_Hole_Encoder_RGB_NoBushing (layer F.Cu) (tedit 5A7E4C07)
+  (tags "Rotary Encoder RGB")
+  (fp_text reference REF** (at 0.15 6.18) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Faceplate_Hole_Encoder_RGB_NoBushing (at -0.05 4.68) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 7.366 7.366) (drill 7.112) (layers *.Cu *.Mask))
+)
