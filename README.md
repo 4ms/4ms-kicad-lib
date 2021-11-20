@@ -11,7 +11,7 @@ There are also some legacy symbol libraries for KiCad 5.1.x, but they will not b
 
 The footprints work with KiCad 6, KiCad 5.99 and KiCad 5.1.9 and later. 
 
-Nothing here will work withe KiCad 4. 
+Nothing here will work with KiCad 4. 
 
 We tried to follow the KiCad Library Conventions, although we made breaks from that where it made sense. We also tried to keep the look and feel of the official KiCad symbols, to make using this library and the official KiCad libraries seamless.
 
