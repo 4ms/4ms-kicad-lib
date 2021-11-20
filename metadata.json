@@ -26,10 +26,10 @@
             "version": "1.0.0",
             "status": "stable",
             "kicad_version": "5.99",
-            "download_sha256": "YOUR_SHA256_HERE",
-            "download_size": 1234,
+            "download_sha256": "c62363b4d3a423ff72a334ef0cc38058b5f2ae7855ee04b560a76f1db62179c8",
+            "download_size": 12087719,
             "download_url": "https://github.com/4ms/4ms-kicad-lib/archive/refs/tags/1.0.0.zip",
-            "install_size": 5678
+            "install_size": 76824339
         }
     ]
 }
