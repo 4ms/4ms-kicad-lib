@@ -1,18 +1,8 @@
 .DS_Store
 malekko*
-kicad-footprints/
-3rd-party/
-lib-cow/
-libKiCad/
-EtherkitKicadLibrary.pretty/
-cvra_kicad-lib/
-kicad-library
-private/
 *.bak
 *.bck
-* (1).*
-* (2).*
-*\ (1).*
-*\ (2).*
+*.zip
+PCM/icon.png
+PCM/metadata.json
 
-kicad-footprints
