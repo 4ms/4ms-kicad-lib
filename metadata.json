@@ -1,19 +1,21 @@
 {
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "4ms Kicad Libraries",
-    "description": "Kicad symbol and footprint libraries used at 4ms Company",
-    "description_full": "Kicad symbol and footprint libraries used at 4ms Company for analog and digital audio electronics. Most symbols include manufacturer name and part number, and sometimes multiple alternatives. Some parts have JLCPCB numbers as well, which is used by our BOM and XYPOS scripts in order to streamline using their services.\n\nThe symbols are 'atomic' parts in each symbol represents a unique part. For example, there is a separate symbol for each combination of resistor value, tolerance, and size. While this makes for a lot of symbols, Kicad's filter toolbar in the symbol chooser makes finding something a breeze. It also means that BOM generation has very little chance for error (and in fact our BOM error rate plummetted once we switched to this system).",
+    "description": "Kicad symbol and footprint libraries, with a focus on components used in analog and DSP audio.",
+    "description_full": "Kicad symbol and footprint libraries for analog and digital (DSP) audio electronics.\n\nYou must add these libraries to your library tables, see GitHub link for instructions.\n\nThese libraries are used at 4ms Company in our audio devices. Most symbols include manufacturer name and part number, and sometimes multiple alternative numbers. Some parts have JLCPCB part numbers as well, which is used by our BOM and XYPOS scripts in order to streamline using their services (see our GitHub page for links to those scripts).\n\nEach symbol represents a unique part. For example, there is a separate symbol for each combination of resistor value, tolerance, and size. While this makes for a lot of symbols, Kicad's filter toolbar in the symbol chooser makes finding a part easy, and there is less chance for BOM errors.\n\nWhen possible, symbols look like the official KiCad symbols, so that it's easy to use official and 4ms symbols in the same schematic.",
     "identifier": "com.github.4ms.4ms-kicad-lib",
     "type": "library",
     "author": {
         "name": "4ms Company",
         "contact": {
+			"email": "4ms@4mscompany.com",
             "web": "https://4mscompany.com"
         }
     },
     "maintainer": {
         "name": "4ms Company",
         "contact": {
+			"email": "4ms@4mscompany.com",
             "web": "https://4mscompany.com"
         }
     },
@@ -21,14 +23,18 @@
     "resources": {
         "homepage": "https://github.com/4ms/4ms-kicad-lib"
     },
+    "tags": [
+        "footprints", 
+        "symbols"
+    ],
     "versions": [
         {
-            "version": "1.0.0",
+            "version": "1.0.1",
             "status": "stable",
-            "kicad_version": "5.99",
+            "kicad_version": "6.0",
             "download_sha256": "c62363b4d3a423ff72a334ef0cc38058b5f2ae7855ee04b560a76f1db62179c8",
             "download_size": 12087719,
-            "download_url": "https://github.com/4ms/4ms-kicad-lib/archive/refs/tags/1.0.0.zip",
+            "download_url": "https://github.com/4ms/4ms-kicad-lib/archive/refs/tags/1.0.1.zip",
             "install_size": 76824339
         }
     ]
