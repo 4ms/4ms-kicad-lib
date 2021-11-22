@@ -31,11 +31,7 @@
         {
             "version": "1.0.1",
             "status": "stable",
-            "kicad_version": "6.0",
-            "download_sha256": "c62363b4d3a423ff72a334ef0cc38058b5f2ae7855ee04b560a76f1db62179c8",
-            "download_size": 12087719,
-            "download_url": "https://github.com/4ms/4ms-kicad-lib/archive/refs/tags/1.0.1.zip",
-            "install_size": 76824339
+            "kicad_version": "6.0"
         }
     ]
 }
