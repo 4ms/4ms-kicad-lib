@@ -32,7 +32,7 @@ __Other stuff (not in KiCad PCM archive):__
 
 `footprints-legacy`: The legacy footprint library, not really of much use since PCBs embed the footprints they used.
 
-`packages3d`: Random 3d models, please verify dimensions before relying on the accuracy of these models. TODO: remove bad models, organize into .3dshapes directories, update links in footprints.
+`packages3d`: Random 3d models, please verify dimensions before relying on the accuracy of these models.
 
 `lib-table-files`: The library table files. People working on 4ms projects should copy these into a project directory (See step 2B below).
 
@@ -81,3 +81,12 @@ LICENSE
 
 These are in the public domain under the Unlicense.
 
+
+
+TODO
+----
+
+  * Add better descriptions for each library
+  * Organize 3dmodels into .3dshapes directories
+  * Remove bad 3d models
+  * Fix all 3d model links in footprints, using official KiCad library models where possible
