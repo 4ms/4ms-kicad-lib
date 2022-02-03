@@ -1208,11 +1208,11 @@
       )
     )
   )
-  (symbol "130k_0603_1" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "130k_0603" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at 2.032 0 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "130k_0603_1" (id 1) (at -2.54 0 90)
+    (property "Value" "130k_0603" (id 1) (at -2.54 0 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "4ms_Resistor:R_0603" (id 2) (at -2.54 -12.7 0)
@@ -1245,13 +1245,13 @@
     (property "ki_fp_filters" "R_* R_*" (id 11) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "130k_0603_1_0_1"
+    (symbol "130k_0603_0_1"
       (rectangle (start -1.016 -2.54) (end 1.016 2.54)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
       )
     )
-    (symbol "130k_0603_1_1_1"
+    (symbol "130k_0603_1_1"
       (pin passive line (at 0 3.81 270) (length 1.27)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
