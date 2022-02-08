@@ -774,7 +774,7 @@
     (property "Value" "Si2347" (id 1) (at 5.08 0 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 5.08 -1.905 0)
+    (property "Footprint" "4ms_Package_SOT:SOT23-3_PO132" (id 2) (at 5.08 -1.905 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
