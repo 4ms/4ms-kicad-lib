@@ -36,7 +36,7 @@
   (pad 3 thru_hole oval (at 2.54 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -2.54 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/TO_SOT_Packages_THT.3dshapes/TO-220_Horizontal.wrl
+  (model ${KICAD6_3DMODEL_DIR}/TO_SOT_Packages_THT.3dshapes/TO-220_Horizontal.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

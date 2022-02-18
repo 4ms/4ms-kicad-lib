@@ -20,7 +20,7 @@
   (fp_line (start -2.06 -1.06) (end -2.06 1.06) (layer F.SilkS) (width 0.12))
   (pad 2 thru_hole oval (at 3.81 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -3.81 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Diodes_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Diodes_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
     (offset (xyz -3.937 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

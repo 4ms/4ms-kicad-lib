@@ -31,7 +31,7 @@
   )
   (pad 1 smd rect (at -2.8 0) (size 2.6 8.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.8 0) (size 2.6 8.2) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns_SRN8040TA.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRN8040TA.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

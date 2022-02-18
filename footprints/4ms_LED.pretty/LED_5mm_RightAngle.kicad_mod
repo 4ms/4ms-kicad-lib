@@ -33,7 +33,7 @@
   (fp_line (start 2.34 -3.33) (end 2.34 3.86) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole circle (at 1.27 -4.54) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole rect (at -1.27 -4.54) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/LEDs.3dshapes/LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm.wrl
     (at (xyz -1.27 4.5 -5.5))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

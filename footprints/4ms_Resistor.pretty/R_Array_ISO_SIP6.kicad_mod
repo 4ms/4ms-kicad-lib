@@ -24,7 +24,7 @@
   (pad 3 thru_hole oval (at -1.27 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at -3.81 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -6.35 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Resistors_THT.3dshapes/R_Array_SIP6.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Resistors_THT.3dshapes/R_Array_SIP6.wrl
     (offset (xyz -6.35 0 -1))
     (scale (xyz 0.39 0.39 0.39))
     (rotate (xyz 0 0 0))

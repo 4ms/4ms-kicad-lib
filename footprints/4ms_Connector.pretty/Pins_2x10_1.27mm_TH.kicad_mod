@@ -52,7 +52,7 @@
   (pad 18 thru_hole oval (at 0.635 4.445) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
   (pad 19 thru_hole oval (at -0.635 5.715) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
   (pad 20 thru_hole oval (at 0.635 5.715) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x10_P1.27mm_Vertical.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x10_P1.27mm_Vertical.wrl
     (offset (xyz -0.635 5.715 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
