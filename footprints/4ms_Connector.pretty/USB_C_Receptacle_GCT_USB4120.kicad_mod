@@ -1996,10 +1996,10 @@
   (pad "B12" smd rect (at -2.75 0.865) (size 0.3 0.87) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9ba5e03b-a4bb-45bf-93bb-8b74b8aee1bb))
   (pad "S" thru_hole oval (at 3.75 0 90) (size 0.72 0.72) (drill 0.52) (layers *.Cu *.Mask) (tstamp 369b3659-c181-47dc-8452-e2de8b1cd204))
   (pad "S" thru_hole oval (at -3.75 0 90) (size 0.72 0.72) (drill 0.52) (layers *.Cu *.Mask) (tstamp 6136ad65-ee71-4c73-8837-6b6089860a08))
-  (pad "S0" thru_hole oval (at -2.4 2.15) (size 1.35 1.1) (drill oval 0.85 0.6) (layers *.Cu *.Mask) (tstamp 0a8605bc-87b1-4b62-b467-28606a6c86cf))
-  (pad "S0" thru_hole oval (at -2.4 -2.15) (size 1.35 1.1) (drill oval 0.85 0.6) (layers *.Cu *.Mask) (tstamp 4f106ff8-2030-4763-94ba-b1802af46823))
-  (pad "S0" thru_hole oval (at 2.4 -2.15) (size 1.35 1.1) (drill oval 0.85 0.6) (layers *.Cu *.Mask) (tstamp 794b54e2-be1b-425a-9cf4-ee69d223a564))
-  (pad "S0" thru_hole oval (at 2.4 2.15) (size 1.35 1.1) (drill oval 0.85 0.6) (layers *.Cu *.Mask) (tstamp b287663f-61be-4819-9523-1331a964301e))
+  (pad "SH1" thru_hole oval (at -2.4 -2.15) (size 1.35 1.1) (drill oval 0.85 0.6) (layers *.Cu *.Mask) (tstamp 4f106ff8-2030-4763-94ba-b1802af46823))
+  (pad "SH2" thru_hole oval (at 2.4 -2.15) (size 1.35 1.1) (drill oval 0.85 0.6) (layers *.Cu *.Mask) (tstamp 794b54e2-be1b-425a-9cf4-ee69d223a564))
+  (pad "SH3" thru_hole oval (at -2.4 2.15) (size 1.35 1.1) (drill oval 0.85 0.6) (layers *.Cu *.Mask) (tstamp 0a8605bc-87b1-4b62-b467-28606a6c86cf))
+  (pad "SH4" thru_hole oval (at 2.4 2.15) (size 1.35 1.1) (drill oval 0.85 0.6) (layers *.Cu *.Mask) (tstamp b287663f-61be-4819-9523-1331a964301e))
   (group "" (id e364e307-15ef-4044-9a87-88bf6947580c)
     (members
       0069a314-cd68-4e66-a795-ed53dfc34298
