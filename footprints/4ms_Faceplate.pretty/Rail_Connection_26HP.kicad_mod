@@ -1,9 +1,14 @@
-(module Rail_Connection_26HP (layer F.Cu) (tedit 611AEC0C)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+(footprint "Rail_Connection_26HP" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 611AEC0C)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 18da6d10-fb44-443b-90dc-f9ec74cff55d)
   )
-  (fp_text value Rail_Connection_26HP (at 0 -0.5) (layer F.Fab) hide
+  (fp_text value "Rail_Connection_26HP" (at 0 -0.5) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fb1232ba-4e4d-4757-bcf1-e38c0c79dff0)
   )
-  (pad 1 smd rect (at 0 0) (size 141.16 7.999999) (layers F.Cu F.Paste F.Mask))
+  (pad "1" smd rect (at 0 0) (size 131 7.999999) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3e0df6f7-5d39-4100-b0be-29ea963381c3))
 )
