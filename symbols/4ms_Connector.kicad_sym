@@ -3398,7 +3398,7 @@
     (property "Value" "Socket_02x03_P1.27mm_SMT" (id 1) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "4ms_Connector:socket_2x03_1.27mm_SMD" (id 2) (at 1.905 -12.065 0)
+    (property "Footprint" "4ms_Connector:Socket_2x03_1.27mm_SMD" (id 2) (at 1.905 -12.065 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/527/clp_sm-1369947.pdf" (id 3) (at 0 -30.48 0)
