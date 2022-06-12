@@ -28,7 +28,7 @@ __Other stuff (not in KiCad PCM archive):__
 
 `symbols-legacy/kicad5-2021`: The legacy symbol library for KiCad 5.1.x. This is a snapshot of the libraries at Nov 19, 2021. It will not be updated or maintained.
 
-`symbols-legacy/kicad5-2019`: An even older library using non-atomic symbols (generic resistor, capacitor, etc). This was deprecated in May 2020. It is not longer maintained or updated.
+`symbols-legacy/kicad5-2019`: An even older library using non-atomic symbols (generic resistor, capacitor, etc). This was deprecated in May 2020. It is no longer maintained or updated.
 
 `footprints-legacy`: The legacy footprint library, not really of much use since PCBs embed the footprints they used.
 
