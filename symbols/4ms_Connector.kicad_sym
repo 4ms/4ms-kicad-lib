@@ -1718,7 +1718,7 @@
     (property "Manufacturer" "Wurth Elektronik" (id 5) (at 0 -15.24 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Part Number" "61201021621" (id 6) (at 0 -12.7 0)
+    (property "Part Number" "61201021621" (id 6) (at 0 -19.05 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "ki_keywords" "Eurorack_Power_10pin_Shrouded" (id 7) (at 0 0 0)
