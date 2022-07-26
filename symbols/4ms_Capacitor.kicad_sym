@@ -208,7 +208,7 @@
     (property "Manufacturer" "Murata" (id 5) (at -2.54 -9.398 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Part Number" "GRM033R71H152KA12D" (id 6) (at -2.54 -10.922 0)
+    (property "Part Number" "GRM1885C1H152JA01J" (id 6) (at -2.54 -10.922 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Display" "1.5nF" (id 7) (at 1.905 -1.27 0)
