@@ -357,7 +357,7 @@
     (property "Manufacturer" "Taiyo Yuden" (id 5) (at -2.54 -9.398 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Part Number" "NRS4018T6R8MDGJ" (id 6) (at -2.54 -10.922 0)
+    (property "Part Number" "NRS4018T4R7MDGJ" (id 6) (at -2.54 -10.922 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Display" "4.7uH" (id 7) (at 2.54 0 90)
