@@ -560,7 +560,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AP63356_0_0"
-      (pin no_connect non_logic (at -7.62 -1.27 0) (length 2.54) hide
+      (pin free non_logic (at -7.62 -1.27 0) (length 2.54)
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
