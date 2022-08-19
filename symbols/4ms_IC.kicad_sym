@@ -5834,6 +5834,10 @@
         (name "DQ1" (effects (font (size 1.016 1.016))))
         (number "4" (effects (font (size 1.016 1.016))))
       )
+      (pin no_connect line (at 20.32 -25.4 180) (length 3.81) hide
+        (name "NC" (effects (font (size 1.016 1.016))))
+        (number "40" (effects (font (size 1.016 1.016))))
+      )
       (pin power_in line (at -5.08 -33.02 90) (length 3.81)
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "41" (effects (font (size 1.016 1.016))))
