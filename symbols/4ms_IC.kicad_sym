@@ -2322,11 +2322,11 @@
     (property "Value" "CS4271" (id 1) (at 0 -20.32 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (id 2) (at 0 -20.32 0)
-      (effects (font (size 1.524 1.524)))
+    (property "Footprint" "4ms-footprints:TSSOP-28_4.4x9.7mm_Pitch0.65mm" (id 2) (at 0 -20.32 0)
+      (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 -20.32 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.524 1.524)) hide)
     )
     (property "Specifications" "Stereo Audio CODEC 108 dB 192 kHz" (id 4) (at 2.54 -24.13 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2343,7 +2343,7 @@
     (symbol "CS4271_0_1"
       (rectangle (start -12.7 19.05) (end 12.7 -19.05)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "CS4271_1_1"
