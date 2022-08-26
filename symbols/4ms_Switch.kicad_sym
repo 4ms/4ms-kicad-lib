@@ -869,7 +869,7 @@
     (property "Value" "SW_Rotary3x6" (id 1) (at -5.08 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "4ms_Switch:Switch_Toggle_DPDT_SubMini" (id 2) (at 7.0104 46.3042 0)
+    (property "Footprint" "4ms_Switch:Switch_Rotary_3x6_Wired" (id 2) (at 7.0104 46.3042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -1.27 59.69 0)
