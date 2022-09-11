@@ -7287,7 +7287,7 @@
     (property "Manufacturer" "Yageo" (id 5) (at -2.54 -9.398 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Part Number" "RC0603FR-0747KL" (id 6) (at -2.54 -10.922 0)
+    (property "Part Number" "RC0603FR-07470KL" (id 6) (at -2.54 -10.922 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Display" "470k" (id 7) (at 3.81 0 90)
