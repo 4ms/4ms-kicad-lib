@@ -70,7 +70,7 @@
     (property "Specifications" "3.3V Reg. Iout>20mA, Vin>15V" (id 4) (at -2.54 -7.874 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer" "TAD" (id 5) (at -2.54 -9.398 0)
+    (property "Manufacturer" "Diodes Inc." (id 5) (at -2.54 -9.398 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Part Number" "AP7384-33SA-7" (id 6) (at -2.54 -10.922 0)
