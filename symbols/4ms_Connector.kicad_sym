@@ -60,7 +60,7 @@
     (property "Value" "Conn_01x03" (id 1) (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "4ms_Connector:Pins_1x03_2.54mm_TH_AudioInsRGndL" (id 2) (at 0 6.985 0)
+    (property "Footprint" "4ms_Connector:Pins_1x03_2.54mm_TH" (id 2) (at 0 6.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
