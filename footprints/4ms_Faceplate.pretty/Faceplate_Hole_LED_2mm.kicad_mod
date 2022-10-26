@@ -1,0 +1,16 @@
+(footprint "Faceplate_Hole_LED_2mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5AECAFDA)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 3.937) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2e1eaa69-e3e0-4ea5-a919-9330c25dac29)
+  )
+  (fp_text value "Faceplate_Hole_LED_2mm" (at 0.09 2.46) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp df9b5e9d-910e-4075-a9ba-e6fba845ed58)
+  )
+  (fp_line (start -0.508 0) (end 0.508 0) (layer "F.Fab") (width 0.15) (tstamp 903ad336-3898-489f-835c-2924b607dc68))
+  (fp_line (start 0 -0.508) (end 0 0.508) (layer "F.Fab") (width 0.15) (tstamp a9ebecd1-8c8b-4818-b041-596463d6cb4b))
+  (pad "1" thru_hole circle (at 0 0 90) (size 2.365 2.365) (drill 1.984) (layers *.Cu *.Mask) (tstamp f3ee668d-8e6e-40ff-a140-3f6c1a1e0d74))
+)
