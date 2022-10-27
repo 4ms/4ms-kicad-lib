@@ -3779,7 +3779,7 @@
     (property "Value" "Socket_02x05_TH" (id 1) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "4ms_Connector:Pins_2x05_2.54mm_TH" (id 2) (at 2.54 -13.97 0)
+    (property "Footprint" "4ms_Connector:Socket_2x05_2.54mm_TH" (id 2) (at 2.54 -13.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Datasheet" "" (id 3) (at 0 -30.48 0)
