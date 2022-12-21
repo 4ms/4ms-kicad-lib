@@ -1,6 +1,7 @@
 (footprint "Crystal_2.0x1.6mm_4pin" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 6210274E)
+  (attr smd)
   (fp_text reference "REF**" (at -1.26 -1.16 unlocked) (layer "F.SilkS")
     (effects (font (size 0.6 0.6) (thickness 0.254)) (justify left bottom))
     (tstamp 2ae32db1-f33a-4da9-8d3e-ff6f859a6548)
