@@ -2378,7 +2378,7 @@
     (property "Value" "CS4271" (id 1) (at 0 -20.32 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "4ms-footprints:TSSOP-28_4.4x9.7mm_Pitch0.65mm" (id 2) (at 0 -20.32 0)
+    (property "Footprint" "4ms_Package_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm" (id 2) (at 0 -20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 -20.32 0)
