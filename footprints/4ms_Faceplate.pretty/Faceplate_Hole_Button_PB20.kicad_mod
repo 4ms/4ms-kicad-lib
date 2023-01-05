@@ -1,0 +1,14 @@
+(footprint "Faceplate_Hole_Button_PB20" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5A7E3E31)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0.127 7.866) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d3157e1e-9511-46d4-99e2-72d400de161b)
+  )
+  (fp_text value "Faceplate_Hole_Button_PB20" (at -0.127 5.977) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0474dda5-8bda-4399-ac9a-da526a1999e1)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 9.76 9.76) (drill 9.5) (layers *.Cu *.Mask) (tstamp c43da5c0-73c7-45d9-bda6-56c7872884a8))
+)
