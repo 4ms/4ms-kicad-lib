@@ -419,7 +419,7 @@
     (property "Value" "Button_SPST_RGB_5.4mmCap" (id 1) (at 3.81 -8.89 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "4ms_Switch:Button_RgbLED_SPST_PB615303HL-7mm" (id 2) (at -0.2032 -14.7574 0)
+    (property "Footprint" "4ms_Switch:Button_RgbLED_SPST_TC002" (id 2) (at -0.2032 -14.7574 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at -22.86 -1.27 0)
