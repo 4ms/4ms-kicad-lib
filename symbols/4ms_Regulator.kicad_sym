@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "78M33" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "78M33_TH" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 3.175 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "78M33" (id 1) (at 0 3.175 0)
+    (property "Value" "78M33_TH" (id 1) (at 0 3.175 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (id 2) (at 0.635 -3.81 0)
@@ -21,13 +21,13 @@
     (property "ki_fp_filters" "TO?252* TO?263* TO?220*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "78M33_0_1"
+    (symbol "78M33_TH_0_1"
       (rectangle (start -5.08 1.905) (end 5.08 -5.08)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "78M33_1_1"
+    (symbol "78M33_TH_1_1"
       (pin power_in line (at -7.62 0 0) (length 2.54)
         (name "IN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
