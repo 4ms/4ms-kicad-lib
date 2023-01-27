@@ -10692,7 +10692,7 @@
     (property "Part Number" "" (id 6) (at -2.54 -10.922 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Display" "" (id 7) (at 3.81 0 90)
+    (property "Display" "DNP" (id 7) (at 3.81 0 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "JLCPCB ID" "" (id 8) (at 0 0 0)
