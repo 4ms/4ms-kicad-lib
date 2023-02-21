@@ -1,7 +1,7 @@
 (footprint "USB_C_Receptacle_AdamTech_USB-C31-S-VT-CS4-BK-PP" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 624A29AA)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 12.99 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a6a5797b-18fe-4a42-aa73-fdaee054c816)
