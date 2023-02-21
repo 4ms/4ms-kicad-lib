@@ -6385,7 +6385,7 @@
         (name "BCLKDA" (effects (font (size 1.016 1.016))))
         (number "36" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at -17.78 -30.48 0) (length 5.08)
+      (pin input line (at -17.78 -30.48 0) (length 5.08)
         (name "DIN1" (effects (font (size 1.016 1.016))))
         (number "37" (effects (font (size 1.016 1.016))))
       )
