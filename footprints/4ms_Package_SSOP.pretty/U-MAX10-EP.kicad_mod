@@ -5,7 +5,7 @@
   (fp_text reference REF** (at 0.3175 -4.191) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value U-MAX10-EP (at 0.254 2.667) (layer F.SilkS)
+  (fp_text value U-MAX10-EP (at 0.254 2.667) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -1.524 -0.8763) (end -1.524 -1.1557) (layer F.Fab) (width 0.1524))

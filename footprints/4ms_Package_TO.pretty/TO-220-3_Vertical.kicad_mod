@@ -4,7 +4,7 @@
   (fp_text reference T? (at 0 -3.55) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value ? (at 0 3.15) (layer F.SilkS)
+  (fp_text value ? (at 0 3.15) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -5.12 -2.62) (end 5.12 -2.62) (layer F.SilkS) (width 0.12))

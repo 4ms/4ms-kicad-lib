@@ -5,7 +5,7 @@
   (fp_text reference REF** (at 0.04 -5.292) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Val** (at 0.1043 0.1581 90) (layer F.SilkS)
+  (fp_text value Val** (at 0.1043 0.1581 90) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -4.328 -3.604) (end -4.328 -4.112) (layer F.SilkS) (width 0.15))
