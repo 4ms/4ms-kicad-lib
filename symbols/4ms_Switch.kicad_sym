@@ -202,7 +202,7 @@
     (property "Display" "White Momentary" (at -7.62 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property  (at 0 0 0)
+    (property "Production Stage" "C" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Button_DPDT_White_Mom_0_0"
