@@ -21,7 +21,7 @@
     (property "Specifications" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Group" "D" (at -3.7084 -3.3782 0)
+    (property "Production Stage" "D" (at -3.7084 -3.3782 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Faceplate_0_1"
@@ -53,7 +53,7 @@
     (property "Specifications" "" (at -0.3048 0.3048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Group" "D" (at -1.7272 -9.7536 0)
+    (property "Production Stage" "D" (at -1.7272 -9.7536 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Lightpipe_0_1"
@@ -103,7 +103,7 @@
     (property "Specifications" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Group" "D" (at -1.3462 -4.064 0)
+    (property "Production Stage" "D" (at -1.3462 -4.064 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCB_0_1"
