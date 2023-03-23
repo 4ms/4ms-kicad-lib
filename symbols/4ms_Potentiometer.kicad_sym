@@ -2154,7 +2154,7 @@
     (property "Specifications" "DNP" (at -2.54 -7.874 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer" "DNP" (at -2.54 -9.398 0)
+    (property "Manufacturer" "-" (at -2.54 -9.398 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Part Number" "DNP" (at -2.54 -10.922 0)
