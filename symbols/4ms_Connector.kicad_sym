@@ -2986,7 +2986,7 @@
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" (at 1.905 -16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf" (at -1.27 0 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/527/ftsh_smt-1316912.pdf" (at 5.08 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Specifications" "Header 2x5 Pins, Pitch=1.27mm, Pin Height=3mm, Vertical, SMT" (at 1.27 -10.795 0)
@@ -5447,6 +5447,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Specifications" "DIP-8 Socket, 2.54mm Pitch, 7.62mm Rows" (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Production Stage" "B" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Socket_DIP8_0_1"
