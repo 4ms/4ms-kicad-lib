@@ -98,7 +98,7 @@
     (property "Part Number 2" "B140-E3/61T" (at -2.54 -15.24 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "JLCPCB ID" "C15759" (at 0 0 0)
+    (property "JLCPCB ID" "C15759" (at 1.27 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Production Stage" "A" (at -2.54 -16.51 0)
