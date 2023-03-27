@@ -4,14 +4,15 @@
 Intro:
 -----
 
-4ms-kicad-lib is a collection of symbol and footprint libraries for KiCad 6. These libraries were created by and for people working at [4ms Company](https://4mscompany.com). We share them publicly in hopes they help others design great circuits. Have fun.
+4ms-kicad-lib is a collection of symbol and footprint libraries for KiCad 7. These libraries were created by and for people working at [4ms Company](https://4mscompany.com). We share them publicly in hopes they help others design great circuits. Have fun.
 
-The symbols work with KiCad v5.99, and v6.0.0RC1. 
-There are also some legacy symbol libraries for KiCad 5.1.x, but they will not be updated or maintained, and they aren't included in the KiCad Plugin and Content Manager archive.
+The symbols work with KiCad v7. 
+We highly recommend everyone to upgrade to Kicad 7 from Kicad 6. If you must remain on KiCad 6, there is a tag for the latest version of the symbol library supported:
+[Kicad 6](https://github.com/4ms/4ms-kicad-lib/tree/Kicad6)
 
-The footprints work with KiCad 6, KiCad 5.99 and KiCad 5.1.9 and later. 
+There are also some legacy symbol libraries for KiCad 5.1.x in `symbols-legacy`, but they will not be updated or maintained, and they aren't included in the KiCad Plugin and Content Manager archive.
 
-Nothing here will work with KiCad 4. 
+The footprints work with Kicad 7, KiCad 6, KiCad 5.99 and KiCad 5.1.9 and later. 
 
 We tried to follow the KiCad Library Conventions, although we made breaks from that where it made sense. We also tried to keep the look and feel of the official KiCad symbols, to make using this library and the official KiCad libraries seamless.
 
