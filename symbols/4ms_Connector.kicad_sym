@@ -4217,7 +4217,7 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "4ms_Connector:Socket_2x05_2.54mm_TH" (at 2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 -30.48 0)
       (effects (font (size 1.27 1.27)) hide)
