@@ -57,15 +57,15 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Knob_Davies_WhiteLine_0_1"
-      (circle (center 0 0) (radius 3.5921)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
       (polyline
         (pts
           (xy 0 0)
           (xy 2.54 -2.54)
         )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle (center 0 0) (radius 3.5921)
         (stroke (width 0) (type default))
         (fill (type none))
       )
@@ -346,6 +346,218 @@
           (xy 1.6764 0.3048)
           (xy 1.6764 -0.3048)
           (xy -0.3048 -0.3048)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+  )
+  (symbol "Shunt Jumper" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board no)
+    (property "Reference" "SJ" (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Shunt Jumper" (at 0.1016 3.302 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 7.6454 2.5146 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 7.6454 2.5146 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "LL1044-1B" (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Cixi Lanling" (at 1.27 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specifications" "2.54mm pitch, 2 position" (at 8.3566 -13.1064 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Production Stage" "D" (at -1.7272 -9.7536 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer2" "Kobiconn" (at 12.192 -7.4422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number2" "151-8011-E" (at 6.2992 -10.3886 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "Jumper" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "2.54mm pitch, 2 position" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Shunt Jumper_0_1"
+      (polyline
+        (pts
+          (xy -1.2192 0.4572)
+          (xy -1.2192 -1.1176)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.2192 1.4224)
+          (xy -1.2192 0.8636)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.1176 0.5588)
+          (xy -1.2192 0.4572)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.1176 0.8128)
+          (xy -1.1176 0.4572)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.7112 1.9304)
+          (xy -1.2192 1.4224)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.9652 0.1016)
+          (xy 1.0668 -0.0508)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.9652 0.3556)
+          (xy 0.9652 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.0668 -0.0508)
+          (xy -1.2192 0.4572)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.0668 -0.0508)
+          (xy 1.0668 -1.6256)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.0668 0.3556)
+          (xy -1.2192 0.8636)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.0668 0.9144)
+          (xy -1.2192 1.4224)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.0668 0.9144)
+          (xy 1.0668 0.3556)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.4732 0.7112)
+          (xy 1.4732 0.3556)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.5748 0.4572)
+          (xy 1.4732 0.508)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.5748 0.4572)
+          (xy 1.5748 -1.1176)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.5748 1.4224)
+          (xy -0.7112 1.9304)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.5748 1.4224)
+          (xy 1.5748 0.8636)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.2192 -1.1176)
+          (xy 1.0668 -1.6256)
+          (xy 1.5748 -1.1176)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.5748 0.4572)
+          (xy 1.0668 -0.0508)
+          (xy 1.5748 0.4572)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.5748 0.8636)
+          (xy 1.0668 0.3556)
+          (xy 1.5748 0.8636)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.5748 1.4224)
+          (xy 1.0668 0.9144)
+          (xy 1.5748 1.4224)
         )
         (stroke (width 0) (type default))
         (fill (type none))
