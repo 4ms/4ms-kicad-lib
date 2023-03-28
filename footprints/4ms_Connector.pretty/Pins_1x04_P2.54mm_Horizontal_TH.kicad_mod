@@ -1,6 +1,6 @@
 (footprint "Pins_1x04_P2.54mm_Horizontal_TH" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
+  (descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row, Pins point right when Pin 1 is up")
   (tags "Through hole angled pin header THT 1x04 2.54mm single row")
   (attr through_hole)
   (fp_text reference "REF**" (at 4.385 -2.27) (layer "F.SilkS")
@@ -156,7 +156,7 @@
   (pad "3" thru_hole oval (at 0 1.27) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp c8e89fe1-b830-4292-8831-6d18c6d1f483))
   (pad "4" thru_hole oval (at 0 3.81) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 6adc20d3-93c0-4920-a987-d46d179ca649))
   (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
-    (offset (xyz 0 0 0))
+    (offset (xyz 0 3.81 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
