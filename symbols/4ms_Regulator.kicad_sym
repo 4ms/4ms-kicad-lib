@@ -411,7 +411,7 @@
       )
     )
     (symbol "AZ1117CR-3.3TRG1 _1_1"
-      (pin input line (at -10.16 1.27 0) (length 5.08)
+      (pin input line (at 0 -6.35 90) (length 2.54)
         (name "GND" (effects (font (size 1.016 1.016))))
         (number "1" (effects (font (size 1.016 1.016))))
       )
@@ -419,7 +419,7 @@
         (name "VO" (effects (font (size 1.016 1.016))))
         (number "2" (effects (font (size 1.016 1.016))))
       )
-      (pin input line (at 0 -6.35 90) (length 2.54)
+      (pin input line (at -10.16 1.27 0) (length 5.08)
         (name "VIN" (effects (font (size 1.016 1.016))))
         (number "3" (effects (font (size 1.016 1.016))))
       )
