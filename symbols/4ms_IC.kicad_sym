@@ -12016,7 +12016,7 @@
     (property "Value" "STM32MP131DAF7" (at 21.59 3.81 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "TFBGA320_STM" (at 21.59 -2.54 0)
+    (property "Footprint" "4ms_Package_QFP:TFBGA-320_11x11mm_P0.5" (at 19.05 -86.36 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "STM32MP131DAF7" (at 21.59 0 0)
