@@ -261,7 +261,7 @@
     (property "Value" "AP2411SN" (at -7.62 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" (at 0 -10.16 0)
+    (property "Footprint" "4ms_Package_QFP:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" (at 0 -10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP24x1.pdf" (at 0 -12.7 0)
