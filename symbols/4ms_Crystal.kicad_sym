@@ -99,7 +99,7 @@
     (property "Part Number" "ECS-240-8-37-CKM-TR3" (at 1.27 -10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB ID" "" (at 0 -20.32 0)
+    (property "JLCPCB ID" "C1986107" (at 0 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Specifications" "24MHz 8pF Crystal Resonator, 10ppm, 2016 2x1.6mm" (at 1.27 -22.86 0)
