@@ -1739,80 +1739,12 @@
         (number "3" (effects (font (size 1.016 1.016))))
       )
     )
-    (symbol "Encoder_Rotary_12mm_24DET_HollowKnurled_2_0"
-      (polyline
-        (pts
-          (xy -2.54 0)
-          (xy 2.54 2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 3.048)
-          (xy -0.762 3.556)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 3.556)
-          (xy 0.762 3.556)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 1.778)
-          (xy 0 2.794)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 3.556)
-          (xy 0.762 3.048)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.524 2.54)
-          (xy 2.54 2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 2.54)
-          (xy 2.032 1.778)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
     (symbol "Encoder_Rotary_12mm_24DET_HollowKnurled_2_1"
-      (pin passive line (at -5.08 0 0) (length 2.54)
-        (name "SW1" (effects (font (size 1.016 1.016))))
-        (number "SW1" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 5.08 0 180) (length 2.54)
-        (name "SW2" (effects (font (size 1.016 1.016))))
-        (number "SW2" (effects (font (size 1.016 1.016))))
-      )
-    )
-    (symbol "Encoder_Rotary_12mm_24DET_HollowKnurled_3_1"
-      (pin passive line (at -2.54 -5.08 90) (length 5.08)
+      (pin passive line (at -2.3368 -2.5908 90) (length 5.08)
         (name "Shield" (effects (font (size 1.016 1.016))))
         (number "SH1" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 2.54 -5.08 90) (length 5.08)
+      (pin passive line (at 2.7432 -2.5908 90) (length 5.08)
         (name "Shield" (effects (font (size 1.016 1.016))))
         (number "SH2" (effects (font (size 1.016 1.016))))
       )
