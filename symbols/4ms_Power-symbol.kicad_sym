@@ -950,7 +950,7 @@
     )
   )
   (symbol "VDD_CPU" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#PWR" (at 0 -3.81 0)
+    (property "Reference" "#PWR" (at 6.35 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD_CPU" (at 0 3.556 0)
@@ -990,7 +990,7 @@
     )
     (symbol "VDD_CPU_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "VDD_CORE" (effects (font (size 1.27 1.27))))
+        (name "VDD_CPU" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
