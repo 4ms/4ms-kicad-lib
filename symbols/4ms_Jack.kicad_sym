@@ -412,7 +412,7 @@
     (property "Manufacturer" "Wenzhou QingPu Electronics Co" (at -3.81 -9.398 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Part Number" "WQP-WQP518MA" (at -2.54 -10.922 0)
+    (property "Part Number" "WQP-WQP419GR" (at -2.54 -10.922 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Production Stage" "C" (at -2.54 -16.51 0)
