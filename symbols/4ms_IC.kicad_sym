@@ -2706,7 +2706,7 @@
     (property "Value" "DAC60508" (at -0.635 15.875 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "4ms_Package_QFP:WQFN-16_RTE-16" (at -6.35 -33.655 0)
+    (property "Footprint" "4ms_Package_QFP:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" (at -6.35 -33.655 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac60508.pdf?ts=1701334624718&ref_url=https%253A%252F%252Fwww.startpage.com%252F" (at 38.1 -20.32 0)
