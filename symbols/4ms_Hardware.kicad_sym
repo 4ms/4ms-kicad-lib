@@ -156,6 +156,205 @@
       )
     )
   )
+  (symbol "Screw_M3x18mm_ButtonHead2mmHex_Stainless" (pin_names (offset 1.016)) (in_bom yes) (on_board no)
+    (property "Reference" "H" (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Screw_M3x18mm_ButtonHead2mmHex_Stainless" (at 0 3.175 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mcmaster.com/92095A472/" (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "92095A472" (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "McMaster-Carr" (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specifications" "M3x0.5mm screw, L = 18mm, Button Head with 2mm Hex drive, Stainless Steel" (at -2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "M3x0.5mm screw, L = 18mm, Button Head with 2mm Hex drive, Stainless Steel" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Screw_M3x18mm_ButtonHead2mmHex_Stainless_0_1"
+      (arc (start -0.338 1.016) (mid -0.9724 -0.0107) (end -0.3048 -1.016)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.3048 1.016)
+          (xy -0.3048 -1.016)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.1016 0.3048)
+          (xy -0.1016 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.3048)
+          (xy 0 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.1016 0.3048)
+          (xy 0.1016 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.2032 0.3048)
+          (xy 0.2032 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.3048 0.3048)
+          (xy 0.3048 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.4064 0.3048)
+          (xy 0.4064 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.508 0.3048)
+          (xy 0.508 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.6096 0.3048)
+          (xy 0.6096 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.7112 0.254)
+          (xy 0.7112 -0.3556)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.8128 0.254)
+          (xy 0.8128 -0.3556)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.9144 0.254)
+          (xy 0.9144 -0.3556)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 0.254)
+          (xy 1.016 -0.3556)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.1176 0.3048)
+          (xy 1.1176 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.2192 0.3048)
+          (xy 1.2192 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.3208 0.3048)
+          (xy 1.3208 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.4224 0.3048)
+          (xy 1.4224 -0.3048)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.524 0.254)
+          (xy 1.524 -0.3556)
+        )
+        (stroke (width 0.0025) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.8636 0.3048)
+          (xy -0.762 0.2032)
+          (xy -0.762 -0.2032)
+          (xy -0.8636 -0.3048)
+        )
+        (stroke (width 0.0051) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.3048 0.3048)
+          (xy 1.6764 0.3048)
+          (xy 1.6764 -0.3048)
+          (xy -0.3048 -0.3048)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+  )
   (symbol "Screw_M3x4mm_ButtonHead2mmHex_Stainless" (pin_names (offset 1.016)) (in_bom yes) (on_board no)
     (property "Reference" "H" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
