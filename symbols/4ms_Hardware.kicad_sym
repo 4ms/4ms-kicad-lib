@@ -63,6 +63,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Hex Nut M3x0.5mm, Stainless_1_1"
+      (circle (center 0 0) (radius 1.8316)
+        (stroke (width 0) (type default))
+        (fill (type color) (color 255 255 255 1))
+      )
       (polyline
         (pts
           (xy -1.778 2.794)
@@ -74,7 +78,7 @@
           (xy -1.778 2.794)
         )
         (stroke (width 0) (type default))
-        (fill (type background))
+        (fill (type outline))
       )
     )
   )
