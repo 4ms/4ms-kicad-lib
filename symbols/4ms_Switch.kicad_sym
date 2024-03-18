@@ -2155,7 +2155,7 @@
     (property "Value" "3KD1R202A02RS" (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "4ms_Switch:X_Rock_But_3KD1R202A02RS" (at -2.54 -5.08 0)
+    (property "Footprint" "4ms_Switch:Switch_Rocker_3KD1R202A02RS" (at -2.54 -5.08 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
