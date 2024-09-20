@@ -3152,6 +3152,15 @@
 				)
 			)
 		)
+		(property "JLCPCB ID" "C2041807"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Production Stage" "A"
 			(at -2.54 -16.51 0)
 			(effects
