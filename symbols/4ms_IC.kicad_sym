@@ -76731,7 +76731,7 @@
 			)
 		)
 		(property "Description" "TPS56339, DC/DC Buck Converter 500kHz 24VinMax 3A Synchronous"
-			(at 0 0 0)
+			(at 34.798 -21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76776,6 +76776,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C2071106"
+			(at 6.35 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
