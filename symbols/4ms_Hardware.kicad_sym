@@ -3437,7 +3437,7 @@
 		)
 		(symbol "VCAM Standoff_1_1"
 			(unit_name "Nylon Spacer")
-			(arc private
+			(arc
 				(start -3.81 0.254)
 				(mid -4.1575 -0.381)
 				(end -3.81 -1.016)
@@ -3449,7 +3449,7 @@
 					(type none)
 				)
 			)
-			(arc private
+			(arc
 				(start -3.81 1.778)
 				(mid -5.4053 -0.381)
 				(end -3.81 -2.54)
@@ -3461,7 +3461,7 @@
 					(type none)
 				)
 			)
-			(arc private
+			(arc
 				(start -3.735 -1.0296)
 				(mid -3.3875 -0.3946)
 				(end -3.735 0.2404)
@@ -3473,7 +3473,7 @@
 					(type none)
 				)
 			)
-			(arc private
+			(arc
 				(start -3.524 -2.5401)
 				(mid -1.9287 -0.3811)
 				(end -3.524 1.7779)
@@ -3485,7 +3485,7 @@
 					(type none)
 				)
 			)
-			(polyline private
+			(polyline
 				(pts
 					(xy -3.81 -2.54) (xy 4.064 -2.54)
 				)
@@ -3497,7 +3497,7 @@
 					(type none)
 				)
 			)
-			(polyline private
+			(polyline
 				(pts
 					(xy -3.81 1.778) (xy 4.064 1.778)
 				)
@@ -3509,7 +3509,7 @@
 					(type none)
 				)
 			)
-			(arc private
+			(arc
 				(start 4.0884 -2.5374)
 				(mid 5.6837 -0.3784)
 				(end 4.0884 1.7806)
