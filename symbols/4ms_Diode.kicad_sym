@@ -1028,7 +1028,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Package_SOT:SOT23-3_PO132"
-			(at -1.27 5.08 0)
+			(at 4.064 6.858 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1037,7 +1037,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/DIOD_S_A0002832764_1-2542122.pdf"
-			(at 0 0 0)
+			(at 18.034 -20.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1046,7 +1046,7 @@
 			)
 		)
 		(property "Description" "Dual schottky diode BAT54S"
-			(at 0 0 0)
+			(at 2.54 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(property "Alt JLCPCB ID" "C122856"
-			(at 0 0 0)
+			(at 1.778 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
