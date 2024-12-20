@@ -5350,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Filshu Electronics"
 			(at -2.54 -9.398 0)
 			(effects
 				(font
@@ -5785,7 +5785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Filshu Electronics"
 			(at -2.54 -9.398 0)
 			(effects
 				(font
