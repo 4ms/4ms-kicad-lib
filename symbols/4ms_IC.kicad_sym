@@ -17479,13 +17479,31 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" " Dual 250nA 7V/us 15MHz SOIC-8 Operational Amplifier ROHS"
+		(property "Specifications" "Dual 250nA 7V/us 15MHz SOIC-8 Operational Amplifier ROHS"
 			(at -2.54 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 8.89 -21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MC33078DT"
+			(at 4.826 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17670,6 +17688,56 @@
 				)
 			)
 		)
+		(symbol "MC33078DT_3_1"
+			(rectangle
+				(start -2.54 3.81)
+				(end 2.54 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 		(symbol "MC33078DT_3_1"
 			(rectangle
 				(start -2.54 3.81)
