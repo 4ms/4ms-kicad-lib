@@ -13350,7 +13350,7 @@
 			)
 		)
 	)
-	(symbol "G6S-2"
+	(symbol "G6S-2FDC5"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13373,7 +13373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "4ms_Switch:Relay_DPDT_Omron_G6S-2F"
 			(at 0 0 90)
 			(effects
 				(font
@@ -13472,7 +13472,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "G6S-2_0_0"
+		(symbol "G6S-2FDC5_0_0"
 			(text "+"
 				(at -2.921 -9.271 900)
 				(effects
@@ -13482,10 +13482,10 @@
 				)
 			)
 		)
-		(symbol "G6S-2_0_1"
+		(symbol "G6S-2FDC5_0_1"
 			(rectangle
-				(start -5.08 -15.24)
-				(end 5.08 15.24)
+				(start -5.08 15.24)
+				(end 5.08 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -13794,7 +13794,7 @@
 				)
 			)
 		)
-		(symbol "G6S-2_1_1"
+		(symbol "G6S-2FDC5_1_1"
 			(pin passive line
 				(at -7.62 -10.16 0)
 				(length 2.54)
