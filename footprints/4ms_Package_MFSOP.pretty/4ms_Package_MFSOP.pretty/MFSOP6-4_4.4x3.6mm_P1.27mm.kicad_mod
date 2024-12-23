@@ -1,0 +1,299 @@
+(footprint "MFSOP6-4_4.4x3.6mm_P1.27mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://toshiba.semicon-storage.com/ap-en/design-support/package/detail.4pin%20MFSOP6.html")
+	(tags "MFSOP 4 pin SMD")
+	(property "Reference" "U"
+		(at 0 -2.85 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d3d1d110-9dc7-491f-94af-ebe6902e13d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TLP175A"
+		(at 0 2.921 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f786c6c8-fe11-4ae2-bc96-7a16cd109a68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "4ms_Package_MFSOP:MFSOP6-4_4.4x3.6mm_P1.27mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d2930c8-85d6-447b-907d-1407e1977297")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1576c7ad-5ccb-4381-aac1-b862a669206e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA, SOP6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "458b28e6-1145-4773-b33d-ea1ddd02d840")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Toshiba"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c9a91e1a-eb1c-448e-8351-79c4fb7ab1b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Part Number" "TLP175A(TPL,E"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1ce8ca8c-1a83-479c-8cda-10ad9730dfae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Display" "TLP175A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "53137a99-eed5-4f2c-be43-6b87fbe26e22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "JLCPCB ID" "C141522"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8b2509a0-c9e6-49b6-9e6b-bdcbfaaa7e54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Production Stage A " "A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "36633a2e-c2d8-452b-8234-f0817eb9b4da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.5 -1.92)
+		(end -1.5 -1.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc8b13b4-6df3-423e-85cd-843bcbbd0a73")
+	)
+	(fp_line
+		(start 1.5 1.92)
+		(end -1.5 1.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f19cf61-98b0-42b4-831f-679147700111")
+	)
+	(fp_poly
+		(pts
+			(xy -3.125 -1.95) (xy -3.365 -2.28) (xy -2.885 -2.28) (xy -3.125 -1.95)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7b0232a2-ddc4-43d6-8cd1-271a29473cd5")
+	)
+	(fp_line
+		(start -4 -2.05)
+		(end -4 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27ba0ae3-84a1-4148-8e3d-a651e344fbc5")
+	)
+	(fp_line
+		(start -4 -2.05)
+		(end 4 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2847e2af-753e-4161-b94b-76cbc8a9cfd4")
+	)
+	(fp_line
+		(start 4 2.05)
+		(end -4 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2becc47-353d-4ca7-a98f-c34c1bef26fb")
+	)
+	(fp_line
+		(start 4 2.05)
+		(end 4 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fe67cde-1941-4fa4-a1f9-8faed2549026")
+	)
+	(fp_line
+		(start -2.2 -0.8)
+		(end -2.2 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cb08410-68ea-4805-8292-5e647514b796")
+	)
+	(fp_line
+		(start -2.2 1.8)
+		(end 2.2 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64d44cc8-9884-4f78-93ac-7baee623055d")
+	)
+	(fp_line
+		(start -1.2 -1.8)
+		(end -2.2 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65a42f9b-6c38-4d40-9caa-2cf22d4fc3ad")
+	)
+	(fp_line
+		(start 2.2 -1.8)
+		(end -1.2 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a625880-50c2-4ba3-a4f5-b8cf7f5bf4a6")
+	)
+	(fp_line
+		(start 2.2 1.8)
+		(end 2.2 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "421d8a8d-2e8e-46f2-88c6-756db2ba4a4e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2adb4486-41fa-4023-acac-e0820cf8b8d1")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.15 -1.27)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0f4feea0-eeaf-4101-a5e3-33f6b5a887c1")
+	)
+	(pad "3" smd rect
+		(at -3.15 1.27)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b8aa7b5e-7e9a-428a-b9f1-a1abfde7d632")
+	)
+	(pad "4" smd rect
+		(at 3.15 1.27)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "254efc5a-984d-4861-9ecc-27fa32d18bcc")
+	)
+	(pad "6" smd rect
+		(at 3.15 -1.27)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4206fb28-f248-4162-80dc-1105acaa6da7")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/MFSOP6-4_4.4x3.6mm_P1.27mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
