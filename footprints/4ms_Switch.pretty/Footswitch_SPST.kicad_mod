@@ -1,0 +1,122 @@
+(footprint "Footswitch_SPST"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cfa531bf-d5d4-4099-a61d-81ec24e973d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Footswitch_SPST"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2284ac50-7e52-44b6-b042-62e054670f9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "086f7dd6-a817-492a-ae64-416cc5042e82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lovemyswitches.com/spst-momentary-foot-switch-normally-open-soft-touch-pcb-mount/?setCurrencyId=1&sku=swftspstmomNOpcbPro&srsltid=AfmBOooJS-Ov7Ro1vl5r5Y7689alqPb7piqlZHMcbpNV5zcqsp8WqlicjHo&com_cvv=8fb3d522dc163aeadb66e08cd7450cbbdddc64c6cf2e8891f6d48747c6d56d2c"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83db3286-9dcc-4fdc-9c58-dd277f0627ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SPST Momentary footswitch PCB mount"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa803df7-a3b8-452d-9c88-81ad1cd91801")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Love My Switches"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "403d19d7-3945-4b93-9c20-843177d043bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.5 -12.75)
+		(end 6.5 12.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "da76a987-24b2-4c8a-9387-c81d205b819a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0836915b-b949-4e87-a028-5ef83073a96e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.15 -18.5)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88b38e1f-da77-4d5c-8282-5d4285118460")
+	)
+	(pad "2" thru_hole circle
+		(at 3.15 -18.5)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a79002a-db37-4e7a-9e22-a6c5b6bc3d0c")
+	)
+)

@@ -6,13 +6,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "NRJ6HF"
@@ -75,6 +74,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "1/4{dblquote}_Jack_Stereo_0_0"
