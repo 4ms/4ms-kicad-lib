@@ -73376,24 +73376,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -7.62 5.08 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 10.16 2.54 180)
 				(length 2.54)
