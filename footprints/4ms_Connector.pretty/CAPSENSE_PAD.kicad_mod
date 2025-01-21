@@ -1,0 +1,95 @@
+(footprint "CAPSENSE_PAD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J"
+		(at 0 1.775 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "488747a1-20a2-46b6-bb07-57e17fe3240f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPSENSE_PAD"
+		(at 0 2.925 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d7a7d0c-df11-4d02-8e14-7909131c2a57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53a322fd-5d5f-4677-a0b7-db61346812ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c5a7309-964b-4b46-a900-f34b8958b616")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b175eef-e4f6-4aa0-9534-e63c89836f16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "886cecee-a955-4d14-bdd6-9ba589062883")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "00f810c0-b523-4c40-8c25-d22855494922")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 5 5)
+		(layers "F.Cu")
+		(uuid "86a452dc-dd6a-49e4-9d04-d8045838027d")
+	)
+)
