@@ -2400,6 +2400,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "5.6uH_2.6A_4030S"
