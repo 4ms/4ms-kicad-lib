@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Connector:CAPSENSE_PAD"
-			(at 0 0 0)
+			(at 9.906 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,21 +49,34 @@
 				(hide yes)
 			)
 		)
+		(symbol "CAPSENSE_PAD_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "CAPSENSE_PAD_1_1"
-			(pin input line
-				(at -2.54 0 0)
+			(pin passive line
+				(at -3.81 0 0)
 				(length 2.54)
 				(name "CS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
