@@ -1,1686 +1,4026 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Faceplate" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board no)
-    (property "Reference" "FP" (at 0 -2.794 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Faceplate" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Posin" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "F" (at -3.7084 -3.3782 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Faceplate_0_1"
-      (rectangle (start -5.08 1.27) (end 5.08 -1.27)
-        (stroke (width 0.0254) (type default))
-        (fill (type background))
-      )
-    )
-  )
-  (symbol "Hex Nut M3x0.5mm, Stainless" (pin_names (offset 1.016)) (in_bom yes) (on_board no)
-    (property "Reference" "H" (at 0 6.096 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Hex Nut M3x0.5mm, Stainless" (at 0 4.191 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at -14.986 -6.858 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "~" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Posin" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "Hex Nut M3x0.5mm, Stainless" (at -2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at -11.176 -7.112 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Hex Nut M3x0.5mm, Stainless" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Hex Nut M3x0.5mm, Stainless_1_1"
-      (polyline
-        (pts
-          (xy -1.778 2.794)
-          (xy 1.778 2.794)
-          (xy 3.556 0)
-          (xy 1.778 -3.048)
-          (xy -1.778 -3.048)
-          (xy -3.556 0)
-          (xy -1.778 2.794)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Knob_Davies_WhiteLine" (in_bom yes) (on_board no)
-    (property "Reference" "KNOB?" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Davies, White Line, D-shaft shallow" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Chia Shin Knobs" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "CP-BUA-6-0DX10.5W7" (at 0 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "White Line, Diameter: ?mm, D-shaft 3.5mm depth" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at 0.254 -14.478 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "For metal shaft pots (common)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Knob_Davies_WhiteLine_0_1"
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 2.54 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 3.5921)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Lightpipe" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board no)
-    (property "Reference" "LP" (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "LightPipe" (at 0.1778 1.6764 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at -0.3048 0.3048 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at -0.3048 0.3048 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "EMP2-8.9VO" (at 2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Kangyang" (at 1.27 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "" (at -0.3048 0.3048 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at -1.7272 -9.7536 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Lightpipe_0_1"
-      (arc (start -1.016 0.3302) (mid -1.2093 0) (end -1.016 -0.3302)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.016 0.3048)
-          (xy -1.016 -0.3048)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.016 0.3048)
-          (xy 0.9652 0.3048)
-          (xy 0.9652 -0.3048)
-          (xy -1.016 -0.3048)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "PCB" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board no)
-    (property "Reference" "PCB" (at -0.0508 -2.2352 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PCB" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Posin" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "F" (at -1.3462 -4.064 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "PCB_0_1"
-      (rectangle (start -2.54 1.27) (end 2.54 -1.27)
-        (stroke (width 0.0254) (type default))
-        (fill (type background))
-      )
-    )
-  )
-  (symbol "Screw_M3x18mm_ButtonHead2mmHex_Stainless" (pin_names (offset 1.016)) (in_bom yes) (on_board no)
-    (property "Reference" "H" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Screw_M3x18mm_ButtonHead2mmHex_Stainless" (at 0 3.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mcmaster.com/92095A472/" (at 0 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "92095A472" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "McMaster-Carr" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "M3x0.5mm screw, L = 18mm, Button Head with 2mm Hex drive, Stainless Steel" (at -2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at -0.254 -12.192 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "M3x0.5mm screw, L = 18mm, Button Head with 2mm Hex drive, Stainless Steel" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Screw_M3x18mm_ButtonHead2mmHex_Stainless_0_1"
-      (arc (start -0.338 1.016) (mid -0.9724 -0.0107) (end -0.3048 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3048 1.016)
-          (xy -0.3048 -1.016)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.1016 0.3048)
-          (xy -0.1016 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0.3048)
-          (xy 0 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.1016 0.3048)
-          (xy 0.1016 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.2032 0.3048)
-          (xy 0.2032 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.3048 0.3048)
-          (xy 0.3048 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.4064 0.3048)
-          (xy 0.4064 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.508 0.3048)
-          (xy 0.508 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.6096 0.3048)
-          (xy 0.6096 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.7112 0.254)
-          (xy 0.7112 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.8128 0.254)
-          (xy 0.8128 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.9144 0.254)
-          (xy 0.9144 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.016 0.254)
-          (xy 1.016 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.1176 0.3048)
-          (xy 1.1176 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.2192 0.3048)
-          (xy 1.2192 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.3208 0.3048)
-          (xy 1.3208 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.4224 0.3048)
-          (xy 1.4224 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.524 0.254)
-          (xy 1.524 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.6256 0.3556)
-          (xy 1.6256 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.7272 0.3556)
-          (xy 1.7272 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.8288 0.3556)
-          (xy 1.8288 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.9304 0.3556)
-          (xy 1.9304 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.032 0.3556)
-          (xy 2.032 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.1336 0.3556)
-          (xy 2.1336 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.2352 0.3556)
-          (xy 2.2352 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.3368 0.3048)
-          (xy 2.3368 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.4384 0.3048)
-          (xy 2.4384 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0.3048)
-          (xy 2.54 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.6416 0.3048)
-          (xy 2.6416 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.7432 0.3556)
-          (xy 2.7432 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.8448 0.3556)
-          (xy 2.8448 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.9464 0.3556)
-          (xy 2.9464 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.048 0.3556)
-          (xy 3.048 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.1496 0.3048)
-          (xy 3.1496 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.2512 0.3048)
-          (xy 3.2512 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.3528 0.3048)
-          (xy 3.3528 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.4544 0.3048)
-          (xy 3.4544 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.556 0.3048)
-          (xy 3.556 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.6576 0.3048)
-          (xy 3.6576 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.7592 0.3048)
-          (xy 3.7592 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.8608 0.3048)
-          (xy 3.8608 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.9624 0.3048)
-          (xy 3.9624 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.064 0.254)
-          (xy 4.064 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.1656 0.254)
-          (xy 4.1656 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.2672 0.254)
-          (xy 4.2672 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.3688 0.254)
-          (xy 4.3688 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.4704 0.3048)
-          (xy 4.4704 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.572 0.3048)
-          (xy 4.572 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.6736 0.3048)
-          (xy 4.6736 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.7752 0.3048)
-          (xy 4.7752 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.8768 0.254)
-          (xy 4.8768 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.9784 0.3556)
-          (xy 4.9784 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 0.3556)
-          (xy 5.08 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.1816 0.3556)
-          (xy 5.1816 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.2832 0.3556)
-          (xy 5.2832 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.3848 0.3556)
-          (xy 5.3848 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.4864 0.3556)
-          (xy 5.4864 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.588 0.3556)
-          (xy 5.588 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.6896 0.3048)
-          (xy 5.6896 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.7912 0.3048)
-          (xy 5.7912 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.8928 0.3048)
-          (xy 5.8928 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.9944 0.3048)
-          (xy 5.9944 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.096 0.3556)
-          (xy 6.096 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.1976 0.3556)
-          (xy 6.1976 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2992 0.3556)
-          (xy 6.2992 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.4008 0.3556)
-          (xy 6.4008 -0.254)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.5024 0.3048)
-          (xy 6.5024 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.604 0.3048)
-          (xy 6.604 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.7056 0.3048)
-          (xy 6.7056 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.8072 0.3048)
-          (xy 6.8072 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.9088 0.3048)
-          (xy 6.9088 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.0104 0.254)
-          (xy 7.0104 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.8636 0.3048)
-          (xy -0.762 0.2032)
-          (xy -0.762 -0.2032)
-          (xy -0.8636 -0.3048)
-        )
-        (stroke (width 0.0051) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3048 0.3048)
-          (xy 7.239 0.3048)
-          (xy 7.239 -0.3048)
-          (xy -0.3048 -0.3048)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Screw_M3x4mm_ButtonHead2mmHex_Stainless" (pin_names (offset 1.016)) (in_bom yes) (on_board no)
-    (property "Reference" "H" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Screw_M3x4mm_ButtonHead2mmHex_Stainless" (at 0 3.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mcmaster.com/92095A471/" (at 0 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "92095A471" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "McMaster-Carr" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "M3x0.5mm screw, L = 4mm, Button Head with 2mm Hex drive, Stainless Steel" (at -2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at 0 -16.002 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "M3x0.5mm screw, L = 4mm, Button Head with 2mm Hex drive, Stainless Steel" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Screw_M3x4mm_ButtonHead2mmHex_Stainless_0_1"
-      (arc (start -0.338 1.016) (mid -0.9724 -0.0107) (end -0.3048 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3048 1.016)
-          (xy -0.3048 -1.016)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.1016 0.3048)
-          (xy -0.1016 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0.3048)
-          (xy 0 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.1016 0.3048)
-          (xy 0.1016 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.2032 0.3048)
-          (xy 0.2032 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.3048 0.3048)
-          (xy 0.3048 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.4064 0.3048)
-          (xy 0.4064 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.508 0.3048)
-          (xy 0.508 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.6096 0.3048)
-          (xy 0.6096 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.7112 0.254)
-          (xy 0.7112 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.8128 0.254)
-          (xy 0.8128 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.9144 0.254)
-          (xy 0.9144 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.016 0.254)
-          (xy 1.016 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.1176 0.3048)
-          (xy 1.1176 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.2192 0.3048)
-          (xy 1.2192 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.3208 0.3048)
-          (xy 1.3208 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.4224 0.3048)
-          (xy 1.4224 -0.3048)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.524 0.254)
-          (xy 1.524 -0.3556)
-        )
-        (stroke (width 0.0025) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.8636 0.3048)
-          (xy -0.762 0.2032)
-          (xy -0.762 -0.2032)
-          (xy -0.8636 -0.3048)
-        )
-        (stroke (width 0.0051) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3048 0.3048)
-          (xy 1.6764 0.3048)
-          (xy 1.6764 -0.3048)
-          (xy -0.3048 -0.3048)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Shunt Jumper" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board no)
-    (property "Reference" "SJ" (at 2.54 -2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Shunt Jumper" (at 0.1016 3.302 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 7.6454 2.5146 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 7.6454 2.5146 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "LL1044-1B" (at 2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Cixi Lanling" (at 1.27 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "2.54mm pitch, 2 position" (at 8.3566 -13.1064 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at -1.7272 -9.7536 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" "Kobiconn" (at 12.192 -7.4422 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number2" "151-8011-E" (at 6.2992 -10.3886 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "Jumper" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "2.54mm pitch, 2 position" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Shunt Jumper_0_1"
-      (polyline
-        (pts
-          (xy -1.2192 0.4572)
-          (xy -1.2192 -1.1176)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.2192 1.4224)
-          (xy -1.2192 0.8636)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.1176 0.5588)
-          (xy -1.2192 0.4572)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.1176 0.8128)
-          (xy -1.1176 0.4572)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.7112 1.9304)
-          (xy -1.2192 1.4224)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.9652 0.1016)
-          (xy 1.0668 -0.0508)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.9652 0.3556)
-          (xy 0.9652 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.0668 -0.0508)
-          (xy -1.2192 0.4572)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.0668 -0.0508)
-          (xy 1.0668 -1.6256)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.0668 0.3556)
-          (xy -1.2192 0.8636)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.0668 0.9144)
-          (xy -1.2192 1.4224)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.0668 0.9144)
-          (xy 1.0668 0.3556)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.4732 0.7112)
-          (xy 1.4732 0.3556)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.5748 0.4572)
-          (xy 1.4732 0.508)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.5748 0.4572)
-          (xy 1.5748 -1.1176)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.5748 1.4224)
-          (xy -0.7112 1.9304)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.5748 1.4224)
-          (xy 1.5748 0.8636)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.2192 -1.1176)
-          (xy 1.0668 -1.6256)
-          (xy 1.5748 -1.1176)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.5748 0.4572)
-          (xy 1.0668 -0.0508)
-          (xy 1.5748 0.4572)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.5748 0.8636)
-          (xy 1.0668 0.3556)
-          (xy 1.5748 0.8636)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.5748 1.4224)
-          (xy 1.0668 0.9144)
-          (xy 1.5748 1.4224)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Spacer Nylon, Unthreaded, Height=11mm, ID {gt}= 3mm, OD {lt} 6mm" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "H" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Spacer Nylon, Unthreaded, Height=11mm, ID >= 3mm, OD < 6mm" (at 0 3.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "93657A504" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "McMaster-Carr" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "Spacer Nylon, Unthreaded, Height=11mm, ID >= 3mm, OD < 6mm" (at -2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at 0.254 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Spacer Nylon, Unthreaded, Height=11mm, ID >= 3mm, OD < 6mm" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Spacer Nylon, Unthreaded, Height=11mm, ID {gt}= 3mm, OD {lt} 6mm_0_1"
-      (arc (start -1.27 0.254) (mid -1.6175 -0.381) (end -1.27 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start -1.27 1.778) (mid -2.8653 -0.381) (end -1.27 -2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start -1.195 -1.0296) (mid -0.8475 -0.3946) (end -1.195 0.2404)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start -0.984 -2.5401) (mid 0.6113 -0.3811) (end -0.984 1.7779)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -2.54)
-          (xy 6.604 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 1.778)
-          (xy 6.604 1.778)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 6.6284 -2.5374) (mid 8.2237 -0.3784) (end 6.6284 1.7806)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Standoff_Mounting-Post_Base-Support" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "H" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Standoff_Mounting-Post_Base-Support" (at 0 3.302 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "4ms_Hardware:MountingHole_XXXTAB_AdhesiveBase" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/990/27011-1697117.pdf" (at 0 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "144-LCBSBM-8-01A-RT" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Mouser" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "Standoffs & Spacers CB Spt,Adh Mnt,Mini,Nat,1/2 in Spc, CB Spt,Adh Mount,Mini,Nat" (at -2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at 0 -16.256 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "spacer snap-in" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Standoffs & Spacers CB Spt,Adh Mnt,Mini,Nat,1/2 in Spc, CB Spt,Adh Mount,Mini,Nat" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Standoff_Mounting-Post_Base-Support_0_1"
-      (arc (start -6.477 0.635) (mid -6.7137 0.0635) (end -6.477 -0.508)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.4036 -0.508)
-          (xy -6.477 -0.508)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.556 -0.8636)
-          (xy -3.4036 -0.8636)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.556 0.9144)
-          (xy -3.4036 0.9144)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.4036 0.508)
-          (xy -4.318 0.508)
-          (xy -4.318 1.016)
-          (xy -5.842 0.635)
-          (xy -6.477 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.683 2.159)
-          (xy 3.683 -2.159)
-          (xy 4.445 -2.159)
-          (xy 4.445 2.286)
-          (xy 3.683 2.286)
-          (xy 3.683 2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Standoff_WA-SNTI_M3x10mm_Hex6mm" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "H" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Standoff_WA-SNTI_M3x10mm_Hex6mm" (at 0 3.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "4ms_Hardware:MountingHole_WurthElektronik_WA-SNTI" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/445/1/973100365-3102885.pdf" (at 0 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "973100365" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Wurth Elektronik" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "Plastic Spacer Stud, H=10mm, Bottom: Snap into 4mm hole, Top: M3 female, Hex body W=6mm" (at -2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at 0 -16.256 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "spacer snap-in" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Plastic Spacer Stud, H=10mm, Bottom: Snap into 4mm hole, Top: M3 female, Hex body W=6mm" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Standoff_WA-SNTI_M3x10mm_Hex6mm_0_1"
-      (arc (start -6.477 0.635) (mid -6.7137 0.0635) (end -6.477 -0.508)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.4036 -0.508)
-          (xy -6.477 -0.508)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.556 -0.8636)
-          (xy -3.4036 -0.8636)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.556 0.9144)
-          (xy -3.4036 0.9144)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.794 1.8796)
-          (xy -3.4036 0.9144)
-          (xy -3.4036 -0.8636)
-          (xy -2.794 -1.8796)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.1656 1.8796)
-          (xy 4.826 0.889)
-          (xy 4.826 -0.889)
-          (xy 4.2164 -1.8796)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.4036 0.508)
-          (xy -4.318 0.508)
-          (xy -4.318 1.016)
-          (xy -5.842 0.635)
-          (xy -6.477 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.794 1.8796)
-          (xy 4.1656 1.8796)
-          (xy 3.556 0.889)
-          (xy 3.556 -0.9144)
-          (xy 4.2164 -1.8796)
-          (xy -2.794 -1.8796)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 4.191 -0.762) (mid 4.5066 0) (end 4.191 0.762)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 4.191 0.762) (mid 3.8754 0) (end 4.191 -0.762)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Washer_3.5mmJack_ID6.0mm_OD8.6mmmm_T0.5mm" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board no)
-    (property "Reference" "H" (at 0 6.096 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Washer_3.5mmJack_ID6.0mm_OD8.6mmmm_T0.5mm" (at 0 4.445 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 0 -11.938 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "WQP-WA" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "WQP" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "Washer, Metal 3.5mmJack, ID 6.0mm, OD 8.6mm, Thickness=0.5mm" (at -2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at 0.254 -13.716 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "washer" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Washer for 3.5mm Jack" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Washer_3.5mmJack_ID6.0mm_OD8.6mmmm_T0.5mm_1_1"
-      (circle (center 0 0) (radius 3.048)
-        (stroke (width 0.5) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Washer_Nylon_ID7.9mm_OD12.7mm_T3.2mm" (pin_names (offset 1.016)) (in_bom yes) (on_board no)
-    (property "Reference" "H" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Washer_Nylon_ID7.9mm_OD12.7mm_T3.2mm" (at 0 3.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 0 -11.938 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "17W05010" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Essentra" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "Washer, Nylon, ID>=6.7mm, OD<=12.7mm, Thickness=3.2mm" (at -2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at 0.254 -13.716 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "mounting hole" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Washer_Nylon_ID7.9mm_OD12.7mm_T3.2mm_0_1"
-      (circle (center 0 0) (radius 1.27)
-        (stroke (width 1.27) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "microSDcard_STS" (in_bom yes) (on_board no)
-    (property "Reference" "U" (at 0 5.842 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "STS SD card w/adaptor" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "DiskCopy" (at 0 -10.922 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "Sample Pack 2.0" (at 0 -6.858 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specifications" "microSD Card, 16GB with STS Sample Pack. Includes SD adaptor" (at 0.254 -8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Production Stage" "E" (at 0.254 -13.208 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "microSDcard_STS_0_1"
-      (polyline
-        (pts
-          (xy -0.762 3.81)
-          (xy -0.762 2.286)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 3.81)
-          (xy 0 2.286)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 3.81)
-          (xy 0.762 2.286)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.524 3.81)
-          (xy 1.524 2.286)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.032 3.81)
-          (xy -3.048 2.794)
-          (xy -3.048 -3.81)
-          (xy 3.048 -3.81)
-          (xy 3.048 3.81)
-          (xy -2.032 3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "Faceplate"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "FP"
+			(at 0 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Faceplate"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Posin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "F"
+			(at -3.7084 -3.3782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Faceplate_0_1"
+			(rectangle
+				(start -5.08 1.27)
+				(end 5.08 -1.27)
+				(stroke
+					(width 0.0254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "Hex Nut M3x0.5mm, Stainless"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "H"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hex Nut M3x0.5mm, Stainless"
+			(at 0 4.191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -14.986 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Nut M3x0.5mm, Stainless"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "~"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Posin"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Hex Nut M3x0.5mm, Stainless"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at -11.176 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Hex Nut M3x0.5mm, Stainless_1_1"
+			(polyline
+				(pts
+					(xy -1.778 2.794) (xy 1.778 2.794) (xy 3.556 0) (xy 1.778 -3.048) (xy -1.778 -3.048) (xy -3.556 0)
+					(xy -1.778 2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Knob_Davies_WhiteLine"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "KNOB?"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Davies, White Line, D-shaft shallow"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "For metal shaft pots (common)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Chia Shin Knobs"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CP-BUA-6-0DX10.5W7"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "White Line, Diameter: ?mm, D-shaft 3.5mm depth"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0.254 -14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Knob_Davies_WhiteLine_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 3.5921)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Lightpipe"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "LP"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LightPipe"
+			(at 0.1778 1.6764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.3048 0.3048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -0.3048 0.3048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "EMP2-8.9VO"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kangyang"
+			(at 1.27 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at -0.3048 0.3048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at -1.7272 -9.7536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Lightpipe_0_1"
+			(arc
+				(start -1.016 0.3302)
+				(mid -1.2093 0)
+				(end -1.016 -0.3302)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 0.3048) (xy -1.016 -0.3048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 0.3048) (xy 0.9652 0.3048) (xy 0.9652 -0.3048) (xy -1.016 -0.3048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "PCB"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "PCB"
+			(at -0.0508 -2.2352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Posin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "F"
+			(at -1.3462 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PCB_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0.0254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "Screw_M3x18mm_ButtonHead2mmHex_Stainless"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_M3x18mm_ButtonHead2mmHex_Stainless"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mcmaster.com/92095A472/"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3x0.5mm screw, L = 18mm, Button Head with 2mm Hex drive, Stainless Steel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "92095A472"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "McMaster-Carr"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "M3x0.5mm screw, L = 18mm, Button Head with 2mm Hex drive, Stainless Steel"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at -0.254 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Screw_M3x18mm_ButtonHead2mmHex_Stainless_0_1"
+			(arc
+				(start -0.338 1.016)
+				(mid -0.9724 -0.0107)
+				(end -0.3048 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3048 1.016) (xy -0.3048 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.1016 0.3048) (xy -0.1016 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.3048) (xy 0 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.1016 0.3048) (xy 0.1016 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.2032 0.3048) (xy 0.2032 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.3048 0.3048) (xy 0.3048 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.4064 0.3048) (xy 0.4064 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0.3048) (xy 0.508 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6096 0.3048) (xy 0.6096 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.7112 0.254) (xy 0.7112 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.8128 0.254) (xy 0.8128 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.9144 0.254) (xy 0.9144 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0.254) (xy 1.016 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.1176 0.3048) (xy 1.1176 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2192 0.3048) (xy 1.2192 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.3208 0.3048) (xy 1.3208 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.4224 0.3048) (xy 1.4224 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 0.254) (xy 1.524 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.6256 0.3556) (xy 1.6256 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7272 0.3556) (xy 1.7272 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8288 0.3556) (xy 1.8288 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.9304 0.3556) (xy 1.9304 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0.3556) (xy 2.032 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.1336 0.3556) (xy 2.1336 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.2352 0.3556) (xy 2.2352 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.3368 0.3048) (xy 2.3368 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.4384 0.3048) (xy 2.4384 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.3048) (xy 2.54 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.6416 0.3048) (xy 2.6416 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.7432 0.3556) (xy 2.7432 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.8448 0.3556) (xy 2.8448 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.9464 0.3556) (xy 2.9464 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 0.3556) (xy 3.048 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.1496 0.3048) (xy 3.1496 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2512 0.3048) (xy 3.2512 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.3528 0.3048) (xy 3.3528 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.4544 0.3048) (xy 3.4544 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 0.3048) (xy 3.556 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.6576 0.3048) (xy 3.6576 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.7592 0.3048) (xy 3.7592 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.8608 0.3048) (xy 3.8608 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.9624 0.3048) (xy 3.9624 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.064 0.254) (xy 4.064 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.1656 0.254) (xy 4.1656 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.2672 0.254) (xy 4.2672 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.3688 0.254) (xy 4.3688 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.4704 0.3048) (xy 4.4704 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 0.3048) (xy 4.572 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.6736 0.3048) (xy 4.6736 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.7752 0.3048) (xy 4.7752 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.8768 0.254) (xy 4.8768 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.9784 0.3556) (xy 4.9784 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0.3556) (xy 5.08 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.1816 0.3556) (xy 5.1816 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.2832 0.3556) (xy 5.2832 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.3848 0.3556) (xy 5.3848 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.4864 0.3556) (xy 5.4864 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 0.3556) (xy 5.588 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.6896 0.3048) (xy 5.6896 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.7912 0.3048) (xy 5.7912 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.8928 0.3048) (xy 5.8928 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.9944 0.3048) (xy 5.9944 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 0.3556) (xy 6.096 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.1976 0.3556) (xy 6.1976 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2992 0.3556) (xy 6.2992 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.4008 0.3556) (xy 6.4008 -0.254)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.5024 0.3048) (xy 6.5024 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.604 0.3048) (xy 6.604 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.7056 0.3048) (xy 6.7056 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.8072 0.3048) (xy 6.8072 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.9088 0.3048) (xy 6.9088 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.0104 0.254) (xy 7.0104 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.8636 0.3048) (xy -0.762 0.2032) (xy -0.762 -0.2032) (xy -0.8636 -0.3048)
+				)
+				(stroke
+					(width 0.0051)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3048 0.3048) (xy 7.239 0.3048) (xy 7.239 -0.3048) (xy -0.3048 -0.3048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Screw_M3x4mm_ButtonHead2mmHex_Stainless"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_M3x4mm_ButtonHead2mmHex_Stainless"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mcmaster.com/92095A471/"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3x0.5mm screw, L = 4mm, Button Head with 2mm Hex drive, Stainless Steel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "92095A471"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "McMaster-Carr"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "M3x0.5mm screw, L = 4mm, Button Head with 2mm Hex drive, Stainless Steel"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0 -16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Screw_M3x4mm_ButtonHead2mmHex_Stainless_0_1"
+			(arc
+				(start -0.338 1.016)
+				(mid -0.9724 -0.0107)
+				(end -0.3048 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3048 1.016) (xy -0.3048 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.1016 0.3048) (xy -0.1016 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.3048) (xy 0 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.1016 0.3048) (xy 0.1016 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.2032 0.3048) (xy 0.2032 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.3048 0.3048) (xy 0.3048 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.4064 0.3048) (xy 0.4064 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0.3048) (xy 0.508 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6096 0.3048) (xy 0.6096 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.7112 0.254) (xy 0.7112 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.8128 0.254) (xy 0.8128 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.9144 0.254) (xy 0.9144 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0.254) (xy 1.016 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.1176 0.3048) (xy 1.1176 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2192 0.3048) (xy 1.2192 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.3208 0.3048) (xy 1.3208 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.4224 0.3048) (xy 1.4224 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 0.254) (xy 1.524 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.8636 0.3048) (xy -0.762 0.2032) (xy -0.762 -0.2032) (xy -0.8636 -0.3048)
+				)
+				(stroke
+					(width 0.0051)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3048 0.3048) (xy 1.6764 0.3048) (xy 1.6764 -0.3048) (xy -0.3048 -0.3048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Shunt Jumper"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "SJ"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shunt Jumper"
+			(at 0.1016 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 7.6454 2.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 7.6454 2.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.54mm pitch, 2 position"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LL1044-1B"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Cixi Lanling"
+			(at 1.27 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "2.54mm pitch, 2 position"
+			(at 8.3566 -13.1064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at -1.7272 -9.7536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" "Kobiconn"
+			(at 12.192 -7.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number2" "151-8011-E"
+			(at 6.2992 -10.3886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Jumper"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Shunt Jumper_0_1"
+			(polyline
+				(pts
+					(xy -1.2192 0.4572) (xy -1.2192 -1.1176)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.2192 1.4224) (xy -1.2192 0.8636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.1176 0.5588) (xy -1.2192 0.4572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.1176 0.8128) (xy -1.1176 0.4572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.7112 1.9304) (xy -1.2192 1.4224)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.9652 0.1016) (xy 1.0668 -0.0508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.9652 0.3556) (xy 0.9652 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.0668 -0.0508) (xy -1.2192 0.4572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.0668 -0.0508) (xy 1.0668 -1.6256)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.0668 0.3556) (xy -1.2192 0.8636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.0668 0.9144) (xy -1.2192 1.4224)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.0668 0.9144) (xy 1.0668 0.3556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.4732 0.7112) (xy 1.4732 0.3556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.5748 0.4572) (xy 1.4732 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.5748 0.4572) (xy 1.5748 -1.1176)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.5748 1.4224) (xy -0.7112 1.9304)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.5748 1.4224) (xy 1.5748 0.8636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.2192 -1.1176) (xy 1.0668 -1.6256) (xy 1.5748 -1.1176)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.5748 0.4572) (xy 1.0668 -0.0508) (xy 1.5748 0.4572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.5748 0.8636) (xy 1.0668 0.3556) (xy 1.5748 0.8636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.5748 1.4224) (xy 1.0668 0.9144) (xy 1.5748 1.4224)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Spacer Nylon, Unthreaded, Height=11mm, ID {gt}= 3mm, OD {lt} 6mm"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Spacer Nylon, Unthreaded, Height=11mm, ID >= 3mm, OD < 6mm"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer Nylon, Unthreaded, Height=11mm, ID >= 3mm, OD < 6mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "93657A504"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "McMaster-Carr"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Spacer Nylon, Unthreaded, Height=11mm, ID >= 3mm, OD < 6mm"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0.254 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Spacer Nylon, Unthreaded, Height=11mm, ID {gt}= 3mm, OD {lt} 6mm_0_1"
+			(arc
+				(start -1.27 0.254)
+				(mid -1.6175 -0.381)
+				(end -1.27 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 1.778)
+				(mid -2.8653 -0.381)
+				(end -1.27 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.195 -1.0296)
+				(mid -0.8475 -0.3946)
+				(end -1.195 0.2404)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.984 -2.5401)
+				(mid 0.6113 -0.3811)
+				(end -0.984 1.7779)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy 6.604 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy 6.604 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.6284 -2.5374)
+				(mid 8.2237 -0.3784)
+				(end 6.6284 1.7806)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Standoff_Mounting-Post_Base-Support"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Standoff_Mounting-Post_Base-Support"
+			(at 0 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Hardware:MountingHole_XXXTAB_AdhesiveBase"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/990/27011-1697117.pdf"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standoffs & Spacers CB Spt,Adh Mnt,Mini,Nat,1/2 in Spc, CB Spt,Adh Mount,Mini,Nat"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "144-LCBSBM-8-01A-RT"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Mouser"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Standoffs & Spacers CB Spt,Adh Mnt,Mini,Nat,1/2 in Spc, CB Spt,Adh Mount,Mini,Nat"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "spacer snap-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Standoff_Mounting-Post_Base-Support_0_1"
+			(arc
+				(start -6.477 0.635)
+				(mid -6.7137 0.0635)
+				(end -6.477 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.4036 -0.508) (xy -6.477 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 -0.8636) (xy -3.4036 -0.8636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 0.9144) (xy -3.4036 0.9144)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.4036 0.508) (xy -4.318 0.508) (xy -4.318 1.016) (xy -5.842 0.635) (xy -6.477 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.683 2.159) (xy 3.683 -2.159) (xy 4.445 -2.159) (xy 4.445 2.286) (xy 3.683 2.286) (xy 3.683 2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Standoff_WA-SNTI_M3x10mm_Hex6mm"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Standoff_WA-SNTI_M3x10mm_Hex6mm"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Hardware:MountingHole_WurthElektronik_WA-SNTI"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/445/1/973100365-3102885.pdf"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Plastic Spacer Stud, H=10mm, Bottom: Snap into 4mm hole, Top: M3 female, Hex body W=6mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "973100365"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Plastic Spacer Stud, H=10mm, Bottom: Snap into 4mm hole, Top: M3 female, Hex body W=6mm"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "spacer snap-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Standoff_WA-SNTI_M3x10mm_Hex6mm_0_1"
+			(arc
+				(start -6.477 0.635)
+				(mid -6.7137 0.0635)
+				(end -6.477 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.4036 -0.508) (xy -6.477 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 -0.8636) (xy -3.4036 -0.8636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 0.9144) (xy -3.4036 0.9144)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.794 1.8796) (xy -3.4036 0.9144) (xy -3.4036 -0.8636) (xy -2.794 -1.8796)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.1656 1.8796) (xy 4.826 0.889) (xy 4.826 -0.889) (xy 4.2164 -1.8796)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.4036 0.508) (xy -4.318 0.508) (xy -4.318 1.016) (xy -5.842 0.635) (xy -6.477 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.794 1.8796) (xy 4.1656 1.8796) (xy 3.556 0.889) (xy 3.556 -0.9144) (xy 4.2164 -1.8796) (xy -2.794 -1.8796)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.191 -0.762)
+				(mid 4.5066 0)
+				(end 4.191 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.191 0.762)
+				(mid 3.8754 0)
+				(end 4.191 -0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "VCAM Nut"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Nut"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Hardware:VCAM Nut"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.microfasteners.com/hnss0256-2-56-hex-nuts-small-pattern-stainless.html"
+			(at -14.986 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Nut 2-56"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "HNSS0256"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microfasteners"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "2-56 hex nut, outer dimension: 0.156\" min 0.174\" max, stainless steel "
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at -11.176 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VCAM Nut_1_1"
+			(polyline
+				(pts
+					(xy -1.778 2.794) (xy 1.778 2.794) (xy 3.556 0) (xy 1.778 -3.048) (xy -1.778 -3.048) (xy -3.556 0)
+					(xy -1.778 2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "VCAM Screw"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "H"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Hardware:VCAM Screw"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.microfasteners.com/sbs0212-2-56-x-3-4-button-head-screw-stainless.html"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Allen-drive screw: 2/56, Head: Rounded/Button approx 0.165-0.180\" Dia., Drive: allen/hex. Length 3/4\", stainless steel "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SBS0212"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microfasteners"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Allen-drive screw: 2/56, Head: Rounded/Button approx 0.165-0.180\" Dia., Drive: allen/hex. Length 3/4\", stainless steel "
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0 -16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VCAM Screw_0_1"
+			(arc
+				(start -0.338 1.016)
+				(mid -0.9724 -0.0107)
+				(end -0.3048 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3048 1.016) (xy -0.3048 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.1016 0.3048) (xy -0.1016 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.3048) (xy 0 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.1016 0.3048) (xy 0.1016 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.2032 0.3048) (xy 0.2032 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.3048 0.3048) (xy 0.3048 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.4064 0.3048) (xy 0.4064 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0.3048) (xy 0.508 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.6096 0.3048) (xy 0.6096 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.7112 0.254) (xy 0.7112 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.8128 0.254) (xy 0.8128 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.9144 0.254) (xy 0.9144 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0.254) (xy 1.016 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.1176 0.3048) (xy 1.1176 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.2192 0.3048) (xy 1.2192 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.3208 0.3048) (xy 1.3208 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.4224 0.3048) (xy 1.4224 -0.3048)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 0.254) (xy 1.524 -0.3556)
+				)
+				(stroke
+					(width 0.0025)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.8636 0.3048) (xy -0.762 0.2032) (xy -0.762 -0.2032) (xy -0.8636 -0.3048)
+				)
+				(stroke
+					(width 0.0051)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3048 0.3048) (xy 1.6764 0.3048) (xy 1.6764 -0.3048) (xy -0.3048 -0.3048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "VCAM Standoff"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Nylon Spacer"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Hardware:MountingHole_2-56"
+			(at -2.54 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/50/9XX_XXX-2301568.pdf"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ".405\" nylon standoff, round, unthreaded, 0.187\" OD, 0.091\" ID"
+			(at -4.826 -16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "913-405"
+			(at -2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bivar"
+			(at -2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at -5.08 -5.08 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at -2.286 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VCAM Standoff_1_1"
+			(unit_name "Nylon Spacer")
+			(arc
+				(start -3.81 0.254)
+				(mid -4.1575 -0.381)
+				(end -3.81 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.81 1.778)
+				(mid -5.4053 -0.381)
+				(end -3.81 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.735 -1.0296)
+				(mid -3.3875 -0.3946)
+				(end -3.735 0.2404)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.524 -2.5401)
+				(mid -1.9287 -0.3811)
+				(end -3.524 1.7779)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 4.064 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.778) (xy 4.064 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.0884 -2.5374)
+				(mid 5.6837 -0.3784)
+				(end 4.0884 1.7806)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "VCAM Washer"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Nylon Washer"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Hardware:VCAM Nylon Washer"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/356-743860.pdf"
+			(at 0 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Nylon washer, 0.187\" OD, 0.98\" ID, 0.062\" thick"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "3356"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Nylon washer, 0.187\" OD, 0.98\" ID, 0.062\" thick"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0.254 -13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "mounting hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VCAM Washer_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Washer_3.5mmJack_ID6.0mm_OD8.6mmmm_T0.5mm"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "H"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Washer_3.5mmJack_ID6.0mm_OD8.6mmmm_T0.5mm"
+			(at 0 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Washer for 3.5mm Jack"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WQP-WA"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WQP"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Washer, Metal 3.5mmJack, ID 6.0mm, OD 8.6mm, Thickness=0.5mm"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0.254 -13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "washer"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Washer_3.5mmJack_ID6.0mm_OD8.6mmmm_T0.5mm_1_1"
+			(circle
+				(center 0 0)
+				(radius 3.048)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Washer_Nylon_ID7.9mm_OD12.7mm_T3.2mm"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "H"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Washer_Nylon_ID7.9mm_OD12.7mm_T3.2mm"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "17W05010"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Essentra"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Washer, Nylon, ID>=6.7mm, OD<=12.7mm, Thickness=3.2mm"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0.254 -13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "mounting hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MountingHole*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Washer_Nylon_ID7.9mm_OD12.7mm_T3.2mm_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 1.27)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "microSDcard_STS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "U"
+			(at 0 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STS SD card w/adaptor"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DiskCopy"
+			(at 0 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "Sample Pack 2.0"
+			(at 0 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "microSD Card, 16GB with STS Sample Pack. Includes SD adaptor"
+			(at 0.254 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "E"
+			(at 0.254 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "microSDcard_STS_0_1"
+			(polyline
+				(pts
+					(xy -0.762 3.81) (xy -0.762 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 0 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 3.81) (xy 0.762 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 3.81) (xy 1.524 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 3.81) (xy -3.048 2.794) (xy -3.048 -3.81) (xy 3.048 -3.81) (xy 3.048 3.81) (xy -2.032 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
 )

@@ -1,0 +1,129 @@
+(footprint "Faceplate_SD_Card_Slot"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 15.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "93cc9f12-d254-4324-aa23-ed454ded3b54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Faceplate_SD_Card_Slot"
+		(at 1 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1cdbe9e-8ab7-498e-8c09-4e0391f042dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.055 -0.195 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "278571e2-53ff-47dd-b391-b817ba22e22a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.055 -0.195 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4a55ffe-dfca-4291-a7ce-40053464e989")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.055 -0.195 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eef02345-7f68-452b-8bca-73b4dab9f2c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.555 -6.805)
+		(end 1.545 -6.805)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4c52c3e2-c795-47d3-851a-29dfc81355ef")
+	)
+	(fp_line
+		(start -1.555 6.805)
+		(end -1.555 -6.795)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ed1e4703-24ac-4af7-93dc-4f51e9bc8aa6")
+	)
+	(fp_line
+		(start 1.555 -6.795)
+		(end 1.555 6.795)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ce5e6b27-2592-4636-a4ee-db98ff42adef")
+	)
+	(fp_line
+		(start 1.555 6.805)
+		(end -1.555 6.805)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b8e2a873-1a97-4f4b-b6e9-b5060f0d411e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "394b0eed-726a-455b-977d-db07b325e2e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(group ""
+		(uuid "296b6de2-4f40-401a-849f-0b647e2ef3a0")
+		(members "278571e2-53ff-47dd-b391-b817ba22e22a" "4c52c3e2-c795-47d3-851a-29dfc81355ef"
+			"b8e2a873-1a97-4f4b-b6e9-b5060f0d411e" "ce5e6b27-2592-4636-a4ee-db98ff42adef"
+			"ed1e4703-24ac-4af7-93dc-4f51e9bc8aa6" "eef02345-7f68-452b-8bca-73b4dab9f2c4"
+			"f4a55ffe-dfca-4291-a7ce-40053464e989"
+		)
+	)
+)
