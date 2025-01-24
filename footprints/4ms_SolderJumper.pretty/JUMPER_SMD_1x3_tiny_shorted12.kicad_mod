@@ -1,0 +1,157 @@
+(footprint "JUMPER_SMD_1x3_tiny_shorted12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Net tie, 3 pin, SMD pads, pads 1 and 2 shorted")
+	(tags "net tie")
+	(property "Reference" "REF**"
+		(at -0.05 -2.48 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cd81481d-6e33-42fe-8db9-c5e4916c2fd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JUMPER_SMD_1x3_tiny_shorted12"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14f353e1-ef4b-4be2-8760-1c973ea1d80e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.01 0.02 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "285f4aa3-d725-404b-953d-d7481e725a9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.01 0.02 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36914e85-9eee-4336-b4c1-47468dac19fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.01 0.02 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6a54861-00f4-46f4-a677-6d566e5e6a89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
+	(net_tie_pad_groups "1, 2, 3")
+	(fp_poly
+		(pts
+			(xy -0.53 -0.13) (xy -0.19 -0.13) (xy -0.19 0.14) (xy -0.53 0.14)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "ffdfa925-0838-4af2-94fa-162bbdd5fc3d")
+	)
+	(fp_line
+		(start -1.13 -0.48)
+		(end 1.13 -0.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28d27fd5-b342-46a9-b50e-f76289656951")
+	)
+	(fp_line
+		(start -1.13 0.48)
+		(end -1.13 -0.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c5e44d3-4132-4d3a-bb47-f9b241348258")
+	)
+	(fp_line
+		(start 1.13 0.48)
+		(end -1.13 0.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42236d9e-33ae-40f3-b6bf-87b4f97f2478")
+	)
+	(fp_line
+		(start 1.13 0.48)
+		(end 1.13 -0.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ba32d3b-e37d-4c2d-9d0c-61ad765e6ab2")
+	)
+	(fp_rect
+		(start -1.24 -0.58)
+		(end 1.24 0.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "90358fda-8a7b-4a59-bd06-31d404348b3f")
+	)
+	(pad "1" smd rect
+		(at -0.68 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.175)
+		(uuid "99f1ada1-801b-4695-84e4-6b72e01e808a")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.175)
+		(uuid "4fcbe4a0-1b75-4523-a921-ed2ba0e97dc9")
+	)
+	(pad "3" smd rect
+		(at 0.68 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.175)
+		(uuid "74c74f27-3920-46b4-864c-970721c2bc13")
+	)
+)
