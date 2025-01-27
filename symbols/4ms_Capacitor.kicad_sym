@@ -13148,7 +13148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Walsin Tech Corp"
 			(at -2.54 -9.398 0)
 			(effects
 				(font
@@ -13158,7 +13158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GCG188R91E334KA01D"
+		(property "Part Number" "0603B334K250CT"
 			(at -2.54 -10.922 0)
 			(effects
 				(font
@@ -13177,7 +13177,7 @@
 				(justify left)
 			)
 		)
-		(property "Alt JLCPCB ID" "C1864254"
+		(property "Alt JLCPCB ID" "C384782"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13196,7 +13196,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "3.6nF_0603_25V"
+		(property "ki_keywords" "330nF_0603_25V"
 			(at 0 0 0)
 			(effects
 				(font
