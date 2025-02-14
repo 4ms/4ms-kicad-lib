@@ -78,7 +78,7 @@
 	)
 	(model "${KICAD_4MS_LIBS}/3dmodels/Hardware.3dshapes/Screen_ER-TFT030-2.STEP"
 		(offset
-			(xyz 0 0 15.5)
+			(xyz 0 0 4)
 		)
 		(scale
 			(xyz 1 1 1)
