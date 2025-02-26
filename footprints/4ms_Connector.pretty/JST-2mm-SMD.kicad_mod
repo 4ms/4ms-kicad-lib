@@ -1,0 +1,193 @@
+(footprint "JST-2mm-SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2mm SMD side-entry connector. tDocu layer indicates the actual physical plastic housing. +/- indicate SparkFun standard batteries and wiring.")
+	(property "Reference" "JP6"
+		(at 4.75 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1011f6e4-c597-43bd-9cb7-80ead611a410")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1625)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "Val**"
+		(at 5.75 3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "393f023e-1452-47ac-a126-ec59106dbfa4")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify right top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ad40a9f-98d3-4259-af3d-59f7401c35c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "727eeea0-0967-45c8-8b1b-78c89107212c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b536a7a-ad68-4e03-ada4-e989988c0102")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4 1)
+		(end -4 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5750911-174a-4e5b-b7a8-43f28565759e")
+	)
+	(fp_line
+		(start -4 4.5)
+		(end -3.2 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "206645f7-f875-4cbd-9894-1133be4c1da3")
+	)
+	(fp_line
+		(start -3.2 2)
+		(end -2 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "733ac1af-6a67-49af-8367-91e58a96add9")
+	)
+	(fp_line
+		(start -3.2 4.5)
+		(end -3.2 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f263c675-79bb-422f-b3b2-71718558667c")
+	)
+	(fp_line
+		(start 2 -3)
+		(end -2 -3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c70b7e68-028c-489b-9022-bfdd3e0a6219")
+	)
+	(fp_line
+		(start 2 2)
+		(end 3.2 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfb1fc5a-d662-4ba6-9bf2-225e536201c2")
+	)
+	(fp_line
+		(start 3.2 2)
+		(end 3.2 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "103676e5-2b91-4068-a271-02da239e4305")
+	)
+	(fp_line
+		(start 3.2 4.5)
+		(end 4 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed52fbb0-48ac-42c1-99b7-fcdb8865a6fe")
+	)
+	(fp_line
+		(start 4 4.5)
+		(end 4 1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa700b5a-dacb-4803-bbad-7391217ff9aa")
+	)
+	(pad "1" smd rect
+		(at -1 3.7)
+		(size 1 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "634214f2-ead6-4573-ab14-9d0386ba127b")
+	)
+	(pad "2" smd rect
+		(at 1 3.7)
+		(size 1 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "0ee80250-a283-4c09-a544-24ea8d0e270d")
+	)
+	(pad "NC1" smd rect
+		(at -3.4 -1.5 90)
+		(size 3.4 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "062584f2-a8e3-4a1b-87f0-2733c89f870a")
+	)
+	(pad "NC2" smd rect
+		(at 3.4 -1.5 90)
+		(size 3.4 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "2976898c-1e7c-4e06-9fd7-f84c9dae4a0c")
+	)
+)
