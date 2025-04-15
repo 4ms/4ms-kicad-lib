@@ -74590,9 +74590,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGE0024C_VQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm"
+		(property "Footprint" "4ms_Package_QFP:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias"
 			(at 0 -39.37 0)
 			(effects
 				(font
@@ -74697,7 +74698,7 @@
 		)
 		(symbol "TAC5211_1_0"
 			(pin power_in line
-				(at -17.78 11.43 0)
+				(at 5.08 -22.86 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -74716,26 +74717,8 @@
 			)
 		)
 		(symbol "TAC5211_1_1"
-			(pin power_in line
-				(at 20.32 19.05 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at -17.78 -2.54 0)
+				(at -3.81 29.21 270)
 				(length 2.54)
 				(name "DREG"
 					(effects
@@ -74753,7 +74736,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 11.43 0)
+				(at -17.78 -3.81 0)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -74771,7 +74754,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 16.51 0)
+				(at -17.78 -6.35 0)
 				(length 2.54)
 				(name "GPO1"
 					(effects
@@ -74789,7 +74772,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 6.35 0)
+				(at -17.78 -8.89 0)
 				(length 2.54)
 				(name "GPI1"
 					(effects
@@ -74807,7 +74790,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -7.62 180)
+				(at -17.78 16.51 0)
 				(length 2.54)
 				(name "ADDR"
 					(effects
@@ -74825,7 +74808,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 2.54 180)
+				(at 20.32 -17.78 180)
 				(length 2.54)
 				(name "MICBIAS"
 					(effects
@@ -74843,7 +74826,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -10.16 0)
+				(at 20.32 21.59 180)
 				(length 2.54)
 				(name "IN1P"
 					(effects
@@ -74861,7 +74844,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -22.86 90)
+				(at 20.32 19.05 180)
 				(length 2.54)
 				(name "IN1M"
 					(effects
@@ -74879,7 +74862,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -5.08 180)
+				(at 20.32 16.51 180)
 				(length 2.54)
 				(name "IN2P"
 					(effects
@@ -74897,7 +74880,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -2.54 180)
+				(at 20.32 13.97 180)
 				(length 2.54)
 				(name "IN2M"
 					(effects
@@ -74915,7 +74898,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 5.08 180)
+				(at 20.32 -1.27 180)
 				(length 2.54)
 				(name "OUT1M"
 					(effects
@@ -74933,7 +74916,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 8.89 0)
+				(at -17.78 12.7 0)
 				(length 2.54)
 				(name "BCLK"
 					(effects
@@ -74951,7 +74934,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 7.62 180)
+				(at 20.32 1.27 180)
 				(length 2.54)
 				(name "OUT1P"
 					(effects
@@ -74969,7 +74952,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 13.97 180)
+				(at 20.32 -3.81 180)
 				(length 2.54)
 				(name "OUT2P"
 					(effects
@@ -74987,7 +74970,7 @@
 				)
 			)
 			(pin output line
-				(at 2.54 -22.86 90)
+				(at 20.32 -6.35 180)
 				(length 2.54)
 				(name "OUT2M"
 					(effects
@@ -75005,7 +74988,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -22.86 90)
+				(at 5.08 29.21 270)
 				(length 2.54)
 				(name "AVDD"
 					(effects
@@ -75023,7 +75006,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 29.21 270)
+				(at 21.59 38.1 180)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -75040,8 +75023,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -22.86 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at -17.78 0 0)
+				(at -17.78 10.16 0)
 				(length 2.54)
 				(name "FSYNC"
 					(effects
@@ -75059,7 +75060,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 24.13 0)
+				(at -17.78 3.81 0)
 				(length 2.54)
 				(name "DOUT"
 					(effects
@@ -75077,7 +75078,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 19.05 0)
+				(at -17.78 6.35 0)
 				(length 2.54)
 				(name "DIN"
 					(effects
@@ -75095,7 +75096,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 21.59 0)
+				(at 8.89 41.91 0)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -75113,7 +75114,7 @@
 				)
 			)
 			(pin input line
-				(at -1.27 29.21 270)
+				(at -17.78 19.05 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -75131,7 +75132,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -22.86 90)
+				(at -17.78 21.59 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -75149,7 +75150,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 13.97 0)
+				(at -17.78 -1.27 0)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -75167,7 +75168,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 16.51 180)
+				(at -5.08 -22.86 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -75185,7 +75186,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -7.62 0)
+				(at -2.54 -22.86 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -75203,7 +75204,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -5.08 0)
+				(at 2.54 -22.86 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
