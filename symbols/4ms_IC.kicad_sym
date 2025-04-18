@@ -74577,20 +74577,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 13.97 34.29 0)
+			(at -3.81 6.858 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
 				)
 			)
 		)
 		(property "Value" "TAC5211"
-			(at 16.51 31.75 0)
+			(at -0.508 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "4ms_Package_QFP:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias"
@@ -74602,7 +74605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm3060.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675088389053&ref_url=https%253A%252F%252Fwww.mouser.pe%252F"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tac5211.pdf?ts=1744751948312&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
 			(at 1.27 -40.64 0)
 			(effects
 				(font
@@ -74611,8 +74614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "High-performance mono audio codec with 119dB dynamic range ADC and 120dB dynamic range DA"
+			(at -0.762 -52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74638,7 +74641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" ""
+		(property "Specifications" "1 ADC, 2 DACs, 3.6v max supply, VQFN-24, 119dB dynamic range ADC, 120dB dynamic range DAC"
 			(at -2.54 -44.45 0)
 			(effects
 				(font
@@ -74648,7 +74651,7 @@
 			)
 		)
 		(property "Production Stage" "A"
-			(at -2.54 -16.51 0)
+			(at -37.084 -47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74658,14 +74661,14 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 0 0 0)
+			(at -1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "ki_keywords" "audio dac 2ch 24bit 192kHz"
+		(property "ki_keywords" "codec, DAC, ADC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74685,8 +74688,8 @@
 		)
 		(symbol "TAC5211_0_1"
 			(rectangle
-				(start -15.24 26.67)
-				(end 17.78 -20.32)
+				(start -16.51 22.86)
+				(end 16.51 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -74698,7 +74701,7 @@
 		)
 		(symbol "TAC5211_1_0"
 			(pin power_in line
-				(at 5.08 -22.86 90)
+				(at 6.35 -25.4 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -74717,8 +74720,8 @@
 			)
 		)
 		(symbol "TAC5211_1_1"
-			(pin output line
-				(at -3.81 29.21 270)
+			(pin bidirectional line
+				(at 7.62 25.4 270)
 				(length 2.54)
 				(name "DREG"
 					(effects
@@ -74736,7 +74739,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -3.81 0)
+				(at 19.05 -16.51 180)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -74754,7 +74757,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -6.35 0)
+				(at 19.05 -8.89 180)
 				(length 2.54)
 				(name "GPO1"
 					(effects
@@ -74772,7 +74775,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -8.89 0)
+				(at 19.05 -11.43 180)
 				(length 2.54)
 				(name "GPI1"
 					(effects
@@ -74790,7 +74793,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 16.51 0)
+				(at -19.05 20.32 0)
 				(length 2.54)
 				(name "ADDR"
 					(effects
@@ -74808,7 +74811,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -17.78 180)
+				(at -19.05 -15.24 0)
 				(length 2.54)
 				(name "MICBIAS"
 					(effects
@@ -74826,7 +74829,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 21.59 180)
+				(at -19.05 5.08 0)
 				(length 2.54)
 				(name "IN1P"
 					(effects
@@ -74844,7 +74847,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 19.05 180)
+				(at -19.05 2.54 0)
 				(length 2.54)
 				(name "IN1M"
 					(effects
@@ -74862,7 +74865,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 16.51 180)
+				(at -19.05 -2.54 0)
 				(length 2.54)
 				(name "IN2P"
 					(effects
@@ -74880,7 +74883,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 13.97 180)
+				(at -19.05 -5.08 0)
 				(length 2.54)
 				(name "IN2M"
 					(effects
@@ -74898,7 +74901,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -1.27 180)
+				(at 19.05 3.81 180)
 				(length 2.54)
 				(name "OUT1M"
 					(effects
@@ -74916,7 +74919,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 12.7 0)
+				(at 19.05 17.78 180)
 				(length 2.54)
 				(name "BCLK"
 					(effects
@@ -74934,7 +74937,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 1.27 180)
+				(at 19.05 6.35 180)
 				(length 2.54)
 				(name "OUT1P"
 					(effects
@@ -74952,7 +74955,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -3.81 180)
+				(at 19.05 -1.27 180)
 				(length 2.54)
 				(name "OUT2P"
 					(effects
@@ -74970,7 +74973,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -6.35 180)
+				(at 19.05 -3.81 180)
 				(length 2.54)
 				(name "OUT2M"
 					(effects
@@ -74988,7 +74991,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 29.21 270)
+				(at -7.62 25.4 270)
 				(length 2.54)
 				(name "AVDD"
 					(effects
@@ -75005,8 +75008,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 21.59 38.1 180)
+			(pin bidirectional line
+				(at 3.81 25.4 270)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -75024,7 +75027,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -22.86 90)
+				(at -1.27 -25.4 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -75042,7 +75045,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 10.16 0)
+				(at 19.05 20.32 180)
 				(length 2.54)
 				(name "FSYNC"
 					(effects
@@ -75060,7 +75063,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 3.81 0)
+				(at 19.05 15.24 180)
 				(length 2.54)
 				(name "DOUT"
 					(effects
@@ -75078,7 +75081,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 6.35 0)
+				(at 19.05 12.7 180)
 				(length 2.54)
 				(name "DIN"
 					(effects
@@ -75096,7 +75099,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 41.91 0)
+				(at -3.81 25.4 270)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -75114,7 +75117,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 19.05 0)
+				(at -19.05 17.78 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -75131,8 +75134,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 21.59 0)
+			(pin bidirectional line
+				(at -19.05 15.24 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -75150,7 +75153,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -1.27 0)
+				(at 19.05 -13.97 180)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -75168,7 +75171,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -22.86 90)
+				(at -8.89 -25.4 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -75186,7 +75189,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -22.86 90)
+				(at -5.08 -25.4 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -75204,7 +75207,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -22.86 90)
+				(at 2.54 -25.4 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
