@@ -1,30 +1,199 @@
-(module COIL_5252metric_2020 (layer F.Cu) (tedit 614A51E4)
-  (fp_text reference L1 (at 0 -3.53) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value ? (at 2.45 -3.55) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -2.6 -2.6) (end 2.6 -2.6) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.84 -2.84) (end 2.84 -2.84) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.6 2.6) (end 2.6 2.6) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.84 2.84) (end 2.84 2.84) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.84 -2.84) (end -2.84 2.84) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.84 2.84) (end 2.84 -2.84) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.6 -2.6) (end 2.6 -1.6) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.6 -2.6) (end -2.6 -1.6) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.6 1.6) (end -2.6 2.6) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.6 1.6) (end 2.6 2.6) (layer F.SilkS) (width 0.15))
-  (pad 2 smd rect (at 2.4255 0) (size 1.905 2.79) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -2.4255 0) (size 1.905 2.79) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_4MS_LIBS}/packages3d/Inductors/SRN5040.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
-  (model ${KICAD_4MS_LIBS}/packages3d/Inductors/SRN5040.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "COIL_5252metric_2020"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "L1"
+		(at 0 -3.53 0)
+		(layer "F.SilkS")
+		(uuid "ea2a5614-8eb9-4fdd-b6db-3fe47ec77b4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "?"
+		(at 2.45 -3.55 0)
+		(layer "F.SilkS")
+		(uuid "bc5ff736-b8dc-44f1-ac5e-28f4e3deff4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ae316ec-6161-4737-87d7-0b9ce6eec3e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6357a605-a05c-4888-943c-2d6e2d8e717c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "832ce132-eb75-4078-8f2c-368634c30a23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -2.6)
+		(end -2.6 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a9a215d-9935-4739-8cd5-f5231b054181")
+	)
+	(fp_line
+		(start -2.6 -2.6)
+		(end 2.6 -2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9bf2642-f4a4-4618-8d77-0d18cba34745")
+	)
+	(fp_line
+		(start -2.6 1.6)
+		(end -2.6 2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aee14ad9-4b1a-4aa4-83a4-10ea98318a7c")
+	)
+	(fp_line
+		(start -2.6 2.6)
+		(end 2.6 2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "385b06b2-dc48-4d0c-819a-9da458c5f7cf")
+	)
+	(fp_line
+		(start 2.6 -2.6)
+		(end 2.6 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48654a91-66ae-499d-98e6-702ea8d5bbc7")
+	)
+	(fp_line
+		(start 2.6 1.6)
+		(end 2.6 2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef08fa42-5b1e-48fd-ac02-1f99f2132b49")
+	)
+	(fp_line
+		(start -2.84 -2.84)
+		(end -2.84 2.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40991dfd-3253-4bae-a73d-7d21130da559")
+	)
+	(fp_line
+		(start -2.84 -2.84)
+		(end 2.84 -2.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c31c6a8-7ab5-4718-82d5-4091f85aaeee")
+	)
+	(fp_line
+		(start -2.84 2.84)
+		(end 2.84 2.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1e4b6d9b-8cac-4474-b2d0-9162737bdb22")
+	)
+	(fp_line
+		(start 2.84 2.84)
+		(end 2.84 -2.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "681d445e-625f-4488-b2ec-9629936399d2")
+	)
+	(pad "1" smd rect
+		(at -2.4255 0)
+		(size 1.905 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9482a16d-0d1f-49f4-9cd1-653905c4fec0")
+	)
+	(pad "2" smd rect
+		(at 2.4255 0)
+		(size 1.905 2.79)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "92f7e2f5-d313-4701-837b-c5f9de9757ce")
+	)
+	(model "${KICAD_4MS_LIBS}/packages3d/Inductors/SRN5040.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KICAD_4MS_LIBS}/packages3d/Inductors/SRN5040.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

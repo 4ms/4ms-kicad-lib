@@ -1,25 +1,188 @@
-(module "COIL_SRP6540" (layer F.Cu) (tedit 5D486438)
-  (fp_text reference "REF**" (at -0.1016 -4.2164) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "VAL**" (at 0.45 4.525) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 3.85 -3.5) (end -3.85 -3.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.85 3.5) (end 3.85 -3.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.85 3.5) (end 3.85 3.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.85 -3.5) (end -3.85 3.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.6 2) (end -3.6 3.25) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.6 -3.25) (end -3.6 -2) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.6 -2) (end 3.6 -3.25) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.6 3.25) (end 3.6 3.25) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.6 -3.25) (end 3.6 -3.25) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.6 2) (end 3.6 3.25) (layer F.SilkS) (width 0.15))
-  (pad "2" smd rect (at 2.775 0) (size 1.85 3.4) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "1" smd rect (at -2.775 0) (size 1.85 3.4) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (model "${ALT3DMOD}/Inductors/SRP6540.stp"
-    (offset (xyz 0 0 2))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
-  )
+(footprint "COIL_SRP6540"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1016 -4.2164 0)
+		(layer "F.SilkS")
+		(uuid "8425b3c6-e218-4e6b-ac6b-877566cb4e98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.45 4.525 0)
+		(layer "F.SilkS")
+		(uuid "bf44ec85-12f6-4473-8801-5fe1cabfe42e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17e26609-65b5-4699-9bb6-11aaa0002131")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3034bba-a34b-45b3-9464-70f23a8dd2a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2ee100d-0a88-4dda-a391-97b3535b2e7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 -3.25)
+		(end -3.6 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "655ca2b9-2ddc-4f17-97c5-52730ae314d2")
+	)
+	(fp_line
+		(start -3.6 -3.25)
+		(end 3.6 -3.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a434c5a-f8f9-43ef-8899-554acb17a0df")
+	)
+	(fp_line
+		(start -3.6 2)
+		(end -3.6 3.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cf64877-be80-4469-b819-026bc5cec956")
+	)
+	(fp_line
+		(start -3.6 3.25)
+		(end 3.6 3.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "173111e6-44b1-4c05-89fb-e1cfc3ed61f2")
+	)
+	(fp_line
+		(start 3.6 -2)
+		(end 3.6 -3.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d85eb07b-2315-4596-b896-6e610c17385d")
+	)
+	(fp_line
+		(start 3.6 2)
+		(end 3.6 3.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec6b254e-0931-481e-b154-e65f9ebc1305")
+	)
+	(fp_line
+		(start -3.85 -3.5)
+		(end -3.85 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a5509b9-626b-4416-b5d6-d84e31de64bd")
+	)
+	(fp_line
+		(start -3.85 3.5)
+		(end 3.85 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2758faa-730b-4c0c-875c-d883557054cb")
+	)
+	(fp_line
+		(start 3.85 -3.5)
+		(end -3.85 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9cba18a2-0bd6-4bc2-9233-1b0f9d88a5bf")
+	)
+	(fp_line
+		(start 3.85 3.5)
+		(end 3.85 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85f1fdb4-1115-4833-b9c6-0796a65d2c70")
+	)
+	(pad "1" smd rect
+		(at -2.775 0)
+		(size 1.85 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "727fd2d8-b22f-4719-b08c-8654926bf33c")
+	)
+	(pad "2" smd rect
+		(at 2.775 0)
+		(size 1.85 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "28bd060b-bb78-48af-84ca-1bc0cb219b88")
+	)
+	(model "${ALT3DMOD}/Inductors/SRP6540.stp"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )

@@ -1,25 +1,188 @@
-(module COIL_SRP1040 (layer F.Cu) (tedit 5A839505)
-  (fp_text reference L1 (at 0 -6.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value ? (at 0 6.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 5.8928 2.5654) (end 5.8928 5.2578) (layer F.SilkS) (width 0.15))
-  (fp_line (start -5.8928 -5.2578) (end 5.8928 -5.2578) (layer F.SilkS) (width 0.15))
-  (fp_line (start -5.8928 5.2578) (end 5.8928 5.2578) (layer F.SilkS) (width 0.15))
-  (fp_line (start 5.8928 -5.2578) (end 5.8928 -2.5654) (layer F.SilkS) (width 0.15))
-  (fp_line (start -5.8928 -5.2578) (end -5.8928 -2.5654) (layer F.SilkS) (width 0.15))
-  (fp_line (start -5.8928 2.5654) (end -5.8928 5.2578) (layer F.SilkS) (width 0.15))
-  (fp_line (start -6.45 -5.5078) (end -6.45 5.5078) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -6.45 5.5078) (end 6.45 5.5078) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 6.45 5.5078) (end 6.45 -5.5078) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 6.45 -5.5078) (end -6.45 -5.5078) (layer F.CrtYd) (width 0.05))
-  (pad 2 smd rect (at 4.445 0) (size 3.5052 4.4958) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -4.445 0) (size 3.5052 4.4958) (layers F.Cu F.Paste F.Mask))
-  (model "/Users/design/Google Drive/4ms/kicad/packages3d/SRN6045.wrl"
-    (at (xyz 0 0 0))
-    (scale (xyz 0.39 0.39 0.39))
-    (rotate (xyz 270 0 0))
-  )
+(footprint "COIL_SRP1040"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "L1"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "f8567698-9b2a-430c-9b30-6d5f21caed37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "?"
+		(at 0 6.5 0)
+		(layer "F.SilkS")
+		(uuid "c98c6690-25ba-44fb-a53c-ad5b0509bdea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4115b5b3-4899-4a4c-9de5-5349579ee3b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aa95da9-8da6-4715-87bb-1a57a3b55d13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbb5d00f-5730-4dbf-803a-9cec8cd062cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.8928 -5.2578)
+		(end -5.8928 -2.5654)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd1d9784-cec3-452e-91e4-40106522889b")
+	)
+	(fp_line
+		(start -5.8928 -5.2578)
+		(end 5.8928 -5.2578)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64121d0a-bc16-45c3-a517-3590567f2ab9")
+	)
+	(fp_line
+		(start -5.8928 2.5654)
+		(end -5.8928 5.2578)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b7893ee-5992-4a0f-859b-ba9d34272539")
+	)
+	(fp_line
+		(start -5.8928 5.2578)
+		(end 5.8928 5.2578)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "acc9ee46-6aff-42a8-8da1-76d960698035")
+	)
+	(fp_line
+		(start 5.8928 -5.2578)
+		(end 5.8928 -2.5654)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8cca70d-a9bf-44f8-a42c-5628c626f4e9")
+	)
+	(fp_line
+		(start 5.8928 2.5654)
+		(end 5.8928 5.2578)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e401bb9-f400-478e-9ef0-d4a6a6a34fbe")
+	)
+	(fp_line
+		(start -6.45 -5.5078)
+		(end -6.45 5.5078)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "469e70df-ea78-450b-8f01-21bb8b1980cc")
+	)
+	(fp_line
+		(start -6.45 5.5078)
+		(end 6.45 5.5078)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cdc7b0a2-6903-4ed8-9232-6f83ad037374")
+	)
+	(fp_line
+		(start 6.45 -5.5078)
+		(end -6.45 -5.5078)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb504c82-6d77-4719-b0c4-e8d645d74d90")
+	)
+	(fp_line
+		(start 6.45 5.5078)
+		(end 6.45 -5.5078)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07005aa9-336c-4420-b68b-67344827efbb")
+	)
+	(pad "1" smd rect
+		(at -4.445 0)
+		(size 3.5052 4.4958)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cb5359ea-ede1-4cfd-bc40-dc79f989ef13")
+	)
+	(pad "2" smd rect
+		(at 4.445 0)
+		(size 3.5052 4.4958)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9702b1ac-55e8-4cdd-a625-3973c26e2686")
+	)
+	(model "/Users/design/Google Drive/4ms/kicad/packages3d/SRN6045.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.39 0.39 0.39)
+		)
+		(rotate
+			(xyz 270 0 0)
+		)
+	)
 )
