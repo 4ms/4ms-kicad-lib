@@ -1,0 +1,172 @@
+(footprint "Jack_3.5mm_SJ3-35063BG_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Phone Connectors Audio Jack, 3.5mm, Through Hole, 3 Conductors, 2 Switches")
+	(tags "3.5mm jack horizontal")
+	(property "Reference" "J6"
+		(at 1 -6 180)
+		(layer "F.SilkS")
+		(uuid "bfb95f9c-456a-432b-a1a6-5cae5cc6c3f5")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JACK-TRS-Switched"
+		(at -19.1 6.85 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "483b3c01-dbef-4373-9511-bac7a3370eb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c3249d0-28a1-4a7a-885c-fd91bfd6adc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3fe740c-201f-45fd-9331-16ea073ed46d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0.1 -4.65)
+		(end 9.95 4.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fe105345-c08f-425f-990f-4a2ac867bce8")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -4.75) (xy 8.25 -4.75) (xy 8.25 -5.5) (xy 10.75 -5.5) (xy 10.75 -3.5) (xy 10.25 -3.5) (xy 10.25 -2.5)
+			(xy 10.75 -2.5) (xy 10.75 -0.75) (xy 10.25 -0.75) (xy 10.25 0.75) (xy 10.75 0.75) (xy 10.75 2.5)
+			(xy 10.25 2.5) (xy 10.25 4.75) (xy 0 4.75)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2b3886db-019a-430e-8ab3-96f6d43146f4")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.45 -3.5)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e8968070-d33d-45d4-97ed-a079d4f3df75")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.45 3)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9fd67694-280c-40a2-b89a-7bf2264c0731")
+	)
+	(pad "1" thru_hole oval
+		(at 1.35 0 90)
+		(size 1.905 1.35)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "58b594a0-000f-4452-8172-d516f5a05f53")
+	)
+	(pad "2" thru_hole oval
+		(at 9.45 -1.6 180)
+		(size 1.905 1.35)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "bc9e0e0d-4fb8-4967-a009-43db7b9aa891")
+	)
+	(pad "3" thru_hole oval
+		(at 6.35 3.6 180)
+		(size 1.905 1.35)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "50236c6e-5d90-4857-94c5-db357fc5cc84")
+	)
+	(pad "4" thru_hole oval
+		(at 9.45 1.6 180)
+		(size 1.905 1.35)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "372899ed-23c6-40b9-8ba4-da01adf9da1f")
+	)
+	(pad "5" thru_hole oval
+		(at 7.45 -3.15 180)
+		(size 1.905 1.35)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f57b6e0d-e4af-45ae-9b95-a2c8e6321a78")
+	)
+	(pad "6" thru_hole oval
+		(at 9.45 -4.5 180)
+		(size 1.905 1.35)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "82a36e81-f380-47b7-8d05-e9836e0a07e7")
+	)
+	(embedded_fonts no)
+	(model "${ALT3DMOD}/CUI_SJ-3523-SMT-TR.step"
+		(offset
+			(xyz 0.5 6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/SJ3-35063BG.stp"
+		(offset
+			(xyz -1 0.25 2.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "1/4{dblquote}_Jack_Stereo"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41,7 +41,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4\" Stereo switched audio jack "
+		(property "Description" "1/4\" Stereo switched audio jack"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78,8 +78,8 @@
 			)
 		)
 		(symbol "1/4{dblquote}_Jack_Stereo_0_0"
-			(text "1"
-				(at 1.905 -5.08 0)
+			(text "3"
+				(at -1.905 -5.08 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -94,8 +94,8 @@
 					)
 				)
 			)
-			(text "3"
-				(at -1.905 -5.08 0)
+			(text "1"
+				(at 1.905 -5.08 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -128,10 +128,34 @@
 			)
 			(polyline
 				(pts
+					(xy -0.635 -3.81) (xy 0 -4.445) (xy 0.635 -3.81) (xy 0.635 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0 6.096) (xy 0.254 5.588)
 				)
 				(stroke
 					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.81) (xy 1.905 -4.445) (xy 2.54 -3.81) (xy 3.81 -3.81)
+				)
+				(stroke
+					(width 0.254)
 					(type solid)
 				)
 				(fill
@@ -164,7 +188,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -3.81) (xy 1.905 -4.445) (xy 2.54 -3.81) (xy 3.81 -3.81)
+					(xy 3.81 6.35) (xy -1.27 6.35) (xy -1.27 -3.81) (xy -1.905 -4.445) (xy -2.54 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -176,7 +200,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -6.35) (xy 3.048 -6.35) (xy 3.048 -4.064) (xy 2.794 -4.572)
+					(xy 3.81 3.81) (xy 0 3.81) (xy 0 6.096) (xy -0.254 5.588)
 				)
 				(stroke
 					(width 0)
@@ -200,7 +224,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 3.81) (xy 0 3.81) (xy 0 6.096) (xy -0.254 5.588)
+					(xy 3.81 -6.35) (xy 3.048 -6.35) (xy 3.048 -4.064) (xy 2.794 -4.572)
 				)
 				(stroke
 					(width 0)
@@ -210,42 +234,18 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -0.635 -3.81) (xy 0 -4.445) (xy 0.635 -3.81) (xy 0.635 1.27) (xy 3.81 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 6.35) (xy -1.27 6.35) (xy -1.27 -3.81) (xy -1.905 -4.445) (xy -2.54 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "1/4{dblquote}_Jack_Stereo_1_1"
-			(text "R"
-				(at 0 -2.54 0)
+			(text "S"
+				(at -2.54 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(text "S"
-				(at -2.54 -2.54 0)
+			(text "R"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -261,42 +261,6 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -3.81 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 1.27 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6.35 6.35 180)
 				(length 2.54)
 				(name "~"
@@ -307,275 +271,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 -6.35 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 -1.27 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 3.81 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "3.5mm Stereo Switched Jack"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "J"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SJ3-35063bg"
-			(at 9.398 -13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.5mm Stereo switched audio jack with isolated rings"
-			(at 9.398 -13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "B"
-			(at -2.032 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" "3.5mm Stereo Switched Jack"
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "3.5mm Stereo Switched Jack_0_1"
-			(rectangle
-				(start -3.302 6.985)
-				(end 3.81 -6.985)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start -3.175 -6.35)
-				(end -3.937 -3.81)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -3.81) (xy 0 -4.445) (xy 0.635 -3.81) (xy 0.635 -1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -3.81) (xy 1.905 -4.445) (xy 2.54 -3.81) (xy 3.81 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 6.35) (xy -1.27 6.35) (xy -1.27 -3.81) (xy -1.905 -4.445) (xy -2.54 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 3.81) (xy 2.54 3.81) (xy 2.54 1.905) (xy 1.905 2.54) (xy 3.175 2.54) (xy 2.54 1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 1.27) (xy 1.27 1.27) (xy 1.27 -0.635) (xy 0.635 0) (xy 1.905 0) (xy 1.27 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -6.35) (xy 2.54 -6.35) (xy 2.54 -4.445) (xy 1.905 -5.08) (xy 3.175 -5.08) (xy 2.54 -4.445)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "3.5mm Stereo Switched Jack_1_1"
-			(text "S"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "R"
-				(at -0.254 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "T"
-				(at 1.778 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 6.35 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -611,7 +306,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -629,7 +324,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -647,7 +342,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -678,7 +373,9 @@
 	)
 	(symbol "3.5mm_Mono_Switched"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -787,7 +484,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 1.27 0)
+					(xy -1.27 3.81) (xy 0 1.27) (xy 1.27 3.81) (xy 11.43 3.81)
 				)
 				(stroke
 					(width 0)
@@ -799,7 +496,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 3.81) (xy 0 1.27) (xy 1.27 3.81) (xy 11.43 3.81)
+					(xy -1.27 0) (xy 1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -811,24 +508,6 @@
 			)
 		)
 		(symbol "3.5mm_Mono_Switched_1_1"
-			(pin passive line
-				(at 16.51 3.81 180)
-				(length 5.08)
-				(name "SIG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -5.08 -10.16 90)
 				(length 5.08)
@@ -865,11 +544,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 16.51 3.81 180)
+				(length 5.08)
+				(name "SIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "3.5mm_Mono_Switched_SymSmall_0.05"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1031,24 +731,6 @@
 		)
 		(symbol "3.5mm_Mono_Switched_SymSmall_0.05_1_1"
 			(pin passive line
-				(at 7.62 2.54 180)
-				(length 5.08)
-				(name "SIG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -2.54 -3.81 90)
 				(length 1.27)
 				(name "SHEILD"
@@ -1084,11 +766,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 5.08)
+				(name "SIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "3.5mm_Mono_Switched_sm"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1208,7 +911,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy 0 1.27)
+					(xy -2.54 5.08) (xy -1.27 2.54) (xy 0 5.08) (xy 3.81 5.08)
 				)
 				(stroke
 					(width 0)
@@ -1220,7 +923,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 5.08) (xy -1.27 2.54) (xy 0 5.08) (xy 3.81 5.08)
+					(xy -2.54 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1232,24 +935,6 @@
 			)
 		)
 		(symbol "3.5mm_Mono_Switched_sm_1_1"
-			(pin passive line
-				(at 5.08 5.08 180)
-				(length 1.27)
-				(name "SIG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -5.08 -5.08 90)
 				(length 2.54)
@@ -1286,11 +971,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 5.08 5.08 180)
+				(length 1.27)
+				(name "SIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "3.5mm_Stereo"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1443,24 +1149,6 @@
 		)
 		(symbol "3.5mm_Stereo_1_1"
 			(pin passive line
-				(at 10.16 3.81 180)
-				(length 2.54)
-				(name "SIG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -5.08 -6.35 90)
 				(length 2.54)
 				(name "SHEILD"
@@ -1496,11 +1184,347 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "SIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "3.5mm_Stereo_Switched_Jack"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SJ3-35063bg"
+			(at 9.398 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Jack:Jack_3.5mm_SJ3-35063BG_Horizontal"
+			(at -6.35 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1628/sj3_3506x-3510811.pdf"
+			(at 5.588 -15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phone Connectors Audio Jack, 3.5mm, Through Hole, 3 Conductors, 2 Switches"
+			(at 9.398 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at -22.86 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SJ3-35063BG"
+			(at -21.082 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "B"
+			(at -2.032 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" "3.5mm Stereo Switched Jack"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "3.5mm_Stereo_Switched_Jack_0_1"
+			(rectangle
+				(start -3.302 6.985)
+				(end 3.81 -6.985)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -3.175 -6.35)
+				(end -3.937 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -3.81) (xy 0 -4.445) (xy 0.635 -3.81) (xy 0.635 -1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.81) (xy 1.905 -4.445) (xy 2.54 -3.81) (xy 3.81 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 6.35) (xy -1.27 6.35) (xy -1.27 -3.81) (xy -1.905 -4.445) (xy -2.54 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 2.54 3.81) (xy 2.54 1.905) (xy 1.905 2.54) (xy 3.175 2.54) (xy 2.54 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 1.27 1.27) (xy 1.27 -0.635) (xy 0.635 0) (xy 1.905 0) (xy 1.27 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -6.35) (xy 2.54 -6.35) (xy 2.54 -4.445) (xy 1.905 -5.08) (xy 3.175 -5.08) (xy 2.54 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "3.5mm_Stereo_Switched_Jack_1_1"
+			(text "S"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "R"
+				(at -0.254 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "T"
+				(at 1.778 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 6.35 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 3.81 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -3.81 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -6.35 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "3.5mm_Stereo_SymSmall_0.05"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1676,24 +1700,6 @@
 		)
 		(symbol "3.5mm_Stereo_SymSmall_0.05_1_1"
 			(pin passive line
-				(at 6.35 2.54 180)
-				(length 5.08)
-				(name "SIG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -2.54 -3.81 90)
 				(length 1.27)
 				(name "SHEILD"
@@ -1729,11 +1735,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 6.35 2.54 180)
+				(length 5.08)
+				(name "SIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "3.5mm_Stereo_sm"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1885,24 +1912,6 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 3.81 180)
-				(length 1.27)
-				(name "SIG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -5.08 -6.35 90)
 				(length 2.54)
 				(name "SHEILD"
@@ -1938,10 +1947,31 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 5.08 3.81 180)
+				(length 1.27)
+				(name "SIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Barrel_2.0mmPin_PJ064"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2078,10 +2108,10 @@
 					(type background)
 				)
 			)
-			(arc
-				(start -3.302 3.175)
-				(mid -3.9343 2.54)
-				(end -3.302 1.905)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2091,9 +2121,21 @@
 				)
 			)
 			(arc
-				(start -3.302 3.175)
+				(start -3.302 1.905)
 				(mid -3.9343 2.54)
-				(end -3.302 1.905)
+				(end -3.302 3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.302 1.905)
+				(mid -3.9343 2.54)
+				(end -3.302 3.175)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2112,6 +2154,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start 3.683 3.175)
+				(end -3.302 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -2138,29 +2191,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 3.683 3.175)
-				(end -3.302 1.905)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 		)
 		(symbol "Barrel_2.0mmPin_PJ064_1_1"
 			(pin passive line
@@ -2174,24 +2204,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2217,7 +2229,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Barrel_2.1mm_Right_Angle"
 		(exclude_from_sim no)
@@ -2258,7 +2289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Right angle DC jack 2.1mm barrel "
+		(property "Description" "Right angle DC jack 2.1mm barrel"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2297,10 +2328,10 @@
 					(type background)
 				)
 			)
-			(arc
-				(start -3.302 -1.905)
-				(mid -3.9343 -2.54)
-				(end -3.302 -3.175)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy -2.54 2.54) (xy -1.27 1.27) (xy 0 2.54) (xy 2.54 2.54) (xy 5.08 2.54)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2310,9 +2341,21 @@
 				)
 			)
 			(arc
-				(start -3.302 -1.905)
+				(start -3.302 -3.175)
 				(mid -3.9343 -2.54)
-				(end -3.302 -3.175)
+				(end -3.302 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.302 -3.175)
+				(mid -3.9343 -2.54)
+				(end -3.302 -1.905)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2324,6 +2367,29 @@
 			(polyline
 				(pts
 					(xy 1.27 2.286) (xy 1.905 1.651)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.683 -3.175)
+				(end -3.302 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 1.27 0) (xy 1.27 2.286) (xy 0.635 1.651)
 				)
 				(stroke
 					(width 0.254)
@@ -2345,41 +2411,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 5.08 0) (xy 1.27 0) (xy 1.27 2.286) (xy 0.635 1.651)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 2.54) (xy -2.54 2.54) (xy -1.27 1.27) (xy 0 2.54) (xy 2.54 2.54) (xy 5.08 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 3.683 -3.175)
-				(end -3.302 -1.905)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 		)
 		(symbol "Barrel_2.1mm_Right_Angle_1_1"
 			(pin passive line
@@ -2393,24 +2424,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2436,7 +2449,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Barrel_2.0mmPin_PJ066A"
 		(extends "Barrel_2.0mmPin_PJ064")
