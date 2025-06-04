@@ -2399,6 +2399,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB ID" "C1880992"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "3A 750kHz PWM Buck DC/DC"
 			(at 0 0 0)
 			(effects
@@ -4316,7 +4325,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 8.89 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -4334,7 +4343,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 6.35 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -4352,7 +4361,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 2.54 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "TS"
 					(effects
@@ -4424,7 +4433,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -8.89 0)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -4442,16 +4451,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -11.43 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
-				(name "TP"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4469,7 +4478,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "10"
 					(effects
 						(font
 							(size 0 0)
@@ -4478,7 +4487,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 10.16 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -4487,7 +4496,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "11"
 					(effects
 						(font
 							(size 0 0)
@@ -4586,7 +4595,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -11.43 180)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(name "~{PGOOD}"
 					(effects
@@ -4709,7 +4718,7 @@
 		)
 		(symbol "BQ27441-G1_1_0"
 			(pin bidirectional line
-				(at -11.43 7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "SRN"
 					(effects
@@ -4727,7 +4736,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 5.08 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "SRP"
 					(effects
@@ -4745,7 +4754,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 0 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -4763,7 +4772,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -5.08 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -4781,79 +4790,97 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -7.62 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
-				(name "TP"
+				(name "PWPD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -2.54 12.7 270)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
+				(number "EP"
 					(effects
 						(font
 							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 12.7 270)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 2.54 12.7 270)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 7.62 180)
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "PWPD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "EP1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "PWPD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "EP2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "PWPD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "EP3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "PWPD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "EP4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -4871,7 +4898,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 2.54 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -4889,7 +4916,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 0 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -4907,7 +4934,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -5.08 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "GPOUT"
 					(effects
@@ -4925,7 +4952,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -7.62 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "BIN"
 					(effects
