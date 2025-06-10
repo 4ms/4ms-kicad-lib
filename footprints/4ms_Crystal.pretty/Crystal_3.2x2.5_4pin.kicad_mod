@@ -1,0 +1,150 @@
+(footprint "Crystal_3.2x2.5_4pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Y"
+		(at 0.03 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2976cfa4-632f-4977-ad35-cc3ea12b45e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Crystal_3.2x2.5_4pin"
+		(at 0 3.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8f1e57d-ee2d-4c80-8320-e4f3ca88842b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6536/ABM8_Datasheet.pdf?_gl=1*q793co*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwr5_CBhBlEiwAzfwYuLPGDKgqurXHEuuQIW5Cv1Z4A6u7gkiapP4cVUgXZ-2ZOHKMGS5fxhoCDioQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlhXNt4EEgAXiJzv9X6v8ojSk"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "558c0419-dca9-4821-b8d6-0e4fcc401d57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "12mhz 15pf crystal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cfb03e5-c3f8-4bab-9d18-af84ad6d82a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Abracon"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "86ab385d-8387-45a8-80e4-2e906de779a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Manufacturer Part #" "ABM8-272-T3 "
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9e3deef4-7d28-4ff4-9aa5-f5307f4b730b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "JLCPCB ID" "N/A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c1d4234e-f7f9-4d59-a142-67471e26003e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Production Stage " "A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5af02c30-13d9-4706-917d-6e4d0e4045a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5af77de6-9acf-4479-b736-c8359f0876fd")
+	)
+	(pad "1" smd roundrect
+		(at -1 0.7)
+		(size 1.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "fd28c8f8-cfa1-44b1-b0e7-594947731a1c")
+	)
+	(pad "2" smd roundrect
+		(at 1 0.7)
+		(size 1.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "b98fa645-83de-4b87-ba65-6069a7a97a24")
+	)
+	(pad "3" smd roundrect
+		(at 1 -0.7)
+		(size 1.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "92cbab3a-dc72-4241-b402-f73fa57d3d00")
+	)
+	(pad "4" smd roundrect
+		(at -1 -0.7)
+		(size 1.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0f98fe00-0f4d-446d-9f6b-79e0a32bfa1b")
+	)
+	(embedded_fonts no)
+)
