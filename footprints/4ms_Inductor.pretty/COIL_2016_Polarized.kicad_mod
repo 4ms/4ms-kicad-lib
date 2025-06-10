@@ -1,0 +1,105 @@
+(footprint "COIL_2016_Polarized"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "L1"
+		(at 0 -3.53 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "59a28d1b-796e-4799-a499-d12ee58b57aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3.3uh_2.4A"
+		(at 0 3.683 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2c31e9ed-092f-4c90-8715-2eff0de7d449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f35e78b2-222f-4719-9cad-e8826fcfab10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Shielded inductor made specifically for RP2350"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6f71f5e-8959-4199-8a05-397d10c0ff9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "af785bb9-be9a-4b47-9241-04a7628a5770")
+	)
+	(fp_circle
+		(center 0.59 -0.38)
+		(end 0.79 -0.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a83f839b-bfc0-46da-bbf9-adfe787a5cb3")
+	)
+	(pad "1" smd roundrect
+		(at 1 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0bd235db-0d25-4f7c-8342-b8729bef2984")
+	)
+	(pad "2" smd roundrect
+		(at -1 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "236544ca-cd69-4a64-aada-163c31feecb8")
+	)
+	(embedded_fonts no)
+	(model "/Users/design/Google Drive/4ms/kicad/packages3d/SRN6045.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.39 0.39 0.39)
+		)
+		(rotate
+			(xyz 270 0 0)
+		)
+	)
+)
