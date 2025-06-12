@@ -1214,7 +1214,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -6.35 -7.62 0)
+			(at -5.08 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1227,6 +1227,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "4ms_Jack:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
@@ -1236,6 +1237,7 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/sj-352x-smt.pdf"
@@ -1244,6 +1246,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Audio 3.5mm Jack, stereo, SMT Horizontal"
@@ -1360,6 +1363,14 @@
 			)
 		)
 		(symbol "3.5mm_Stereo_SMT_Right_Angle_Horizontal_1_1"
+			(text "S"
+				(at -3.81 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin passive line
 				(at -5.08 -6.35 90)
 				(length 2.54)
