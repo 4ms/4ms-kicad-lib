@@ -25528,7 +25528,7 @@
 			)
 		)
 		(property "Specifications" "PCM1753, DAC 2ch 12-bit I2S"
-			(at -2.54 -7.874 0)
+			(at 9.144 -39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25538,7 +25538,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at -2.54 -9.398 0)
+			(at 9.144 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25548,7 +25548,7 @@
 			)
 		)
 		(property "Part Number" "PCM1753DBQR"
-			(at -2.54 -10.922 0)
+			(at 9.144 -42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25578,11 +25578,11 @@
 		)
 		(symbol "PCM1753_1_0"
 			(rectangle
-				(start 39.37 5.08)
-				(end 7.62 -35.56)
+				(start 7.62 5.08)
+				(end 39.37 -35.56)
 				(stroke
-					(width 0.127)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -25663,7 +25663,7 @@
 			(pin input line
 				(at 0 -12.7 0)
 				(length 7.62)
-				(name "MC"
+				(name "MC/MUTE"
 					(effects
 						(font
 							(size 1.4986 1.4986)
@@ -25681,7 +25681,7 @@
 			(pin input line
 				(at 0 -15.24 0)
 				(length 7.62)
-				(name "MD"
+				(name "MD/DEMP"
 					(effects
 						(font
 							(size 1.4986 1.4986)
@@ -25699,7 +25699,7 @@
 			(pin input line
 				(at 0 -17.78 0)
 				(length 7.62)
-				(name "ML"
+				(name "ML/FMT"
 					(effects
 						(font
 							(size 1.4986 1.4986)
@@ -25714,9 +25714,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 0 -22.86 0)
 				(length 7.62)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -25872,413 +25873,6 @@
 					(effects
 						(font
 							(size 1.4986 1.4986)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "PCM1754DBQ"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 7.62 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PCM1754DBQ"
-			(at 11.43 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "4ms_Package_SSOP:SSOP-16_3.9x4.9mm_P0.635mm"
-			(at -2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm1754.pdf"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "24-bit, 192-kHz sampling, Stereo Audio DAC, SSOP-16"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part #" "PCM1754DBQ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB ID" "C294211"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "audio dac 24-bit"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*SSOP*3.9x4.9mm*P0.635mm*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "PCM1754DBQ_0_1"
-			(rectangle
-				(start -10.16 15.24)
-				(end 10.16 -15.24)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "PCM1754DBQ_1_1"
-			(pin input line
-				(at -12.7 10.16 0)
-				(length 2.54)
-				(name "BCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "SCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 5.08 0)
-				(length 2.54)
-				(name "LRCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 2.54 0)
-				(length 2.54)
-				(name "DATA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -2.54 0)
-				(length 2.54)
-				(name "TEST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -5.08 0)
-				(length 2.54)
-				(name "DEMP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -7.62 0)
-				(length 2.54)
-				(name "MUTE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -10.16 0)
-				(length 2.54)
-				(name "FMT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -17.78 90)
-				(length 2.54)
-				(name "DGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 17.78 270)
-				(length 2.54)
-				(name "V_{CC}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 -17.78 90)
-				(length 2.54)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 -7.62 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "V_{COM}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 2.54 180)
-				(length 2.54)
-				(name "V_{OUT}L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "V_{OUT}R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 -5.08 180)
-				(length 2.54)
-				(name "ZEROA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
 						)
 					)
 				)
@@ -87201,6 +86795,97 @@
 			)
 		)
 		(property "ki_keywords" "NORFLASH"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "PCM1754DBQ"
+		(extends "PCM1753")
+		(property "Reference" "U"
+			(at 27.94 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PCM1754"
+			(at 27.94 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Package_SSOP:QSOP-16_3.9x4.9mm_P0.635mm"
+			(at 27.94 6.096 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm1754.pdf"
+			(at 28.702 -47.498 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24-bit, 192-kHz sampling, Stereo Audio DAC, SSOP-16"
+			(at 28.702 -44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 28.702 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PCM1754DBQ"
+			(at 28.448 -42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C294211"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DBQ16 DBQ16-M DBQ16-L"
 			(at 0 0 0)
 			(effects
 				(font
