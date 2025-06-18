@@ -20951,7 +20951,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at 2.54 0 0)
+			(at 2.286 -24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20960,7 +20960,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-			(at 6.35 3.81 0)
+			(at 6.096 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20969,7 +20969,7 @@
 			)
 		)
 		(property "Description" "Dual, 2.8V/µs, Rail-to-Rail Output, TSSOP-8"
-			(at 0 0 0)
+			(at 0.254 -35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20978,7 +20978,7 @@
 			)
 		)
 		(property "Manufacturer" "On Semiconductor"
-			(at 0 0 0)
+			(at 0.508 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20987,7 +20987,7 @@
 			)
 		)
 		(property "Manufacturer Part #" "NCS20072DTBR2G"
-			(at 0 0 0)
+			(at 0.508 -31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20996,7 +20996,7 @@
 			)
 		)
 		(property "JLCPCB ID" "C411223"
-			(at 0 0 0)
+			(at 0 -28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21005,7 +21005,7 @@
 			)
 		)
 		(property "Production Stage " "A"
-			(at 0 0 0)
+			(at 0.254 -37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21176,9 +21176,20 @@
 			)
 		)
 		(symbol "NCS20072DTB_3_1"
+			(rectangle
+				(start -2.54 3.81)
+				(end 2.54 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
-				(at 0 7.62 270)
-				(length 3.81)
+				(at 0 6.35 270)
+				(length 2.54)
 				(name "V+"
 					(effects
 						(font
