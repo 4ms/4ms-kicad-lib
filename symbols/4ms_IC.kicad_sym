@@ -28208,7 +28208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part #" "RP2350"
+		(property "Part Number" "RP2350"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28217,7 +28217,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" "N/A"
+		(property "JLCPCB ID" "C42411118"
 			(at 0 0 0)
 			(effects
 				(font
