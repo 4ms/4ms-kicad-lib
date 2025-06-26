@@ -2458,7 +2458,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" ""
+		(property "JLCPCB ID" "C5159366"
 			(at 0 -31.75 0)
 			(effects
 				(font
