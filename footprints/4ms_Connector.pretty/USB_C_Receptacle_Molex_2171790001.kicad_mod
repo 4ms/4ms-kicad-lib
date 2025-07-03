@@ -324,28 +324,6 @@
 		(layer "F.Fab")
 		(uuid "a9028284-b3d3-411d-a318-f405554f53f1")
 	)
-	(fp_text user "PTH Slot 0.6 +/-0.05 X 1.4 +/-0.05"
-		(at 0.05 6.72 0)
-		(layer "Dwgs.User")
-		(uuid "7e0d15e2-41e1-40bd-87ca-a720cbd9c170")
-		(effects
-			(font
-				(size 0.393701 0.393701)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "PTH Slot 0.6 +/-0.05 X 1.8 +/-0.05"
-		(at 0 5.6 0)
-		(layer "Dwgs.User")
-		(uuid "96429abd-6c94-4116-900f-0adb67d85e57")
-		(effects
-			(font
-				(size 0.393701 0.393701)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "A1B12" smd rect
 		(at -3.2 -3.425)
 		(size 0.59 1.15)
@@ -455,4 +433,15 @@
 		(uuid "b58bb253-b17d-4fda-b138-9b6049bfb68d")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_USB.3dshapes/2171790001.stp"
+		(offset
+			(xyz 0 0.15 1.58)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
 )
