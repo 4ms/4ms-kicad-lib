@@ -22387,7 +22387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mp153-devboard:Connector-80pin-P0.4mm-W3.0mm"
+		(property "Footprint" "4ms_Connector:Connector-80pin-P0.4mm-W3.0mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31832,7 +31832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mp153-devboard:Connector-80socket-P0.4mm-W3.0mm"
+		(property "Footprint" "4ms_Connector:Connector-80socket-P0.4mm-W3.0mm"
 			(at 0 0 0)
 			(effects
 				(font
