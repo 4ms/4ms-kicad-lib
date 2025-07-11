@@ -2358,7 +2358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" " Power Inductors - SMD 4.7uH 20% SMD 2510 1.7A"
+		(property "Specifications" "Power Inductors - SMD 4.7uH 20% SMD 2510 1.7A"
 			(at -2.54 -7.874 0)
 			(effects
 				(font
@@ -2404,7 +2404,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 2" ""
+		(property "Manufacturer 2" "TDK"
 			(at 0 -29.21 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number 2" ""
+		(property "Part Number 2" "TMS252012ALM-4R7MTAA"
 			(at 2.54 -16.51 0)
 			(effects
 				(font
@@ -2458,7 +2458,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" "C5159366"
+		(property "JLCPCB ID" "C2047781"
 			(at 0 -31.75 0)
 			(effects
 				(font
@@ -2474,6 +2474,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Alt JLCPCB ID" "C5159366"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
