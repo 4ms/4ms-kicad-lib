@@ -4,13 +4,13 @@
 	(generator_version "9.0")
 	(symbol "6N137"
 		(pin_names
-			(offset 0)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -4.064 8.89 0)
+			(at -4.064 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "6N137S"
-			(at 0 -12.7 0)
+			(at 5.334 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Package_SSOP:SOP-8_6.605x9.655mm_P2.54mm"
-			(at 0 -12.7 0)
+			(at 0 -21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2484/6N137%20Series.pdf"
-			(at -21.59 13.97 0)
+			(at -14.986 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "High Speed 10MBd Optocouplers"
-			(at 0 0 0)
+			(at 0.254 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite On"
-			(at 0 0 0)
+			(at 0 -25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,7 +62,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "6N137S"
-			(at 0 0 0)
+			(at -0.254 -24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,7 +71,7 @@
 			)
 		)
 		(property "JLC PCB ID" "C2918951 "
-			(at 0 0 0)
+			(at 0.254 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,7 +80,7 @@
 			)
 		)
 		(property "Production Stage" "A"
-			(at 0 0 0)
+			(at 0 -26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +109,7 @@
 		(symbol "6N137_0_1"
 			(polyline
 				(pts
-					(xy -5.08 -2.54) (xy -3.937 -2.54) (xy -3.937 2.54) (xy -5.08 2.54)
+					(xy -7.62 -2.54) (xy -3.937 -2.54) (xy -3.937 2.54) (xy -7.62 2.54)
 				)
 				(stroke
 					(width 0)
@@ -121,7 +121,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.794 -0.254) (xy -1.717 -1.331) (xy -2.076 -1.152) (xy -1.896 -0.972) (xy -1.717 -1.331)
+					(xy -2.7294 0.5068) (xy -1.6524 -0.5702) (xy -2.0114 -0.3912) (xy -1.8314 -0.2112) (xy -1.6524 -0.5702)
 				)
 				(stroke
 					(width 0)
@@ -133,7 +133,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.794 -1.016) (xy -1.717 -2.093) (xy -2.076 -1.914) (xy -1.896 -1.734) (xy -1.717 -2.093)
+					(xy -2.7294 -0.2552) (xy -1.6524 -1.3322) (xy -2.0114 -1.1532) (xy -1.8314 -0.9732) (xy -1.6524 -1.3322)
 				)
 				(stroke
 					(width 0)
@@ -145,7 +145,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -6.35) (xy -2.286 -6.35) (xy -2.286 -4.064)
+					(xy 1.27 -3.81) (xy 1.27 -5.08) (xy 0 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -157,19 +157,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -5.08) (xy 1.27 -6.35) (xy 0 -6.35) (xy 0 -7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.175 -2.667) (xy 0.635 -4.445) (xy 0.635 -0.889) (xy 3.175 -2.667)
+					(xy 3.175 -1.397) (xy 0.635 -3.175) (xy 0.635 0.381) (xy 3.175 -1.397)
 				)
 				(stroke
 					(width 0.254)
@@ -182,8 +170,8 @@
 		)
 		(symbol "6N137_1_1"
 			(rectangle
-				(start -5.08 7.62)
-				(end 5.08 -7.62)
+				(start -8.89 7.62)
+				(end 8.89 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -218,7 +206,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 7.366) (xy -2.286 6.096)
+					(xy -2.286 6.35) (xy -2.286 5.08)
 				)
 				(stroke
 					(width 0)
@@ -230,7 +218,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 5.08) (xy -2.286 3.81)
+					(xy -2.286 4.064) (xy -2.286 2.794)
 				)
 				(stroke
 					(width 0)
@@ -242,7 +230,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 2.794) (xy -2.286 1.524)
+					(xy -2.286 2.032) (xy -2.286 0.762)
 				)
 				(stroke
 					(width 0)
@@ -254,7 +242,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 0.508) (xy -2.286 -0.762)
+					(xy -2.286 -2.032) (xy -2.286 -3.302)
 				)
 				(stroke
 					(width 0)
@@ -266,7 +254,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 -1.778) (xy -2.286 -3.048)
+					(xy -2.2824 -4.4514) (xy -2.2824 -5.7214)
 				)
 				(stroke
 					(width 0)
@@ -278,7 +266,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.905) (xy 0 -1.905)
+					(xy -1.27 -0.635) (xy 0 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -290,7 +278,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 -1.905) (xy -0.635 -1.524) (xy 0.508 -1.524)
+					(xy -0.635 -0.635) (xy -0.635 -0.254) (xy 0.508 -0.254)
 				)
 				(stroke
 					(width 0)
@@ -302,7 +290,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 -1.905) (xy -1.27 -3.175) (xy 0 -3.175) (xy -0.635 -1.905)
+					(xy -0.635 -0.635) (xy -1.27 -1.905) (xy 0 -1.905) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -314,30 +302,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 -3.302) (xy -0.635 -3.683) (xy 0.635 -3.683)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 -6.35)
-				(radius 0.127)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -1.27) (xy 1.27 1.27) (xy 0 1.27) (xy 0 7.62)
+					(xy -0.635 -2.032) (xy -0.635 -2.413) (xy 0.635 -2.413)
 				)
 				(stroke
 					(width 0)
@@ -349,7 +314,19 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -4.064) (xy 1.27 -6.35) (xy 4.445 -6.35)
+					(xy 1.27 0) (xy 1.27 2.54) (xy 0 2.54) (xy 0 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.794) (xy 1.27 -5.08) (xy 4.445 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -360,7 +337,7 @@
 				)
 			)
 			(circle
-				(center 1.27 -6.35)
+				(center 1.27 -5.08)
 				(radius 0.127)
 				(stroke
 					(width 0)
@@ -371,7 +348,7 @@
 				)
 			)
 			(circle
-				(center 2.032 -1.397)
+				(center 2.032 -0.127)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -383,7 +360,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.1844 -1.1684) (xy 2.413 -0.889) (xy 2.413 2.54) (xy 5.08 2.54)
+					(xy 2.1844 0.1016) (xy 2.413 0.381) (xy 2.413 3.81) (xy 7.366 3.81)
 				)
 				(stroke
 					(width 0)
@@ -395,7 +372,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 -2.667) (xy 4.445 -3.302) (xy 4.445 -6.35)
+					(xy 3.175 -1.397) (xy 4.445 -2.032) (xy 4.445 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -407,7 +384,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 -2.667) (xy 3.175 -1.016) (xy 3.683 -1.016) (xy 3.683 -1.397)
+					(xy 3.175 -1.397) (xy 3.175 0.254) (xy 3.683 0.254) (xy 3.683 -0.127)
 				)
 				(stroke
 					(width 0.254)
@@ -419,7 +396,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 -2.667) (xy 3.175 -4.318) (xy 2.667 -4.318) (xy 2.667 -3.937)
+					(xy 3.175 -1.397) (xy 3.175 -3.048) (xy 2.667 -3.048) (xy 2.667 -2.667)
 				)
 				(stroke
 					(width 0.254)
@@ -431,7 +408,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 -2.667) (xy 4.445 -2.032) (xy 4.445 0) (xy 5.08 0)
+					(xy 3.175 -1.397) (xy 4.445 -0.762) (xy 4.445 1.27) (xy 7.366 1.27)
 				)
 				(stroke
 					(width 0)
@@ -443,7 +420,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -3.302) (xy 4.161 -3.018) (xy 4.047 -3.246) (xy 4.445 -3.302)
+					(xy 4.445 -2.032) (xy 4.161 -1.748) (xy 4.047 -1.976) (xy 4.445 -2.032)
 				)
 				(stroke
 					(width 0.127)
@@ -453,9 +430,10 @@
 					(type outline)
 				)
 			)
-			(pin passive line
-				(at -7.62 5.08 0)
+			(pin no_connect line
+				(at -11.43 6.35 0)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -472,7 +450,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -490,7 +468,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -507,9 +485,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -7.62 -5.08 0)
+			(pin no_connect line
+				(at -11.43 -6.35 0)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -562,7 +541,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 2.54 180)
+				(at 11.43 3.81 180)
 				(length 2.54)
 				(name "Ve"
 					(effects
@@ -580,7 +559,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 7.62 0 180)
+				(at 11.43 1.27 180)
 				(length 2.54)
 				(name "Vo"
 					(effects
