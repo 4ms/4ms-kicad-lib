@@ -1222,7 +1222,7 @@
 			)
 		)
 		(property "Value" "3.5mm_Stereo"
-			(at 6.35 6.604 0)
+			(at -1.016 -25.654 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1241,7 +1241,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/sj-352x-smt.pdf"
-			(at 2.54 0 0)
+			(at 8.128 -11.684 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1250,7 +1250,7 @@
 			)
 		)
 		(property "Description" "Audio 3.5mm Jack, stereo, SMT Horizontal"
-			(at 0 0 0)
+			(at 3.81 -14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,14 +1363,6 @@
 			)
 		)
 		(symbol "3.5mm_Stereo_SMT_Right_Angle_Horizontal_1_1"
-			(text "S"
-				(at -3.81 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin passive line
 				(at -5.08 -6.35 90)
 				(length 2.54)
