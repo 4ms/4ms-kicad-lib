@@ -3321,7 +3321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AP62301Z6"
+		(property "Part Number" "AP62301Z6-7"
 			(at 0 -21.59 0)
 			(effects
 				(font
@@ -3357,7 +3357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number 2" "AP62300Z6"
+		(property "Part Number 2" "AP62300Z6-7"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -3375,7 +3375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number 3" "AP62300TZ6"
+		(property "Part Number 3" "AP62300TZ6-7"
 			(at 0 -16.51 0)
 			(effects
 				(font
