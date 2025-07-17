@@ -22387,7 +22387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mp153-devboard:Connector-80pin-P0.4mm-W3.0mm"
+		(property "Footprint" "4ms_Connector:Connector-80pin-P0.4mm-W3.0mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22432,15 +22432,6 @@
 				(hide yes)
 			)
 		)
-		(property "Alt Part Number" "DF40HC(3.0)-80DP-0.4V(51) "
-			(at -1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLCPCB ID" "C294544"
 			(at 0 0 0)
 			(effects
@@ -22450,7 +22441,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Hi-speed board to board connector, 2 x 40 pins. Similar to used in Raspberry Pi Compute Module (CM4)"
+		(property "ki_keywords" "Hi-speed board to board connector, 2 x 40 pins"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31832,7 +31823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mp153-devboard:Connector-80socket-P0.4mm-W3.0mm"
+		(property "Footprint" "4ms_Connector:Connector-80socket-P0.4mm-W3.0mm"
 			(at 0 0 0)
 			(effects
 				(font
