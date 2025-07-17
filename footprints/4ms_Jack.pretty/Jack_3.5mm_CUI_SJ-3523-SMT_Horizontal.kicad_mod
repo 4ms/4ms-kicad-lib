@@ -327,23 +327,23 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "004ecba9-e1b5-44cd-8d82-ca8f2e373543")
 	)
-	(pad "R" smd rect
-		(at 3.7 -1.6)
-		(size 2.8 2.2)
+	(pad "1" smd rect
+		(at -3.7 5.8)
+		(size 2.8 2.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "af8402f0-b92e-4d35-9f85-5a2796323168")
+		(uuid "6c335623-123d-4722-a5d0-7a7d21f2068c")
 	)
-	(pad "S" smd rect
+	(pad "2" smd rect
 		(at -3.7 -3.6)
 		(size 2.8 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "93c1944a-82f3-43a7-bbc7-328ca01b18b2")
 	)
-	(pad "T" smd rect
-		(at -3.7 5.8)
-		(size 2.8 2.8)
+	(pad "3" smd rect
+		(at 3.7 -1.6)
+		(size 2.8 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "6c335623-123d-4722-a5d0-7a7d21f2068c")
+		(uuid "af8402f0-b92e-4d35-9f85-5a2796323168")
 	)
 	(embedded_fonts no)
 	(model "${ALT3DMOD}/CUI_SJ-3523-SMT-TR.step"
