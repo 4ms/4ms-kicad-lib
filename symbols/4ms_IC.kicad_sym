@@ -12940,7 +12940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Micron_4Gb_DDR3L_MT41K256M16TW-107P-V00H"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/671/4Gb_DDR3L-1283964.pdf"
 			(at 16.51 -168.91 0)
 			(effects
 				(font
@@ -12967,7 +12967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MT41K256M16TW-107-P-V00H"
+		(property "Part Number" "MT41K256M16TW-107:P "
 			(at 12.7 -165.1 0)
 			(effects
 				(font
@@ -13001,6 +13001,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "MT41K256M16TW-107IT:P "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 3" "MT41K256M16TW-107AT:P "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
