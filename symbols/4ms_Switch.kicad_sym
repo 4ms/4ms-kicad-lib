@@ -2165,15 +2165,6 @@
 				(hide yes)
 			)
 		)
-		(property "Production Stage_1" "C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "switch normally-open pushbutton push-button"
 			(at 0 0 0)
 			(effects

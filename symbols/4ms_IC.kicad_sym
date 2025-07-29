@@ -61,7 +61,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "6N137S"
+		(property "Part Number" "6N137S"
 			(at -0.254 -24.892 0)
 			(effects
 				(font
@@ -70,7 +70,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PCB ID" "C2918951 "
+		(property "JLCPCB ID" "C2918951 "
 			(at 0.254 -23.114 0)
 			(effects
 				(font
@@ -644,7 +644,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PCB ID" "C18723510"
+		(property "JLCPCB ID" "C18723510"
 			(at 0 0 0)
 			(effects
 				(font

@@ -2688,7 +2688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part #" "NCP1117"
+		(property "Part Number" "NCP1117ST33T3G"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2697,7 +2697,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part #" "N/A"
+		(property "JLCPCB ID" "C26537"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2735,8 +2735,8 @@
 		)
 		(symbol "NCP1117-3.3_SOT223_0_1"
 			(rectangle
-				(start -5.08 -5.08)
-				(end 5.08 1.905)
+				(start -5.08 1.905)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
