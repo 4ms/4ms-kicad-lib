@@ -333,6 +333,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB ID" "C88182"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt JLCPCB ID" "C88183"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "10uH_0805_0.5A"
 			(at 0 0 0)
 			(effects
@@ -1876,15 +1894,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number 2" "AOTA-B201610S3R3-101-T "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Display" "3.3uH"
 			(at 2.54 0 90)
 			(effects
@@ -1908,6 +1917,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C42411119"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
