@@ -6498,6 +6498,7 @@
 		)
 	)
 	(model "kicad-embed://DF40HC(3.0)-80DS.stp"
+		(hide yes)
 		(offset
 			(xyz -25 3.88 1.49)
 		)
@@ -6509,6 +6510,7 @@
 		)
 	)
 	(model "kicad-embed://DF40HC(3.0)-80DS.stp"
+		(hide yes)
 		(offset
 			(xyz 25 5.88 1.49)
 		)
@@ -6519,7 +6521,8 @@
 			(xyz -90 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/3d-models/mp153-devboard.step"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_Card.3dshapes/mp153-devboard.step"
+		(hide yes)
 		(offset
 			(xyz 28.3 19.95 4.6)
 		)
