@@ -20700,7 +20700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "4ms_Package_QFP:RHLGA-5L"
 			(at -66.04 30.48 0)
 			(effects
 				(font
@@ -20796,20 +20796,8 @@
 		)
 		(symbol "MP23DB01HPTR_1_1"
 			(circle
-				(center 0 -5.08)
+				(center 0 -2.54)
 				(radius 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type color)
-					(color 84 76 255 1)
-				)
-			)
-			(circle
-				(center 0 -5.08)
-				(radius 2.8398)
 				(stroke
 					(width 0)
 					(type solid)
@@ -20819,8 +20807,8 @@
 				)
 			)
 			(circle
-				(center 0 -5.08)
-				(radius 4.5791)
+				(center 0 -2.54)
+				(radius 2.8398)
 				(stroke
 					(width 0)
 					(type solid)

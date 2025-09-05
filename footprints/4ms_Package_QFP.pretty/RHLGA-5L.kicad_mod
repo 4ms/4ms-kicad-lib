@@ -6,7 +6,7 @@
 	(descr "DFN, 6 Pin (https://www.onsemi.com/pdf/datasheet/ncp349-d.pdf#page=12), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "DFN NoLead")
 	(property "Reference" "REF**"
-		(at -0.29 -3.56 0)
+		(at -0.25 -2.59 0)
 		(layer "F.SilkS")
 		(uuid "78015546-6a1a-46f6-98a8-e4a0527aa534")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "RHLGA-5L"
-		(at 5.075 5.55 0)
+		(at 2.43 2.72 0)
 		(layer "F.Fab")
 		(uuid "5655e75a-d1e6-4ce5-befa-c61b23462f02")
 		(effects
@@ -158,7 +158,7 @@
 		(uuid "38abe868-8d6e-4e2b-adc9-d076224898b5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.7 -0.325 0)
+		(at 1.36 3.8 0)
 		(layer "F.Fab")
 		(uuid "614ba589-ce7f-416a-b725-81efd3a5adec")
 		(effects
@@ -168,32 +168,35 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd rect
 		(at -0.838 -1.364 180)
 		(size 0.725 0.522)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
 		(uuid "4693fd9e-607d-424d-ad90-ce4f4f7ded49")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd rect
 		(at -0.838 -0.542 180)
 		(size 0.725 0.522)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
 		(uuid "9121a5bb-f251-46e2-96fa-c03283a30900")
 	)
-	(pad "4" smd roundrect
+	(pad "3" smd roundrect
+		(at -0.66 0.73 180)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1538461538)
+		(uuid "5e34c02c-6e12-43c9-8235-b3d47d94d8ab")
+	)
+	(pad "4" smd rect
 		(at 0.838 -0.542 180)
 		(size 0.725 0.522)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
 		(uuid "e886febc-0278-415e-9f79-f3b03806bad1")
 	)
-	(pad "5" smd roundrect
+	(pad "5" smd rect
 		(at 0.838 -1.364 180)
 		(size 0.725 0.522)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
 		(uuid "6f3a0944-3ae3-4229-aecf-8c911ee07149")
 	)
 	(embedded_fonts no)
