@@ -6,7 +6,7 @@
 	(descr "DFN, 6 Pin (https://www.onsemi.com/pdf/datasheet/ncp349-d.pdf#page=12), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "DFN NoLead")
 	(property "Reference" "REF**"
-		(at -0.675 -2.825 0)
+		(at -0.29 -3.56 0)
 		(layer "F.SilkS")
 		(uuid "78015546-6a1a-46f6-98a8-e4a0527aa534")
 		(effects
@@ -56,7 +56,7 @@
 		(center 0 0.71)
 		(end 0.669 0.71)
 		(stroke
-			(width 0.3125)
+			(width 0.3)
 			(type solid)
 		)
 		(fill no)
@@ -64,24 +64,36 @@
 		(uuid "3d028bce-a671-4726-9f0d-772180e3f022")
 	)
 	(fp_line
-		(start -1.5 5)
-		(end 1 5)
+		(start -1.285 -1.95)
+		(end -1.28 -1.95)
 		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f591e8ef-fd3d-4982-bc99-3bc346fd22fb")
-	)
-	(fp_line
-		(start -1.25 -2.409017)
-		(end 0 -2.409017)
-		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "9cb46b37-3b9e-4e7c-9628-e6ec8595d078")
+	)
+	(fp_rect
+		(start -1.35 -1.8)
+		(end 1.35 1.8)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e31ebc76-bf5c-4a67-a90e-f0fdd7bbf882")
+	)
+	(fp_circle
+		(center 0 0.71)
+		(end 0.669 0.71)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Paste")
+		(uuid "6e224688-e0ac-40a5-b39e-798ef54db323")
 	)
 	(fp_circle
 		(center 0 0.71)
@@ -94,49 +106,20 @@
 		(layer "Edge.Cuts")
 		(uuid "0cbb6140-981d-4801-93b3-dc064d9feb59")
 	)
-	(fp_line
-		(start -1.75 5.25)
-		(end 1.25 5.25)
+	(fp_rect
+		(start -1.5 -1.95)
+		(end 1.5 1.95)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "5ffa33ce-76df-4396-8f0d-3ca763e5c86a")
+		(uuid "502a7ef7-2c7a-47d4-9c0e-09737b944607")
 	)
 	(fp_line
-		(start -1.5 -2.589017)
-		(end -1.5 -0.029017)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "185b0c7c-e21a-4b86-91f9-4483efb1581a")
-	)
-	(fp_line
-		(start 1.5 -2.589017)
-		(end -1.5 -2.589017)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b2582b18-df71-43cd-b90d-2fe909db842b")
-	)
-	(fp_line
-		(start 1.5 -0.029017)
-		(end 1.5 -2.589017)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "ff02dc7a-f1d4-4924-924a-c6b2f183d582")
-	)
-	(fp_line
-		(start -1.35 -1.76)
-		(end -1.35 1.76)
+		(start -1.325 -1.75)
+		(end -1.325 1.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -145,8 +128,8 @@
 		(uuid "a2ed85fc-a923-4731-a8dc-d2cc714ac2d1")
 	)
 	(fp_line
-		(start -1.35 -1.76)
-		(end 1.35 -1.76)
+		(start -1.325 -1.75)
+		(end 1.325 -1.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -155,8 +138,8 @@
 		(uuid "a7a97a70-cfd1-420f-ad33-fa68b2b6645c")
 	)
 	(fp_line
-		(start 1.35 -1.76)
-		(end 1.35 1.76)
+		(start 1.325 -1.75)
+		(end 1.325 1.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -165,8 +148,8 @@
 		(uuid "3d26423f-32c9-455c-965c-bced90f6a762")
 	)
 	(fp_line
-		(start 1.35 1.76)
-		(end -1.35 1.76)
+		(start 1.325 1.75)
+		(end -1.325 1.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -188,28 +171,28 @@
 	(pad "1" smd roundrect
 		(at -0.838 -1.364 180)
 		(size 0.725 0.522)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4693fd9e-607d-424d-ad90-ce4f4f7ded49")
 	)
 	(pad "2" smd roundrect
 		(at -0.838 -0.542 180)
 		(size 0.725 0.522)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9121a5bb-f251-46e2-96fa-c03283a30900")
 	)
 	(pad "4" smd roundrect
 		(at 0.838 -0.542 180)
 		(size 0.725 0.522)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e886febc-0278-415e-9f79-f3b03806bad1")
 	)
 	(pad "5" smd roundrect
 		(at 0.838 -1.364 180)
 		(size 0.725 0.522)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6f3a0944-3ae3-4229-aecf-8c911ee07149")
 	)
