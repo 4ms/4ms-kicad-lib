@@ -1755,7 +1755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4ms_Connector:FPC_40pin_AFC07-S40ECC-00"
+		(property "Footprint" "4ms_Connector:Amphenol_F32R-1A7x1-11040_1x40-1MP_P0.5mm_Horizontal"
 			(at 0 0 0)
 			(effects
 				(font
