@@ -5344,7 +5344,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 5.08 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "TS"
 					(effects
@@ -5526,7 +5526,7 @@
 			(pin bidirectional line
 				(at 12.7 0 180)
 				(length 2.54)
-				(name "SYSOFF"
+				(name "TD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5560,7 +5560,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -8.89 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "~{CHG}"
 					(effects
