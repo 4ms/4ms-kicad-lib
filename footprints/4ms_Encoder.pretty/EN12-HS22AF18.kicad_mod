@@ -361,23 +361,7 @@
 		(remove_unused_layers no)
 		(uuid "4cf99abc-9953-44d8-adb0-6bf6563a72b8")
 	)
-	(pad "NC" thru_hole circle
-		(at -6.25 0)
-		(size 2.667 2.667)
-		(drill 2.0574)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "b48bbf48-b99b-4315-8d10-c40d1584e571")
-	)
-	(pad "NC" thru_hole circle
-		(at 6.25 0)
-		(size 2.667 2.667)
-		(drill 2.0574)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "406c3bda-51ae-49e1-81d0-20234fe520c2")
-	)
-	(pad "SW1" thru_hole circle
+	(pad "4" thru_hole circle
 		(at -2.54 -7.0104 90)
 		(size 1.8034 1.8034)
 		(drill 0.889)
@@ -385,13 +369,29 @@
 		(remove_unused_layers no)
 		(uuid "c57b7a8d-4051-46b6-afa1-a2267b3f8541")
 	)
-	(pad "SW2" thru_hole circle
+	(pad "5" thru_hole circle
 		(at 2.54 -7.0104 90)
 		(size 1.8034 1.8034)
 		(drill 0.889)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4aed2c9a-35fd-41ed-8712-d86bd6e54a58")
+	)
+	(pad "6" thru_hole circle
+		(at -6.25 0)
+		(size 2.667 2.667)
+		(drill 2.0574)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b48bbf48-b99b-4315-8d10-c40d1584e571")
+	)
+	(pad "7" thru_hole circle
+		(at 6.25 0)
+		(size 2.667 2.667)
+		(drill 2.0574)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "406c3bda-51ae-49e1-81d0-20234fe520c2")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_4MS_LIBS}/3dmodels/Encoders.3dshapes/EN12-HS-AF18.STEP"

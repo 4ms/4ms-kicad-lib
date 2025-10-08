@@ -12188,7 +12188,7 @@
 						)
 					)
 				)
-				(number "SW1"
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12206,7 +12206,7 @@
 						)
 					)
 				)
-				(number "SW2"
+				(number "5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12226,7 +12226,7 @@
 						)
 					)
 				)
-				(number "SH1"
+				(number "6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12244,7 +12244,7 @@
 						)
 					)
 				)
-				(number "SH2"
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
