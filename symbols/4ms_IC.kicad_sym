@@ -5737,7 +5737,7 @@
 				(number "2"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -5881,7 +5881,7 @@
 				(number "10"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -17391,7 +17391,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "SDA/SDI"
@@ -17409,7 +17409,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
 				(name "SA0/SDO"
@@ -28629,7 +28629,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at 20.32 13.97 180)
 				(length 2.54)
 				(name "VCOM"
