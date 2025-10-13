@@ -6364,7 +6364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specficiation" "SON-12-EP(2.5x4) Battery Management ROHS"
+		(property "Specifications" "SON-12-EP(2.5x4) Battery Management ROHS"
 			(at -4.826 -21.844 0)
 			(effects
 				(font
@@ -16513,7 +16513,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID " "C16707"
+		(property "JLCPCB ID" "C16707"
 			(at 0 0 90)
 			(effects
 				(font
@@ -22686,7 +22686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Production Stage " "A"
+		(property "Production Stage" "A"
 			(at 0.254 -37.592 0)
 			(effects
 				(font
@@ -40156,7 +40156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications " "ARM Microcontrollers - MCU High-performance & DSP FPU, Arm Cortex-M7 MCU 512 Kbytes of Flash 216 MHz CPU, A"
+		(property "Specifications" "ARM Microcontrollers - MCU High-performance & DSP FPU, Arm Cortex-M7 MCU 512 Kbytes of Flash 216 MHz CPU, A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -83891,7 +83891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Production Stage " "A"
+		(property "Production Stage" "A"
 			(at 0 -7.874 0)
 			(effects
 				(font
@@ -84611,7 +84611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Production Stage " "A"
+		(property "Production Stage" "A"
 			(at 25.4 -7.874 0)
 			(effects
 				(font
@@ -84629,7 +84629,7 @@
 			)
 		)
 		(symbol "TMUX6209_1_1"
-			(unit_name "Logic ")
+			(unit_name "Logic")
 			(rectangle
 				(start -5 2.5)
 				(end 5 -2.5)
@@ -84697,7 +84697,7 @@
 			)
 		)
 		(symbol "TMUX6209_1_2"
-			(unit_name "Logic ")
+			(unit_name "Logic")
 			(pin input clock
 				(at -7.62 3.81 0)
 				(length 2.54)
