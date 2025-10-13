@@ -1,7 +1,7 @@
-(footprint "Texas_S-PDSO-N12"
-	(version 20240108)
+(footprint "VSON-12_2.5x4.0mm_EP"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf")
 	(tags "SON thermal pads")
@@ -16,26 +16,13 @@
 			)
 		)
 	)
-	(property "Value" "Texas_S-PDSO-N12"
+	(property "Value" "VSON-12_2.5x4.0mm_EP"
 		(at -0.000701 2.852607 0)
 		(layer "F.Fab")
 		(uuid "c11c10f3-ae77-4b99-b216-27a8b5fe605b")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "102a1cc7-4f63-47a4-89e0-a25760fc0cfc")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -53,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "VSON-12, 0.4mm pitch, 3.8mm width, EP with corner pads"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -135,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "5c3f78d0-6b1a-479b-b201-d372e02e462c")
 	)
@@ -146,7 +133,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4ac9ca04-4161-42da-b00f-ad9ac1e1a42c")
 	)
@@ -256,7 +243,7 @@
 	(pad "1" smd roundrect
 		(at -1.9 -1)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -265,7 +252,7 @@
 	(pad "2" smd roundrect
 		(at -1.9 -0.6)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -274,7 +261,7 @@
 	(pad "3" smd roundrect
 		(at -1.9 -0.2)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -283,7 +270,7 @@
 	(pad "4" smd roundrect
 		(at -1.9 0.2)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -292,7 +279,7 @@
 	(pad "5" smd roundrect
 		(at -1.9 0.6)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -301,7 +288,7 @@
 	(pad "6" smd roundrect
 		(at -1.9 1)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -310,7 +297,7 @@
 	(pad "7" smd roundrect
 		(at 1.9 1)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -319,7 +306,7 @@
 	(pad "8" smd roundrect
 		(at 1.9 0.6)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -328,7 +315,7 @@
 	(pad "9" smd roundrect
 		(at 1.9 0.2)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -337,7 +324,7 @@
 	(pad "10" smd roundrect
 		(at 1.9 -0.2)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -346,7 +333,7 @@
 	(pad "11" smd roundrect
 		(at 1.9 -0.6)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -355,7 +342,7 @@
 	(pad "12" smd roundrect
 		(at 1.9 -1)
 		(size 0.6 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -440,6 +427,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "2ee3a4db-cb04-4e2f-bf0c-43de5ff1f591")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Texas_S-PDSO-N12.wrl"
 		(offset
 			(xyz 0 0 0)
