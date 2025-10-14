@@ -63,6 +63,17 @@
 		(layer "F.Cu")
 		(uuid "3d028bce-a671-4726-9f0d-772180e3f022")
 	)
+	(fp_circle
+		(center 0 0.71)
+		(end 0.669 0.71)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "e0e43d80-3e97-4703-937a-f5d6a7319f51")
+	)
 	(fp_line
 		(start -1.285 -1.95)
 		(end -1.28 -1.95)
