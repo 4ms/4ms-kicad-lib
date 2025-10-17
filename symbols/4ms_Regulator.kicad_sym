@@ -1271,7 +1271,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AZ1117CR-3.3TRG1 "
+	(symbol "AZ1117CR-3.3TRG1"
 		(pin_names
 			(offset 0.762)
 		)
@@ -1388,7 +1388,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AZ1117CR-3.3TRG1 _0_1"
+		(symbol "AZ1117CR-3.3TRG1_0_1"
 			(rectangle
 				(start -5.08 3.81)
 				(end 5.08 -3.81)
@@ -1401,7 +1401,7 @@
 				)
 			)
 		)
-		(symbol "AZ1117CR-3.3TRG1 _1_1"
+		(symbol "AZ1117CR-3.3TRG1_1_1"
 			(pin input line
 				(at -10.16 1.27 0)
 				(length 5.08)
@@ -2679,7 +2679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer " "On Semiconductor"
+		(property "Manufacturer" "On Semiconductor"
 			(at 0 0 0)
 			(effects
 				(font

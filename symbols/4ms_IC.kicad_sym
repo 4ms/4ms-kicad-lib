@@ -5737,7 +5737,7 @@
 				(number "2"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -5881,7 +5881,7 @@
 				(number "10"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -6337,7 +6337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "4ms_Package_SOIC:Texas_S-PDSO-N12"
+		(property "Footprint" "4ms_Package_SSOP:VSON-12_2.5x4.0mm_EP"
 			(at -1.016 -15.24 0)
 			(effects
 				(font
@@ -6364,7 +6364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specficiation" "SON-12-EP(2.5x4) Battery Management ROHS"
+		(property "Specifications" "SON-12-EP(2.5x4) Battery Management ROHS"
 			(at -4.826 -21.844 0)
 			(effects
 				(font
@@ -6447,6 +6447,25 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at -11.43 2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at -11.43 0 0)
 				(length 2.54)
@@ -6458,6 +6477,25 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -11.43 -2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6486,89 +6524,17 @@
 			(pin bidirectional line
 				(at -11.43 -7.62 0)
 				(length 2.54)
-				(name "PWPD"
+				(name "GND_PAD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "EP"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -11.43 -7.62 0)
-				(length 2.54)
-				(name "PWPD"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "EP1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -11.43 -7.62 0)
-				(length 2.54)
-				(name "PWPD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "EP2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -11.43 -7.62 0)
-				(length 2.54)
-				(name "PWPD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "EP3"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -11.43 -7.62 0)
-				(length 2.54)
-				(name "PWPD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "EP4"
-					(effects
-						(font
-							(size 0 0)
 						)
 					)
 				)
@@ -6620,6 +6586,25 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.43 -2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16513,7 +16498,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID " "C16707"
+		(property "JLCPCB ID" "C16707"
 			(at 0 0 90)
 			(effects
 				(font
@@ -17391,7 +17376,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "SDA/SDI"
@@ -17409,7 +17394,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
 				(name "SA0/SDO"
@@ -23249,7 +23234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Production Stage " "A"
+		(property "Production Stage" "A"
 			(at 0.254 -37.592 0)
 			(effects
 				(font
@@ -29192,7 +29177,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at 20.32 13.97 180)
 				(length 2.54)
 				(name "VCOM"
@@ -40719,7 +40704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications " "ARM Microcontrollers - MCU High-performance & DSP FPU, Arm Cortex-M7 MCU 512 Kbytes of Flash 216 MHz CPU, A"
+		(property "Specifications" "ARM Microcontrollers - MCU High-performance & DSP FPU, Arm Cortex-M7 MCU 512 Kbytes of Flash 216 MHz CPU, A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -84454,7 +84439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Production Stage " "A"
+		(property "Production Stage" "A"
 			(at 0 -7.874 0)
 			(effects
 				(font
@@ -85174,7 +85159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Production Stage " "A"
+		(property "Production Stage" "A"
 			(at 25.4 -7.874 0)
 			(effects
 				(font
@@ -85192,7 +85177,7 @@
 			)
 		)
 		(symbol "TMUX6209_1_1"
-			(unit_name "Logic ")
+			(unit_name "Logic")
 			(rectangle
 				(start -5 2.5)
 				(end 5 -2.5)
@@ -85260,7 +85245,7 @@
 			)
 		)
 		(symbol "TMUX6209_1_2"
-			(unit_name "Logic ")
+			(unit_name "Logic")
 			(pin input clock
 				(at -7.62 3.81 0)
 				(length 2.54)
