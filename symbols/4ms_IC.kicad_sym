@@ -20298,7 +20298,7 @@
 			)
 		)
 		(symbol "LP5009PWR_1_1"
-			(pin power_out line
+			(pin input line
 				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "EN"
@@ -20316,7 +20316,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "SCL"
@@ -20334,7 +20334,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "SDA"
@@ -20352,7 +20352,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "ADDR0"
@@ -20370,7 +20370,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -12.7 0 0)
 				(length 2.54)
 				(name "ADDR1"
@@ -20389,7 +20389,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -3.81 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -20399,7 +20399,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20408,7 +20408,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -20437,7 +20437,7 @@
 						)
 					)
 				)
-				(number "23"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20446,7 +20446,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -3.81 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -20456,7 +20456,7 @@
 						)
 					)
 				)
-				(number "24"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20464,7 +20464,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "VCAP"
@@ -20482,7 +20482,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "IREF"
@@ -20500,7 +20500,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -2.54 -15.24 90)
 				(length 2.54)
 				(name "PGND"
@@ -20518,7 +20518,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 15.24 270)
 				(length 2.54)
 				(name "VCC"
@@ -20536,7 +20536,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -15.24 90)
 				(length 2.54)
 				(name "AGND"
@@ -20554,7 +20554,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 2.54 -15.24 90)
 				(length 2.54)
 				(name "DGND"
@@ -20572,7 +20572,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "OUT0"
@@ -20590,7 +20590,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "OUT1"
@@ -20608,7 +20608,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "OUT2"
@@ -20626,7 +20626,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "OUT3"
@@ -20644,7 +20644,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 12.7 0 180)
 				(length 2.54)
 				(name "OUT4"
@@ -20662,7 +20662,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "OUT5"
@@ -20680,7 +20680,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "OUT6"
@@ -20698,7 +20698,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "OUT7"
@@ -20716,7 +20716,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin output line
 				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "OUT8"
