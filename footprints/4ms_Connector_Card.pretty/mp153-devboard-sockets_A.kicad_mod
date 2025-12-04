@@ -6499,7 +6499,7 @@
 	)
 	(model "kicad-embed://DF40HC(3.0)-80DS.stp"
 		(offset
-			(xyz -25 3.88 1.49)
+			(xyz 0 5.88 1.49)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -6510,7 +6510,7 @@
 	)
 	(model "kicad-embed://DF40HC(3.0)-80DS.stp"
 		(offset
-			(xyz 25 5.88 1.49)
+			(xyz 50 7.88 1.49)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -6521,7 +6521,7 @@
 	)
 	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_Card.3dshapes/mp153-devboard.step"
 		(offset
-			(xyz 28.3 19.95 4.6)
+			(xyz 53.3 21.95 4.6)
 		)
 		(scale
 			(xyz 1 1 1)
