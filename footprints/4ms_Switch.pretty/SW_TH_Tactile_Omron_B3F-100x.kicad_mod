@@ -232,13 +232,13 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_TH_Tactile_Omron_B3F-100x.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -3.25 2.25 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
