@@ -1,0 +1,64 @@
+(footprint "Faceplate_Hole_ButtonTact_5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.127 7.866 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3157e1e-9511-46d4-99e2-72d400de161b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_ButtonTact_5mm"
+		(at -0.127 5.977 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0474dda5-8bda-4399-ac9a-da526a1999e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5780fede-ce15-436a-8348-526518e6a5d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01c599bd-28f0-49da-8bb2-b1c18db43025")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.76 5.76)
+		(drill 5.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c43da5c0-73c7-45d9-bda6-56c7872884a8")
+	)
+	(embedded_fonts no)
+)
