@@ -1,4 +1,4 @@
-(footprint "mp153-devboard-sockets_A"
+(footprint "mp153-devboard-sockets_A_NoHoles"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "mp153-devboard-sockets_A"
+	(property "Value" "mp153-devboard-sockets_A_NoHoles"
 		(at 16.52 0.19 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -112,6 +112,28 @@
 		(layer "F.SilkS")
 		(uuid "80aefd8b-17a6-4629-a554-b61d63ca06f5")
 	)
+	(fp_circle
+		(center -0.057 15.2944)
+		(end 1.443 15.2944)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ac44510d-2655-49a6-a928-2f657737be3b")
+	)
+	(fp_circle
+		(center 14.1306 -18.7056)
+		(end 15.6306 -18.7056)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a00b90b4-30ce-4f18-96f0-4905accbb030")
+	)
 	(fp_rect
 		(start -4 -22)
 		(end 54 18)
@@ -189,20 +211,6 @@
 			)
 			(justify bottom)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at -0.057 15.2944 270)
-		(size 3 3)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "53192d1b-db6c-443b-a589-4c2264e647ed")
-	)
-	(pad "" np_thru_hole circle
-		(at 14.1306 -18.7056 270)
-		(size 3 3)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "90026e50-2976-4f8c-a627-8e37033d0783")
 	)
 	(pad "A1" smd rect
 		(at 0 -7.8 270)

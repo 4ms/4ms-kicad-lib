@@ -1,0 +1,278 @@
+(footprint "Button_B3F-4055_1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BUT"
+		(at -3.325 -7.135 0)
+		(layer "F.SilkS")
+		(uuid "919c78de-ed59-41c0-8988-f8646ffca43b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Button_B3F-4055_1"
+		(at 0.485 7.135 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "771d7727-1c4a-4e42-98a3-4d4fdb3b59a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29983e49-0cfb-434c-a183-9d0bf2981241")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "326021cb-c06b-4929-8a86-d4f98a0f4d50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -6)
+		(end 6 -6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d934db50-6110-481a-aca0-c767dc41800a")
+	)
+	(fp_line
+		(start -6 -4)
+		(end -6 -6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6e84f86-19e4-40df-abb3-f8bfbe889380")
+	)
+	(fp_line
+		(start -6 4)
+		(end -6 6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0492e38-b6dc-4323-b9bd-d83d27d5477a")
+	)
+	(fp_line
+		(start -6 6)
+		(end 6 6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da1e79dd-af9f-4002-b3bc-4a82e8d300b6")
+	)
+	(fp_line
+		(start 6 -6)
+		(end 6 -4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5181b07-ba76-483d-b3b3-77435b43752f")
+	)
+	(fp_line
+		(start 6 6)
+		(end 6 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9131e9ca-64cd-4fa9-a758-d36b36bcd470")
+	)
+	(fp_circle
+		(center -7.8 -2.6)
+		(end -7.7 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c1bac0c2-12cf-4253-abd9-2802e94f1177")
+	)
+	(fp_line
+		(start -7.45 -6.25)
+		(end -7.45 6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94ede167-0872-4415-9866-e80901562a3c")
+	)
+	(fp_line
+		(start -7.45 6.25)
+		(end 7.45 6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17312424-a0b8-408c-9d77-183241a52073")
+	)
+	(fp_line
+		(start 7.45 -6.25)
+		(end -7.45 -6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecee9789-5ee4-4b5d-86bd-bbeb33dd0d15")
+	)
+	(fp_line
+		(start 7.45 6.25)
+		(end 7.45 -6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6c42141-123e-428f-8af3-43b704b147ff")
+	)
+	(fp_line
+		(start -6 -6)
+		(end -6 6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0855c1d-6f85-466b-a111-b93ff82eb56e")
+	)
+	(fp_line
+		(start -6 6)
+		(end 6 6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c9d4e22-b9ab-4220-86ae-beeae10e90b8")
+	)
+	(fp_line
+		(start 6 -6)
+		(end -6 -6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3469104b-faa6-46b9-b107-be2ce053de5c")
+	)
+	(fp_line
+		(start 6 6)
+		(end 6 -6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0c201a8-ffa5-48f9-81c1-77e0d51b2f76")
+	)
+	(fp_circle
+		(center -7.8 -2.6)
+		(end -7.7 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eef5f23b-fd40-4adf-b934-98fa06cde09f")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -4.5)
+		(size 1.85 1.85)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(uuid "63a0f346-96a3-45df-baf6-c4686b438977")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 4.5)
+		(size 1.85 1.85)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(uuid "63f128c2-44b0-409a-8184-8d96974e23aa")
+	)
+	(pad "1" thru_hole rect
+		(at -6.25 -2.5)
+		(size 1.875 1.875)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a237ba63-4506-4eab-b077-038091363b29")
+	)
+	(pad "2" thru_hole circle
+		(at 6.25 -2.5)
+		(size 1.875 1.875)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d5fe8139-f062-4a01-aa72-b8c5fdb30a43")
+	)
+	(pad "3" thru_hole circle
+		(at -6.25 2.5)
+		(size 1.875 1.875)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "702d99f4-2e64-4efd-8a5b-d8fa60a3d25a")
+	)
+	(pad "4" thru_hole circle
+		(at 6.25 2.5)
+		(size 1.875 1.875)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cc2d31f5-98a5-4196-aaae-7d5f082ea50b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_SMD.3dshapes/B3F-4055.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

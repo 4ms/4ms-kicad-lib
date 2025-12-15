@@ -1,0 +1,244 @@
+(footprint "SW_TH_Tactile_Omron_B3F-100x"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile switch, 6x6 mm, H4.3 mm, 6.5 mm pitch, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf")
+	(tags "Omron B3F-10xx SPST 1P1T")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "f3bcf8a6-70ef-4656-a878-b5c886494a53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_TH_Tactile_Omron_B3F-100x"
+		(at 3.25 6.5 0)
+		(layer "F.Fab")
+		(uuid "c2c74f85-e85e-4734-be3d-fa070000a192")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a6e3489-4209-42cb-8601-8266bea3ead3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62723fd4-7bfb-4393-9e33-c228e809e63c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.12 1.1)
+		(end -3.12 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27fe9b6a-c6bf-49f0-b603-ec6c5d9b1ab9")
+	)
+	(fp_line
+		(start -2.5 -3.12)
+		(end 2.5 -3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5e907b5-7390-4bf7-af24-f64dca48a7f8")
+	)
+	(fp_line
+		(start -2.5 3.12)
+		(end 2.5 3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f002d41-05e4-431a-97a7-7949d16040de")
+	)
+	(fp_line
+		(start 3.12 -1.1)
+		(end 3.12 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0f58e0c-ce2c-4820-abfb-b36a93c5c99c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4e043258-135e-4e50-8f20-b93a70d7b074")
+	)
+	(fp_line
+		(start -4.35 -3.35)
+		(end -4.35 3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa206364-4b35-4e18-a11e-2f07faa17c6f")
+	)
+	(fp_line
+		(start -4.35 -3.35)
+		(end 4.35 -3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9108a3d9-b766-4996-b2bc-504fb0d78c78")
+	)
+	(fp_line
+		(start -4.35 3.35)
+		(end 4.35 3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d82c7687-6756-432d-8a5b-e15628c59f08")
+	)
+	(fp_line
+		(start 4.35 3.35)
+		(end 4.35 -3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97103633-1ac2-4df6-b756-b54051086fa6")
+	)
+	(fp_line
+		(start -3 -3)
+		(end -3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68170204-2bb1-484f-9fbb-80a52ec17f63")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83349919-ec81-40da-aefa-f8059993d9a1")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a2e808a-c7f1-4dbd-af33-d801a8e0f070")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0ee84a5-c2c8-4a9e-8a47-ed960eb8c096")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8552e9e7-04e1-49ea-a686-a611294755b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.25 2.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "daf085bd-70df-419e-a957-02914568e0f9")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 2.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65a424f4-9f68-4376-86e4-1cb03f2e6524")
+	)
+	(pad "3" thru_hole circle
+		(at -3.25 -2.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ee1616be-3af4-4d1d-96b5-541d19557273")
+	)
+	(pad "4" thru_hole circle
+		(at 3.25 -2.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "130b9ada-7aba-4fd3-8830-5ad15b027dac")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_TH_Tactile_Omron_B3F-100x.step"
+		(offset
+			(xyz -3.25 2.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
