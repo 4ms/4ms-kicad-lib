@@ -15544,6 +15544,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB ID" "C3681297"
+			(at -5.08 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "H-bridge driver"
 			(at 0 0 0)
 			(effects
