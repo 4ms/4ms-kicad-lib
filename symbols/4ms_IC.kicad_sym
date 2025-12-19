@@ -29601,7 +29601,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 20.32 13.97 180)
 				(length 2.54)
 				(name "VCOM"
