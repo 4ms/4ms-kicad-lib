@@ -14749,7 +14749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "4ms_Jack:RCA_Stereo_SwitchCraft-PJRAS2X1S"
 			(at 0 0 0)
 			(effects
 				(font
