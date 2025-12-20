@@ -179,6 +179,16 @@
 			)
 		)
 	)
+	(pad "S1" thru_hole oval
+		(at -12.95 -3.5 90)
+		(size 4 3)
+		(drill oval 3.1 1.8)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "383daafe-f86f-404a-87b6-d1f1d0a829d2")
+	)
 	(pad "S1" thru_hole circle
 		(at -10.75 0.1)
 		(size 3 3)
@@ -195,17 +205,7 @@
 		(remove_unused_layers no)
 		(uuid "d1bbf83b-8222-45ca-a560-50d876427367")
 	)
-	(pad "SH1" thru_hole oval
-		(at -12.95 -3.5 90)
-		(size 4 3)
-		(drill oval 3.1 1.8)
-		(property pad_prop_mechanical)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
-		(uuid "383daafe-f86f-404a-87b6-d1f1d0a829d2")
-	)
-	(pad "SH1" thru_hole oval
+	(pad "S2" thru_hole oval
 		(at 12.95 -3.5 90)
 		(size 4 3)
 		(drill oval 3.1 1.8)

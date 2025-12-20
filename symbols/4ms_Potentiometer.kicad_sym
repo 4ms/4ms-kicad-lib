@@ -4418,14 +4418,14 @@
 	)
 	(symbol "Slider_Dual_Motorized_PSM60-081A-xxx"
 		(pin_names
-			(offset 1.016)
+			(offset 0)
 			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "POT"
-			(at -1.27 5.08 0)
+			(at -1.27 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4497,7 @@
 			)
 		)
 		(property "Display" "10k"
-			(at -1.27 2.54 0)
+			(at -1.27 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +4861,7 @@
 						)
 					)
 				)
-				(number "TOUCH"
+				(number "T"
 					(effects
 						(font
 							(size 1.27 1.27)
