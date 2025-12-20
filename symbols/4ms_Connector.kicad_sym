@@ -14750,7 +14750,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Jack:RCA_Stereo_SwitchCraft-PJRAS2X1S"
-			(at 0 0 0)
+			(at 2.54 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14850,8 +14850,8 @@
 		)
 		(symbol "Jack_RCA_Stereo_1_1"
 			(pin passive line
-				(at -2.54 -8.89 90)
-				(length 6.35)
+				(at -2.54 -6.35 90)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
@@ -14859,7 +14859,7 @@
 						)
 					)
 				)
-				(number "GND1"
+				(number "S1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14868,8 +14868,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
+				(at 7.62 0 180)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -14888,8 +14888,8 @@
 		)
 		(symbol "Jack_RCA_Stereo_2_1"
 			(pin passive line
-				(at -2.54 -8.89 90)
-				(length 6.35)
+				(at -2.54 -6.35 90)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
@@ -14897,7 +14897,7 @@
 						)
 					)
 				)
-				(number "GND2"
+				(number "S2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14906,8 +14906,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
+				(at 7.62 0 180)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
