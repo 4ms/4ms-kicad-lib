@@ -589,7 +589,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
-			(at 0 2.794 0)
+			(at 0 0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,15 +597,16 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 -2.286 0)
+			(at 1.016 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "4ms_SolderJumper:JUMPER_SMD_1x2_tiny"
-			(at 0 0 0)
+			(at 2.032 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,7 +615,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,12 +624,20 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 0 0 0)
+			(at 0.762 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Display" "~"
+			(at 4.064 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "Jumper SPST"
