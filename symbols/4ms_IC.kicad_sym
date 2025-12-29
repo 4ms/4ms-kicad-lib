@@ -29172,7 +29172,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "audio dac 2ch 24bit 192kHz"
+		(property "JLCPCB ID" "C2651841"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "audio codec 2ch 24bit 192kHz"
 			(at 0 0 0)
 			(effects
 				(font
