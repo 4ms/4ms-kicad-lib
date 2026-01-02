@@ -90381,6 +90381,138 @@
 				(hide yes)
 			)
 		)
+		(symbol "mp153-devboard-v0.2-socket-A_0_1"
+			(polyline
+				(pts
+					(xy -11.938 36.83) (xy -10.668 36.83)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -11.684 43.011)
+				(end -6.9254 40.8726)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.684 41.91) (xy -12.446 41.91)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.684 29.21) (xy -12.446 29.21)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -11.6839 30.3491)
+				(end -7.0253 28.2107)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.668 36.83) (xy -9.652 37.592)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 37.592) (xy -9.652 37.592) (xy -9.652 37.084)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -8.89 36.83)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.636 36.83) (xy -7.62 36.83) (xy -7.62 36.322) (xy -8.128 36.322) (xy -7.62 35.814) (xy -7.112 36.322)
+					(xy -7.62 36.322)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.0305 29.2337) (xy -5.7953 29.2322) (xy -5.7953 29.9471)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.9306 41.8956) (xy -5.6954 41.8941) (xy -5.6954 42.609)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "mp153-devboard-v0.2-socket-A_1_1"
 			(rectangle
 				(start -19.05 52.07)
@@ -90831,6 +90963,66 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(text "10k"
+				(at -11.5299 29.2481 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+						(thickness 0.1588)
+						(color 165 0 10 1)
+					)
+					(justify left)
+				)
+			)
+			(text "10k"
+				(at -11.43 41.91 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+						(thickness 0.1588)
+						(color 165 0 10 1)
+					)
+					(justify left)
+				)
+			)
+			(text "SD"
+				(at -9.652 38.354 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+						(thickness 0.1588)
+						(color 165 0 10 1)
+					)
+					(justify left)
+				)
+			)
+			(text "3.3V"
+				(at -9.5184 31.3291 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+						(thickness 0.1588)
+						(color 165 0 10 1)
+					)
+					(justify left)
+				)
+			)
+			(text "3.3V"
+				(at -9.4185 43.991 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 1.27 1.27)
+						(thickness 0.1588)
+						(color 165 0 10 1)
+					)
+					(justify left)
 				)
 			)
 			(text "SPI2_SCK"
