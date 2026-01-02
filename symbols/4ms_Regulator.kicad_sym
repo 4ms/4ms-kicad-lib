@@ -3860,7 +3860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "TLV74018PDBV"
+		(property "Part Number" "TLV74018PDBVR"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -3884,6 +3884,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB ID" "C3746861"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "TLV74018PDBV_0_1"
