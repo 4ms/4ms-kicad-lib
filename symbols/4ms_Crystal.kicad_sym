@@ -651,6 +651,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB ID 2" "C2682776"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "quartz ceramic resonator oscillator"
 			(at 0 0 0)
 			(effects
