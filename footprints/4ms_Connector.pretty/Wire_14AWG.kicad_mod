@@ -6,6 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0.1 -5.15 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "157e8b2b-b09a-43d8-8a0f-896fbb0b73b2")
 		(effects
 			(font
@@ -17,6 +18,7 @@
 	(property "Value" "Wire_14AWG"
 		(at 0.5 -2.5 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ae1051a3-a758-4a73-b85c-93ca08767b68")
 		(effects
 			(font
