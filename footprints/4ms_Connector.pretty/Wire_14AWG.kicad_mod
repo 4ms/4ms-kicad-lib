@@ -1,7 +1,7 @@
 (footprint "Wire_14AWG"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.1 -5.15 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0357fe11-e95f-47cc-a214-97c2f48c52df")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,6 +50,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.0001)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2584e74c-eabf-4c5f-b67f-416fda2c30d4")
+	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2.5 2.5)
@@ -70,4 +69,5 @@
 		(remove_unused_layers no)
 		(uuid "8b862639-982b-44b2-a3b6-f4c75dca7985")
 	)
+	(embedded_fonts no)
 )
