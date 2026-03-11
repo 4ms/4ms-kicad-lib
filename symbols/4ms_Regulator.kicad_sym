@@ -423,7 +423,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" "C50754"
+		(property "JLCPCB ID" "C5854714"
 			(at 0 0 0)
 			(effects
 				(font
@@ -432,7 +432,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID 2" "C512090"
+		(property "JLCPCB ID 2" "C50754"
 			(at 0 0 0)
 			(effects
 				(font
@@ -441,7 +441,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID 3" "C625398"
+		(property "JLCPCB ID 3" "C512090"
 			(at 0 0 0)
 			(effects
 				(font
