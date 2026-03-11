@@ -1,7 +1,7 @@
 (footprint "CE-Logo_8.5x6mm_SilkScreen"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CE marking")
 	(tags "Logo CE certification")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Symbol:CE-Logo_8.5x6mm_SilkScreen"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "83d347d6-4495-408b-bf0d-20a6c3dda85d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,7 +55,9 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp
+	)
 	(fp_poly
 		(pts
 			(xy -1.060813 -3.015685) (xy -0.99633 -3.014025) (xy -0.949697 -3.011055) (xy -0.929349 -3.007912)
@@ -101,7 +90,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7ad843a4-5e45-438d-a9d9-c8e47830f51b")
 	)
@@ -134,8 +123,9 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "51b0e8f4-db2d-4b09-95ab-116631579109")
 	)
+	(embedded_fonts no)
 )

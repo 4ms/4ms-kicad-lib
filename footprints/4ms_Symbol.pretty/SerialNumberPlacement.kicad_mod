@@ -1,7 +1,7 @@
 (footprint "SerialNumberPlacement"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "G***"
 		(at 0 0 0)
@@ -24,18 +24,6 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c8fa4543-38db-4177-8d4c-03f51ebe79c3")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -63,7 +51,9 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp
+	)
 	(fp_rect
 		(start -9.5 -3.135)
 		(end 9.86 3.135)
@@ -71,8 +61,9 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "606b87d0-7861-4ac7-b09e-53f931042d0f")
 	)
+	(embedded_fonts no)
 )

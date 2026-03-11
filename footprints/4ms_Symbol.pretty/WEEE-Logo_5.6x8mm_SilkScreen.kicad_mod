@@ -1,7 +1,7 @@
 (footprint "WEEE-Logo_5.6x8mm_SilkScreen"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Waste Electrical and Electronic Equipment Directive")
 	(tags "Logo WEEE")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Symbol:WEEE-Logo_5.6x8mm_SilkScreen"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "388ae6ef-61f8-4555-b474-2c378abe4688")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,7 +55,9 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp
+	)
 	(fp_poly
 		(pts
 			(xy 2.322763 4.010526) (xy -2.356184 4.010526) (xy -2.356184 2.8575) (xy 2.322763 2.8575) (xy 2.322763 4.010526)
@@ -77,7 +66,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "62a39646-c88b-4a72-9346-6b4901284a07")
 	)
@@ -203,8 +192,9 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "62f31aa5-ed14-41b9-8ae3-2e61dc1269bf")
 	)
+	(embedded_fonts no)
 )
