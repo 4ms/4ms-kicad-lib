@@ -11892,7 +11892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" "SPST Tactile 6x6mm, Cap H=9mm round D=5mm(base)/4.8mm(top), TotalHeight=13mm "
+		(property "Specifications" "TL1105SPF160Q1RBLK, SPST Tactile 6x6mm, Cap: Round Black D(top)=4.8mm, TotalHeightWithCap=13mm "
 			(at 0.508 -20.066 0)
 			(effects
 				(font
