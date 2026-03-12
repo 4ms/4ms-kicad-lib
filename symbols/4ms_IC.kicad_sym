@@ -70371,7 +70371,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Microprocessors - MPU 32-bit Arm Cortex-A7 900MHz MPU for Industrial and Graphics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "STM32MP135DAF7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" "C5456152"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
 			(at 0 0 0)
 			(effects
 				(font
