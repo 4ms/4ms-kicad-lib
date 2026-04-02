@@ -4039,7 +4039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at -2.54 -9.398 0)
 			(effects
 				(font
@@ -4049,7 +4049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "GRM155R61A106ME44D"
 			(at -2.54 -10.922 0)
 			(effects
 				(font
@@ -4068,7 +4068,7 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB ID" ""
+		(property "JLCPCB ID" "C77000"
 			(at 1.27 -12.7 0)
 			(effects
 				(font
