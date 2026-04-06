@@ -240,7 +240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at -2.54 -9.398 0)
 			(effects
 				(font
@@ -250,7 +250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "RC0201FR-07240RL"
 			(at -2.54 -11.176 0)
 			(effects
 				(font
@@ -268,7 +268,7 @@
 				)
 			)
 		)
-		(property "JLCPCB ID" ""
+		(property "JLCPCB ID" "C155745"
 			(at -2.54 -14.732 0)
 			(effects
 				(font

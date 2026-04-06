@@ -267,7 +267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "4ms_Inductor:COIL_2520_Murata_Handsolder"
+		(property "Footprint" "4ms_Inductor:COIL_2520_TOKO_Handsolder"
 			(at 1.27 -12.7 0)
 			(effects
 				(font

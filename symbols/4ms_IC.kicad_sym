@@ -87223,7 +87223,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ICC_TFBGA424_14X14_P050_H1P20_CODE-B0A2"
+		(property "Footprint" "4ms_Package_QFP:TFBGA-424_14x14mm_P0.5_STM_AK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -87232,7 +87232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32mp251c.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -87241,7 +87241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MPU , 2xCortex-A35@1.5GHz, Cortex-M33@400MHz, TFBGA 14x14, pitch 0.5, 648KB SRAM, With Crypto"
+		(property "Description" "MPU, 2xCortex-A35@1.5GHz, Cortex-M33@400MHz, TFBGA 14x14, pitch 0.5, 648KB SRAM, With Crypto"
 			(at 0 0 0)
 			(effects
 				(font
@@ -87250,7 +87250,7 @@
 				(hide yes)
 			)
 		)
-		(property "ALTIUM_VALUE" "STM32MP257FAK3"
+		(property "Specifications" "STM32MP257FAK3 MPU"
 			(at -8.128 -236.728 0)
 			(effects
 				(font
@@ -87260,7 +87260,7 @@
 				(hide yes)
 			)
 		)
-		(property "INTERNAL_PART_NUMBER" "MCD-03375"
+		(property "Manufacturer" "STMICROELECTRONICS"
 			(at -20.32 2.54 0)
 			(effects
 				(font
@@ -87270,127 +87270,7 @@
 				(hide yes)
 			)
 		)
-		(property "STATUS" "Checked"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" "IC"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" "Recommended"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "STMICROELECTRONICS"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "STM32MP257FAK3"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "TFBGA"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://tunmcdsvn.tun.st.com/Component_Documentation_Library/Trunk/IC/STMICROELECTRONICS_STM32MP257FAK3"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" "N/A"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" "N/A"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" "N/A"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT_COUNTRY_OF_ORIGIN" "Unknown"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SHOWFIELDS" "YES"
-			(at -20.32 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ID" "5491"
+		(property "Part Number" "STM32MP257FAK3"
 			(at -20.32 2.54 0)
 			(effects
 				(font
@@ -87410,6 +87290,18 @@
 			)
 		)
 		(symbol "STM32MP257FAKx_1_0"
+			(rectangle
+				(start 0 0)
+				(end 33.02 -88.9)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy 7.62 -48.26) (xy 10.16 -48.26) (xy 10.16 -76.2) (xy 7.62 -76.2)
@@ -87424,7 +87316,7 @@
 			)
 			(polyline
 				(pts
-					(xy 20.32 -35.56) (xy 15.24 -35.56) (xy 15.24 -45.72) (xy 18.542 -45.72)
+					(xy 24.13 -35.56) (xy 19.05 -35.56) (xy 19.05 -45.72) (xy 22.352 -45.72)
 				)
 				(stroke
 					(width 0)
@@ -87436,7 +87328,7 @@
 			)
 			(polyline
 				(pts
-					(xy 25.4 -48.26) (xy 22.86 -48.26) (xy 22.86 -76.2) (xy 25.4 -76.2)
+					(xy 26.67 -48.26) (xy 24.13 -48.26) (xy 24.13 -76.2) (xy 26.67 -76.2)
 				)
 				(stroke
 					(width 0)
@@ -87446,20 +87338,8 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 33.02 0)
-				(end 0 -88.9)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 128 0 0 1)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(text "VDDIO4"
-				(at 10.16 -66.04 900)
+				(at 8.89 -66.04 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -87468,7 +87348,7 @@
 				)
 			)
 			(text "VSW"
-				(at 15.748 -39.116 900)
+				(at 17.78 -39.37 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -87477,7 +87357,7 @@
 				)
 			)
 			(text "VDDIO3"
-				(at 25.4 -66.04 900)
+				(at 26.67 -66.04 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -88665,8 +88545,8 @@
 			)
 			(polyline
 				(pts
-					(xy 17.78 -44.196) (xy 32.004 -44.196) (xy 32.004 -52.07) (xy 17.272 -52.07) (xy 17.272 -44.196)
-					(xy 17.78 -44.196)
+					(xy 18.4873 -42.8099) (xy 32.7113 -42.8099) (xy 32.7113 -50.6839) (xy 17.9793 -50.6839) (xy 17.9793 -42.8099)
+					(xy 18.4873 -42.8099)
 				)
 				(stroke
 					(width 0)
@@ -88689,7 +88569,7 @@
 				)
 			)
 			(text "VDDIO1"
-				(at 10.16 -12.7 900)
+				(at 8.89 -12.7 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -88698,7 +88578,7 @@
 				)
 			)
 			(text "VDDIO2"
-				(at 10.16 -33.02 900)
+				(at 8.89 -33.02 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -88707,7 +88587,7 @@
 				)
 			)
 			(text "VDDA18AON"
-				(at 32.004 -49.53 0)
+				(at 29.3426 -44.579 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -89833,21 +89713,9 @@
 			)
 		)
 		(symbol "STM32MP257FAKx_3_0"
-			(polyline
-				(pts
-					(xy 16.764 -34.036) (xy 32.004 -34.036) (xy 32.004 -39.116) (xy 16.764 -39.116) (xy 16.764 -34.036)
-				)
-				(stroke
-					(width 0)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start 33.02 0)
-				(end 0 -81.28)
+				(start 0 0)
+				(end 33.02 -81.28)
 				(stroke
 					(width 0.0254)
 					(type solid)
@@ -89855,6 +89723,18 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.764 -34.036) (xy 32.6929 -34.0932) (xy 32.6929 -39.1732) (xy 16.764 -39.116) (xy 16.764 -34.036)
+				)
+				(stroke
+					(width 0)
+					(type dot)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(text "VSW"
@@ -89867,7 +89747,7 @@
 				)
 			)
 			(text "VDDA18AON"
-				(at 31.242 -36.322 0)
+				(at 28.4367 -38.7322 0)
 				(effects
 					(font
 						(size 1.27 1.27)
