@@ -272,6 +272,17 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KICAD_4MS_LIBS}/packages3d/SW_Cherry_MX_PCB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 	(model "${KICAD_4MS_LIBS}/packages3d/DSA_1u.step"
 		(offset
 			(xyz 0 0 12)
