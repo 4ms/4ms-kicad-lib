@@ -3,11 +3,14 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(descr "Mounting hole for a self-retaining spacer of the Wurth Elektronik WA-SNTI series, H=15mm")
+	(tags "mounting hole spacer")
 	(property "Reference" "REF**"
 		(at 0 -2.54 0)
+		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "94b429a5-8323-478d-8ced-4552628f7ea3")
+		(uuid "e61a8409-a379-44b4-8cb8-58dd04f1cd32")
 		(effects
 			(font
 				(size 1 1)
@@ -17,8 +20,9 @@
 	)
 	(property "Value" "MountingHole_WurthElektronik_WA-SNTI_15mm"
 		(at 0 1 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "401f03a5-dee5-40f8-8b6b-1c3266b319c4")
+		(uuid "3b166812-c1df-4e10-a7d0-710872b5fa92")
 		(effects
 			(font
 				(size 1 1)
@@ -30,35 +34,29 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2c2c0135-2f10-470f-b909-45663004c8c3")
+		(uuid "1a9160f6-2154-4f50-a277-4b71ca4dd026")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Mounting hole for a self-retaining spacer of the Wurth Elektronik WA-SNTI series, H=15mm"
+	(property "Description" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4569b99e-2b39-4806-adc9-835c394b9802")
+		(uuid "ed86112f-3a92-46d3-a06d-5d5a5a76f6a4")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
 			)
 		)
 	)
 	(attr exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
-			(xy 3.1 -1.8)
-			(xy 3.1 1.8)
-			(xy 0 3.58)
-			(xy -3.1 1.8)
-			(xy -3.1 -1.79)
-			(xy 0 -3.58)
+			(xy 3.1 -1.8) (xy 3.1 1.8) (xy 0 3.58) (xy -3.1 1.8) (xy -3.1 -1.79) (xy 0 -3.58)
 		)
 		(stroke
 			(width 0.12)
@@ -66,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "521671e1-eb79-4245-a82c-6ae7eaacf7f1")
+		(uuid "4f901b2c-79cc-413d-932f-cd10f1d91cea")
 	)
 	(fp_circle
 		(center 0 0)
@@ -77,16 +75,11 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b979aafb-17a1-4d67-9241-963be512cd5e")
+		(uuid "cd02163e-f18e-44c9-8894-0abb6c7847df")
 	)
 	(fp_poly
 		(pts
-			(xy 3 -1.73)
-			(xy 3 1.73)
-			(xy 0 3.46)
-			(xy -3 1.73)
-			(xy -3 -1.73)
-			(xy 0 -3.46)
+			(xy 3 -1.73) (xy 3 1.73) (xy 0 3.46) (xy -3 1.73) (xy -3 -1.73) (xy 0 -3.46)
 		)
 		(stroke
 			(width 0.1)
@@ -94,25 +87,37 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "a6ed4bac-83ca-4662-8b98-779f1903555e")
+		(uuid "e5d462b7-defc-47ac-bb80-0734bc00cf14")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.048 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a2c168fb-0cd0-40e9-9fc8-e224cd147898")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 4 4)
 		(drill 4)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "b7a47ae5-8b5e-491e-bc2b-1f9fc9db0aac")
+		(layers "*.Cu" "*.Mask")
+		(uuid "9581263d-feb0-441f-a37a-1195fdd2e922")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_4MS_LIBS}/3dmodels/Hardware.3dshapes/MountingHole_WurthElektronik_WA-SNTI_15mm.stp"
 		(offset
-			(xyz 0 0 8)
+			(xyz 0 0 15.25)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 -180 -90)
+			(xyz -0 -180 -90)
 		)
 	)
 )
