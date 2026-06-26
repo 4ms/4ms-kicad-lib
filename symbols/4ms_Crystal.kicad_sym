@@ -914,7 +914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ECS"
+		(property "Manufacturer" "Murata"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -923,7 +923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "XRCGB40M000F0G00R0"
 			(at 1.27 -10.16 0)
 			(effects
 				(font
@@ -932,7 +932,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB ID" ""
+		(property "JLCPCB ID" "C50396645"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -957,6 +957,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 2" "NDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "NX2016SA-40MHZ-STD-CZS-3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

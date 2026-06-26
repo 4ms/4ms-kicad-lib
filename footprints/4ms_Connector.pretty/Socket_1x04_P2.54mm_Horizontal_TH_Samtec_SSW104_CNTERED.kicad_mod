@@ -1,0 +1,221 @@
+(footprint "Socket_1x04_P2.54mm_Horizontal_TH_Samtec_SSW104_CNTERED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Samtec SSW-104 right-angle socket strip, 1x04, 2.54mm pitch, through hole, mating connector for Pins_1x04_P2.54mm_Horizontal_TH")
+	(tags "socket strip receptacle right-angle horizontal 1x04 2.54mm samtec SSW through-hole")
+	(property "Reference" "J**"
+		(at -0.08 -2.43 0)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Socket_1x04_P2.54mm_Horizontal_TH_Samtec_SSW104_CNTERED"
+		(at 3.81 12 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2c3d4e5-f6a7-8901-bcde-f12345678901")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.samtec.com/products/ssw"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3d4e5f6-a7b8-9012-cdef-123456789012")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Samtec SSW-104 1x4 right-angle socket, 2.54mm pitch, TH, gold"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4e5f6a7-b8c9-0123-defa-234567890123")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.335 10.255)
+		(end -5.335 0.995)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1f2a3b4-c5d6-7890-efab-901234567890")
+	)
+	(fp_line
+		(start 5.335 0.995)
+		(end 5.335 10.255)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9d0e1f2-a3b4-5678-cdef-789012345678")
+	)
+	(fp_line
+		(start 5.335 10.255)
+		(end -5.335 10.255)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0e1f2a3-b4c5-6789-defa-890123456789")
+	)
+	(fp_circle
+		(center -5.13 0.03)
+		(end -5.13 0.23)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d6e7f8a9-b0c1-2345-defa-456789012345")
+	)
+	(fp_line
+		(start -6.535 -1.775)
+		(end 6.535 -1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2a3b4c5-d6e7-8901-fabc-012345678901")
+	)
+	(fp_line
+		(start -6.535 11.455)
+		(end -6.535 -1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5d6e7f8-a9b0-1234-cdef-345678901234")
+	)
+	(fp_line
+		(start 6.535 -1.775)
+		(end 6.535 11.455)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3b4c5d6-e7f8-9012-abcd-123456789012")
+	)
+	(fp_line
+		(start 6.535 11.455)
+		(end -6.535 11.455)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4c5d6e7-f8a9-0123-bcde-234567890123")
+	)
+	(fp_line
+		(start -5.335 0.995)
+		(end 5.335 0.995)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5f6a7b8-c9d0-1234-efab-345678901234")
+	)
+	(fp_line
+		(start -5.335 10.255)
+		(end -5.335 0.995)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8c9d0e1-f2a3-4567-bcde-678901234567")
+	)
+	(fp_line
+		(start 5.335 0.995)
+		(end 5.335 10.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6a7b8c9-d0e1-2345-fabc-456789012345")
+	)
+	(fp_line
+		(start 5.335 10.255)
+		(end -5.335 10.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7b8c9d0-e1f2-3456-abcd-567890123456")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.55 1.55)
+		(drill 1.04)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7f8a9b0-c1d2-3456-efab-567890123456")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.55 1.55)
+		(drill 1.04)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8a9b0c1-d2e3-4567-fabc-678901234567")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 1.55 1.55)
+		(drill 1.04)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a9b0c1d2-e3f4-5678-abcd-789012345678")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 1.55 1.55)
+		(drill 1.04)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0c1d2e3-f4a5-6789-bcde-890123456789")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_4MS_LIBS}/packages3d/SSW-104-02-G-S-RA.stp"
+		(offset
+			(xyz -5.31 -1.5 1.21)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)

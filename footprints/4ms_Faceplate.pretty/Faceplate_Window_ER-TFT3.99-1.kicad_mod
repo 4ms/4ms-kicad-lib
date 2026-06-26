@@ -1,0 +1,79 @@
+(footprint "Faceplate_Window_ER-TFT3.99-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ER-TFT3.99-1 display window cutout for faceplate. Active area 94.03x39.18mm.")
+	(tags "screen display window cutout TFT faceplate ER-TFT3.99-1")
+	(property "Reference" "SCRN1"
+		(at 0 -22 0)
+		(layer "F.SilkS")
+		(uuid "a1111111-1111-1111-1111-111111111111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Window_ER-TFT3.99-1"
+		(at 0 22 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2222222-2222-2222-2222-222222222222")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-TFT3.99-1_Datasheet.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3333333-3333-3333-3333-333333333333")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ER-TFT3.99-1 active area window: 94.03x39.18mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4444444-4444-4444-4444-444444444444")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -47.015 -19.59)
+		(end 47.015 19.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a5555555-5555-5555-5555-555555555555")
+	)
+	(fp_rect
+		(start -47.015 -19.59)
+		(end 47.015 19.59)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a6666666-6666-6666-6666-666666666666")
+	)
+	(embedded_fonts no)
+)
