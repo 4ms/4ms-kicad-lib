@@ -3676,6 +3676,17 @@
 				(justify left)
 			)
 		)
+		(property "JLCPCB ID" "C2287"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Yellow_23mcd_0603"
 			(at 0 0 0)
 			(show_name no)
