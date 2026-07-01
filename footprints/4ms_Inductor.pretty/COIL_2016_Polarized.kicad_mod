@@ -1,13 +1,13 @@
 (footprint "COIL_2016_Polarized"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "L1"
 		(at 0 -3.53 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "59a28d1b-796e-4799-a499-d12ee58b57aa")
+		(uuid "2a27fe28-c3df-4f88-9173-01ba469dc45d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 3.683 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "2c31e9ed-092f-4c90-8715-2eff0de7d449")
+		(uuid "6d88edd3-fcfa-4212-bb88-033f62c852a2")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f35e78b2-222f-4719-9cad-e8826fcfab10")
+		(uuid "d345d5a6-7e21-41f0-950b-d9304496a9f5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b6f71f5e-8959-4199-8a05-397d10c0ff9f")
+		(uuid "fec3a5ff-4d64-4a67-9fa0-bf1a09ce781b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,27 +52,48 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start -1 -0.8)
-		(end 1 0.8)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -0.88)
+		(end 1 -0.88)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "af785bb9-be9a-4b47-9241-04a7628a5770")
+		(uuid "2cc8ddf5-41cf-4e13-a6ab-6c140e01a133")
+	)
+	(fp_line
+		(start 1 0.9)
+		(end -1 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "164ecf1c-a4f1-4c98-9575-9e2fcb3580a3")
 	)
 	(fp_circle
-		(center 0.59 -0.38)
-		(end 0.79 -0.38)
+		(center 0.89 -1.22)
+		(end 1.09 -1.22)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a83f839b-bfc0-46da-bbf9-adfe787a5cb3")
+		(uuid "d5b61463-5423-4648-9966-5ef31af42826")
+	)
+	(fp_rect
+		(start -1.75 -1.05)
+		(end 1.75 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "95d86127-4b64-44f3-8538-42787329ddf3")
 	)
 	(pad "1" smd roundrect
 		(at 1 0)
@@ -80,7 +101,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "0bd235db-0d25-4f7c-8342-b8729bef2984")
+		(uuid "cceb147c-d772-4adc-b9ad-781b11ebb026")
 	)
 	(pad "2" smd roundrect
 		(at -1 0)
@@ -88,7 +109,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "236544ca-cd69-4a64-aada-163c31feecb8")
+		(uuid "44046123-44af-4fa8-a8cc-603fa44c4ba2")
 	)
 	(embedded_fonts no)
 	(model "/Users/design/Google Drive/4ms/kicad/packages3d/SRN6045.wrl"
