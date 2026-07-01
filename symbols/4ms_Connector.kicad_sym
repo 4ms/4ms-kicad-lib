@@ -13080,7 +13080,6 @@
 	(symbol "ER-OLED1.09"
 		(pin_names
 			(offset 1.016)
-			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13091,6 +13090,7 @@
 			(at 0 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13098,7 +13098,7 @@
 			)
 		)
 		(property "Value" "ER-OLED1.09"
-			(at 0 -20.32 0)
+			(at 9.144 12.192 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13107,7 +13107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "4ms_Connector:ER-OLED1.09-FPC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13130,6 +13130,17 @@
 			)
 		)
 		(property "Description" "1.09 OLED Buydisplay symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C11087"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13163,340 +13174,15 @@
 			)
 		)
 		(symbol "ER-OLED1.09_1_1"
-			(polyline
-				(pts
-					(xy -1.27 15.24) (xy -0.508 15.24)
-				)
+			(rectangle
+				(start -1.27 19.05)
+				(end 10.16 -21.59)
 				(stroke
-					(width 0.1524)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 12.7) (xy -0.508 12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 10.16) (xy -0.508 10.16)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -0.508 7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 5.08) (xy -0.508 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 2.54) (xy -0.508 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 0) (xy -0.508 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy -0.508 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -5.08) (xy -0.508 -5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -7.62) (xy -0.508 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -10.16) (xy -0.508 -10.16)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -12.7) (xy -0.508 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -15.24) (xy -0.508 -15.24)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -17.78) (xy -0.508 -17.78)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 14.732)
-				(mid -0.5058 15.24)
-				(end 0 15.748)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 12.192)
-				(mid -0.5058 12.7)
-				(end 0 13.208)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 9.652)
-				(mid -0.5058 10.16)
-				(end 0 10.668)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 7.112)
-				(mid -0.5058 7.62)
-				(end 0 8.128)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 4.572)
-				(mid -0.5058 5.08)
-				(end 0 5.588)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 2.032)
-				(mid -0.5058 2.54)
-				(end 0 3.048)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -0.508)
-				(mid -0.5058 0)
-				(end 0 0.508)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -3.048)
-				(mid -0.5058 -2.54)
-				(end 0 -2.032)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -5.588)
-				(mid -0.5058 -5.08)
-				(end 0 -4.572)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -8.128)
-				(mid -0.5058 -7.62)
-				(end 0 -7.112)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -10.668)
-				(mid -0.5058 -10.16)
-				(end 0 -9.652)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -13.208)
-				(mid -0.5058 -12.7)
-				(end 0 -12.192)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -15.748)
-				(mid -0.5058 -15.24)
-				(end 0 -14.732)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -18.288)
-				(mid -0.5058 -17.78)
-				(end 0 -17.272)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin passive line
