@@ -973,7 +973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "file:///home/cantrell/Downloads/C965836.pdf"
 			(at 0.762 0 0)
 			(show_name no)
 			(do_not_autoplace no)
