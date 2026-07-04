@@ -1,7 +1,7 @@
 (footprint "L_Changjiang_FNR6045S"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Inductor, Changjiang, FNR6045S, 6.0x6.0x4.5mm, https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf")
 	(tags "Inductor wirewound power shielded")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "66e4fc6f-6c41-4a12-aa5c-0f48e121748c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -64,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.26 -3.26)
 		(end -3.26 -3.11)
@@ -218,15 +207,16 @@
 	(pad "1" smd rect
 		(at -2.25 0)
 		(size 1.7 5.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8c612ccf-a59f-47f8-bb8e-1e4906a75a4d")
 	)
 	(pad "2" smd rect
 		(at 2.25 0)
 		(size 1.7 5.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "952d8f65-9050-47ba-9dae-c8f0790e68eb")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FNR6045S.wrl"
 		(offset
 			(xyz 0 0 0)

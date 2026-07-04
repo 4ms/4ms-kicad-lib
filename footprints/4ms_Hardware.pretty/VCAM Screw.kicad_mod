@@ -1,7 +1,7 @@
 (footprint "VCAM Screw"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "H"
 		(at 0 -6 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "bc985765-c46c-44cf-be44-1fa269beccf0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fd7993de-3f81-4830-9140-becde2336665")
 		(effects
 			(font
 				(size 1 1)
@@ -66,6 +53,7 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 4.572 0)
@@ -73,7 +61,7 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "51482056-2fa2-490d-9b17-2780727fb88d")
 	)
@@ -85,8 +73,9 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3e8c8736-9507-4f7f-98c5-dab19ccec1c7")
 	)
+	(embedded_fonts no)
 )

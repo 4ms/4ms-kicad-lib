@@ -1,7 +1,7 @@
 (footprint "COIL_SRU1048"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "L?"
 		(at 0 -6.5 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "829ab40e-5d53-4512-99f6-58b89c4acf23")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,6 +50,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5 2.07)
 		(end -2.07 5)
@@ -205,15 +194,16 @@
 	(pad "1" smd rect
 		(at -4.5 0)
 		(size 1.8 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0d947761-39ea-4e65-a3c5-f6fb1dd4baf5")
 	)
 	(pad "2" smd rect
 		(at 4.5 0)
 		(size 1.8 3.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "98d6114e-938a-4292-a4c2-bab909018f3a")
 	)
+	(embedded_fonts no)
 	(model "${ALT3DMOD}/Inductors/SRU1048.stp"
 		(offset
 			(xyz 0 0 0)

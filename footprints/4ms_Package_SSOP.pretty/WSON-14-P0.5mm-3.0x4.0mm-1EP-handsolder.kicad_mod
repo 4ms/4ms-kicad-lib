@@ -1,7 +1,7 @@
 (footprint "WSON-14-P0.5mm-3.0x4.0mm-1EP-handsolder"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.125 0)
@@ -50,6 +50,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.3 -1.325)
 		(end -1.5 -2.125)

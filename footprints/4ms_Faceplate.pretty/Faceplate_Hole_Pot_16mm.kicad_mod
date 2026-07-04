@@ -1,11 +1,83 @@
-(module Faceplate_Hole_Pot_16mm (layer F.Cu) (tedit 5A7E457A)
-  (fp_text reference REF** (at 0.254 2.286) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Faceplate_Hole_Pot_16mm (at 0.58 4.95) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))
-  (fp_line (start -0.508 0) (end 0.508 0) (layer F.Fab) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 7.874 7.874) (drill 7.112) (layers *.Cu *.Mask))
+(footprint "Faceplate_Hole_Pot_16mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.254 2.286 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "808251a5-2adb-4571-87fe-fc68182a9a54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_Pot_16mm"
+		(at 0.58 4.95 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b8f5940-c9b9-4d08-95d1-05f85ae0b9fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d009e7ae-9823-4ec9-93dc-1f6ad6700d21")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db40c6ca-7a9b-495a-8d01-8450ef147b11")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.508 0)
+		(end 0.508 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "406072d6-6e5c-4107-90bc-2198d2a08aed")
+	)
+	(fp_line
+		(start 0 -0.508)
+		(end 0 0.508)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5783be3a-711f-413d-9b51-d2bf4642fd74")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.874 7.874)
+		(drill 7.112)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b294c42-2aca-4608-81f0-fe2bc3bf16c9")
+	)
+	(embedded_fonts no)
 )

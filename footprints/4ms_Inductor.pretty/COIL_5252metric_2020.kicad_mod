@@ -1,7 +1,7 @@
 (footprint "COIL_5252metric_2020"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "L1"
 		(at 0 -3.53 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8ae316ec-6161-4737-87d7-0b9ce6eec3e1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,6 +50,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.6 -2.6)
 		(end -2.6 -1.6)
@@ -165,15 +154,16 @@
 	(pad "1" smd rect
 		(at -2.4255 0)
 		(size 1.905 2.79)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9482a16d-0d1f-49f4-9cd1-653905c4fec0")
 	)
 	(pad "2" smd rect
 		(at 2.4255 0)
 		(size 1.905 2.79)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "92f7e2f5-d313-4701-837b-c5f9de9757ce")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_4MS_LIBS}/packages3d/Inductors/SRN5040.wrl"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "PER231P19N0010"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "PER231-P19-N0010-3")
 	(tags "Integrated Circuit")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 3 13.05 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c6abca09-8512-4f46-89a6-7f34682dd3a2")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -65,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 3 14.25)
 		(end 3 14.25)
@@ -157,7 +146,7 @@
 			(width 0.5)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "789e7648-1db4-4a62-91b7-7830a6b8412d")
 	)
@@ -168,7 +157,7 @@
 			(width 0.4)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "ee27e1d7-4ec9-4063-a7ff-805052c4496e")
 	)
@@ -298,6 +287,7 @@
 		(remove_unused_layers no)
 		(uuid "1a09e02b-fc70-4356-bcdc-f2d569351bfa")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_4MS_LIBS}/3dmodels/Potentiometer.3dshapes/PER231-P19-N0010.step"
 		(offset
 			(xyz 0 0 0.8)

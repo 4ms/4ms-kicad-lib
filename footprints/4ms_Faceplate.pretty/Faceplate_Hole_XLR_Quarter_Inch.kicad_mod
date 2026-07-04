@@ -1,16 +1,92 @@
-(module Faceplate_Hole_XLR_Quarter_Inch (layer F.Cu) (tedit 5C8FF98D)
-  (fp_text reference J (at -3.556 -12.446) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
-  )
-  (fp_text value XLR (at 1.016 -12.446) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 22.5 22.5) (drill 22) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 9.9 9.9) (size 3.4 3.4) (drill 3.2) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at -9.9 -9.9) (size 3.4 3.4) (drill 3.2) (layers *.Cu *.Mask))
-  (model ${KICAD_4MS_LIBS}/packages3d/RK09K1130-20.wrl
-    (offset (xyz 0 0 6.5))
-    (scale (xyz 393 393 393))
-    (rotate (xyz 0 180 180))
-  )
+(footprint "Faceplate_Hole_XLR_Quarter_Inch"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J"
+		(at -3.556 -12.446 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ea5866df-92d6-4abc-bca5-b4b109dcb03c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "XLR"
+		(at 1.016 -12.446 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4f79b35e-90e2-4d6b-969e-5b6e9e434da9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3de47d06-34e6-4596-9e4e-ace3d26b3c24")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b40a48b1-8287-4a1b-a13e-19d867d42096")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at -9.9 -9.9)
+		(size 3.4 3.4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7560a859-4ca5-4ba5-a36e-3c5f0669ccc0")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 22.5 22.5)
+		(drill 22)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02df3b7e-3351-4ded-82b4-c29595ea13da")
+	)
+	(pad "1" thru_hole circle
+		(at 9.9 9.9)
+		(size 3.4 3.4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a61fe9ff-95ae-40d1-85fb-7a879de21040")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_4MS_LIBS}/packages3d/RK09K1130-20.wrl"
+		(offset
+			(xyz 0 0 6.5)
+		)
+		(scale
+			(xyz 393 393 393)
+		)
+		(rotate
+			(xyz 0 180 180)
+		)
+	)
 )

@@ -1,7 +1,7 @@
 (footprint "4msLogo_3.8x1.7mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "G***"
 		(at 0.07 -2.01 0)
@@ -54,6 +54,7 @@
 	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
 		dnp
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -0.998054 -0.836242) (xy -0.945795 -0.794112) (xy -0.921435 -0.759096) (xy -0.913506 -0.741522)

@@ -1,14 +1,63 @@
-(footprint "Faceplate_Hole_Button_PB20" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5A7E3E31)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0.127 7.866) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d3157e1e-9511-46d4-99e2-72d400de161b)
-  )
-  (fp_text value "Faceplate_Hole_Button_PB20" (at -0.127 5.977) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0474dda5-8bda-4399-ac9a-da526a1999e1)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 9.76 9.76) (drill 9.5) (layers *.Cu *.Mask) (tstamp c43da5c0-73c7-45d9-bda6-56c7872884a8))
+(footprint "Faceplate_Hole_Button_PB20"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.127 7.866 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3157e1e-9511-46d4-99e2-72d400de161b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_Button_PB20"
+		(at -0.127 5.977 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0474dda5-8bda-4399-ac9a-da526a1999e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f57d4558-7e59-4db4-8f6f-ba7ffa85ea5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7591e7f5-8a81-4461-b883-c032c8d82a39")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 9.76 9.76)
+		(drill 9.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c43da5c0-73c7-45d9-bda6-56c7872884a8")
+	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (footprint "JUMPER_SMD_1x3_tiny_shorted12"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Net tie, 3 pin, SMD pads, pads 1 and 2 shorted")
 	(tags "net tie")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -0.01 0.02 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "285f4aa3-d725-404b-953d-d7481e725a9b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -70,6 +57,7 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom dnp)
 	(net_tie_pad_groups "1, 2, 3")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -0.53 -0.13) (xy -0.19 -0.13) (xy -0.19 0.14) (xy -0.53 0.14)
@@ -78,7 +66,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "ffdfa925-0838-4af2-94fa-162bbdd5fc3d")
 	)
@@ -129,29 +117,30 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "90358fda-8a7b-4a59-bd06-31d404348b3f")
 	)
 	(pad "1" smd rect
 		(at -0.68 0)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.175)
 		(uuid "99f1ada1-801b-4695-84e4-6b72e01e808a")
 	)
 	(pad "2" smd rect
 		(at 0 0)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.175)
 		(uuid "4fcbe4a0-1b75-4523-a921-ed2ba0e97dc9")
 	)
 	(pad "3" smd rect
 		(at 0.68 0)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.175)
 		(uuid "74c74f27-3920-46b4-864c-970721c2bc13")
 	)
+	(embedded_fonts no)
 )

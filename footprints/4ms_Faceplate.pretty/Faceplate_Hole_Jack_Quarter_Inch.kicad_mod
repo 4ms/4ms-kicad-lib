@@ -1,9 +1,63 @@
-(module Faceplate_Hole_Jack_Quarter_Inch (layer F.Cu) (tedit 5A7E4E59)
-  (fp_text reference REF** (at 0.22 8.23) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Faceplate_Hole_Jack_quarter_inch (at 1.47 6.53) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 11 11) (drill 10) (layers *.Cu *.Mask))
+(footprint "Faceplate_Hole_Jack_Quarter_Inch"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.22 8.23 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cfc091a-ff85-4af3-bd4b-9e0d36de47c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_Jack_quarter_inch"
+		(at 1.47 6.53 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88b3c469-e883-481b-b6b9-0505d9cbedd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "283341b9-5d3d-46a9-b30e-dc7e87788ef5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d357e13-8840-4788-8576-4c4666248000")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 11 11)
+		(drill 10)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5fa5055e-8daf-418a-bcef-727aacbfa4b0")
+	)
+	(embedded_fonts no)
 )

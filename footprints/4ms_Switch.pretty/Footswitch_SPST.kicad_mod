@@ -1,7 +1,7 @@
 (footprint "Footswitch_SPST"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "SW"
 		(at 0 -3.5 0)
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2284ac50-7e52-44b6-b042-62e054670f9f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "086f7dd6-a817-492a-ae64-416cc5042e82")
 		(effects
 			(font
 				(size 1 1)
@@ -80,6 +67,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -6.5 -12.75)
 		(end 6.5 12.75)
@@ -87,7 +75,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "da76a987-24b2-4c8a-9387-c81d205b819a")
 	)
@@ -119,4 +107,5 @@
 		(remove_unused_layers no)
 		(uuid "5a79002a-db37-4e7a-9e22-a6c5b6bc3d0c")
 	)
+	(embedded_fonts no)
 )
