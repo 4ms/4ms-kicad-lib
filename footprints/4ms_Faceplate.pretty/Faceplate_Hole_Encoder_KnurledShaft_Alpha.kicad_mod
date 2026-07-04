@@ -1,10 +1,64 @@
-(module Faceplate_Hole_Encoder_KnurledShaft_Alpha (layer F.Cu) (tedit 5C9427F7)
-  (tags "Rotary Encoder RGB")
-  (fp_text reference REF** (at 0.15 6.18) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Faceplate_Hole_Encoder_KnurledShaft_Alpha (at -0.05 4.68) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 7.874 7.874) (drill 7.62) (layers *.Cu *.Mask))
+(footprint "Faceplate_Hole_Encoder_KnurledShaft_Alpha"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "Rotary Encoder RGB")
+	(property "Reference" "REF**"
+		(at 0.15 6.18 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e929f59-722d-483e-94d7-711cf907017d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_Encoder_KnurledShaft_Alpha"
+		(at -0.05 4.68 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a3e66b2-7095-4c24-82ac-c3e774c9316e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c53db3e-2184-40e2-91b5-d13928461559")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35798b64-c1a5-453b-bbc9-505b5ac67eca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.874 7.874)
+		(drill 7.62)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72142ee0-802b-49ae-a988-eec2981e6f6d")
+	)
+	(embedded_fonts no)
 )

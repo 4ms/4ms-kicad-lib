@@ -1,12 +1,95 @@
-(module Faceplate_Slide_Switch_MS2201L6_Nexsun (layer F.Cu) (tedit 5A7E4FCE)
-  (fp_text reference REF** (at -0.2 4.7) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Faceplate_Slide_Switch_MS2201L6_Nexsun (at 0.91 2.94) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -4.19 -2) (end 4.19 -2) (layer Edge.Cuts) (width 0.01))
-  (fp_line (start 4.19 2) (end 4.19 -2) (layer Edge.Cuts) (width 0.01))
-  (fp_line (start 4.19 2) (end -4.19 2) (layer Edge.Cuts) (width 0.01))
-  (fp_line (start -4.19 -2) (end -4.19 2) (layer Edge.Cuts) (width 0.01))
+(footprint "Faceplate_Slide_Switch_MS2201L6_Nexsun"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.2 4.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41eddfa7-a28f-4727-8a8f-73c2b52cfaef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Slide_Switch_MS2201L6_Nexsun"
+		(at 0.91 2.94 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5d77c5d-4a04-4aaa-9dcc-d162419643ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fa05d39-65c6-49d1-8da4-cb065295965a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2af2e555-16a3-4473-b1aa-47e569789b24")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.19 -2)
+		(end -4.19 2)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5c49b41d-cbf5-4101-ba37-d657de5ce6d5")
+	)
+	(fp_line
+		(start -4.19 -2)
+		(end 4.19 -2)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "17be6a73-1551-4cca-ac6e-14fd92834e9b")
+	)
+	(fp_line
+		(start 4.19 2)
+		(end -4.19 2)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "54aff3dd-a35d-46e0-8b79-b2d762607f01")
+	)
+	(fp_line
+		(start 4.19 2)
+		(end 4.19 -2)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b9c94302-a82e-4879-a845-77215799ef8a")
+	)
+	(embedded_fonts no)
 )

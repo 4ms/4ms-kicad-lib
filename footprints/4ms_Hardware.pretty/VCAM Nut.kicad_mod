@@ -1,7 +1,7 @@
 (footprint "VCAM Nut"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "H"
 		(at 0 -5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "74f5837e-4d70-4e9d-b41d-bd4765919c04")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3926a76a-11b3-4489-bf7e-b1d235048eb5")
 		(effects
 			(font
 				(size 1 1)
@@ -66,6 +53,7 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 2.032 0)
@@ -73,7 +61,7 @@
 			(width 0.254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "23b67aef-fd63-49ff-8041-2f68e9574a97")
 	)
@@ -85,8 +73,9 @@
 			(width 0.254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4efe7a33-67f3-4317-919c-19b53ba1d2c0")
 	)
+	(embedded_fonts no)
 )

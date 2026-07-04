@@ -1,7 +1,7 @@
 (footprint "COIL_6045"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "L1"
 		(at 0 -4.18 0)
@@ -51,6 +51,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.302 -2.032)
 		(end -3.302 -0.381)

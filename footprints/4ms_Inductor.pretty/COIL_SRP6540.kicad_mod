@@ -1,7 +1,7 @@
 (footprint "COIL_SRP6540"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.1016 -4.2164 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "17e26609-65b5-4699-9bb6-11aaa0002131")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,6 +50,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.6 -3.25)
 		(end -3.6 -2)
@@ -165,15 +154,16 @@
 	(pad "1" smd rect
 		(at -2.775 0)
 		(size 1.85 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "727fd2d8-b22f-4719-b08c-8654926bf33c")
 	)
 	(pad "2" smd rect
 		(at 2.775 0)
 		(size 1.85 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "28bd060b-bb78-48af-84ca-1bc0cb219b88")
 	)
+	(embedded_fonts no)
 	(model "${ALT3DMOD}/Inductors/SRP6540.stp"
 		(offset
 			(xyz 0 0 2)

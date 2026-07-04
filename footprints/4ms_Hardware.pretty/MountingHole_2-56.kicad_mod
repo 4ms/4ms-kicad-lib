@@ -1,12 +1,75 @@
-(module MountingHole_2-56 (layer F.Cu) (tedit 5A81F587)
-  (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
-  (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
-  (fp_text reference M? (at -2.36 -2.08) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "2-56 Screw" (at -0.02 2.87) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 0) (end 2.2225 0) (layer F.CrtYd) (width 0.1))
-  (pad 1 thru_hole circle (at 0 0) (size 2.6924 2.6924) (drill 2.286) (layers *.Cu))
+(footprint "MountingHole_2-56"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+	(tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+	(property "Reference" "M?"
+		(at -2.36 -2.08 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5741325f-c4fa-45d1-a17d-c382564e9f25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2-56 Screw"
+		(at -0.02 2.87 0)
+		(layer "F.Fab")
+		(uuid "e991938f-5d57-4e9c-b1de-152e572cb286")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47d2f4d1-8699-4ea7-ba65-16e316b87db6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47de4ce2-3697-460e-8d35-cd10089b8628")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 2.2225 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "472c10d4-e7aa-461b-b8c4-797e89f93c59")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.6924 2.6924)
+		(drill 2.286)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "ff1e267c-d3a2-4ab0-80af-e3d0cf64d7d5")
+	)
+	(embedded_fonts no)
 )

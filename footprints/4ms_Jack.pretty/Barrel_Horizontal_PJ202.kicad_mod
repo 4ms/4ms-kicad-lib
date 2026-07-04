@@ -1,7 +1,7 @@
 (footprint "Barrel_Horizontal_PJ202"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "DC Barrel Jack PJ202")
 	(tags "Power Jack PJ202 Barrel DC")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.635 -10.725)
 		(end 4.565 -10.725)
@@ -334,10 +335,11 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 2.915 0.075 270)
+	(fp_text user "Sleeve"
+		(at 0 -0.635 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "81e747e0-4946-4f17-a33f-e0465332937e")
+		(uuid "ea049b97-6a25-4617-8ad8-02c8a7d3702a")
 		(effects
 			(font
 				(size 1 1)
@@ -357,11 +359,10 @@
 			)
 		)
 	)
-	(fp_text user "Sleeve"
-		(at 0 -0.635 0)
-		(unlocked yes)
+	(fp_text user "${REFERENCE}"
+		(at 2.915 0.075 270)
 		(layer "F.Fab")
-		(uuid "ea049b97-6a25-4617-8ad8-02c8a7d3702a")
+		(uuid "81e747e0-4946-4f17-a33f-e0465332937e")
 		(effects
 			(font
 				(size 1 1)

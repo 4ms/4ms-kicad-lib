@@ -1,14 +1,63 @@
-(footprint "Faceplate_Hole_Encoder_290" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5A7E3E31)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0.127 7.866) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp fef47bed-8fdc-46df-9de3-e90bb0be53cd)
-  )
-  (fp_text value "Faceplate_Hole_Encoder_290" (at -0.127 5.977) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 194397ec-49bb-4246-ba43-1a78d7ff00b2)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 7.62 7.62) (drill 7.366) (layers *.Cu *.Mask) (tstamp 49aa76e0-2452-4b47-8725-7dbab2196d8e))
+(footprint "Faceplate_Hole_Encoder_290"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.127 7.866 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fef47bed-8fdc-46df-9de3-e90bb0be53cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_Encoder_290"
+		(at -0.127 5.977 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "194397ec-49bb-4246-ba43-1a78d7ff00b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bd74c69-8942-4e09-97c4-fca0d286e773")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0719b8dd-0c0a-4d6b-b28f-52eebd0ff15e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.62 7.62)
+		(drill 7.366)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49aa76e0-2452-4b47-8725-7dbab2196d8e")
+	)
+	(embedded_fonts no)
 )

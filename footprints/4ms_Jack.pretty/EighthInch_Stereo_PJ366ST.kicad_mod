@@ -1,7 +1,7 @@
 (footprint "EighthInch_Stereo_PJ366ST"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.61 6.76 0)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.2022 -5)
 		(end 4.3058 -5)
@@ -179,10 +180,10 @@
 		(layer "F.CrtYd")
 		(uuid "97217fef-0675-4f60-9dd6-9c2576686322")
 	)
-	(fp_text user "STEREO"
-		(at 1.397 3.556 0)
+	(fp_text user "GREEN"
+		(at -3.048 -3.429 0)
 		(layer "F.SilkS")
-		(uuid "61928f0d-e227-48f6-96e2-758b7fe486a3")
+		(uuid "a8533986-1b83-490f-93df-dbcc1cf6427f")
 		(effects
 			(font
 				(size 1 1)
@@ -190,10 +191,10 @@
 			)
 		)
 	)
-	(fp_text user "GREEN"
-		(at -3.048 -3.429 0)
+	(fp_text user "STEREO"
+		(at 1.397 3.556 0)
 		(layer "F.SilkS")
-		(uuid "a8533986-1b83-490f-93df-dbcc1cf6427f")
+		(uuid "61928f0d-e227-48f6-96e2-758b7fe486a3")
 		(effects
 			(font
 				(size 1 1)

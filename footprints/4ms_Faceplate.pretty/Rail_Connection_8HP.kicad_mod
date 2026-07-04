@@ -1,9 +1,61 @@
-(module Rail_Connection_8HP (layer F.Cu) (tedit 5E348BF6)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Rail_Connection_8HP (at 0 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at 0 0) (size 39 6) (layers F.Cu F.Paste F.Mask))
+(footprint "Rail_Connection_8HP"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2f154a0c-2ba2-4196-a2d3-b4599b64656b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Rail_Connection_8HP"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f239424-aedb-49d0-8fa8-b6137662d868")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de58408f-bcb1-46b8-a6ce-90d7ef578fda")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65d3b9f4-cbdf-4dc9-9512-9200015e3848")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 39 6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e6e40fc3-259b-41df-a3ec-38a56efd0086")
+	)
+	(embedded_fonts no)
 )
