@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0.135 -9.305 0)
 		(layer "F.SilkS")
-		(uuid "900bf4bc-6fd1-4942-9228-b967587c0a24")
+		(uuid "018c6663-b4bc-463c-af90-d51f9673c8e4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17,7 +17,7 @@
 	(property "Value" "MIDI_DIN5_SameSky_SD-50BV"
 		(at 3.231 10.288 0)
 		(layer "F.Fab")
-		(uuid "7be7c57e-d682-4010-8c5b-c7e4639974d1")
+		(uuid "db448dda-9a52-4e43-a202-0b6828091d44")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2c2c0135-2f10-470f-b909-45663004c8c3")
+		(uuid "fe457aaa-e7b5-4a95-8d90-7ee37839e050")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4569b99e-2b39-4806-adc9-835c394b9802")
+		(uuid "60f06ecd-d379-46e2-8d2f-87f5365c5234")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -82,6 +82,17 @@
 		(fill no)
 		(layer "Dwgs.User")
 		(uuid "053fd204-df69-494b-b46d-f3884490fc71")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "595ebb8e-e628-4555-bcf9-2da885faf942")
 	)
 	(fp_circle
 		(center 0 0)
