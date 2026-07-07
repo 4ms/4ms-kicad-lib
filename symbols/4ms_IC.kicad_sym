@@ -120224,6 +120224,30 @@
 					(type none)
 				)
 			)
+			(text "ADC1 ch. 10"
+				(at 5.08 39.37 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.27 1.27)
+						(bold yes)
+						(color 238 71 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "ADC1 ch. 3"
+				(at 5.08 29.21 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.27 1.27)
+						(bold yes)
+						(color 238 71 255 1)
+					)
+					(justify right)
+				)
+			)
 			(text "ADC GND"
 				(at 5.08 19.05 0)
 				(effects
@@ -120248,7 +120272,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 16"
+			(text "ADC3 ch. 6"
 				(at 5.08 13.97 0)
 				(effects
 					(font
@@ -120260,7 +120284,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 15"
+			(text "ADC3 ch. 2"
 				(at 5.08 11.43 0)
 				(effects
 					(font
@@ -120272,7 +120296,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 13"
+			(text "ADC1 ch. 4"
 				(at 5.08 8.89 0)
 				(effects
 					(font
@@ -120284,7 +120308,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 12"
+			(text "ADC1 ch. 2"
 				(at 5.08 6.35 0)
 				(effects
 					(font
@@ -120296,7 +120320,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 11"
+			(text "ADC1 ch. 6"
 				(at 5.08 3.81 0)
 				(effects
 					(font
@@ -120308,7 +120332,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 17"
+			(text "ADC1 ch. 17"
 				(at 5.08 1.27 0)
 				(effects
 					(font
@@ -120320,7 +120344,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 9"
+			(text "ADC1 ch. 15"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -120332,7 +120356,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 14"
+			(text "ADC1 ch. 7"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -120344,7 +120368,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 5"
+			(text "ADC3 ch. 9"
 				(at 5.08 -6.35 0)
 				(effects
 					(font
@@ -120356,7 +120380,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 8"
+			(text "ADC1 ch. 13"
 				(at 5.08 -8.89 0)
 				(effects
 					(font
@@ -120368,7 +120392,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 4"
+			(text "ADC3 ch. 4"
 				(at 5.08 -11.43 0)
 				(effects
 					(font
@@ -120380,7 +120404,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 10"
+			(text "ADC1 ch. 16"
 				(at 5.08 -13.97 0)
 				(effects
 					(font
@@ -120392,7 +120416,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 7"
+			(text "ADC1 ch. 5"
 				(at 5.08 -16.51 0)
 				(effects
 					(font
@@ -120404,7 +120428,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 19"
+			(text "ADC1 ch. 11"
 				(at 5.08 -19.05 0)
 				(effects
 					(font
@@ -120416,7 +120440,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 3"
+			(text "ADC1 ch. 8"
 				(at 5.08 -21.59 0)
 				(effects
 					(font
@@ -120428,7 +120452,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 18"
+			(text "ADC1 ch. 12"
 				(at 5.08 -24.13 0)
 				(effects
 					(font
@@ -120440,7 +120464,7 @@
 					(justify right)
 				)
 			)
-			(text "ADC ch. 2"
+			(text "ADC3 ch. 8"
 				(at 5.08 -26.67 0)
 				(effects
 					(font
@@ -120484,6 +120508,18 @@
 						(size 1.27 1.27)
 						(bold yes)
 						(color 0 0 0 1)
+					)
+					(justify right)
+				)
+			)
+			(text "ADC1 ch. 9"
+				(at 5.08 -41.91 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.27 1.27)
+						(bold yes)
+						(color 238 71 255 1)
 					)
 					(justify right)
 				)
@@ -121235,7 +121271,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Connector_Card:mp257-devboard-sockets_C"
-			(at 0 -57.15 0)
+			(at 1.27 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121244,7 +121280,7 @@
 			)
 		)
 		(property "Datasheet" "https://github.com/4ms/mp153-devboard/tree/mp25x/mp257/v0.1"
-			(at 0 -59.69 0)
+			(at 1.27 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121253,7 +121289,7 @@
 			)
 		)
 		(property "Description" "Socket C for an mp257-devboard v0.1 (requires Sockets A and B)"
-			(at 0 -62.23 0)
+			(at 1.27 -39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121304,6 +121340,32 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(symbol "mp257-devboard-v0.1-socket-C_0_1"
+			(polyline
+				(pts
+					(xy -19.05 -2.54) (xy -11.43 -2.54) (xy -11.43 -7.62) (xy -19.05 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 19.05 15.24) (xy 0 15.24) (xy 0 10.16) (xy -19.05 10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 		)
 		(symbol "mp257-devboard-v0.1-socket-C_1_1"
@@ -121758,6 +121820,310 @@
 					(type none)
 				)
 			)
+			(text "B2"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "DE"
+				(at -10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "B4"
+				(at -10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "B3"
+				(at -10.16 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "B5"
+				(at -10.16 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "G6"
+				(at -10.16 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "B6"
+				(at -10.16 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "B7"
+				(at -10.16 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "G1"
+				(at -10.16 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "R0"
+				(at -10.16 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "R1"
+				(at -10.16 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "G0"
+				(at -10.16 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify left)
+				)
+			)
+			(text "DSI"
+				(at 1.27 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "LTDC"
+				(at 2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "VSYNC"
+				(at 10.16 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "HSYNC"
+				(at 10.16 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "G2"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "G3"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "G4"
+				(at 10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "B1"
+				(at 10.16 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "G5"
+				(at 10.16 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "G7"
+				(at 10.16 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "R2"
+				(at 10.16 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "CLK"
+				(at 10.16 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "R4"
+				(at 10.16 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "R3"
+				(at 10.16 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "R5"
+				(at 10.16 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "R6"
+				(at 10.16 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "B0"
+				(at 10.16 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
+			(text "R7"
+				(at 10.16 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 51 255 1)
+					)
+					(justify right)
+				)
+			)
 			(pin passive line
 				(at -24.13 24.13 0)
 				(length 5.08)
@@ -121869,7 +122235,7 @@
 			(pin passive line
 				(at -24.13 8.89 0)
 				(length 5.08)
-				(name "LTDC_B2"
+				(name "PG15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -121887,7 +122253,7 @@
 			(pin passive line
 				(at -24.13 6.35 0)
 				(length 5.08)
-				(name "LTDC_DE"
+				(name "PI5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -121905,7 +122271,7 @@
 			(pin passive line
 				(at -24.13 3.81 0)
 				(length 5.08)
-				(name "LTDC_B4"
+				(name "PI1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -121923,7 +122289,7 @@
 			(pin passive line
 				(at -24.13 1.27 0)
 				(length 5.08)
-				(name "LTDC_B3"
+				(name "PI0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -121941,7 +122307,7 @@
 			(pin passive line
 				(at -24.13 -1.27 0)
 				(length 5.08)
-				(name "LTDC_B5"
+				(name "PI2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -121995,7 +122361,7 @@
 			(pin passive line
 				(at -24.13 -8.89 0)
 				(length 5.08)
-				(name "LTDC_G6"
+				(name "PG12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122013,7 +122379,7 @@
 			(pin passive line
 				(at -24.13 -11.43 0)
 				(length 5.08)
-				(name "LTDC_B6"
+				(name "PI3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122031,7 +122397,7 @@
 			(pin passive line
 				(at -24.13 -13.97 0)
 				(length 5.08)
-				(name "LTDC_B7"
+				(name "PI4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122049,7 +122415,7 @@
 			(pin passive line
 				(at -24.13 -16.51 0)
 				(length 5.08)
-				(name "LTDC_G1"
+				(name "PH5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122067,7 +122433,7 @@
 			(pin passive line
 				(at -24.13 -19.05 0)
 				(length 5.08)
-				(name "LTDC_R0"
+				(name "PH4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122085,7 +122451,7 @@
 			(pin passive line
 				(at -24.13 -21.59 0)
 				(length 5.08)
-				(name "LTDC_R1"
+				(name "PF7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122103,7 +122469,7 @@
 			(pin passive line
 				(at -24.13 -24.13 0)
 				(length 5.08)
-				(name "LTDC_G0"
+				(name "PF8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122193,7 +122559,7 @@
 			(pin passive line
 				(at 24.13 13.97 180)
 				(length 5.08)
-				(name "LTDC_VSYNC"
+				(name "PI6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122211,7 +122577,7 @@
 			(pin passive line
 				(at 24.13 11.43 180)
 				(length 5.08)
-				(name "LTDC_HSYNC"
+				(name "PI7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122229,7 +122595,7 @@
 			(pin passive line
 				(at 24.13 8.89 180)
 				(length 5.08)
-				(name "LTDC_G2"
+				(name "PG8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122247,7 +122613,7 @@
 			(pin passive line
 				(at 24.13 6.35 180)
 				(length 5.08)
-				(name "LTDC_G3"
+				(name "PG9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122265,7 +122631,7 @@
 			(pin passive line
 				(at 24.13 3.81 180)
 				(length 5.08)
-				(name "LTDC_G4"
+				(name "PG10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122283,7 +122649,7 @@
 			(pin passive line
 				(at 24.13 1.27 180)
 				(length 5.08)
-				(name "LTDC_B1"
+				(name "PG14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122301,7 +122667,7 @@
 			(pin passive line
 				(at 24.13 -1.27 180)
 				(length 5.08)
-				(name "LTDC_G5"
+				(name "PG11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122319,7 +122685,7 @@
 			(pin passive line
 				(at 24.13 -3.81 180)
 				(length 5.08)
-				(name "LTDC_G7"
+				(name "PG13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122337,7 +122703,7 @@
 			(pin passive line
 				(at 24.13 -6.35 180)
 				(length 5.08)
-				(name "LTDC_R2"
+				(name "PF13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122355,7 +122721,7 @@
 			(pin passive line
 				(at 24.13 -8.89 180)
 				(length 5.08)
-				(name "LTDC_CLK"
+				(name "PF12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122373,7 +122739,7 @@
 			(pin passive line
 				(at 24.13 -11.43 180)
 				(length 5.08)
-				(name "LTDC_R4"
+				(name "PF15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122391,7 +122757,7 @@
 			(pin passive line
 				(at 24.13 -13.97 180)
 				(length 5.08)
-				(name "LTDC_R3"
+				(name "PF14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122409,7 +122775,7 @@
 			(pin passive line
 				(at 24.13 -16.51 180)
 				(length 5.08)
-				(name "LTDC_R5"
+				(name "PG5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122427,7 +122793,7 @@
 			(pin passive line
 				(at 24.13 -19.05 180)
 				(length 5.08)
-				(name "LTDC_R6"
+				(name "PG6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122445,7 +122811,7 @@
 			(pin passive line
 				(at 24.13 -21.59 180)
 				(length 5.08)
-				(name "LTDC_B0"
+				(name "PI9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -122463,7 +122829,7 @@
 			(pin passive line
 				(at 24.13 -24.13 180)
 				(length 5.08)
-				(name "LTDC_R7"
+				(name "PG7"
 					(effects
 						(font
 							(size 1.27 1.27)
