@@ -1,0 +1,159 @@
+(footprint "LED_5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins")
+	(tags "LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins")
+	(property "Reference" "LED"
+		(at 0 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "21fcda94-f132-411e-9635-d6ce0984abe6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "?"
+		(at 13.56 17.92 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cda7b008-6155-4b34-b1b0-46c22810e5d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f56a9b0b-1efe-4ad1-8db9-03f05ba202d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4750fec0-60ff-43c4-9d02-a6fbcf311d4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 2.25 -0.75)
+		(end 2.25 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "787ff214-e254-453b-940a-7f121c2cf531")
+	)
+	(fp_line
+		(start 2.5 -1)
+		(end 2.5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e1ecd04e-0450-43bd-a035-927973169479")
+	)
+	(fp_arc
+		(start 2.25 0.75)
+		(mid -2.371708 0)
+		(end 2.25 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "13abffa6-49a4-4390-8620-bd42adc69b09")
+	)
+	(fp_arc
+		(start 2.5 1)
+		(mid -2.692582 0)
+		(end 2.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e3ec39c-b4c3-4db5-9a7c-6be357e1dbc0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1f92ac75-58f5-4ba4-8c38-33389883e85c")
+	)
+	(fp_text user "+"
+		(at -0.75 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "6b8187e0-a8bd-40eb-948c-744bda94c44b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 1 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "71671fad-afd2-4af2-b683-286983e08fce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.27 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e251247e-5ab8-467d-acd9-a0efc3c3b887")
+	)
+	(pad "2" thru_hole rect
+		(at -1.27 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ed0c759-046d-4c13-ae69-a52415e8c25e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/LEDs.3dshapes/LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm.wrl"
+		(offset
+			(xyz -32.25799952 114.2999983 -139.6999979)
+		)
+		(scale
+			(xyz 0.3937 0.3937 0.3937)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
