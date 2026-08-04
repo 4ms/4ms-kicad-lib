@@ -33727,7 +33727,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias"
+		(property "Footprint" "4ms_Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias"
 			(at 0 44.45 0)
 			(effects
 				(font
