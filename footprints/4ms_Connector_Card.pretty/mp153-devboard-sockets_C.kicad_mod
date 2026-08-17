@@ -4150,10 +4150,9 @@
 			(xyz -90 -0 -90)
 		)
 	)
-	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_Card.3dshapes/mp153-devboard.step"
-		(hide yes)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_Card.3dshapes/mp257-devboard-v0.1.step"
 		(offset
-			(xyz 3.3 19.95 4.6)
+			(xyz 21.78 1.8 6.1)
 		)
 		(scale
 			(xyz 1 1 1)
