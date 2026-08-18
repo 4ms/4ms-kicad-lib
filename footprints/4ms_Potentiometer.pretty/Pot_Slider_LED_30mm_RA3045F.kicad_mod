@@ -93,7 +93,7 @@
 		(layer "F.CrtYd")
 		(uuid "a93f93ec-e541-4b0a-a710-dbb11d14979b")
 	)
-	(pad "A" thru_hole circle
+	(pad "LEDA" thru_hole circle
 		(at 3.75 -20 90)
 		(size 1.651 1.651)
 		(drill 0.889)
@@ -101,7 +101,7 @@
 		(remove_unused_layers no)
 		(uuid "b8419f7f-26a9-4b22-ae60-68bccedff1bd")
 	)
-	(pad "C" thru_hole circle
+	(pad "LEDC" thru_hole circle
 		(at 3.75 20 90)
 		(size 1.651 1.651)
 		(drill 0.889)
