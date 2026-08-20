@@ -1747,7 +1747,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x30_FPC_ER-TFT050-10"
+		(property "Value" "Conn_01x30_FPC_ER-TFT028-2"
 			(at 0 -40.64 0)
 			(effects
 				(font
