@@ -1,0 +1,244 @@
+(footprint "SW_TH_Tactile_TL1105SPF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile switch, 6x6 mm, E-Switch TL1105SPF series, https://www.mouser.com/datasheet/3/315/1/TL1105.pdf")
+	(tags "E-Switch TL1105SPF SPST 1P1T tact")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "56da2f72-48c6-4931-98cf-402795c55409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_TH_Tactile_TL1105SPF"
+		(at 3.25 6.5 0)
+		(layer "F.Fab")
+		(uuid "ddb3dc3e-87f5-4945-a1a5-4355a10ba6c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f2718f9-52a9-4560-88b5-77082050e8af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dd56c0d-158d-45d6-9301-3edec75b1504")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.12 1.1)
+		(end -3.12 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c94a4e9-1174-47a0-8ea7-535a2fd94320")
+	)
+	(fp_line
+		(start -2.5 -3.12)
+		(end 2.5 -3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f56929aa-4f43-4cf0-afcf-1e753936199a")
+	)
+	(fp_line
+		(start -2.5 3.12)
+		(end 2.5 3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c23f089c-1ce8-4588-ad66-e079151fa2d1")
+	)
+	(fp_line
+		(start 3.12 -1.1)
+		(end 3.12 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d644a8e-4bab-4f5a-aea4-6c6192573a86")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aadabcd6-d7e7-4f42-ae6c-943db4c0b843")
+	)
+	(fp_line
+		(start -4.35 -3.35)
+		(end -4.35 3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac23fafa-5f7b-4a09-b11b-a06789adfb72")
+	)
+	(fp_line
+		(start -4.35 -3.35)
+		(end 4.35 -3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b11584b-9d66-4aa3-96fd-76a897fc93fa")
+	)
+	(fp_line
+		(start -4.35 3.35)
+		(end 4.35 3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cc3d14b-01c8-4a2c-a948-4f2ccaabf8cb")
+	)
+	(fp_line
+		(start 4.35 3.35)
+		(end 4.35 -3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24d6b957-c7fb-4c3a-9505-ad61ebaba5de")
+	)
+	(fp_line
+		(start -3 -3)
+		(end -3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dafb860-7973-424f-9a6f-8ecbc1d797c9")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35c968f5-2542-4052-bde1-ae7022d7040f")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8db81cdb-f828-4d43-8605-c2e665d45d8e")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9364eb75-2bff-4b07-a672-6df4daf84594")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2c633eb2-9b7d-4a51-8d16-9f2eb3a5bf04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.25 2.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e0615538-25af-4cae-9d74-730d5febc400")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 2.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "febd7db3-41bc-4654-a9d9-875709b4c5c9")
+	)
+	(pad "3" thru_hole circle
+		(at -3.25 -2.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "38fdbaf2-cdbc-428f-8f00-78d3b3cb7bb7")
+	)
+	(pad "4" thru_hole circle
+		(at 3.25 -2.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8b96791-d2ff-46a8-8963-fe0992dfe215")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_THT.3dshapes/TL1105SPFxxxx1Rxxx.step"
+		(offset
+			(xyz 0 0 1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

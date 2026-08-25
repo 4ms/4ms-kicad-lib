@@ -203,15 +203,15 @@
 		(uuid "69a265fa-b65d-494b-89b6-8981370c98f4")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/PJ301M-12.WRL"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/WQP-PJ398SM.step"
 		(offset
-			(xyz -0.8889999866 0.4063999939 0)
+			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 393 393 393)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz -0 -0 -90)
 		)
 	)
 )
