@@ -1,0 +1,324 @@
+(footprint "Jack_6.35mm_Neutrik_NRJ4HF_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Slim Jacks, 6.35mm (1/4in) mono jack, switched, fully threaded nose, https://www.neutrik.com/en/product/nrj4hf")
+	(tags "neutrik jack slim")
+	(property "Reference" "REF**"
+		(at -10.73 10.6 90)
+		(layer "F.SilkS")
+		(uuid "7669ba17-4f82-4607-8a9e-6b31818f5b45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_6.35mm_Neutrik_NRJ4HF_Horizontal"
+		(at 7.77 10.6 90)
+		(layer "F.Fab")
+		(uuid "a0ec14a4-28c5-4d84-8d6f-b1025474212f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f9ded24-5371-4d6b-b256-cb6924988d2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c65b687b-0e41-4c70-9eee-55429d2a9458")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.44 -0.12)
+		(end 6.55 -0.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e285c68-ddff-4fed-8f24-190484efdba4")
+	)
+	(fp_line
+		(start -9.44 24.42)
+		(end -9.44 -0.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed7f34aa-147d-4df2-a8c1-d38943316416")
+	)
+	(fp_line
+		(start -5.62 -9.02)
+		(end -5.62 -0.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4735fda-6a2c-4e2e-81eb-0a51fef7cc01")
+	)
+	(fp_line
+		(start 5.62 -9.02)
+		(end -5.62 -9.02)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "920bd153-0a3e-4704-8ce5-05a929b54ab5")
+	)
+	(fp_line
+		(start 5.62 -9.02)
+		(end 5.62 -0.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "600626c4-ebb9-4794-987b-c00036d8597a")
+	)
+	(fp_line
+		(start 6.55 24.42)
+		(end -9.44 24.42)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a1839bd-7bc3-48e2-89d6-ade9e2a4d43b")
+	)
+	(fp_line
+		(start 6.55 24.42)
+		(end 6.55 -0.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bb240b3-0918-47ac-badc-428d22ad8da7")
+	)
+	(fp_line
+		(start -9.32 0)
+		(end 6.43 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "65785be5-b5b9-4e35-8ca3-7515c41bba56")
+	)
+	(fp_line
+		(start -9.82 -9.4)
+		(end -9.82 24.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0445dc8-86fb-48e2-bfd3-1c5e2b6a535d")
+	)
+	(fp_line
+		(start 6.93 -9.4)
+		(end -9.82 -9.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60319cdc-d8bb-4db5-9dae-6ae11d7dbae1")
+	)
+	(fp_line
+		(start 6.93 24.8)
+		(end -9.82 24.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0aa645a2-2834-4c6d-91b0-644c59606d71")
+	)
+	(fp_line
+		(start 6.93 24.8)
+		(end 6.93 -9.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf540eef-4471-4792-9db6-23e62f0a6838")
+	)
+	(fp_line
+		(start -9.32 0)
+		(end 6.43 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52a9d053-c90c-48e6-b6f0-0edd198f5575")
+	)
+	(fp_line
+		(start -9.32 24.3)
+		(end -9.32 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d89526f-c8ae-4714-9964-18e04db17334")
+	)
+	(fp_line
+		(start -5.5 -8.9)
+		(end -5.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e1625c2-d365-47c2-a5ca-362490d912f5")
+	)
+	(fp_line
+		(start 5.5 -8.9)
+		(end -5.5 -8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17778383-dd4e-4899-924c-73960a30b16b")
+	)
+	(fp_line
+		(start 5.5 0)
+		(end 5.5 -8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04f329bd-300b-4e9a-8333-1b9d69c021c4")
+	)
+	(fp_line
+		(start 6.43 0)
+		(end 6.43 24.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c771d56-0581-4974-879c-b1f1e52a2e29")
+	)
+	(fp_line
+		(start 6.43 24.3)
+		(end -9.32 24.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac923a70-65d0-4f0f-b28f-74386cb9f71f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.515 10.6 90)
+		(layer "F.Fab")
+		(uuid "7cdd4f5c-a330-4c3a-8b98-06d58a742f30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -7.23 7.45 90)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "640a5fc0-aaf7-4bf0-bd42-4e3ebb65e77e")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.1 13.8 90)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "eee95871-02df-40b2-bfa6-9548861983b9")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.2 7.45 90)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7a40183b-4097-40af-8eda-8d422b237261")
+	)
+	(pad "S" thru_hole circle
+		(at -7.23 4.25 90)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1195b1e8-cea1-4ca0-9f65-015729ac2ab1")
+	)
+	(pad "SN" thru_hole circle
+		(at 4.2 4.25 90)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "276ebf70-27e9-4074-8bf2-431fd4d9760c")
+	)
+	(pad "T" thru_hole circle
+		(at -7.23 16.95 90)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32056e9f-1bd7-4ea2-ae8f-9d45f91c0670")
+	)
+	(pad "TN" thru_hole circle
+		(at 4.2 16.95 90)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da606c73-bd85-49e4-8628-89efa52464c8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/nrj4hf-2.stp"
+		(offset
+			(xyz 16.95 -7.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
