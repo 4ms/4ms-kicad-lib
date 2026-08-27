@@ -47650,4 +47650,556 @@
 			)
 		)
 	)
+	(symbol "USB-C_Receptacle_GCT_USB4520-03-0-A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 21.59 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "USB-C_Receptacle_GCT_USB4520-03-0-A"
+			(at 21.59 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "4ms_Connector:USB_C_Receptacle_GCT_USB4520-03-0-A"
+			(at 21.59 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/files/specs/usb4520-spec.pdf"
+			(at 21.59 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-C Receptacle, USB 2.0, 16+8 dummy pos, mid-mount 2.1mm board-edge offset, SMT+TH right-angle, GCT USB4520-03-0-A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "USB-C Receptacle, USB 2.0, 16+8 dummy pos, mid-mount 2.1mm board-edge offset, SMT+TH right-angle, GCT USB4520-03-0-A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT (Global Connector Technology)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "USB4520-03-0-A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "USB4520-03-0-A USB-C receptacle mid-mount board-edge GCT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "USB_C_Receptacle_GCT_USB4520*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USB-C_Receptacle_GCT_USB4520-03-0-A_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 20.32 -33.02)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "USB TYPE-C"
+				(at 12.7 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "A1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "A4"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A4"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin bidirectional line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "A5"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A5"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "A6"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A6"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "A7"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A7"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin unspecified line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "A8"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A8"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin unspecified line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "B8"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B8"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -17.78 0)
+				(length 5.08)
+				(name "B7"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B7"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 0)
+				(length 5.08)
+				(name "B6"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B6"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin bidirectional line
+				(at 0 -22.86 0)
+				(length 5.08)
+				(name "B5"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B5"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin power_in line
+				(at 0 -25.4 0)
+				(length 5.08)
+				(name "B4"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B4"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 0)
+				(length 5.08)
+				(name "B1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+		)
+	)
+	(symbol "USB-C_Receptacle_GCT_USB4730-GF-A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 21.59 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "USB-C_Receptacle_GCT_USB4730-GF-A"
+			(at 21.59 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "4ms_Connector:USB_C_Receptacle_GCT_USB4730-GF-A"
+			(at 21.59 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/files/specs/usb4730-spec.pdf"
+			(at 21.59 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-C Receptacle, USB 2.0, right-angle SMT+TH, ~1.85mm overhang past PCB edge, IP67, GCT USB4730-GF-A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "USB-C Receptacle, USB 2.0, right-angle SMT+TH, ~1.85mm overhang past PCB edge, IP67, GCT USB4730-GF-A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT (Global Connector Technology)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "USB4730-GF-A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "USB4730-GF-A USB-C receptacle right-angle overhang board-edge IP67 GCT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "USB_C_Receptacle_GCT_USB4730*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USB-C_Receptacle_GCT_USB4730-GF-A_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 20.32 -43.18)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "USB TYPE-C"
+				(at 12.7 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 5.08)
+				(name "GND"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A1/B12"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "VBUS"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A4/B9"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin bidirectional line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "CC1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A5"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "DP1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A6"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "DN1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A7"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin unspecified line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "SBU1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "A8"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin unspecified line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "SBU2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B8"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -17.78 0)
+				(length 5.08)
+				(name "DN2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B7"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 0)
+				(length 5.08)
+				(name "DP2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B6"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin bidirectional line
+				(at 0 -22.86 0)
+				(length 5.08)
+				(name "CC2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B5"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin power_in line
+				(at 0 -25.4 0)
+				(length 5.08)
+				(name "VBUS"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B4/A9"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 0)
+				(length 5.08)
+				(name "GND"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "B1/A12"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin power_in line
+				(at 0 -30.48 0)
+				(length 5.08)
+				(name "SHELL_GND"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "SH1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin power_in line
+				(at 0 -33.02 0)
+				(length 5.08)
+				(name "SHELL_GND"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "SH2"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin power_in line
+				(at 0 -35.56 0)
+				(length 5.08)
+				(name "SHELL_GND"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "SH3"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin power_in line
+				(at 0 -38.1 0)
+				(length 5.08)
+				(name "SHELL_GND"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "SH4"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+		)
+	)
 )
