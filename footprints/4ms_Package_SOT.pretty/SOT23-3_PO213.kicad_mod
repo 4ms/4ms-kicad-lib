@@ -8,7 +8,7 @@
 	(property "Reference" "D?"
 		(at 0 -2.5 0)
 		(layer "F.SilkS")
-		(uuid "c7965e70-acc7-47fc-9144-7e9fecfe2464")
+		(uuid "28fa6f36-80f2-47f4-b34a-291238ece9fe")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "?"
 		(at 0 2.5 0)
 		(layer "F.Fab")
-		(uuid "d7e9a54c-6dbb-411b-a59d-e714f656456a")
+		(uuid "3ced16a6-7580-4c0f-929a-b5b86e870660")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1111f8f4-bd28-42a8-bee9-3e3b6ab72245")
+		(uuid "0f6c2798-2b47-411d-b177-022eb5708f97")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4961443a-88c9-4d0f-8047-54357a1a0cc4")
+		(uuid "6ab6e4a0-22af-4b13-87aa-f47965fb7c03")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "34335ae3-acb2-4062-bd25-91ac2cd41561")
+		(uuid "0b4489c5-0536-4b65-bfc2-07038d3fd066")
 	)
 	(fp_line
 		(start -1.49982 0.0508)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9dc151dc-7cce-4919-a104-b5fe2c0bf54b")
+		(uuid "040ff808-7d25-4515-819a-5c4f05aa2c97")
 	)
 	(fp_line
 		(start 1.29916 -0.65024)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7d14ddf9-1e65-45e3-a582-8ad983cb5a48")
+		(uuid "fe4c85c1-bd75-47ba-8166-69127654c169")
 	)
 	(fp_line
 		(start 1.29916 -0.65024)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6a79b09f-aec2-4ff3-8d0e-67ea06157eb6")
+		(uuid "558570b5-d414-4e12-ba04-133e535fc19e")
 	)
 	(fp_line
 		(start 1.49982 -0.65024)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0e2141e8-ce51-4561-8846-e8b4be4a2d93")
+		(uuid "05eb9887-5145-4f60-b5e2-707622ba7283")
 	)
 	(fp_line
 		(start -1.75 -0.9)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3f225173-691b-4ada-b9a0-d77b32c03fda")
+		(uuid "5237e0e3-06f5-49d1-9d35-e2f2fed1556a")
 	)
 	(fp_line
 		(start -1.75 1.65)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5cd104ba-c754-480f-b493-6299309e2a7c")
+		(uuid "24323165-71f8-4dc3-89d9-714d9f73e8eb")
 	)
 	(fp_line
 		(start -0.65 -1.65)
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b21619de-0d77-41e8-a59b-fbbb96a8e5cd")
+		(uuid "fe97c6ad-c1d9-4548-8da1-6d42c738a015")
 	)
 	(fp_line
 		(start -0.65 -0.9)
@@ -139,7 +139,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e4d96b57-3ff3-44bc-a107-db976845ef21")
+		(uuid "fba5acf7-3834-4d96-ab03-4bd7ad0ce43a")
 	)
 	(fp_line
 		(start 0.65 -1.65)
@@ -149,7 +149,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ec85ad3a-6e2c-44bd-a818-9bf2ee2203f3")
+		(uuid "7909b68e-4d74-4b8f-b221-bf6ec0fc6b75")
 	)
 	(fp_line
 		(start 0.65 -0.9)
@@ -159,7 +159,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "19199732-eb93-4374-bf0e-cf0408eabf2e")
+		(uuid "c1a839e3-b850-4682-8eae-f99f084cd2b1")
 	)
 	(fp_line
 		(start 1.75 -0.9)
@@ -169,7 +169,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f90e2306-35cf-4f62-9735-9bc26ad707ca")
+		(uuid "2ee14b21-6679-4d16-8983-240c21b9b021")
 	)
 	(fp_line
 		(start 1.75 1.65)
@@ -179,28 +179,28 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b3e6caa1-eb36-44b6-9c74-2ea0f0504611")
+		(uuid "32e00d23-f22f-4f89-bf5e-ae10bdb1305f")
 	)
 	(pad "1" smd rect
 		(at 0 -0.99822)
 		(size 0.8001 0.8001)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "902c89fe-565a-4838-b396-80a9075f23f0")
+		(uuid "972fcb12-9df9-42c0-b09d-167baa7386fd")
 	)
 	(pad "2" smd rect
 		(at -0.95 1.00076)
 		(size 0.8001 0.8001)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3a311c85-88c8-4131-a1e3-304d1952d313")
+		(uuid "5ed44b69-7a9b-40f6-b910-5ef91444139f")
 	)
 	(pad "3" smd rect
 		(at 0.95 1.00076)
 		(size 0.8001 0.8001)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e0815de3-4b0d-494a-92a2-26b9c8abc690")
+		(uuid "9259787e-b350-4852-acd9-24e1fb39975e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 		(offset
 			(xyz 0 0 0)
 		)
