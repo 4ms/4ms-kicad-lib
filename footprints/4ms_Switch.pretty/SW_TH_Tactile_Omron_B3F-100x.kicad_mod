@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4.3 0)
 		(layer "F.SilkS")
-		(uuid "f3bcf8a6-70ef-4656-a878-b5c886494a53")
+		(uuid "62f67498-4cc8-47af-9973-087a66f9b7fa")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "SW_TH_Tactile_Omron_B3F-100x"
 		(at 3.25 6.5 0)
 		(layer "F.Fab")
-		(uuid "c2c74f85-e85e-4734-be3d-fa070000a192")
+		(uuid "471caf47-8e77-4811-83bb-185299519e20")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a6e3489-4209-42cb-8601-8266bea3ead3")
+		(uuid "a59b8b8c-885a-4911-9f40-6f0938c1cc27")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "62723fd4-7bfb-4393-9e33-c228e809e63c")
+		(uuid "ee253a8a-8f11-46b3-9eaa-009fadd3652c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "27fe9b6a-c6bf-49f0-b603-ec6c5d9b1ab9")
+		(uuid "033367ca-5f86-49fa-9b71-bc995cacfa5e")
 	)
 	(fp_line
 		(start -2.5 -3.12)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f5e907b5-7390-4bf7-af24-f64dca48a7f8")
+		(uuid "2d939669-2fc4-413f-a72c-531ee9e0de14")
 	)
 	(fp_line
 		(start -2.5 3.12)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3f002d41-05e4-431a-97a7-7949d16040de")
+		(uuid "483c9164-7574-4981-bf79-3bc13d5e55d8")
 	)
 	(fp_line
 		(start 3.12 -1.1)
@@ -93,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c0f58e0c-ce2c-4820-abfb-b36a93c5c99c")
+		(uuid "3378444f-a449-4081-9b10-ffd23c5140c6")
 	)
 	(fp_circle
 		(center 0 0)
@@ -104,7 +104,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4e043258-135e-4e50-8f20-b93a70d7b074")
+		(uuid "2e8deb87-4c0e-4b55-897c-aa1b4c7a7bb7")
 	)
 	(fp_line
 		(start -4.35 -3.35)
@@ -114,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fa206364-4b35-4e18-a11e-2f07faa17c6f")
+		(uuid "4df6c774-52bb-499e-8ecd-aaf83c6363fe")
 	)
 	(fp_line
 		(start -4.35 -3.35)
@@ -124,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9108a3d9-b766-4996-b2bc-504fb0d78c78")
+		(uuid "8556ade8-e680-4e80-badd-5269ab9b8bfc")
 	)
 	(fp_line
 		(start -4.35 3.35)
@@ -134,7 +134,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d82c7687-6756-432d-8a5b-e15628c59f08")
+		(uuid "d0024e9f-a771-4ea1-8612-b9a747ed8d5c")
 	)
 	(fp_line
 		(start 4.35 3.35)
@@ -144,7 +144,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "97103633-1ac2-4df6-b756-b54051086fa6")
+		(uuid "f67d2d38-abac-43ee-ac24-480f7d681f24")
 	)
 	(fp_line
 		(start -3 -3)
@@ -154,7 +154,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "68170204-2bb1-484f-9fbb-80a52ec17f63")
+		(uuid "0ee2ec52-dab9-4141-ba5d-a268d673ff02")
 	)
 	(fp_line
 		(start -3 -3)
@@ -164,7 +164,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "83349919-ec81-40da-aefa-f8059993d9a1")
+		(uuid "9d841a71-6298-4031-8d15-4559b73380e2")
 	)
 	(fp_line
 		(start -3 3)
@@ -174,7 +174,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9a2e808a-c7f1-4dbd-af33-d801a8e0f070")
+		(uuid "e150030b-142e-4619-96b0-af371d680499")
 	)
 	(fp_line
 		(start 3 -3)
@@ -184,12 +184,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e0ee84a5-c2c8-4a9e-8a47-ed960eb8c096")
+		(uuid "eaaa4132-99f0-4a30-91e9-dcff253d953a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "8552e9e7-04e1-49ea-a686-a611294755b1")
+		(uuid "8c9ed198-7b12-456b-9948-76250864c955")
 		(effects
 			(font
 				(size 1 1)
@@ -203,7 +203,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "daf085bd-70df-419e-a957-02914568e0f9")
+		(uuid "f9736a75-00c5-461b-bd68-0b51155da4a8")
 	)
 	(pad "2" thru_hole circle
 		(at 3.25 2.25)
@@ -211,7 +211,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "65a424f4-9f68-4376-86e4-1cb03f2e6524")
+		(uuid "a8e183cb-bcb1-4046-8c96-f6059d7870f5")
 	)
 	(pad "3" thru_hole circle
 		(at -3.25 -2.25)
@@ -220,7 +220,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
-		(uuid "ee1616be-3af4-4d1d-96b5-541d19557273")
+		(uuid "92d13b60-410b-4d89-8ba4-5145fa2d8e5f")
 	)
 	(pad "4" thru_hole circle
 		(at 3.25 -2.25)
@@ -228,12 +228,23 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "130b9ada-7aba-4fd3-8830-5ad15b027dac")
+		(uuid "a85485d6-4350-45c1-a4cd-0dc312e03e7a")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_TH_Tactile_Omron_B3F-100x.step"
 		(offset
 			(xyz -3.25 2.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_SMD.3dshapes/ButtonCapRound_Ø4.8mm_H9.7mm.step"
+		(offset
+			(xyz 0 0 4.3)
 		)
 		(scale
 			(xyz 1 1 1)
