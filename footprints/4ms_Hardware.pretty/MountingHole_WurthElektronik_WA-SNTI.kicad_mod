@@ -1,47 +1,134 @@
-(footprint "MountingHole_WurthElektronik_WA-SNTI" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (descr "Mounting hole for a self-retaining space of the Wurth Elektronik WA-SNTI series")
-  (tags "mounting hole spacer")
-  (attr exclude_from_pos_files)
-  (fp_text reference "REF**" (at 0 -2.54 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 94b429a5-8323-478d-8ced-4552628f7ea3)
-  )
-  (fp_text value "MountingHole_WurthElektronik_WA-SNTI" (at 0 1 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 401f03a5-dee5-40f8-8b6b-1c3266b319c4)
-  )
-  (fp_text user "${REFERENCE}" (at 0 -3.048 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 55be7166-9be0-418e-93b8-556cb39fb51d)
-  )
-  (fp_poly (pts
-      (xy 3.1 -1.8)
-      (xy 3.1 1.8)
-      (xy 0 3.58)
-      (xy -3.1 1.8)
-      (xy -3.1 -1.79)
-      (xy 0 -3.58)
-    ) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 521671e1-eb79-4245-a82c-6ae7eaacf7f1))
-  (fp_circle (center 0 0) (end 4.08 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp b979aafb-17a1-4d67-9241-963be512cd5e))
-  (fp_poly (pts
-      (xy 3 -1.73)
-      (xy 3 1.73)
-      (xy 0 3.46)
-      (xy -3 1.73)
-      (xy -3 -1.73)
-      (xy 0 -3.46)
-    ) (layer "F.Fab") (width 0.1) (fill none) (tstamp a6ed4bac-83ca-4662-8b98-779f1903555e))
-  (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers F&B.Cu *.Mask) (tstamp b7a47ae5-8b5e-491e-bc2b-1f9fc9db0aac))
-  (model "${KIPRJMOD}/4ms-kicad-lib/3dmodels/Hardware.3dshapes/MountingHole_WurthElektronik_WA-SNTI.stp"
-    (offset (xyz 0 0 8))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 -180 -90))
-  )
-  (model "${KICAD_4MS_LIBS}/3dmodels/Hardware.3dshapes/MountingHole_WurthElektronik_WA-SNTI.stp"
-    (offset (xyz 0 0 8))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 -180 -90))
-  )
+(footprint "MountingHole_WurthElektronik_WA-SNTI"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Mounting hole for a self-retaining space of the Wurth Elektronik WA-SNTI series")
+	(tags "mounting hole spacer")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "94b429a5-8323-478d-8ced-4552628f7ea3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_WurthElektronik_WA-SNTI"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "401f03a5-dee5-40f8-8b6b-1c3266b319c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0187b78a-e931-40a4-82a3-7ad58b2fb5d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e0e0e6c-7a7a-4220-93d8-cbc3601b571f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 3.1 -1.8) (xy 3.1 1.8) (xy 0 3.58) (xy -3.1 1.8) (xy -3.1 -1.79) (xy 0 -3.58)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "521671e1-eb79-4245-a82c-6ae7eaacf7f1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.08 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b979aafb-17a1-4d67-9241-963be512cd5e")
+	)
+	(fp_poly
+		(pts
+			(xy 3 -1.73) (xy 3 1.73) (xy 0 3.46) (xy -3 1.73) (xy -3 -1.73) (xy 0 -3.46)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a6ed4bac-83ca-4662-8b98-779f1903555e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.048 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "55be7166-9be0-418e-93b8-556cb39fb51d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b7a47ae5-8b5e-491e-bc2b-1f9fc9db0aac")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/4ms-kicad-lib/3dmodels/Hardware.3dshapes/MountingHole_WurthElektronik_WA-SNTI.stp"
+		(offset
+			(xyz 0 0 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 -90)
+		)
+	)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Hardware.3dshapes/MountingHole_WurthElektronik_WA-SNTI.stp"
+		(offset
+			(xyz 0 0 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 -90)
+		)
+	)
 )

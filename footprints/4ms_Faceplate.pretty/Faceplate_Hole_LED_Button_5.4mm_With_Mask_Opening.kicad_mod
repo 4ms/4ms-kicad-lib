@@ -1,12 +1,84 @@
-(module Faceplate_Hole_LED_Button_5.4mm_With_Mask_Opening (layer F.Cu) (tedit 5A7E4AAA)
-  (fp_text reference REF** (at 0.23 6) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Faceplate_Hole_LED_Button_5.4mm_With_Mask_Opening (at 0.18 4.01) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))
-  (fp_line (start -0.508 0) (end 0.508 0) (layer F.Fab) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 5.969 5.969) (drill 5.6642) (layers *.Cu *.Mask)
-    (solder_mask_margin 0.1016))
+(footprint "Faceplate_Hole_LED_Button_5.4mm_With_Mask_Opening"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.23 6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eb413b65-e4f3-480f-9e6d-433f0471c263")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_LED_Button_5.4mm_With_Mask_Opening"
+		(at 0.18 4.01 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "641492a2-ff24-4285-9c41-11c7e746d00d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4e2d2a5-5a7a-4081-875d-d1deefbe37ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d018282-f6b7-41f0-aeed-7f5275af7b7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.508 0)
+		(end 0.508 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3af920b7-8de1-4942-aac9-a490b4728240")
+	)
+	(fp_line
+		(start 0 -0.508)
+		(end 0 0.508)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "447117f2-cbab-44b4-8438-b8aff6433cc4")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.969 5.969)
+		(drill 5.6642)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(uuid "75407d1a-145a-4da4-a0d3-a5063da7cdc1")
+	)
+	(embedded_fonts no)
 )

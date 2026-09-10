@@ -1,25 +1,148 @@
-(module CP_Tantalum_EIA-6032-28_Kemet-C (layer F.Cu) (tedit 5A860D10)
-  (descr "Tantalum capacitor, Case C, EIA 6032-28, 6.0x3.2x2.5mm, Reflow soldering footprint")
-  (tags "capacitor tantalum smd")
-  (attr smd)
-  (fp_text reference Ref** (at 2.25 -2.72) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Val** (at -2.74 -2.75) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -4.07 -1.76) (end -4.07 1.76) (layer F.SilkS) (width 0.3))
-  (fp_line (start -4.1 1.85) (end 3 1.85) (layer F.SilkS) (width 0.12))
-  (fp_line (start -4.1 -1.85) (end 3 -1.85) (layer F.SilkS) (width 0.12))
-  (fp_line (start 4.32 -2.05) (end -4.32 -2.05) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 4.32 2.05) (end 4.32 -2.05) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -4.32 2.05) (end 4.32 2.05) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -4.32 -2.05) (end -4.32 2.05) (layer F.CrtYd) (width 0.05))
-  (pad 2 smd rect (at 2.525 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -2.525 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-C_EIA-6032-28.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CP_Tantalum_EIA-6032-28_Kemet-C"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Tantalum capacitor, Case C, EIA 6032-28, 6.0x3.2x2.5mm, Reflow soldering footprint")
+	(tags "capacitor tantalum smd")
+	(property "Reference" "Ref**"
+		(at 2.25 -2.72 0)
+		(layer "F.SilkS")
+		(uuid "4854c30b-5f53-4861-87e2-8d570916be54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at -2.74 -2.75 0)
+		(layer "F.SilkS")
+		(uuid "bba88ee4-d8f4-49c6-9bdd-ff5edadf4bf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc8aace6-2c02-446d-9291-b030797bc3dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c15a97b-82e2-44ce-a1a2-8d86ea133afe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.1 -1.85)
+		(end 3 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7865d1bd-3649-4c32-b5b1-8fa334281ae7")
+	)
+	(fp_line
+		(start -4.1 1.85)
+		(end 3 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "553086eb-6a35-4305-9e92-cbb2396ea022")
+	)
+	(fp_line
+		(start -4.07 -1.76)
+		(end -4.07 1.76)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7aaffafb-b6ae-43e5-8282-137b6e8a0b02")
+	)
+	(fp_line
+		(start -4.32 -2.05)
+		(end -4.32 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71234bef-9b63-46a8-8139-b8b143cde2d3")
+	)
+	(fp_line
+		(start -4.32 2.05)
+		(end 4.32 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54f7d639-c94f-448a-a158-d2937a590c11")
+	)
+	(fp_line
+		(start 4.32 -2.05)
+		(end -4.32 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ec2cc49-de95-49f4-ad9d-578531a94f50")
+	)
+	(fp_line
+		(start 4.32 2.05)
+		(end 4.32 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff51fb3e-d974-47ff-80b1-b04a43cd06d0")
+	)
+	(pad "1" smd rect
+		(at -2.525 0)
+		(size 2.55 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9cedfb15-6b92-44c9-9500-f22216db84b6")
+	)
+	(pad "2" smd rect
+		(at 2.525 0)
+		(size 2.55 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6814393a-7a0c-4e57-922c-d91aa30f89dc")
+	)
+	(embedded_fonts no)
+	(model "Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-C_EIA-6032-28.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

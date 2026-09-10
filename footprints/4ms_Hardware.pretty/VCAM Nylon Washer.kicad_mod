@@ -1,7 +1,7 @@
 (footprint "VCAM Nylon Washer"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "H"
 		(at 0 -6 0)
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "168033cf-873b-4a79-9251-93536cf19c29")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "192812d2-c6e6-41db-b3d1-ea034f7c74f9")
 		(effects
 			(font
 				(size 1 1)
@@ -67,6 +54,7 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 2.4892 0)
@@ -74,7 +62,7 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "792db843-98a2-48f3-9401-594060500eb6")
 	)
@@ -85,8 +73,9 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ef0e4019-850a-4ed8-8138-f5119ea69ff2")
 	)
+	(embedded_fonts no)
 )

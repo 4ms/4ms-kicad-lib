@@ -1,7 +1,7 @@
 (footprint "Relay_DPDT_Omron_G6S-2F"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Relay Omron G6S-2F, see http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf")
 	(tags "Relay Omron G6S-2F")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "14e3d0a9-51de-49e6-a0ad-780706852116")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -126,6 +113,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.1 -7.2)
 		(end -3.9 -7.2)
@@ -370,51 +358,52 @@
 	(pad "1" smd rect
 		(at -4 -6.35)
 		(size 2.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "13f19374-baa7-4e1e-8b48-c5171d9f01da")
 	)
 	(pad "3" smd rect
 		(at -4 -1.27)
 		(size 2.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b3227018-a8d4-451f-8aa8-15cae50d5482")
 	)
 	(pad "4" smd rect
 		(at -4 1.27)
 		(size 2.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "36045db2-c89b-416b-afd8-8c22fb73cf57")
 	)
 	(pad "5" smd rect
 		(at -4 3.81)
 		(size 2.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fbc49c31-a124-404c-9d84-e07598128b50")
 	)
 	(pad "8" smd rect
 		(at 4 3.81)
 		(size 2.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f9f37376-9ac0-4869-b58b-1cbf895b5d09")
 	)
 	(pad "9" smd rect
 		(at 4 1.27)
 		(size 2.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fb9f1be3-89da-45c6-9769-d540e98563e0")
 	)
 	(pad "10" smd rect
 		(at 4 -1.27)
 		(size 2.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dde8bdc5-a79e-4263-8dcf-564b605f631b")
 	)
 	(pad "12" smd rect
 		(at 4 -6.35)
 		(size 2.2 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "571331f0-8d3a-4579-88bb-10784c8d0a99")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_DPDT_Omron_G6S-2F.wrl"
 		(offset
 			(xyz 0 0 0)

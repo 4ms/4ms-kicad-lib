@@ -1,33 +1,183 @@
-(footprint "C_0201" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "Display" "1uF")
-  (property "JLCPCB ID" "C272877")
-  (property "Manufacturer" "Yageo")
-  (property "Manufacturer 2" "Murata")
-  (property "Part Number" "CC0201MRX5R5BB105")
-  (property "Part Number 2" "GRM033D70G105ME01D")
-  (property "Production Stage" "A")
-  (property "Sheetfile" "Kit-Brainboard.kicad_sch")
-  (property "Sheetname" "")
-  (property "Specifications" "1uF, Min. 4V 10%, X7R or X5R or X6S or similar")
-  (property "ki_description" "1uF, 0201, Min. 4V 10%, X7R or X5R or X6S or similar")
-  (fp_text reference "C?" (at -0.735 -0.41501 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.65 0.65) (thickness 0.1625)) (justify left bottom))
-    (tstamp fb2f095d-08a9-4073-b5e2-452007892f6f)
-  )
-  (fp_text value "??" (at -0.5779 1.21598 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 0.65 0.65) (thickness 0.15) bold) (justify left bottom))
-    (tstamp df288555-17e1-44fe-a90b-669f30a9333b)
-  )
-  (fp_rect (start -0.6 -0.32) (end 0.6 0.32)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 8a10525e-7dfb-4fdf-8d31-b1027a8e1cde))
-  (pad "1" smd rect (at -0.275 0) (size 0.35 0.35) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp c2e8c2ec-9970-4c20-83e8-4784e40235db))
-  (pad "2" smd rect (at 0.275 0) (size 0.35 0.35) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp 19ed4cbb-404c-4932-a560-3f6b73fc902d))
-  (model ":KICAD7_3DMODEL_DIR:Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "C_0201"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "C?"
+		(at -0.735 -0.41501 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb2f095d-08a9-4073-b5e2-452007892f6f")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1625)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "??"
+		(at -0.5779 1.21598 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "df288555-17e1-44fe-a90b-669f30a9333b")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33e600a2-24a4-477c-a64b-2ef19e4865bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "1uF, 0201, Min. 4V 10%, X7R or X5R or X6S or similar"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b86a3d7-2b77-438f-916c-46dc0ae75c8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Display" "1uF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e002c853-88fc-401a-b094-5b074162fb10")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "JLCPCB ID" "C272877"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e37d188e-c8d7-4e30-9d88-e191b1e55f19")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "Yageo"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48e6b7f5-36f4-4a19-a805-3a667403ae2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer 2" "Murata"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65d1a1ef-e520-413c-9c64-469f137f7bbb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Part Number" "CC0201MRX5R5BB105"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c5e7fd0-0af2-40fd-9e28-b830cafba5a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Part Number 2" "GRM033D70G105ME01D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76e2b301-5fb9-44c7-a6fd-1d1ae4729905")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Production Stage" "A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51aabf8c-9dea-4a8d-8816-100f444786bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Specifications" "1uF, Min. 4V 10%, X7R or X5R or X6S or similar"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f55c8977-2816-4424-a2aa-7c90e0ccb207")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "Kit-Brainboard.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.6 -0.32)
+		(end 0.6 0.32)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8a10525e-7dfb-4fdf-8d31-b1027a8e1cde")
+	)
+	(pad "1" smd rect
+		(at -0.275 0)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c2e8c2ec-9970-4c20-83e8-4784e40235db")
+	)
+	(pad "2" smd rect
+		(at 0.275 0)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "19ed4cbb-404c-4932-a560-3f6b73fc902d")
+	)
+	(embedded_fonts no)
+	(model ":KICAD7_3DMODEL_DIR:Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

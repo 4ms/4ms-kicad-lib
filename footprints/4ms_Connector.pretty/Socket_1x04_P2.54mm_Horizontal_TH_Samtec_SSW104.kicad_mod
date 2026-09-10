@@ -1,7 +1,7 @@
 (footprint "Socket_1x04_P2.54mm_Horizontal_TH_Samtec_SSW104"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Samtec SSW-104 right-angle socket strip, 1x04, 2.54mm pitch, through hole, mating connector for Pins_1x04_P2.54mm_Horizontal_TH")
 	(tags "socket strip receptacle right-angle horizontal 1x04 2.54mm samtec SSW through-hole")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.525 10.255)
 		(end -1.525 0.995)

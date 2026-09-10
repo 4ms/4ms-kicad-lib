@@ -1,37 +1,241 @@
-(module CP_Elec_5x5.3 (layer F.Cu) (tedit 5EBF2215)
-  (descr "SMT capacitor, aluminium electrolytic, 5x5.3")
-  (attr smd)
-  (fp_text reference C1 (at -2.89 -3.63) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.1524)))
-  )
-  (fp_text value 47uF (at 2.12 -3.65) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.1524)))
-  )
-  (fp_line (start -1.91 2.65) (end 2.67 2.65) (layer F.SilkS) (width 0.12))
-  (fp_line (start -2.67 1.88) (end -1.91 2.65) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.91 -2.65) (end -2.67 -1.88) (layer F.SilkS) (width 0.12))
-  (fp_line (start 2.67 -2.65) (end -1.91 -2.65) (layer F.SilkS) (width 0.12))
-  (fp_line (start 3.95 2.9) (end 3.95 -2.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.95 2.9) (end 3.95 2.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.95 -2.9) (end -3.95 2.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.95 -2.9) (end -3.95 -2.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.67 -1.88) (end -2.67 -1.1) (layer F.SilkS) (width 0.12))
-  (fp_line (start -2.67 1.88) (end -2.67 1.1) (layer F.SilkS) (width 0.12))
-  (fp_line (start 2.67 2.65) (end 2.67 1.1) (layer F.SilkS) (width 0.12))
-  (fp_line (start 2.67 -2.65) (end 2.67 -1.1) (layer F.SilkS) (width 0.12))
-  (fp_text user + (at -1.37 -0.08) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user + (at -3.38 2.34) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_arc (start 0 0) (end 2.15 1.1) (angle 125) (layer F.SilkS) (width 0.12))
-  (fp_arc (start 0 0) (end -2.15 -1.1) (angle 125) (layer F.SilkS) (width 0.12))
-  (pad 1 smd rect (at -2.2 0 180) (size 3 1.6) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.2 0 180) (size 3 1.6) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_5x5.3.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CP_Elec_5x5.3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMT capacitor, aluminium electrolytic, 5x5.3")
+	(property "Reference" "C1"
+		(at -2.89 -3.63 0)
+		(layer "F.SilkS")
+		(uuid "53352c96-b7e0-4e6b-bcb9-fbda3e09e3e7")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "47uF"
+		(at 2.12 -3.65 0)
+		(layer "F.SilkS")
+		(uuid "9c7db76a-1e17-428f-963e-344a19d0af48")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5416063-07a6-461c-b9ae-cea60906f6f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b49ffd8-58ae-41cb-b0f3-1bac4953f836")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.67 -1.88)
+		(end -2.67 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86e54d4e-77f4-4f0d-8039-e6f32396b663")
+	)
+	(fp_line
+		(start -2.67 1.88)
+		(end -2.67 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e6eec02-5f94-4107-9d1a-4eab5438977c")
+	)
+	(fp_line
+		(start -2.67 1.88)
+		(end -1.91 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f62c4abb-a476-4b00-acbd-c11fbf446ed8")
+	)
+	(fp_line
+		(start -1.91 -2.65)
+		(end -2.67 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ce6a352-49f2-4f97-9415-8483a91c868c")
+	)
+	(fp_line
+		(start -1.91 2.65)
+		(end 2.67 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "611d17ab-cea7-45b2-94e1-e6dd8eea0675")
+	)
+	(fp_line
+		(start 2.67 -2.65)
+		(end -1.91 -2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91387fe1-3685-4f04-a872-6a2b2e48650e")
+	)
+	(fp_line
+		(start 2.67 -2.65)
+		(end 2.67 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e02599f-14cb-45d1-8c6c-2ec34b1938b5")
+	)
+	(fp_line
+		(start 2.67 2.65)
+		(end 2.67 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "988d412c-5ba5-42e7-99e0-4b725f1c6d9a")
+	)
+	(fp_arc
+		(start -2.15 -1.1)
+		(mid -0.017048 -2.414997)
+		(end 2.134257 -1.130243)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6e35fa1-51e9-4720-a314-79df7146810b")
+	)
+	(fp_arc
+		(start 2.15 1.1)
+		(mid 0.017048 2.414997)
+		(end -2.134257 1.130243)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc2bdfb3-2337-4f33-b200-24af47caa746")
+	)
+	(fp_line
+		(start -3.95 -2.9)
+		(end -3.95 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cdf66fe-c3b0-4a1f-9de1-37ea3a034f16")
+	)
+	(fp_line
+		(start -3.95 2.9)
+		(end 3.95 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7629cb1e-96d5-49d1-92e5-d0470e0dbe4a")
+	)
+	(fp_line
+		(start 3.95 -2.9)
+		(end -3.95 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a2624a4-780e-4e8f-bf49-0405e114bf19")
+	)
+	(fp_line
+		(start 3.95 2.9)
+		(end 3.95 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7d8c75a-9232-413e-9f30-a722ee8c6d8b")
+	)
+	(fp_text user "+"
+		(at -3.38 2.34 0)
+		(layer "F.SilkS")
+		(uuid "28136c22-cbda-47d8-b968-1b719b85ef90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -1.37 -0.08 0)
+		(layer "F.Fab")
+		(uuid "0c680f91-d25c-4ad5-b788-73d06714922f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 0 180)
+		(size 3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "724da5db-15a2-497a-877c-1affff4be30c")
+	)
+	(pad "2" smd rect
+		(at 2.2 0 180)
+		(size 3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8cc673d-36ac-4f04-b15c-d2ea786cc85e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_5x5.3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

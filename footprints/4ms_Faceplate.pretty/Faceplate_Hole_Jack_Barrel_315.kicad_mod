@@ -1,9 +1,63 @@
-(module Faceplate_Hole_Jack_Barrel_315 (layer F.Cu) (tedit 5B6E15E6)
-  (fp_text reference REF** (at 0.22 8.23) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Faceplate_Hole_Jack_Barrel_315 (at 1.47 6.53) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 9.779 9.779) (drill 8.001) (layers *.Cu *.Mask))
+(footprint "Faceplate_Hole_Jack_Barrel_315"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.22 8.23 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e610259-2a33-4013-9aaf-4f8470b6e5f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_Jack_Barrel_315"
+		(at 1.47 6.53 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4da30772-ab86-4c8b-ad9a-c0d9fdb93fc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9b1840c-f67b-4b50-88c3-ac3fc0d70af0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36d3393c-e5d1-4553-814e-6f7fb15b48a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 9.779 9.779)
+		(drill 8.001)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1be3908f-cd94-497a-9f9a-ef7e40e11fcc")
+	)
+	(embedded_fonts no)
 )

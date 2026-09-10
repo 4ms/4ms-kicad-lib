@@ -1,7 +1,7 @@
 (footprint "USB_C_Receptacle_Amphenol_12401610E4-2A"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "USB TYPE C, RA RCPT PCB, SMT")
 	(tags "USB C Type-C Receptacle SMD")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.75 -5.37)
 		(end -4.75 1.89)

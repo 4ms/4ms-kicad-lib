@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_SJ3-35063BG_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Phone Connectors Audio Jack, 3.5mm, Through Hole, 3 Conductors, 2 Switches")
 	(tags "3.5mm jack horizontal")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start 0.1 -4.65)
 		(end 9.95 4.65)
@@ -82,14 +83,14 @@
 		(at 2.45 -3.5)
 		(size 1.1 1.1)
 		(drill 1.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e8968070-d33d-45d4-97ed-a079d4f3df75")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.45 3)
 		(size 1.1 1.1)
 		(drill 1.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "9fd67694-280c-40a2-b89a-7bf2264c0731")
 	)
 	(pad "1" thru_hole oval

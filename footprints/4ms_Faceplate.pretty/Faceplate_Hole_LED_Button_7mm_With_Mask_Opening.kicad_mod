@@ -1,12 +1,84 @@
-(module Faceplate_Hole_LED_Button_7mm_With_Mask_Opening (layer F.Cu) (tedit 5A7E5041)
-  (fp_text reference LOCK1 (at 0.254 2.286) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Faceplate_Hole_LED_Button_7mm_With_Mask_Opening (at 0 5.207) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -0.508 0) (end 0.508 0) (layer F.Fab) (width 0.15))
-  (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 8.0518 8.0518) (drill 7.747) (layers *.Cu *.Mask)
-    (solder_mask_margin 0.1016))
+(footprint "Faceplate_Hole_LED_Button_7mm_With_Mask_Opening"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "LOCK1"
+		(at 0.254 2.286 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f9529c3f-9e82-490d-a903-7d53db19e72f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_LED_Button_7mm_With_Mask_Opening"
+		(at 0 5.207 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d9fd043-ea49-4129-966a-b56be2b09a1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6187b802-ced8-43de-bc2b-d4be1ef4881a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41b69bf1-f98f-4e70-94ea-e411c92cdb20")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.508 0)
+		(end 0.508 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd9dbe7d-6f78-49f2-86f1-0a044494ca91")
+	)
+	(fp_line
+		(start 0 -0.508)
+		(end 0 0.508)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99f555c6-910d-4ed2-9f6a-81fc046520d2")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 8.0518 8.0518)
+		(drill 7.747)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(uuid "486c81db-21f8-4efc-bc35-bdaae06c51c4")
+	)
+	(embedded_fonts no)
 )

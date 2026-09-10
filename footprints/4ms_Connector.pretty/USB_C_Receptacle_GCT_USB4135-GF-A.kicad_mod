@@ -1,7 +1,7 @@
 (footprint "USB_C_Receptacle_GCT_USB4135-GF-A"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "USB Type-C Receptacle, GCT USB4135-GF-A, 6-pin power, horizontal/right-angle, SMT, through-panel")
 	(tags "USB USB-C Type-C receptacle GCT USB4135 power horizontal")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.47 -2)
 		(end -4.47 -0.4)

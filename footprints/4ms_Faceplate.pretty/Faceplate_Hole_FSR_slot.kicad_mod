@@ -1,12 +1,97 @@
-(module Faceplate_Hole_FSR_slot (layer F.Cu) (tedit 5A7E3E79)
-  (fp_text reference REF** (at 0.36 4.14) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value FSR_slot (at 0.381 2.54) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -3.4925 1.5875) (end 3.4925 1.5875) (layer Edge.Cuts) (width 0.1))
-  (fp_arc (start -3.4925 0) (end -3.4925 1.5875) (angle 180) (layer Edge.Cuts) (width 0.1))
-  (fp_arc (start 3.4925 0) (end 3.4925 -1.5875) (angle 180) (layer Edge.Cuts) (width 0.1))
-  (fp_line (start -3.4925 -1.5875) (end 3.4925 -1.5875) (layer Edge.Cuts) (width 0.1))
+(footprint "Faceplate_Hole_FSR_slot"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.36 4.14 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f3fb072-9766-49a3-bc07-9fb9177679ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FSR_slot"
+		(at 0.381 2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9ac6cc7-7c4a-4cfe-97cd-045d58b66390")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a03884a-4284-4fb6-be64-2b4b99e9da81")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af8f5274-3bd7-405b-ad62-28927b4ed1a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.4925 -1.5875)
+		(end 3.4925 -1.5875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c9e67c75-95aa-4374-b3ae-43faf5c417a0")
+	)
+	(fp_line
+		(start -3.4925 1.5875)
+		(end 3.4925 1.5875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f711f9e8-077f-464b-9d8a-732c9e9052ec")
+	)
+	(fp_arc
+		(start -3.4925 1.5875)
+		(mid -5.08 0)
+		(end -3.4925 -1.5875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "725dbc69-839f-4463-a522-45656e7c7290")
+	)
+	(fp_arc
+		(start 3.4925 -1.5875)
+		(mid 5.08 0)
+		(end 3.4925 1.5875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9759b7a9-14b5-49ef-9ee1-f25a06a352b2")
+	)
+	(embedded_fonts no)
 )

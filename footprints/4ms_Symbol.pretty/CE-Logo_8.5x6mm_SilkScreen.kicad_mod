@@ -1,7 +1,7 @@
 (footprint "CE-Logo_8.5x6mm_SilkScreen"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "CE marking")
 	(tags "Logo CE certification")
@@ -58,6 +58,7 @@
 	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
 		dnp
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -1.060813 -3.015685) (xy -0.99633 -3.014025) (xy -0.949697 -3.011055) (xy -0.929349 -3.007912)

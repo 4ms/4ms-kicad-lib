@@ -1,7 +1,7 @@
 (footprint "MFSOP6-4_4.4x3.6mm_P1.27mm"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "https://toshiba.semicon-storage.com/ap-en/design-support/package/detail.4pin%20MFSOP6.html")
 	(tags "MFSOP 4 pin SMD")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "4ms_Package_MFSOP:MFSOP6-4_4.4x3.6mm_P1.27mm"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5d2930c8-85d6-447b-907d-1407e1977297")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -128,6 +115,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1.5 -1.92)
 		(end -1.5 -1.92)
@@ -156,7 +144,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7b0232a2-ddc4-43d6-8cd1-271a29473cd5")
 	)
@@ -264,27 +252,28 @@
 	(pad "1" smd rect
 		(at -3.15 -1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0f4feea0-eeaf-4101-a5e3-33f6b5a887c1")
 	)
 	(pad "3" smd rect
 		(at -3.15 1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b8aa7b5e-7e9a-428a-b9f1-a1abfde7d632")
 	)
 	(pad "4" smd rect
 		(at 3.15 1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "254efc5a-984d-4861-9ecc-27fa32d18bcc")
 	)
 	(pad "6" smd rect
 		(at 3.15 -1.27)
 		(size 1.2 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4206fb28-f248-4162-80dc-1105acaa6da7")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/MFSOP6-4_4.4x3.6mm_P1.27mm.wrl"
 		(offset
 			(xyz 0 0 0)

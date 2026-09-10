@@ -1,7 +1,7 @@
 (footprint "SerialNumberPlacement"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "G***"
 		(at 0 0 0)
@@ -54,6 +54,7 @@
 	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
 		dnp
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -9.5 -3.135)
 		(end 9.86 3.135)

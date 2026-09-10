@@ -1,10 +1,64 @@
-(module Faceplate_Hole_Lightpipe_With_Mask_Opening (layer F.Cu) (tedit 5A7E4A65)
-  (fp_text reference REF** (at 0.03 4.16) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Faceplate_Hole_LightPipe_With_Mask_Opening (at -0.38 2.52) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 3.175 3.175) (drill 2.921) (layers *.Cu *.Mask)
-    (solder_mask_margin 0.1016))
+(footprint "Faceplate_Hole_Lightpipe_With_Mask_Opening"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.03 4.16 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99276a56-46b8-4fc8-93cb-3e72b1857d5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_LightPipe_With_Mask_Opening"
+		(at -0.38 2.52 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b71f1a8-5db9-47f0-9ff9-471d3ebe994e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2c426e9-37bc-4779-8b4e-42ee0722e667")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f5b7956-d687-4e67-9d24-5a8b47d997d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.175 3.175)
+		(drill 2.921)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(uuid "b37351f4-33c7-497b-9e30-073e5dd5e560")
+	)
+	(embedded_fonts no)
 )
