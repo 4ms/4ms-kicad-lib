@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -9 0)
 		(layer "F.SilkS")
-		(uuid "17839e34-2dc2-46fc-b321-24825f2faade")
+		(uuid "b1648022-9bf8-461b-b462-e57faa34e616")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "Button_PB20B"
 		(at 0 -7 0)
 		(layer "F.Fab")
-		(uuid "0bf87300-b936-4ef1-9541-b4fd3e6f85e6")
+		(uuid "6fed3d65-2372-4375-a7f1-6473e0c83709")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e52a4ef9-5fd3-4b1b-8511-5b995c07beb2")
+		(uuid "f0b49829-c4a9-4fc0-9b9d-c5f0e518e379")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5f7d7cd9-5fea-46b2-8a3d-eee76420c8c4")
+		(uuid "015b1b51-b58b-47c1-b1a7-5970050c4f2b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "60944279-6048-4331-a62f-54b6a7353bff")
+		(uuid "572a798b-336a-4d01-a461-5f8b002663b9")
 	)
 	(fp_arc
 		(start 5.448111 2.514098)
@@ -68,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7651b828-bc30-4b12-9205-7817681f32b9")
+		(uuid "5fb082cb-5e13-4823-9fae-240b968f3459")
 	)
 	(fp_circle
 		(center 0 0)
@@ -79,7 +79,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "03763846-7790-40d8-8bbf-d115c2cc1902")
+		(uuid "977e2073-2e3d-4f1d-a6de-66825b981343")
 	)
 	(fp_line
 		(start 5.7 -2.56)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5d079d9c-85db-4594-b197-5bb819f6dfc7")
+		(uuid "f1a03619-1489-4393-9e29-54fecb245fb5")
 	)
 	(fp_arc
 		(start 5.7 2.56)
@@ -100,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "72499eaf-7509-4a64-8b1b-d9893dfa18dc")
+		(uuid "25cddd14-43b6-4ecc-8fa1-7e31de303763")
 	)
 	(pad "1" thru_hole circle
 		(at -2.5 -2.5)
@@ -108,7 +108,7 @@
 		(drill oval 1.1 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "07649e2a-da1b-4eef-b367-5cfebc1a2089")
+		(uuid "5b90faf1-733f-4b0e-9ff9-6c299e6b6b42")
 	)
 	(pad "2" thru_hole circle
 		(at 2.5 -2.5)
@@ -116,7 +116,7 @@
 		(drill oval 1.1 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5b88b3e0-a15c-4c9c-a903-0c4cefd433f8")
+		(uuid "a4372f37-beb0-4887-81a2-f0b84e41099e")
 	)
 	(pad "3" thru_hole circle
 		(at 2.5 2.5)
@@ -124,7 +124,7 @@
 		(drill oval 1.1 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4b13f72c-bf8c-497a-b64f-a7c18cfb68aa")
+		(uuid "ce4832ec-dd01-448f-a907-d4fbe2e14183")
 	)
 	(pad "4" thru_hole circle
 		(at -2.5 2.5)
@@ -132,7 +132,18 @@
 		(drill oval 1.1 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e3a74236-5ce7-475a-b21c-979bf97e6f18")
+		(uuid "554dc93a-e04c-4a7a-81d8-799dcad4a650")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_SMD.3dshapes/CK_DCR.step"
+		(offset
+			(xyz 0 0 5.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
 )

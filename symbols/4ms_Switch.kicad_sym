@@ -13557,7 +13557,7 @@
 			)
 		)
 		(property "Description" "Rotary Encoder 11mm with SPST, No Detent, Shaft = ???"
-			(at 0 0 0)
+			(at 2.54 -8.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
