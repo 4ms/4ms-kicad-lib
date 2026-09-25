@@ -629,7 +629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -640,7 +640,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G125.pdf"
 			(at 0 -13.462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -695,7 +695,7 @@
 				)
 			)
 		)
-		(property "Part Number 2" "SN74AHCT1G125DBVR"
+		(property "Part Number 2" "SN74AHCT1G125DCKR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

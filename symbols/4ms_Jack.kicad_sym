@@ -1901,6 +1901,24 @@
 				)
 			)
 			(pin passive line
+				(at -3.81 -10.16 90)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 7.62 1.27 180)
 				(length 3.81)
 				(name ""
