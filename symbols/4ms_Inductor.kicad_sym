@@ -181,7 +181,34 @@
 				)
 			)
 		)
-		(symbol "0.68uH_3.1A_2016_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=0.68u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "0.68uH_3.1A_2016_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -450,7 +477,34 @@
 				)
 			)
 		)
-		(symbol "0.68uH_3.9A_2520_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=0.68u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "0.68uH_3.9A_2520_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -708,7 +762,34 @@
 				)
 			)
 		)
-		(symbol "1.5uH_7A_5252_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=1.5u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1.5uH_7A_5252_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -967,7 +1048,34 @@
 				)
 			)
 		)
-		(symbol "10uH_0805_0.5A_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uH_0805_0.5A_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -1203,7 +1311,34 @@
 				)
 			)
 		)
-		(symbol "10uH_1.0A_4018_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uH_1.0A_4018_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -1461,7 +1596,34 @@
 				)
 			)
 		)
-		(symbol "12uH_2.2A_6045S_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=12u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "12uH_2.2A_6045S_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -1719,7 +1881,34 @@
 				)
 			)
 		)
-		(symbol "12uH_5.2A_1260_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=12u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "12uH_5.2A_1260_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -1977,7 +2166,34 @@
 				)
 			)
 		)
-		(symbol "15uH_1A_5040_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=15u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "15uH_1A_5040_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -2224,7 +2440,34 @@
 				)
 			)
 		)
-		(symbol "1uH_3.2A_2520_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1uH_3.2A_2520_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -2471,7 +2714,34 @@
 				)
 			)
 		)
-		(symbol "2.2uH_1.7A_2016_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=2.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.2uH_1.7A_2016_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -2740,7 +3010,34 @@
 				)
 			)
 		)
-		(symbol "2.2uH_2.4A_2016_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=2.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.2uH_2.4A_2016_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -2998,7 +3295,34 @@
 				)
 			)
 		)
-		(symbol "3.3uH_2.4A_2016_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=3.3u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "3.3uH_2.4A_2016_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -3322,7 +3646,34 @@
 				)
 			)
 		)
-		(symbol "4.7uH_1.2A_40xx_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=4.7u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "4.7uH_1.2A_40xx_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -3646,7 +3997,34 @@
 				)
 			)
 		)
-		(symbol "4.7uH_1.7A_2510_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=4.7u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "4.7uH_1.7A_2510_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -3904,7 +4282,34 @@
 				)
 			)
 		)
-		(symbol "5.6uH_2.6A_4030S_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=5.6u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "5.6uH_2.6A_4030S_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -4151,7 +4556,34 @@
 				)
 			)
 		)
-		(symbol "5.6uH_4.25A_5030_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=5.6u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "5.6uH_4.25A_5030_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -4486,7 +4918,34 @@
 				)
 			)
 		)
-		(symbol "6.8uH_1.0A_4018_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=6.8u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "6.8uH_1.0A_4018_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -4777,7 +5236,34 @@
 				)
 			)
 		)
-		(symbol "6.8uH_2.2A_40xx_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=6.8u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "6.8uH_2.2A_40xx_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -5068,7 +5554,34 @@
 				)
 			)
 		)
-		(symbol "6.8uH_2.2A_50xx_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=6.8u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "6.8uH_2.2A_50xx_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -5326,7 +5839,34 @@
 				)
 			)
 		)
-		(symbol "8.2uH_2.1A_4030S_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=8.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "8.2uH_2.1A_4030S_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -5584,7 +6124,34 @@
 				)
 			)
 		)
-		(symbol "8.2uH_3.2A_6540_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=8.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "8.2uH_3.2A_6540_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)
@@ -5842,7 +6409,34 @@
 				)
 			)
 		)
-		(symbol "8.2uH_3.7A_6045_0_1"
+
+		(property "Sim.Device" "L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "L=8.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "8.2uH_3.7A_6045_0_1"
 			(arc
 				(start 0 2.54)
 				(mid 0.6323 1.905)

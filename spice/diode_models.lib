@@ -1,0 +1,20 @@
+* diode_models.lib
+* Generic diode SPICE models for 4ms KiCad library
+* Referenced by Sim.Library on single-diode symbols in 4ms_Diode.kicad_sym
+*
+* For dual/series diode packages see series_dual_diode.lib
+
+* 1N4148 / 1N914 — fast switching signal diode
+* (KiCad's ngspice typically includes 1N4148 in default libs; this is a fallback)
+.model 1N4148 D (Is=2.52e-9 Rs=0.568 N=1.752 Tt=20n Cjo=4p Vj=0.7 M=0.333
++               Bv=100 Ibv=1e-3)
+
+* SCHOTTKY_GENERIC — generic small-signal Schottky (Vf ~0.3V)
+* Use for: BAT54LP, RB500SM, SD103
+.model SCHOTTKY_GENERIC D (Is=1e-9 Rs=0.3 N=1.05 Tt=10n Cjo=5p Vj=0.5 M=0.4
++                          Bv=40 Iave=200m)
+
+* SCHOTTKY_RECT — generic Schottky rectifier (1-5A, Vf ~0.45V)
+* Use for: B140-E3, B140HW-7, B360A, SB140-E3_TH, PDS560
+.model SCHOTTKY_RECT D (Is=3e-8 Rs=0.04 N=1.07 Tt=50n Cjo=100p Vj=0.6 M=0.5
++                       Bv=60 Iave=2)

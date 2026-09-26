@@ -152,7 +152,34 @@
 				)
 			)
 		)
-		(symbol "0.15uF_0603_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.15u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "0.15uF_0603_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -378,7 +405,34 @@
 				)
 			)
 		)
-		(symbol "0.1uF_0805_50V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "0.1uF_0805_50V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -588,7 +642,34 @@
 				)
 			)
 		)
-		(symbol "0.1uF_Disc_TH_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "0.1uF_Disc_TH_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -804,7 +885,34 @@
 				)
 			)
 		)
-		(symbol "0.22uF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.22u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "0.22uF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1053,7 +1161,34 @@
 				)
 			)
 		)
-		(symbol "0.47uF_0402_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.47u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "0.47uF_0402_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1280,7 +1415,34 @@
 				)
 			)
 		)
-		(symbol "1.5nF_0402_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1.5n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1.5nF_0402_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1508,7 +1670,34 @@
 				)
 			)
 		)
-		(symbol "1.5nF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1.5n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1.5nF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1746,7 +1935,34 @@
 				)
 			)
 		)
-		(symbol "100nF_0201_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "100nF_0201_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1995,7 +2211,34 @@
 				)
 			)
 		)
-		(symbol "100nF_0402_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "100nF_0402_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -2233,7 +2476,34 @@
 				)
 			)
 		)
-		(symbol "100nF_0402_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "100nF_0402_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -2460,7 +2730,34 @@
 				)
 			)
 		)
-		(symbol "100nF_0603_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "100nF_0603_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -2687,7 +2984,34 @@
 				)
 			)
 		)
-		(symbol "100pF_0402_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=100p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "100pF_0402_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -2914,7 +3238,34 @@
 				)
 			)
 		)
-		(symbol "100pF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=100p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "100pF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -3126,7 +3477,34 @@
 				)
 			)
 		)
-		(symbol "100pF_Disc_TH_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=100p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "100pF_Disc_TH_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -3353,7 +3731,34 @@
 				)
 			)
 		)
-		(symbol "10nF_0402_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10nF_0402_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -3580,7 +3985,34 @@
 				)
 			)
 		)
-		(symbol "10nF_0402_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10nF_0402_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -3807,7 +4239,34 @@
 				)
 			)
 		)
-		(symbol "10nF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10nF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -4033,7 +4492,34 @@
 				)
 			)
 		)
-		(symbol "10nF_0805_50V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10nF_0805_50V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -4244,7 +4730,34 @@
 				)
 			)
 		)
-		(symbol "10nF_Disc_TH_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10nF_Disc_TH_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -4470,7 +4983,34 @@
 				)
 			)
 		)
-		(symbol "10pF_0402_50V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10pF_0402_50V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -4717,7 +5257,34 @@
 				)
 			)
 		)
-		(symbol "10uF_0402_6.3V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uF_0402_6.3V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -4944,7 +5511,34 @@
 				)
 			)
 		)
-		(symbol "10uF_0603_10V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uF_0603_10V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -5171,7 +5765,34 @@
 				)
 			)
 		)
-		(symbol "10uF_0805_16V_lowESR_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uF_0805_16V_lowESR_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -5398,7 +6019,34 @@
 				)
 			)
 		)
-		(symbol "10uF_0805_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uF_0805_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -5626,7 +6274,34 @@
 				)
 			)
 		)
-		(symbol "10uF_1206_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uF_1206_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -5853,7 +6528,34 @@
 				)
 			)
 		)
-		(symbol "10uF_1206_35V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uF_1206_35V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -6077,7 +6779,34 @@
 				)
 			)
 		)
-		(symbol "10uF_1210_35V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uF_1210_35V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -6324,7 +7053,34 @@
 				)
 			)
 		)
-		(symbol "10uF_4x5.3_10V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uF_4x5.3_10V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -6574,7 +7330,34 @@
 				)
 			)
 		)
-		(symbol "10uF_Radial_TH_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10uF_Radial_TH_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -6848,7 +7631,34 @@
 				)
 			)
 		)
-		(symbol "150pF_0603_50V_2%_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=150p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "150pF_0603_50V_2%_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -7099,7 +7909,34 @@
 				)
 			)
 		)
-		(symbol "15nF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=15n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "15nF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -7326,7 +8163,34 @@
 				)
 			)
 		)
-		(symbol "15pF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=15p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "15pF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -7553,7 +8417,34 @@
 				)
 			)
 		)
-		(symbol "180pF_0402_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=180p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "180pF_0402_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -7780,7 +8671,34 @@
 				)
 			)
 		)
-		(symbol "18pF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=18p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "18pF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -8029,7 +8947,34 @@
 				)
 			)
 		)
-		(symbol "1nF_0201_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1nF_0201_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -8256,7 +9201,34 @@
 				)
 			)
 		)
-		(symbol "1nF_0402_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1nF_0402_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -8483,7 +9455,34 @@
 				)
 			)
 		)
-		(symbol "1nF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1nF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -8696,7 +9695,34 @@
 				)
 			)
 		)
-		(symbol "1nF_Disc_TH_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1nF_Disc_TH_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -8934,7 +9960,34 @@
 				)
 			)
 		)
-		(symbol "1uF_0201_4V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1uF_0201_4V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -9183,7 +10236,34 @@
 				)
 			)
 		)
-		(symbol "1uF_0402_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1uF_0402_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -9410,7 +10490,34 @@
 				)
 			)
 		)
-		(symbol "1uF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1uF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -9636,7 +10743,34 @@
 				)
 			)
 		)
-		(symbol "1uF_0805_25V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1uF_0805_25V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -9860,7 +10994,34 @@
 				)
 			)
 		)
-		(symbol "1uF_Radial_TH_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "1uF_Radial_TH_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -10085,7 +11246,34 @@
 				)
 			)
 		)
-		(symbol "2.2nF_0402_6.3V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=2.2n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.2nF_0402_6.3V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -10313,7 +11501,34 @@
 				)
 			)
 		)
-		(symbol "2.2nF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=2.2n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.2nF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -10551,7 +11766,34 @@
 				)
 			)
 		)
-		(symbol "2.2uF_0201_10V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=2.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.2uF_0201_10V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -10778,7 +12020,34 @@
 				)
 			)
 		)
-		(symbol "2.2uF_0402_6.3V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=2.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.2uF_0402_6.3V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -11004,7 +12273,34 @@
 				)
 			)
 		)
-		(symbol "2.2uF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=2.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.2uF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -11232,7 +12528,34 @@
 				)
 			)
 		)
-		(symbol "2.2uF_0603_35V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=2.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.2uF_0603_35V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -11460,7 +12783,34 @@
 				)
 			)
 		)
-		(symbol "2.2uF_0805_35V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=2.2u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.2uF_0805_35V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -11688,7 +13038,34 @@
 				)
 			)
 		)
-		(symbol "2.7nF_0603_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=2.7n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "2.7nF_0603_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -11916,7 +13293,34 @@
 				)
 			)
 		)
-		(symbol "20pF_0402_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=20p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "20pF_0402_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -12144,7 +13548,34 @@
 				)
 			)
 		)
-		(symbol "20pF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=20p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "20pF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -12372,7 +13803,34 @@
 				)
 			)
 		)
-		(symbol "20pF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=20p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "20pF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -12599,7 +14057,34 @@
 				)
 			)
 		)
-		(symbol "220pF_0402_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=220p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "220pF_0402_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -12827,7 +14312,34 @@
 				)
 			)
 		)
-		(symbol "220pF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=220p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "220pF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -13054,7 +14566,34 @@
 				)
 			)
 		)
-		(symbol "22nF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=22n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "22nF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -13270,7 +14809,34 @@
 				)
 			)
 		)
-		(symbol "22uF_0603_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=22u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "22uF_0603_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -13497,7 +15063,34 @@
 				)
 			)
 		)
-		(symbol "22uF_0603_6.3V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=22u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "22uF_0603_6.3V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -13722,7 +15315,34 @@
 				)
 			)
 		)
-		(symbol "22uF_0805_10V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=22u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "22uF_0805_10V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -13945,7 +15565,34 @@
 				)
 			)
 		)
-		(symbol "22uF_0805_25V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=22u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "22uF_0805_25V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -14170,7 +15817,34 @@
 				)
 			)
 		)
-		(symbol "22uF_0805_6.3V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=22u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "22uF_0805_6.3V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -14396,7 +16070,34 @@
 				)
 			)
 		)
-		(symbol "22uF_1206_25V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=22u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "22uF_1206_25V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -14608,7 +16309,34 @@
 				)
 			)
 		)
-		(symbol "22uF_1210_16V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=22u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "22uF_1210_16V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -14834,7 +16562,34 @@
 				)
 			)
 		)
-		(symbol "240pF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=240p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "240pF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -15061,7 +16816,34 @@
 				)
 			)
 		)
-		(symbol "3.3nF_0402_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=3.3n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "3.3nF_0402_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -15288,7 +17070,34 @@
 				)
 			)
 		)
-		(symbol "3.3nF_0402_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=3.3n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "3.3nF_0402_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -15515,7 +17324,34 @@
 				)
 			)
 		)
-		(symbol "3.6nF_0402_10V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=3.6n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "3.6nF_0402_10V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -15742,7 +17578,34 @@
 				)
 			)
 		)
-		(symbol "3.6nF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=3.6n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "3.6nF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -15969,7 +17832,34 @@
 				)
 			)
 		)
-		(symbol "330nF_0603_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=330n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "330nF_0603_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -16196,7 +18086,34 @@
 				)
 			)
 		)
-		(symbol "330nF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=330n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "330nF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -16423,7 +18340,34 @@
 				)
 			)
 		)
-		(symbol "330pF_0603_35V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=330p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "330pF_0603_35V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -16651,7 +18595,34 @@
 				)
 			)
 		)
-		(symbol "33nF_0603_10V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=33n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "33nF_0603_10V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -16913,7 +18884,34 @@
 				)
 			)
 		)
-		(symbol "33nF_0603_10V_U2J_5%_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=33n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "33nF_0603_10V_U2J_5%_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -17140,7 +19138,34 @@
 				)
 			)
 		)
-		(symbol "33nF_0805_25V_1%_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=33n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "33nF_0805_25V_1%_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -17367,7 +19392,34 @@
 				)
 			)
 		)
-		(symbol "33uF_4mmD_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=33u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "33uF_4mmD_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -17607,7 +19659,34 @@
 				)
 			)
 		)
-		(symbol "33uF_NP_6.3x5.3_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=33u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "33uF_NP_6.3x5.3_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -17834,7 +19913,34 @@
 				)
 			)
 		)
-		(symbol "4.7nF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=4.7n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "4.7nF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -18061,7 +20167,34 @@
 				)
 			)
 		)
-		(symbol "4.7nF_0603_25V_1%_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=4.7n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "4.7nF_0603_25V_1%_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -18287,7 +20420,34 @@
 				)
 			)
 		)
-		(symbol "4.7pF_0603_50V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=4.7p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "4.7pF_0603_50V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -18523,7 +20683,34 @@
 				)
 			)
 		)
-		(symbol "4.7uF_0201_6.3V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=4.7u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "4.7uF_0201_6.3V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -18750,7 +20937,34 @@
 				)
 			)
 		)
-		(symbol "4.7uF_0402_6.3V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=4.7u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "4.7uF_0402_6.3V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -18964,7 +21178,34 @@
 				)
 			)
 		)
-		(symbol "4.7uF_0603_10V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=4.7u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "4.7uF_0603_10V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -19178,7 +21419,34 @@
 				)
 			)
 		)
-		(symbol "4.7uF_1206_lowESR_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=4.7u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "4.7uF_1206_lowESR_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -19406,7 +21674,34 @@
 				)
 			)
 		)
-		(symbol "470pF_0603_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=470p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "470pF_0603_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -19634,7 +21929,34 @@
 				)
 			)
 		)
-		(symbol "47nF_0603_35V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=47n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "47nF_0603_35V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -19861,7 +22183,34 @@
 				)
 			)
 		)
-		(symbol "47pF_0402_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=47p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "47pF_0402_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -20088,7 +22437,34 @@
 				)
 			)
 		)
-		(symbol "47pF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=47p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "47pF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -20337,7 +22713,34 @@
 				)
 			)
 		)
-		(symbol "47uF_16V_TH_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=47u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "47uF_16V_TH_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -20588,7 +22991,34 @@
 				)
 			)
 		)
-		(symbol "47uF_5x5.3_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=47u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "47uF_5x5.3_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -20839,7 +23269,34 @@
 				)
 			)
 		)
-		(symbol "560pF_0402_50v_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=560p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "560pF_0402_50v_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -21066,7 +23523,34 @@
 				)
 			)
 		)
-		(symbol "560pF_0603_50V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=560p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "560pF_0603_50V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -21293,7 +23777,34 @@
 				)
 			)
 		)
-		(symbol "6.8nF_0603_25V_1%_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=6.8n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "6.8nF_0603_25V_1%_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -21520,7 +24031,34 @@
 				)
 			)
 		)
-		(symbol "6.8pF_0402_25V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=6.8p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "6.8pF_0402_25V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -21715,7 +24253,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "8.2nF_0402_16V_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=8.2n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "8.2nF_0402_16V_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -21941,7 +24506,34 @@
 				)
 			)
 		)
-		(symbol "8.2nF_0603_50V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=8.2n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "8.2nF_0603_50V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -22166,7 +24758,34 @@
 				)
 			)
 		)
-		(symbol "820pF_0402_10v_0_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=820p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "820pF_0402_10v_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -22392,7 +25011,34 @@
 				)
 			)
 		)
-		(symbol "9pF_0603_50V_1_1"
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=9p"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "9pF_0603_50V_1_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -22962,7 +25608,34 @@
 				)
 			)
 		)
-		(embedded_fonts no)
+
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "C=0.1u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(embedded_fonts no)
 	)
 	(symbol "8.2nF_0402_16V"
 		(pin_numbers

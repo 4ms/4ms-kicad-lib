@@ -1,0 +1,21 @@
+* zener_models.lib
+* Behavioral Zener diode models for 4ms KiCad library
+*
+* KiCad pin mapping for all Zener symbols:
+*   pin1=K, pin2=A  →  Sim.Pins = "2 1"  (A K order for SPICE D element)
+*
+* Model uses standard SPICE diode with Zener breakdown via BV/IBV parameters.
+
+* BZT52C12 — 12V Zener, SOD-123, 300mW
+.model BZT52C12 D (Is=1e-14 Rs=5 N=1 BV=12 IBV=1m Cjo=80p)
+
+* Generic Zener 5.1V (useful as approximate for other low-voltage zeners)
+.model ZENER_5V1 D (Is=1e-14 Rs=5 N=1 BV=5.1 IBV=1m Cjo=80p)
+
+* Generic Zener 3.3V
+.model ZENER_3V3 D (Is=1e-14 Rs=5 N=1 BV=3.3 IBV=1m Cjo=80p)
+
+* ZPYxx — generic entry for the variable zener family (DO-41 1.3W)
+* Value not known at symbol level; model is a 10V placeholder — user should
+* override Sim.Name with a specific model when simulating a known Vz.
+.model ZPYxx D (Is=1e-14 Rs=3 N=1 BV=10 IBV=1m Cjo=100p)

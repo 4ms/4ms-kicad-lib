@@ -1,0 +1,17 @@
+* ideal_opamp_rr_single.lib
+* Behavioral rail-to-rail single op-amp model
+* (MCP6001T, NCS20071, OpAmp_Single_TSOP5_R2R)
+*
+* Output clamped within 50 mV of supply rails.
+*
+* Pin order:  inm inp vcc vee out
+*   (same as ideal_opamp_single.lib — drop-in replacement)
+*
+* KiCad Sim.Pins for 5-pin SOT23-5:
+*   1=OUT, 2=V-, 3=IN+, 4=IN-, 5=V+
+*   Sim.Pins = "4 3 5 2 1"
+
+.subckt IDEAL_OPAMP_RR_SINGLE inm inp vcc vee out
+Rin inp inm 1G
+B1 out 0 V = max(V(vee)+0.05, min(V(vcc)-0.05, 100000*(V(inp)-V(inm))))
+.ends IDEAL_OPAMP_RR_SINGLE

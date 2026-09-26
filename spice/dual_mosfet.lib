@@ -1,0 +1,32 @@
+* dual_mosfet.lib
+* Subcircuit models for dual-MOSFET packages (SOT-23-6)
+*
+* NMOS_WST3392 — dual N-ch MOSFET (SOT-23-6L)
+*   Package pins: 1=G1, 2=S1, 3=G2, 4=D2, 5=S2, 6=D1
+*   KiCad Sim.Pins = "1 2 6 3 5 4"  (order: g1 s1 d1 g2 s2 d2)
+*
+* PMOS_WST2011 — dual P-ch MOSFET (SOT-23-6L)
+*   Same package pinout as NMOS_WST3392
+*   KiCad Sim.Pins = "1 2 6 3 5 4"
+
+* Generic N-ch MOSFET (Level 1, approximates small-signal NMOS)
+.model GENERIC_NMOS NMOS (Level=1 Kp=100m Vto=1.5 Lambda=0.02 Gamma=0 Phi=0.6
++  Cgso=20p Cgdo=5p Cbd=10p Cbs=10p)
+
+* Generic P-ch MOSFET (Level 1, approximates small-signal PMOS)
+.model GENERIC_PMOS PMOS (Level=1 Kp=40m Vto=-1.5 Lambda=0.02 Gamma=0 Phi=0.6
++  Cgso=20p Cgdo=5p Cbd=10p Cbs=10p)
+
+* NMOS_WST3392: dual N-channel, independent transistors
+* Port order: g1 s1 d1 g2 s2 d2
+.subckt NMOS_WST3392 g1 s1 d1 g2 s2 d2
+M1 d1 g1 s1 s1 GENERIC_NMOS
+M2 d2 g2 s2 s2 GENERIC_NMOS
+.ends NMOS_WST3392
+
+* PMOS_WST2011: dual P-channel, independent transistors
+* Port order: g1 s1 d1 g2 s2 d2
+.subckt PMOS_WST2011 g1 s1 d1 g2 s2 d2
+M1 d1 g1 s1 s1 GENERIC_PMOS
+M2 d2 g2 s2 s2 GENERIC_PMOS
+.ends PMOS_WST2011

@@ -1,0 +1,19 @@
+* ideal_opamp_single.lib
+* Behavioral ideal single op-amp model for non-rail-to-rail devices
+* (LM321, LM321-TR, LM321M5X, LM321MFX_NOPB)
+*
+* Pin order:  inm inp vcc vee out
+*   inm = inverting input
+*   inp = non-inverting input
+*   vcc = positive supply
+*   vee = negative supply
+*   out = output
+*
+* KiCad Sim.Pins for 5-pin SOT23-5 single op-amp:
+*   1=OUT, 2=V-, 3=IN+, 4=IN-, 5=V+
+*   Sim.Pins = "4 3 5 2 1"
+
+.subckt IDEAL_OPAMP_SINGLE inm inp vcc vee out
+Rin inp inm 1G
+E1 out 0 inp inm 100000
+.ends IDEAL_OPAMP_SINGLE

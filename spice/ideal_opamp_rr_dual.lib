@@ -1,0 +1,21 @@
+* ideal_opamp_rr_dual.lib
+* Behavioral rail-to-rail dual op-amp model
+* (MCP6002, MCP6007, NCS20072DTB)
+*
+* Output is clamped within 50 mV of the supply rails,
+* modelling the near-rail output swing of R2R output-stage devices.
+*
+* Pin order:  in1m in1p vcc vee out1 in2p in2m out2
+*   (same as ideal_opamp_dual.lib — drop-in replacement)
+*
+* KiCad Sim.Pins for 8-pin dual op-amp:
+*   Sim.Pins = "2 3 8 4 1 5 6 7"
+
+.subckt IDEAL_OPAMP_RR_DUAL in1m in1p vcc vee out1 in2p in2m out2
+* High input impedance
+Rin1 in1p in1m 1G
+Rin2 in2p in2m 1G
+* Behavioral output: gain 100k, output clamped to within 50 mV of rails
+B1 out1 0 V = max(V(vee)+0.05, min(V(vcc)-0.05, 100000*(V(in1p)-V(in1m))))
+B2 out2 0 V = max(V(vee)+0.05, min(V(vcc)-0.05, 100000*(V(in2p)-V(in2m))))
+.ends IDEAL_OPAMP_RR_DUAL

@@ -1,0 +1,26 @@
+* ideal_opamp_dual.lib
+* Behavioral ideal dual op-amp model for non-rail-to-rail devices
+* (TL072, TL072H, TL072_TH, TL082, TL082_TH, LM358, RC4558_TH)
+*
+* Pin order:  in1m in1p vcc vee out1 in2p in2m out2
+*   in1m = inverting input, amplifier 1
+*   in1p = non-inverting input, amplifier 1
+*   vcc  = positive supply
+*   vee  = negative supply
+*   out1 = output, amplifier 1
+*   in2p = non-inverting input, amplifier 2
+*   in2m = inverting input, amplifier 2
+*   out2 = output, amplifier 2
+*
+* KiCad Sim.Pins for 8-pin dual op-amp (pin numbering 1..8):
+*   1=OUT1, 2=IN1-, 3=IN1+, 4=V-, 5=IN2+, 6=IN2-, 7=OUT2, 8=V+
+*   Sim.Pins = "2 3 8 4 1 5 6 7"
+
+.subckt IDEAL_OPAMP_DUAL in1m in1p vcc vee out1 in2p in2m out2
+* Open-loop gain = 100000 (100 dB), output not clamped to rails
+* Supply pins are present for correct netlist connectivity but not used by ideal model
+Rin1 in1p in1m 1G
+Rin2 in2p in2m 1G
+E1 out1 0 in1p in1m 100000
+E2 out2 0 in2p in2m 100000
+.ends IDEAL_OPAMP_DUAL

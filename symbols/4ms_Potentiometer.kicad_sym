@@ -148,7 +148,34 @@
 				)
 			)
 		)
-		(symbol "16mm_21Det_10k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=10k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "16mm_21Det_10k_0_1"
 			(rectangle
 				(start 1.016 2.54)
 				(end -1.016 -2.54)
@@ -547,7 +574,34 @@
 				)
 			)
 		)
-		(symbol "16mm_CtrDet_10k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=10k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "16mm_CtrDet_10k_0_1"
 			(rectangle
 				(start 1.016 2.54)
 				(end -1.016 -2.54)
@@ -828,7 +882,34 @@
 				)
 			)
 		)
-		(symbol "16mm_NoDet_100k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=100k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "16mm_NoDet_100k_0_1"
 			(rectangle
 				(start 1.016 2.54)
 				(end -1.016 -2.54)
@@ -1107,7 +1188,34 @@
 				)
 			)
 		)
-		(symbol "16mm_NoDet_10k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=10k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "16mm_NoDet_10k_0_1"
 			(rectangle
 				(start 1.016 2.54)
 				(end -1.016 -2.54)
@@ -1371,7 +1479,34 @@
 				)
 			)
 		)
-		(symbol "9mm_CtrDet_100k_Knurled_Lined_1_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=100k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "9mm_CtrDet_100k_Knurled_Lined_1_1"
 			(rectangle
 				(start 1.016 2.54)
 				(end -1.016 -2.54)
@@ -1728,7 +1863,34 @@
 				)
 			)
 		)
-		(symbol "9mm_CtrDet_10k_DShaft_1_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=10k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "9mm_CtrDet_10k_DShaft_1_1"
 			(rectangle
 				(start 1.016 2.54)
 				(end -1.016 -2.54)
@@ -2082,7 +2244,34 @@
 				)
 			)
 		)
-		(symbol "9mm_Dual_50k_DShaft_DualRow_1_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=50k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "9mm_Dual_50k_DShaft_DualRow_1_1"
 			(rectangle
 				(start -0.762 2.54)
 				(end 0.762 -2.54)
@@ -2522,7 +2711,34 @@
 				)
 			)
 		)
-		(symbol "9mm_NoDet_100k_Knurled_Lined_1_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=100k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "9mm_NoDet_100k_Knurled_Lined_1_1"
 			(rectangle
 				(start 1.016 2.54)
 				(end -1.016 -2.54)
@@ -2855,7 +3071,34 @@
 				)
 			)
 		)
-		(symbol "9mm_NoDet_10k_DShaft_1_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=10k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "9mm_NoDet_10k_DShaft_1_1"
 			(rectangle
 				(start 1.016 2.54)
 				(end -1.016 -2.54)
@@ -5440,7 +5683,34 @@
 				)
 			)
 		)
-		(symbol "Slider_Dual_Motorized_PSM60-081A-xxx_1_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=10k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "Slider_Dual_Motorized_PSM60-081A-xxx_1_1"
 			(rectangle
 				(start -2.54 0.762)
 				(end 2.54 -0.762)
@@ -5915,7 +6185,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_T73YEt_100k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=100k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_T73YEt_100k_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)
@@ -6183,7 +6480,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_T73YEt_10k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=10k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_T73YEt_10k_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)
@@ -6451,7 +6775,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_T73YEt_1k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=1k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_T73YEt_1k_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)
@@ -6719,7 +7070,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_TC33X_100R_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=100 pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_TC33X_100R_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)
@@ -6987,7 +7365,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_TC33X_100k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=100k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_TC33X_100k_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)
@@ -7255,7 +7660,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_TC33X_10k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=10k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_TC33X_10k_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)
@@ -7523,7 +7955,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_TC33X_1k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=1k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_TC33X_1k_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)
@@ -7791,7 +8250,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_TC33X_200R_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=200 pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_TC33X_200R_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)
@@ -8059,7 +8545,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_TC33X_20k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=20k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_TC33X_20k_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)
@@ -8327,7 +8840,34 @@
 				)
 			)
 		)
-		(symbol "TrimPot_TC33X_50k_0_1"
+
+		(property "Sim.Device" "POT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1 2 3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "R=50k pos=0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "TrimPot_TC33X_50k_0_1"
 			(polyline
 				(pts
 					(xy -2.286 -0.381) (xy -1.651 -1.905)

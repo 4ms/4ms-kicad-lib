@@ -1,0 +1,33 @@
+* series_dual_diode.lib
+* Subcircuit models for series-connected dual diodes in SOT-23-3
+*
+* These parts have 3 pins: A (common anode of D1), AK (cathode of D1 / anode of D2), C (cathode of D2)
+* D1: anode=pin1, cathode=pin3    D2: anode=pin3, cathode=pin2
+*
+* BAT54S  — dual Schottky series (SOT-23-3)
+*   KiCad pins: 1=Anode, 2=cathode, 3=AK
+*   KiCad Sim.Pins = "1 3 2"  (port order: a ak c)
+*
+* MMBD4148W-7-F — dual signal diode series (SOT-23-3)
+*   KiCad pins: 1=Anode, 2=cathode, 3=AK
+*   KiCad Sim.Pins = "1 3 2"  (port order: a ak c)
+
+* Generic Schottky model (Vf ~0.3V, fast)
+.model SCHOTTKY_GENERIC D (Is=1e-9 Rs=0.3 N=1.05 Tt=10n Cjo=5p Vj=0.5 M=0.4 Iave=200m)
+
+* Generic fast signal diode model (approximates 1N4148 / 1N914)
+.model SIGNAL_DIODE D (Is=2.2e-9 Rs=0.5 N=1.84 Tt=12n Cjo=4p Vj=0.5 M=0.33 Iave=200m)
+
+* BAT54S: series dual Schottky
+* Port order: a ak c
+.subckt BAT54S a ak c
+D1 a ak SCHOTTKY_GENERIC
+D2 ak c SCHOTTKY_GENERIC
+.ends BAT54S
+
+* MMBD4148W-7-F: series dual signal diode
+* Port order: a ak c
+.subckt MMBD4148W a ak c
+D1 a ak SIGNAL_DIODE
+D2 ak c SIGNAL_DIODE
+.ends MMBD4148W
