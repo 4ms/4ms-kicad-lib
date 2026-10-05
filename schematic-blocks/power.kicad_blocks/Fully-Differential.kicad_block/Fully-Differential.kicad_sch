@@ -1,0 +1,5674 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3081732d-67ec-4bdf-b731-227bc17a29af")
+	(paper "A4")
+	(lib_symbols
+		(symbol "4ms_Capacitor:100nF_0402_16V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF_0402_16V"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Capacitor:C_0402"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+				(at -2.54 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at -2.54 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "GCM155R71C104KA55D"
+				(at -2.54 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Display" "0.1uF"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB ID" "C1525"
+				(at 1.27 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer 2" "Yageo"
+				(at 1.27 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number 2" "CC0402KRX7R7BB104"
+				(at 7.62 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Production Stage" "A"
+				(at -2.54 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "100nF_0402_16V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "100nF_0402_16V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100nF_0402_16V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4ms_Capacitor:100pF_0603_50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100pF_0603_50V"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Capacitor:C_0603"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100pF, Min. 50V 10%, NP0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Specifications" "100pF, Min. 50V 10% NP0 or C0G"
+				(at -2.54 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at -2.54 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "CC0603JRNPO9BN101"
+				(at -2.54 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Display" "100pF"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB ID" "C14858"
+				(at 1.27 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Production Stage" "A"
+				(at -2.54 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "100pF_0603_50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "100pF_0603_50V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100pF_0603_50V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4ms_Capacitor:10nF_0402_16V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10nF_0402_16V"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Capacitor:C_0402"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10nF, Min. 16V 10%, X7R or X5R or similar 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Specifications" "10nF, Min. 16V 10%, X7R or X5R or similar"
+				(at -2.54 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at -2.54 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "CC0402KRX7R7BB103"
+				(at -2.54 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Display" "10nF"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB ID" "C15195"
+				(at 1.27 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Production Stage" "A"
+				(at -2.54 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "10nF_0402_16V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10nF_0402_16V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10nF_0402_16V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4ms_IC:TL072H"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL072H"
+				(at 2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TL072 Dual Opamp TSSOP-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Specifications" "Dual Opamp TSSOP-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "TL072HIPWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Production Stage" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB ID" "C4370341"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TL072 TSSOP-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*Pitch1.27mm* DIP*W7.62mm* TSSOP*Pitch0.65mm* TO-99* DSBGA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TL072H_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL072H_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL072H_3_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4ms_Resistor_0603:47Ω_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "47Ω_0603"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Resistor:R_0603"
+				(at -2.54 -12.954 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "47Ω, 1%, 1/10W, 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Specifications" "47Ω, 1%, 1/10W, 0603"
+				(at -2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at -2.54 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "0603WAF470JT5E"
+				(at -2.54 -11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Display" "47Ω"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB ID" "C23182"
+				(at -2.54 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Production Stage" "A"
+				(at -2.54 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "47Ω 0603 1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_* R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "47Ω_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "47Ω_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4ms_Resistor_0603_0.1%:100k_0603_0.1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100k_0603_0.1%"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Resistor:R_0603"
+				(at -2.54 -12.954 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100k, 0.1%, 1/10W, 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Specifications" "100k, 0.1%, 1/10W, 0603"
+				(at -2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at -2.54 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "RT0603BRD07100KL"
+				(at -2.54 -11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Display" "100k_0.1%"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB ID" "C122538"
+				(at -2.54 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Production Stage" "A"
+				(at -2.54 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "100k 0603 0.1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_* R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "100k_0603_0.1%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100k_0603_0.1%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4ms_Resistor_0603_0.1%:14k_0603_0.1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "14k_0603_0.1%"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Resistor:R_0603"
+				(at -2.54 -12.954 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "14k, 0.1%, 1/10W, 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Specifications" "14k, 0.1%, 1/10W, 0603"
+				(at -2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at -2.54 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "RT0603BRD0714KL"
+				(at -2.54 -11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Display" "14k_0.1%"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB ID" "C667049"
+				(at -2.54 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Production Stage" "A"
+				(at -2.54 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "14k 0603 0.1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_* R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "14k_0603_0.1%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "14k_0603_0.1%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Max signal will be single-ended Eurorack (using 6.35mm adaptor):\n+/-10V on In+, with In- grounded\n\nIn+: -10V..0V..+10V\nIn-: 0V\n==>\nVIN+: 1.1V..2.5V..3.9V\nVIN-: 3.9V..2.5V..1.1V\n=100% FS\n\n\ngain = 2.8Vpp/20Vpp = 0.14\n14k/100k = 0.14"
+		(exclude_from_sim no)
+		(at 215.9 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c834218-4e59-40de-8f43-619a43c3e5ed")
+	)
+	(text "Balanced pro audio: +4dBu = 1.225Vrms = +/-1.73Vpeak\n\nIn+: -1.73V..0V..+1.73V\nIn-: +1.73V..0V..-1.73V\n==>\nVIN+: 2.0V..2.5V..3.0V\nVIN-: 3.0V..2.5V..2.0V\n= 35% of FS"
+		(exclude_from_sim no)
+		(at 215.9 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95494137-6818-466e-8213-9b1670f468c5")
+	)
+	(junction
+		(at 130.81 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05987165-4e53-4535-ab50-64cd8eef2fa9")
+	)
+	(junction
+		(at 194.31 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24cd5f8e-918e-4bd1-a3dd-bb75aa323764")
+	)
+	(junction
+		(at 167.64 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26f4e15b-4280-4f3e-96db-5029703173f9")
+	)
+	(junction
+		(at 194.31 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e02e6f9-f909-4869-8f5c-a72452311a7b")
+	)
+	(junction
+		(at 109.22 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36c975a7-7377-448b-a608-f9c5fb0680dd")
+	)
+	(junction
+		(at 157.48 148.59)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "49cb8972-6f22-4d13-a568-a1f0fbf7c0c8")
+	)
+	(junction
+		(at 130.81 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f6ee169-2eb7-4d67-9d8a-5e91ad5e73fa")
+	)
+	(junction
+		(at 148.59 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51ab0f8c-30e7-46c5-959e-ec4caf5f1078")
+	)
+	(junction
+		(at 148.59 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "634bdb2d-c8d0-47df-909d-8da2602ade47")
+	)
+	(junction
+		(at 148.59 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7325e22b-146c-4441-830a-691c8d30f535")
+	)
+	(junction
+		(at 167.64 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa4134f-a86b-47db-a142-815ac5d03119")
+	)
+	(junction
+		(at 105.41 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f9a268-96e4-4257-a28c-714ad43abb3f")
+	)
+	(junction
+		(at 148.59 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9977f7c5-c5ae-45f5-a831-b89cdc35967f")
+	)
+	(junction
+		(at 163.83 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5f32026-517d-433f-b64a-03f436316ebc")
+	)
+	(junction
+		(at 167.64 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b414a121-09f9-4aab-806c-258fb6508b06")
+	)
+	(junction
+		(at 151.13 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bccffbbf-43cb-4286-b72b-50bdf7fb6c34")
+	)
+	(junction
+		(at 167.64 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb7849ea-f431-4669-8915-d7dfdcebcc62")
+	)
+	(wire
+		(pts
+			(xy 105.41 44.45) (xy 105.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c955d90-96cf-489d-91f1-101d94ff3c3b")
+	)
+	(wire
+		(pts
+			(xy 194.31 88.9) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5787e0-6958-443b-aaa5-28df3a1bc7ce")
+	)
+	(wire
+		(pts
+			(xy 130.81 44.45) (xy 149.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1234786a-458f-40f3-bcad-18eef8794192")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dff343d-bc1b-425e-99c1-6c95f32840b3")
+	)
+	(wire
+		(pts
+			(xy 162.56 109.22) (xy 167.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2132ce08-e174-4291-8607-981c98ec07aa")
+	)
+	(wire
+		(pts
+			(xy 105.41 109.22) (xy 114.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247c6e44-bdda-4321-97c1-6105b4c442de")
+	)
+	(wire
+		(pts
+			(xy 151.13 138.43) (xy 151.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25edcbf9-baa7-48f6-a032-a497a455aa76")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b47c69b-0867-452c-8e5d-b69b2b00d439")
+	)
+	(wire
+		(pts
+			(xy 151.13 148.59) (xy 157.48 148.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "30682d10-ee53-4e3e-8a3e-45c2acf2053e")
+	)
+	(wire
+		(pts
+			(xy 121.92 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7aedb8-2f14-4417-97d6-b1574f7e76f7")
+	)
+	(wire
+		(pts
+			(xy 148.59 49.53) (xy 149.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407f4a7e-90c1-4089-966d-6f2d68b9176d")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 165.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5160f79e-8d30-457f-83d5-1e4e68c66cb0")
+	)
+	(wire
+		(pts
+			(xy 148.59 57.15) (xy 156.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523f8839-a90a-4483-b22f-1edfcd751ab6")
+	)
+	(wire
+		(pts
+			(xy 148.59 49.53) (xy 148.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554f0fa0-7e97-4417-8269-b2a2587cb71a")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5eea70-057e-4de9-9453-34de63099b3c")
+	)
+	(wire
+		(pts
+			(xy 163.83 148.59) (xy 163.83 146.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5b06dd0e-089d-4f8c-87d5-6ea417b2936d")
+	)
+	(wire
+		(pts
+			(xy 194.31 46.99) (xy 207.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8790c9-1fc4-4291-9680-ce6eda0206f5")
+	)
+	(wire
+		(pts
+			(xy 167.64 67.31) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f51f325-6147-4598-8f06-b6b195755632")
+	)
+	(wire
+		(pts
+			(xy 130.81 100.33) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e34414-e1e0-46c1-ae6d-95bf94712977")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 167.64 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0a4232-df16-49b6-9059-adde59cfc735")
+	)
+	(wire
+		(pts
+			(xy 157.48 148.59) (xy 163.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6daec9b1-753c-4baa-9155-86b62a054a6d")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724ff796-3881-45a7-bc9a-0f5bc1ce0eba")
+	)
+	(wire
+		(pts
+			(xy 130.81 58.42) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fe294b-ff81-490a-b6a6-d7ecf5cd353f")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 154.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cb6bd9-a570-4c78-985e-51c7a38ea8e8")
+	)
+	(wire
+		(pts
+			(xy 109.22 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765a7e37-c682-4065-97aa-4a8aba11f2e4")
+	)
+	(wire
+		(pts
+			(xy 163.83 140.97) (xy 172.72 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "779572e9-d1db-4cbc-a353-a9dd2c2f5d49")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdde60a-6660-4d11-88b1-4501415cbc80")
+	)
+	(wire
+		(pts
+			(xy 163.83 138.43) (xy 163.83 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7ef3a933-a836-4b1c-9152-92af8504caf5")
+	)
+	(wire
+		(pts
+			(xy 162.56 67.31) (xy 167.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4182bd-c5f1-443d-93b6-7588df285c08")
+	)
+	(wire
+		(pts
+			(xy 101.6 44.45) (xy 105.41 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813d7795-79a5-4ce3-8ddc-e8d039f5acb3")
+	)
+	(wire
+		(pts
+			(xy 194.31 46.99) (xy 194.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d9e728-27f5-43d0-a9bb-8161b3e01e7b")
+	)
+	(wire
+		(pts
+			(xy 148.59 109.22) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a967729-a1c8-4984-9ced-e3caf12e106a")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03572cd-8198-4842-85f9-4d0440a728bb")
+	)
+	(wire
+		(pts
+			(xy 105.41 44.45) (xy 114.3 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a63af0-e1ba-4cc1-ab12-b2a3ea98ce8a")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ec72f7-670b-4c4e-9e99-689677cf3a30")
+	)
+	(wire
+		(pts
+			(xy 127 62.23) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1096d1-9c67-48d4-8cd4-d30926ee61f6")
+	)
+	(wire
+		(pts
+			(xy 148.59 99.06) (xy 156.21 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af92672a-d03c-44c0-9371-8cd395ff7a32")
+	)
+	(wire
+		(pts
+			(xy 167.64 109.22) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b222da86-79f8-4511-8e42-eb3518fe2955")
+	)
+	(wire
+		(pts
+			(xy 148.59 99.06) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b393687a-3b77-4c06-9016-8f775d1c1ee0")
+	)
+	(wire
+		(pts
+			(xy 157.48 148.59) (xy 157.48 152.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b5cce58f-f6cb-4daf-8c6b-6cf0482b9159")
+	)
+	(wire
+		(pts
+			(xy 207.01 88.9) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72299ee-4ba7-4f88-881f-8f74ff0182d3")
+	)
+	(wire
+		(pts
+			(xy 130.81 44.45) (xy 130.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4600d38-2af3-43e1-a11f-c633ed76a5c0")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e0c668-e041-446e-a848-b94aacd327ad")
+	)
+	(wire
+		(pts
+			(xy 148.59 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75d52eb-6d4f-443d-ab62-9e10a7edff3d")
+	)
+	(wire
+		(pts
+			(xy 161.29 57.15) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08f69a6-0f7f-4fce-9a64-f48c2e89e510")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11714b3-fff9-4775-b48b-b5f842acd686")
+	)
+	(wire
+		(pts
+			(xy 121.92 44.45) (xy 130.81 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ca3f59-8a31-4b5b-b0ab-3c302e409e8d")
+	)
+	(wire
+		(pts
+			(xy 140.97 140.97) (xy 151.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d5cad237-64f4-4420-82d8-a86ebc9ae75b")
+	)
+	(wire
+		(pts
+			(xy 151.13 146.05) (xy 151.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e55c25e8-a75a-40f2-a397-8032d33d9ea8")
+	)
+	(wire
+		(pts
+			(xy 148.59 91.44) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed45d51d-2cea-481b-8d3a-11b87cfa62a8")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efef2ac3-0142-4653-b270-dd21c79f562d")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05aaa0c-6cb3-4e3f-bc5b-88d718226c21")
+	)
+	(wire
+		(pts
+			(xy 109.22 67.31) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f4299a-43dd-49fa-8b81-0afb7cc23626")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78102ee-d36b-4a07-b794-5b6daaafe214")
+	)
+	(wire
+		(pts
+			(xy 148.59 57.15) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f791bb33-2998-41fd-aa09-8b75073821ff")
+	)
+	(wire
+		(pts
+			(xy 194.31 68.58) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f8b5ca-ead8-4fc0-90dc-d8678d9a8925")
+	)
+	(wire
+		(pts
+			(xy 182.88 46.99) (xy 194.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddea45a-c5df-4a66-be21-2654947d2cf1")
+	)
+	(hierarchical_label "Vsupply-"
+		(shape input)
+		(at 140.97 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04c73c42-beec-4658-8df3-76b053fe34dd")
+	)
+	(hierarchical_label "GND_adc"
+		(shape input)
+		(at 157.48 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1061b019-6cae-4729-bc9c-86750a5081d0")
+	)
+	(hierarchical_label "VCOMAD"
+		(shape output)
+		(at 127 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f3da396-b133-4894-8da0-31c379699616")
+	)
+	(hierarchical_label "VIN+"
+		(shape output)
+		(at 207.01 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "408a4660-3ea8-4251-9b8d-eee75349caed")
+	)
+	(hierarchical_label "In+"
+		(shape input)
+		(at 101.6 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a9bf0f7-ba60-4d6c-b83d-061ee7d130c9")
+	)
+	(hierarchical_label "VCOMAD"
+		(shape output)
+		(at 127 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e5bda78-8cc4-409b-a982-022e82738e4b")
+	)
+	(hierarchical_label "In-"
+		(shape input)
+		(at 101.6 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab41abc8-8e90-4e4d-8929-93550475d024")
+	)
+	(hierarchical_label "VIN-"
+		(shape output)
+		(at 207.01 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea157a20-4603-432e-b6d0-fc84955fba25")
+	)
+	(hierarchical_label "Vsupply+"
+		(shape input)
+		(at 172.72 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4b8e72f-db3f-480c-922d-78f4030f64c1")
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603:47Ω_0603")
+		(at 179.07 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "101877f3-213a-422f-b5b7-236d2eeb198d")
+		(property "Reference" "R306"
+			(at 179.07 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47Ω_0603"
+			(at 179.07 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 192.024 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47Ω, 1%, 1/10W, 0603"
+			(at 179.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "47Ω, 1%, 1/10W, 0603"
+			(at 186.69 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 188.468 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "0603WAF470JT5E"
+			(at 190.246 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "47Ω"
+			(at 179.07 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C23182"
+			(at 193.802 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 195.58 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a0b6b9c5-c13d-4f0a-a480-8b4f12ad9d06")
+		)
+		(pin "2"
+			(uuid "c6bf2f95-ee0c-46b4-81b0-3ca66163f6d6")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R306")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R326")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R316")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R346")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R356")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R336")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:100pF_0603_50V")
+		(at 158.75 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168bfa2d-fc18-4a6d-bcae-6392c3196a19")
+		(property "Reference" "C300"
+			(at 158.7563 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF_0603_50V"
+			(at 154.94 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 163.83 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100pF, Min. 50V 10%, NP0"
+			(at 158.75 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "100pF, Min. 50V 10% NP0 or C0G"
+			(at 166.624 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 168.148 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "CC0603JRNPO9BN101"
+			(at 169.672 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "100pF"
+			(at 158.7563 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C14858"
+			(at 171.45 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 175.26 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "5d476e67-3673-4f1d-94c9-8198573aed4c")
+		)
+		(pin "1"
+			(uuid "f7ce187b-3f38-42b7-9b9c-1fb60ff6b6f5")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "C300")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "C320")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "C310")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "C340")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "C350")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "C330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:10nF_0402_16V")
+		(at 194.31 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2237c0ad-4c51-499e-9f80-06e0992f82ec")
+		(property "Reference" "C301"
+			(at 196.85 64.7762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF_0402_16V"
+			(at 194.31 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0402"
+			(at 191.77 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10nF, Min. 16V 10%, X7R or X5R or similar 0402"
+			(at 194.31 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "10nF, Min. 16V 10%, X7R or X5R or similar"
+			(at 191.77 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 191.77 75.438 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "CC0402KRX7R7BB103"
+			(at 191.77 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "10nF"
+			(at 196.85 67.3162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C15195"
+			(at 195.58 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 191.77 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8c2add49-6bab-44e3-af40-bf5295021b74")
+		)
+		(pin "2"
+			(uuid "c6d31a2e-1e02-41f5-94a2-008beb65b943")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "C301")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "C321")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "C311")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "C341")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "C351")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "C331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603_0.1%:14k_0603_0.1%")
+		(at 130.81 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31341a8b-0f10-489b-a615-3f9e4abbd181")
+		(property "Reference" "R307"
+			(at 133.35 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "14k_0603_0.1%"
+			(at 128.27 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 128.27 109.474 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "14k, 0.1%, 1/10W, 0603"
+			(at 130.81 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "14k, 0.1%, 1/10W, 0603"
+			(at 128.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 128.27 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "RT0603BRD0714KL"
+			(at 128.27 107.696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "14k_0.1%"
+			(at 133.35 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C667049"
+			(at 128.27 111.252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 128.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "b4142c72-bb19-4df4-809e-2d4483b14860")
+		)
+		(pin "1"
+			(uuid "21cce19f-08b6-48bb-ae4e-a9c34052ca1c")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R307")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R327")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R317")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R347")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R357")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R337")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:100nF_0402_16V")
+		(at 151.13 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a7326ee-82b6-4e13-95aa-ef481febf94f")
+		(property "Reference" "C303"
+			(at 153.67 142.2462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF_0402_16V"
+			(at 151.13 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0402"
+			(at 148.59 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 151.13 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 148.59 151.384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 153.67 144.7862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 148.59 152.908 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "GCM155R71C104KA55D"
+			(at 148.59 154.432 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C1525"
+			(at 152.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 148.59 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 152.4 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number 2" "CC0402KRX7R7BB104"
+			(at 158.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d49e262c-08df-485c-a0ef-531beb9126bf")
+		)
+		(pin "2"
+			(uuid "c5d006b5-5379-42eb-80a7-b2e731f97cc5")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "C303")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "C323")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "C313")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "C343")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "C353")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "C333")
+					(unit 1)
+				)
+			)
+			(project "MetaModule"
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "C305")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "C505")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "C405")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "C705")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "C805")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "C605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603_0.1%:100k_0603_0.1%")
+		(at 118.11 67.31 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f73fd3b-f64c-4f47-bc64-cbd3902c7234")
+		(property "Reference" "R303"
+			(at 118.11 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k_0603_0.1%"
+			(at 118.11 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 131.064 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100k, 0.1%, 1/10W, 0603"
+			(at 118.11 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "100k, 0.1%, 1/10W, 0603"
+			(at 125.73 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 127.508 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "RT0603BRD07100KL"
+			(at 129.286 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "100k_0.1%"
+			(at 118.11 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C122538"
+			(at 132.842 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 134.62 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8c9e6422-dc15-4ebf-8849-97a9619c7717")
+		)
+		(pin "2"
+			(uuid "e83f0802-7214-4138-83a2-d7af11ed74ea")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R303")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R323")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R313")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R343")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R353")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_IC:TL072H")
+		(at 157.48 88.9 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "544f1e58-0e74-48d3-bbf2-43ab41a81a85")
+		(property "Reference" "U300"
+			(at 157.48 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072H"
+			(at 157.48 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TL072 Dual Opamp TSSOP-8"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "Dual Opamp TSSOP-8"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "TL072HIPWR"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C4370341"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "d74e9899-47bc-43ae-8674-25d79cb385fe")
+		)
+		(pin "2"
+			(uuid "e936ef2d-b56f-4619-a0ed-f3f28636930e")
+		)
+		(pin "5"
+			(uuid "9d5c3514-e003-4d73-8167-0ccca51c7f10")
+		)
+		(pin "8"
+			(uuid "a8793f29-f09c-42f1-b636-d7b8d93c70bf")
+		)
+		(pin "3"
+			(uuid "ba308cbf-6de3-4229-9e9d-5ca72090a803")
+		)
+		(pin "4"
+			(uuid "509e3845-5a32-4370-ae94-85dab0b1f86a")
+		)
+		(pin "1"
+			(uuid "1eccc3e6-4aec-4cf9-9880-e6336d6c9145")
+		)
+		(pin "7"
+			(uuid "32e9e6c9-c876-41de-b87a-fab23b456cd5")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "U300")
+					(unit 2)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "U320")
+					(unit 2)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "U310")
+					(unit 2)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "U340")
+					(unit 2)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "U350")
+					(unit 2)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "U330")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603_0.1%:100k_0603_0.1%")
+		(at 118.11 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "571dc754-756e-432e-a97b-d2c90e097f5f")
+		(property "Reference" "R300"
+			(at 118.11 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k_0603_0.1%"
+			(at 118.11 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 131.064 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100k, 0.1%, 1/10W, 0603"
+			(at 118.11 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "100k, 0.1%, 1/10W, 0603"
+			(at 125.73 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 127.508 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "RT0603BRD07100KL"
+			(at 129.286 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "100k_0.1%"
+			(at 118.11 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C122538"
+			(at 132.842 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 134.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e98a91b4-9034-4994-8805-29b07ddc2175")
+		)
+		(pin "2"
+			(uuid "d20c4834-ee38-46a1-973a-9c2b5cbbbc57")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R300")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R320")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R310")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R340")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R350")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:100nF_0402_16V")
+		(at 163.83 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57bd6848-4f19-47ce-b224-aae775f19b07")
+		(property "Reference" "C304"
+			(at 166.37 142.2462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF_0402_16V"
+			(at 163.83 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0402"
+			(at 161.29 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 163.83 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 161.29 151.384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 166.37 144.7862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 161.29 152.908 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "GCM155R71C104KA55D"
+			(at 161.29 154.432 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C1525"
+			(at 165.1 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 161.29 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 165.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number 2" "CC0402KRX7R7BB104"
+			(at 171.45 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78f66861-957a-4ab2-b9cc-556699646ee6")
+		)
+		(pin "2"
+			(uuid "d3109721-90d8-49ba-bc9e-8d5c02415653")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "C304")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "C324")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "C314")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "C344")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "C354")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "C334")
+					(unit 1)
+				)
+			)
+			(project "MetaModule"
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "C306")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "C506")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "C406")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "C706")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "C806")
+					(unit 1)
+				)
+				(path "/65ef787c-9247-43b2-969c-f86513538daf/fbce4ffe-f535-4241-a23c-0ffa43ac1106/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "C606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603_0.1%:100k_0603_0.1%")
+		(at 118.11 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66e269db-2f7d-4ed6-9e34-776c52ba647d")
+		(property "Reference" "R305"
+			(at 118.11 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k_0603_0.1%"
+			(at 118.11 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 131.064 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100k, 0.1%, 1/10W, 0603"
+			(at 118.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "100k, 0.1%, 1/10W, 0603"
+			(at 125.73 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 127.508 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "RT0603BRD07100KL"
+			(at 129.286 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "100k_0.1%"
+			(at 118.11 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C122538"
+			(at 132.842 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 134.62 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "076a94e2-1369-4278-9671-fd57aad5e418")
+		)
+		(pin "2"
+			(uuid "646d1007-6e12-45d4-8b8f-8a385db6f7f1")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R305")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R325")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R315")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R345")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R355")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603_0.1%:14k_0603_0.1%")
+		(at 130.81 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f1b53ba-3d78-4dca-a4ff-033d8c7ac264")
+		(property "Reference" "R302"
+			(at 133.35 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "14k_0603_0.1%"
+			(at 128.27 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 128.27 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "14k, 0.1%, 1/10W, 0603"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "14k, 0.1%, 1/10W, 0603"
+			(at 128.27 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 128.27 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "RT0603BRD0714KL"
+			(at 128.27 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "14k_0.1%"
+			(at 133.35 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C667049"
+			(at 128.27 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 128.27 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "08930486-546b-4a6b-b4f4-215cf8fc182e")
+		)
+		(pin "1"
+			(uuid "099c4246-a9c0-4c0f-bdcd-b89615e6b683")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R302")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R322")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R312")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R342")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R352")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_IC:TL072H")
+		(at 157.48 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "914ae0f2-c783-4800-8b8e-226878fa9dff")
+		(property "Reference" "U300"
+			(at 157.48 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072H"
+			(at 157.48 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TL072 Dual Opamp TSSOP-8"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "Dual Opamp TSSOP-8"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "TL072HIPWR"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C4370341"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "d74e9899-47bc-43ae-8674-25d79cb385ff")
+		)
+		(pin "2"
+			(uuid "e936ef2d-b56f-4619-a0ed-f3f28636930f")
+		)
+		(pin "5"
+			(uuid "9d5c3514-e003-4d73-8167-0ccca51c7f11")
+		)
+		(pin "8"
+			(uuid "a8793f29-f09c-42f1-b636-d7b8d93c70c0")
+		)
+		(pin "3"
+			(uuid "ba308cbf-6de3-4229-9e9d-5ca72090a804")
+		)
+		(pin "4"
+			(uuid "509e3845-5a32-4370-ae94-85dab0b1f86b")
+		)
+		(pin "1"
+			(uuid "1eccc3e6-4aec-4cf9-9880-e6336d6c9146")
+		)
+		(pin "7"
+			(uuid "32e9e6c9-c876-41de-b87a-fab23b456cd6")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "U300")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "U320")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "U310")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "U340")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "U350")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "U330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Capacitor:100pF_0603_50V")
+		(at 158.75 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93ee2025-a478-4902-ab5a-a48b17dd26f6")
+		(property "Reference" "C302"
+			(at 158.7563 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF_0603_50V"
+			(at 154.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 163.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100pF, Min. 50V 10%, NP0"
+			(at 158.75 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "100pF, Min. 50V 10% NP0 or C0G"
+			(at 166.624 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 168.148 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "CC0603JRNPO9BN101"
+			(at 169.672 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "100pF"
+			(at 158.7563 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C14858"
+			(at 171.45 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 175.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "7eb6ea81-714c-4968-9ef1-32e16d8915e6")
+		)
+		(pin "1"
+			(uuid "fc3bad2f-7c4f-46bc-a372-b757ac71c2e8")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "C302")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "C322")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "C312")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "C342")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "C352")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "C332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_IC:TL072H")
+		(at 157.48 138.43 270)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4329c55-0bed-4910-b32b-68a958c27ead")
+		(property "Reference" "U300"
+			(at 157.48 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072H"
+			(at 157.48 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+			(at 157.48 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf"
+			(at 157.48 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TL072 Dual Opamp TSSOP-8"
+			(at 157.48 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 157.48 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "Dual Opamp TSSOP-8"
+			(at 157.48 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "TL072HIPWR"
+			(at 157.48 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 157.48 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C4370341"
+			(at 157.48 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "d74e9899-47bc-43ae-8674-25d79cb38600")
+		)
+		(pin "2"
+			(uuid "e936ef2d-b56f-4619-a0ed-f3f286369310")
+		)
+		(pin "5"
+			(uuid "9d5c3514-e003-4d73-8167-0ccca51c7f12")
+		)
+		(pin "8"
+			(uuid "a8793f29-f09c-42f1-b636-d7b8d93c70c1")
+		)
+		(pin "3"
+			(uuid "ba308cbf-6de3-4229-9e9d-5ca72090a805")
+		)
+		(pin "4"
+			(uuid "509e3845-5a32-4370-ae94-85dab0b1f86c")
+		)
+		(pin "1"
+			(uuid "1eccc3e6-4aec-4cf9-9880-e6336d6c9147")
+		)
+		(pin "7"
+			(uuid "32e9e6c9-c876-41de-b87a-fab23b456cd7")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "U300")
+					(unit 3)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "U320")
+					(unit 3)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "U310")
+					(unit 3)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "U340")
+					(unit 3)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "U350")
+					(unit 3)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "U330")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603_0.1%:14k_0603_0.1%")
+		(at 158.75 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c04f7273-5657-402f-91da-fa9b751267f0")
+		(property "Reference" "R309"
+			(at 158.75 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "14k_0603_0.1%"
+			(at 158.75 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 171.704 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "14k, 0.1%, 1/10W, 0603"
+			(at 158.75 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "14k, 0.1%, 1/10W, 0603"
+			(at 166.37 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 168.148 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "RT0603BRD0714KL"
+			(at 169.926 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "14k_0.1%"
+			(at 158.75 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C667049"
+			(at 173.482 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 175.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "4e3edb60-6e2d-4341-864e-dead442f6abc")
+		)
+		(pin "1"
+			(uuid "8ae2fc48-417a-488a-9484-62cc4e713279")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R309")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R329")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R319")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R349")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R359")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R339")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603_0.1%:100k_0603_0.1%")
+		(at 118.11 109.22 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d655dd78-c6cf-4dbf-a093-12228d09a20d")
+		(property "Reference" "R308"
+			(at 118.11 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k_0603_0.1%"
+			(at 118.11 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 131.064 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100k, 0.1%, 1/10W, 0603"
+			(at 118.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "100k, 0.1%, 1/10W, 0603"
+			(at 125.73 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 127.508 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "RT0603BRD07100KL"
+			(at 129.286 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "100k_0.1%"
+			(at 118.11 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C122538"
+			(at 132.842 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 134.62 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "091922b8-c1c9-4477-9064-cc8c0848b1bc")
+		)
+		(pin "2"
+			(uuid "6a2172e7-c1a7-44d3-9d1c-a4e06d5380f6")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R308")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R328")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R318")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R348")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R358")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R338")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603_0.1%:14k_0603_0.1%")
+		(at 158.75 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3e5f564-39e3-416e-ba18-17d33bc5282c")
+		(property "Reference" "R304"
+			(at 158.75 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "14k_0603_0.1%"
+			(at 158.75 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 171.704 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "14k, 0.1%, 1/10W, 0603"
+			(at 158.75 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "14k, 0.1%, 1/10W, 0603"
+			(at 166.37 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 168.148 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "RT0603BRD0714KL"
+			(at 169.926 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "14k_0.1%"
+			(at 158.75 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C667049"
+			(at 173.482 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 175.26 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "3ba9e939-bdb3-4611-9c6b-5622ba075a9a")
+		)
+		(pin "1"
+			(uuid "1b49ee45-5ba8-499b-a126-8e64c5d36e78")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R304")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R324")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R314")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R344")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R354")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R334")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4ms_Resistor_0603:47Ω_0603")
+		(at 179.07 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f68d8721-a0e3-43e3-9ab7-e72c3a6353f7")
+		(property "Reference" "R301"
+			(at 179.07 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47Ω_0603"
+			(at 179.07 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_Resistor:R_0603"
+			(at 192.024 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47Ω, 1%, 1/10W, 0603"
+			(at 179.07 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "47Ω, 1%, 1/10W, 0603"
+			(at 186.69 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 188.468 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "0603WAF470JT5E"
+			(at 190.246 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "47Ω"
+			(at 179.07 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C23182"
+			(at 193.802 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 195.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c3f97e74-1078-4f54-8615-93741e3ab32e")
+		)
+		(pin "2"
+			(uuid "9c6481c8-d09d-425f-8daa-2c5ccdbc7f23")
+		)
+		(instances
+			(project "metamodule-pro"
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189"
+					(reference "R301")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/2a0c0fc5-0355-4e99-9074-93552ac902ad"
+					(reference "R321")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/45b7ae67-59c7-48ca-bbb2-eeb62354b82f"
+					(reference "R311")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/ad43409b-e27e-4fdc-b1fc-88918baa00c2"
+					(reference "R341")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/aede27a8-bf58-4444-b866-341b5fdbfdf1"
+					(reference "R351")
+					(unit 1)
+				)
+				(path "/0aad9a5a-14ac-4f79-82fd-376ed8fefa2a/79f04e39-cb9b-407d-8a4e-098be6c8da44/e56515c5-0fc2-453d-ac94-9699daaf9db5"
+					(reference "R331")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,4941 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "13aada9f-7d05-4b1b-8443-6e89e78b2c49")
+		(at 47.9 -10.06 -90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R301"
+			(at 3.0725 -0.07 90)
+			(layer "B.SilkS")
+			(uuid "73f4c492-3ec6-4021-9ba9-0c47f8a6fe65")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "47Ω_0603"
+			(at 0 -1.45 90)
+			(layer "B.Fab")
+			(uuid "eb8d4109-b36b-4e37-9818-fcd14359fe3e")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "98f4bb63-59fe-4ea8-93bf-b2dce200d2fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "47Ω, 1%, 1/10W, 0603"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "208a3e0b-5cb2-40ec-98a6-8693d22b1f95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "47Ω, 1%, 1/10W, 0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "20013a8f-73c6-4c7a-8d33-1c862c1b0df8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "637d3240-a507-42de-8393-64c770a96f64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "0603WAF470JT5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc22bcd4-63fc-4d85-af75-008a38328294")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "47Ω"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "82145b8a-5290-44d2-882e-391c342603bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C23182"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fa34ae03-1f0a-42d9-9c3f-42f23704cc4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0921316d-86d4-4b2b-af56-87dfc5b9f4c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/f68d8721-a0e3-43e3-9ab7-e72c3a6353f7")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "3b303894-c015-4b7b-b2ab-e1c319612aa4")
+		)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "a70308e2-14e5-4538-8440-1ae4f466cb01")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "e72b9bbf-4a12-4695-9381-2468b10c83b0")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f5524e41-7e78-42ca-81fc-29f9ea63abbd")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "0994746f-d297-4b9c-a5ac-13dbc8115b9e")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "fe03bc2b-3143-4c13-99d7-8400aff48575")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(C300-Pad2)")
+			(pintype "passive")
+			(uuid "344acfaa-5ac4-4662-84be-0aee7e3d2bae")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "/Audio/VIN4+")
+			(pintype "passive")
+			(uuid "97b1ed33-1662-49a1-85ac-6c4cd79aa0d0")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Capacitor:C_0402"
+		(layer "B.Cu")
+		(uuid "1bf842b9-d044-4742-b2d2-de3e20f02e9f")
+		(at 45.99 -16.66 90)
+		(property "Reference" "C303"
+			(at 2.37 -0.03 90)
+			(layer "B.SilkS")
+			(uuid "a2f462c6-4fe4-4718-8b2b-50478f473441")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "100nF_0402_16V"
+			(at 0.4445 1.27 90)
+			(layer "B.Fab")
+			(uuid "770a571f-b7fd-49c0-980b-a0215592ecbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6ac3cc83-ac67-43c5-a33b-cc4edd71963e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b404188d-7602-4198-a4fc-bd28d19b879b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f37b2a8e-7700-4929-9a6d-95be0b28ad02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bfe87d23-799c-45bd-9e62-e19fd4ab13c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d67291a-3997-4520-8810-48989814a7c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "GCM155R71C104KA55D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4ced41fd-cf43-4807-b5f6-fc6853b2bd74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "72b9c173-4f87-4a40-9b45-f13dc41640bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84c9c0d9-826c-427f-bc92-27835ea9faea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a581e644-66e9-4e9a-91ca-18b76976d9ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number 2" "CC0402KRX7R7BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71933759-2d65-42c9-afde-50a17536b9ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/3a7326ee-82b6-4e13-95aa-ef481febf94f")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.155 -0.39)
+			(end 0.155 -0.39)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "c48ec443-3a44-4aba-971e-b4ff440407a0")
+		)
+		(fp_line
+			(start -0.155 0.39)
+			(end 0.155 0.39)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e536b1ba-fca6-4d7c-a111-790ec8a9320c")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "0ebba6fa-fdb0-43a8-acfe-fa315ff75dcb")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "3a3721a7-05d4-4968-b916-09eba60d21c2")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "9e8ab3c5-9de4-4613-a15b-fbdbe5b3f143")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8c20a8f5-dd07-4b48-9177-ccbec18fdf6d")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d6b6c983-10cd-4613-9a97-d701b6994e77")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "35c2abbd-8ba6-4096-922d-2ea31529a206")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "df71f580-ed19-4c98-a318-ca530f8bea28")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "c3ec7fa1-6a64-4a7a-b6a1-ba6a202897cc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(uuid "57632e8e-76e9-4306-98d9-7da18c013882")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.485 0 90)
+			(size 0.59 0.64)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "-12VA_B")
+			(pintype "passive")
+			(uuid "e4d9aa8a-8d75-4eb2-8ef4-3beccccd2b86")
+		)
+		(pad "2" smd roundrect
+			(at 0.485 0 90)
+			(size 0.59 0.64)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GNDA")
+			(pintype "passive")
+			(uuid "7c3ee037-343f-4b86-ab32-fbb7402ab34a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "34d7ffe6-207f-4699-9f25-c976c8ff3b43")
+		(at 47.63 -17.59 90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R302"
+			(at 3.02 1.45 270)
+			(layer "B.SilkS")
+			(uuid "9352a40a-508a-4ea3-be6b-33f5b0dc5059")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "14k_0603_0.1%"
+			(at 0 -1.45 270)
+			(layer "B.Fab")
+			(uuid "95952a84-1d82-4aac-9ebc-5cbcf1b2d8cd")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dfabafec-73a2-4378-9dd6-b39ceddc3a06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "14k, 0.1%, 1/10W, 0603"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "03cc2bf3-156c-4189-ba9d-33557063f572")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "14k, 0.1%, 1/10W, 0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "abd1d307-9494-4935-a5fb-f311d0e9a7e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "647c9fc1-4957-4600-a3d8-ca8cc1f6b35d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "RT0603BRD0714KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "527fcacc-b525-427b-9cd5-1074e64accd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "14k_0.1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d9fb0e1-cdb5-4f58-8f65-1afa3f179e14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C667049"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "704c82be-bea9-445e-ac91-a2b1b086d342")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f231c362-0ef9-4d47-84ee-fcaf8b409e7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/8f1b53ba-3d78-4dca-a4ff-033d8c7ac264")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "dabc0658-229d-406b-8ea8-9c85a5b3322e")
+		)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2fe8d58f-5b77-4660-a72b-963e4d9996d5")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "101c5add-402c-439c-898f-5ca9ca1e45f8")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "59c9bf4f-99a2-42a0-bb50-6f1405ff9df0")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a96ecb91-dce5-47c7-a7d9-ef32d2a36bbc")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "0126c0cf-12ac-49f6-8c69-41aca46d771f")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 90)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300A-+)")
+			(pintype "passive")
+			(uuid "587e1b71-c163-40ac-9169-95b17b6ed081")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 90)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "/Audio/VCOMAD")
+			(pintype "passive")
+			(uuid "c4f35915-d7d5-49e2-8c72-adf1754758e4")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "4e32539a-9e46-4b41-bcf7-8273d019c2fa")
+		(at 55.8 -10.615 -90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R309"
+			(at 2.9775 0.02 90)
+			(layer "B.SilkS")
+			(uuid "52c26af6-2f9d-4ed4-8fb5-b1eb6f6037c9")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "14k_0603_0.1%"
+			(at 0 -1.45 90)
+			(layer "B.Fab")
+			(uuid "4294e30f-439c-451d-96b2-844cad8924f2")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d4c4ad8-73ee-42b0-b86f-13888910375a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "14k, 0.1%, 1/10W, 0603"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec4fce96-49c4-4b32-a17e-6e0a4a54b32d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "14k, 0.1%, 1/10W, 0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1026811-87e7-4afd-9002-a3a2d501192d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "367514c9-b369-48bb-8aac-b2d4d596adcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "RT0603BRD0714KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0700e942-fbca-4349-ad10-3b51da80b19c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "14k_0.1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3fd3f93e-6180-4f36-b5d2-4c24361c50d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C667049"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9a28933b-3a73-4abb-909b-a132da96c5c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3be7c43f-e800-4cb6-bb82-7042434268c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/c04f7273-5657-402f-91da-fa9b751267f0")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "ca9b815d-6d74-4b21-ba3c-301bb6244f64")
+		)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8b237b0c-22c5-4715-8f76-456ac0925322")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "07ce574b-71b8-45a4-b31b-6af0605530d1")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "fd697268-1abc-4c06-bdc2-549189a12b2f")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "faea9892-6bdd-4652-9e87-d96a6b1708de")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "17391cef-d908-499c-b172-76dd3221679d")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300B--)")
+			(pintype "passive")
+			(uuid "1fa3d608-224a-4f7c-b193-4a52255123bf")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(C302-Pad2)")
+			(pintype "passive")
+			(uuid "532a09e6-ef51-47f5-bbbb-2754ec711537")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "62a4e98e-18ca-4447-a98b-03617adee390")
+		(at 55.49 -17.62 90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R307"
+			(at 3.065 0.25 270)
+			(layer "B.SilkS")
+			(uuid "065a4779-e4c3-43de-9417-6720afbe4e6f")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "14k_0603_0.1%"
+			(at 0 -1.45 270)
+			(layer "B.Fab")
+			(uuid "7a56c941-34c5-4ce4-8a87-3c1bf35c5454")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "55162e6b-4425-4bc3-a2da-56d8c777254b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "14k, 0.1%, 1/10W, 0603"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "67936102-9e47-4278-a3e0-be271645809b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "14k, 0.1%, 1/10W, 0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "825c0955-4212-4dbd-a82f-c8a9e7679b90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aa8485a7-652e-4c97-8b0e-d50a6ab6ab9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "RT0603BRD0714KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "29512851-98ae-4930-af9c-405cce670a85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "14k_0.1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "69f7052a-ad31-4f32-9b8c-934b95e0059b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C667049"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "704d226d-455d-4a47-a555-0845ea9c4c1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d2673316-0c06-4369-877b-6cc4a5b16f8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/31341a8b-0f10-489b-a615-3f9e4abbd181")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "9fa0d8eb-cd19-4da0-be47-596b3b447db4")
+		)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "60927a3e-0213-4f3e-837c-2229c744d949")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6cdae27d-70e1-4c1c-86e1-12d3ca592aa5")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "63753cd6-6f2f-460e-ad13-ab44471bc541")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "72d80af6-3495-4931-9a73-e4a4be4b09fe")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "cdf31d8f-ed40-4ca3-9997-e6b0b48edea6")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 90)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300B-+)")
+			(pintype "passive")
+			(uuid "5c86d627-1af0-4f21-bec3-64b9593f0ec7")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 90)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "/Audio/VCOMAD")
+			(pintype "passive")
+			(uuid "b4f9e0a4-613e-46fe-9e58-54e3aac73d69")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Capacitor:C_0402"
+		(layer "B.Cu")
+		(uuid "7573069b-455e-43de-88c8-8cb89066a15e")
+		(at 54.47 -10.925 -90)
+		(property "Reference" "C304"
+			(at 2.48 -0.16 90)
+			(layer "B.SilkS")
+			(uuid "a1b03152-a6e2-4be3-952f-9ef2d30c5976")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "100nF_0402_16V"
+			(at 0.4445 1.27 90)
+			(layer "B.Fab")
+			(uuid "3ed26ab6-d29c-447f-ab8d-4512cc0f172c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57b06100-4a83-4cdb-ab7c-d2a44679dc5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "011fbd56-e520-40be-96a3-d589aa4a2c96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ae39adb6-c0aa-4291-b87d-db23253b741a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5618a3f8-3c32-42cb-a83f-bb3b9f8b9bf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9b03cb2a-aa7e-485f-a75f-b26557f054aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "GCM155R71C104KA55D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ea61ba9-d124-4830-9213-c8f5c3dead36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C1525"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d3c98598-351c-42b8-8d5c-4a79cbf4dbaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77506c9c-aa3b-4c67-aa5a-35c2b9ddab48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33ea73cc-5aea-414f-b53f-413a4e2f0b0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number 2" "CC0402KRX7R7BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1bc16205-dd47-45ba-94d9-24865ceecddd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/57bd6848-4f19-47ce-b224-aae775f19b07")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.155 0.39)
+			(end 0.155 0.39)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "d9bc7424-77be-4204-8d0a-c52f4c1f351c")
+		)
+		(fp_line
+			(start -0.155 -0.39)
+			(end 0.155 -0.39)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8278dedf-256e-4bd1-9cdc-67b471ab38bf")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "2fe52cca-6ef6-4ab8-828e-045919b65dc8")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "e04ed329-d900-4b59-bea8-95353dcbcfd3")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "03765670-ac66-41fb-8751-73fc13615065")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1654273e-69f6-4f6a-8ee1-4891a713af6e")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ae0c9268-ab07-4359-87d7-297bf230507e")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "f0bd9181-f3ba-4b1b-a4ab-ab5ac7ca5f66")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "f8b2ec9b-28fb-432c-973b-70fc2b4d5f8a")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0869945b-1787-40b7-acb7-74f7397c8572")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(uuid "939d93a0-6660-48e1-8221-aefdd543f9db")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.485 0 270)
+			(size 0.59 0.64)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "+12V_B")
+			(pintype "passive")
+			(uuid "f71be0e6-333f-4970-a8d7-b0e24380a3fa")
+		)
+		(pad "2" smd roundrect
+			(at 0.485 0 270)
+			(size 0.59 0.64)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "GNDA")
+			(pintype "passive")
+			(uuid "a0ed5aec-91ce-4393-9790-76173652447b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "7c2f4d08-ec19-48ae-8a27-df9b54d7e912")
+		(at 52.97 -10.18 -90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R306"
+			(at 3.06 -0.01 90)
+			(layer "B.SilkS")
+			(uuid "6f5e7eee-726b-4a41-9ac3-e858b944c45c")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "47Ω_0603"
+			(at 0 -1.45 90)
+			(layer "B.Fab")
+			(uuid "c5913fdf-dfc8-4bf3-b397-570cbc8e02bc")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04ad619d-a796-4e7c-9251-5a71dea90c12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "47Ω, 1%, 1/10W, 0603"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ebca4205-4cae-4e96-a6de-441cbc8ad052")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "47Ω, 1%, 1/10W, 0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6805f4be-2c22-4abb-b238-2124e21a5037")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ffd34bd6-5826-4e72-a47a-058a27370aee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "0603WAF470JT5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf0643c6-f26e-45d6-b7f9-7051c9f0b538")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "47Ω"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0fbb11d7-92a8-4fcd-9236-2af21b328110")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C23182"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "305d5a68-2ce8-4e5b-b741-0b6e770c16b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fbb44af3-d568-4c29-a7c0-30d496511fad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/101877f3-213a-422f-b5b7-236d2eeb198d")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "71df5712-ebdd-4481-8bf2-4d185df27dbb")
+		)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "b268e5e3-06d1-4dff-9dbb-e538eb5feb9d")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "eadaa272-31b6-4a91-9ed2-5e34184ce433")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "4400b3c4-2aba-40cc-8307-4ecbe4afe1e3")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d8aec5de-a25a-43ad-bfd0-59aac9d6b9e8")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "48cb141f-8d5a-4293-80d4-a600f8e581d1")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(C302-Pad2)")
+			(pintype "passive")
+			(uuid "3fb79e43-7f16-414d-ab7e-caf33b5fc35b")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "/Audio/VIN4-")
+			(pintype "passive")
+			(uuid "d1aa171c-38f9-4fea-a2f5-3d76fbc61ef0")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "8615e333-f951-40ac-a572-5a4a33e1cb69")
+		(at 53.92 -17.59 -90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R305"
+			(at -3.045 -0.05 90)
+			(layer "B.SilkS")
+			(uuid "becbb089-53ce-417d-9102-31123fa1c496")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "100k_0603_0.1%"
+			(at 0 -1.45 90)
+			(layer "B.Fab")
+			(uuid "a928329a-66a3-4966-a96b-9b56c6fae05b")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "89533e5e-2835-4387-b1c0-cd52311782f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100k, 0.1%, 1/10W, 0603"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fb5f3e58-0d5e-4382-b8fa-e85b54f25332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "100k, 0.1%, 1/10W, 0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "146aba07-c8dc-4f8c-8a1a-bb06bc592fa9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "803435b3-dd9c-4310-ba20-d5a46844e584")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "RT0603BRD07100KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77b5a3de-45fe-4893-94ae-603274036a08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "100k_0.1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1ad4b3f0-66cc-4c96-a84f-3a370f38454e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C122538"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d766bb81-7a28-4718-92ef-b61f3b0f9c29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "382cb29a-9341-4418-a1fa-15fcbca1e78b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/66e269db-2f7d-4ed6-9e34-776c52ba647d")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "eff30c2e-c3f4-4b0a-9968-5d746e7efd9b")
+		)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "7b3d9f10-f018-4b17-a8d3-95645ffb065f")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1ee9812c-7557-4bd4-99f4-9afd6cada1b7")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "24e49db7-7ce3-4697-a1cd-405dccb43506")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "049d8c82-cb88-4752-a6c1-24898b692f93")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "78c629a4-3d23-42ee-b951-572ef896a064")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "/Audio/In1_A-")
+			(pintype "passive")
+			(uuid "4e99df63-d8c6-4785-95b6-b4c43ff07967")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300B-+)")
+			(pintype "passive")
+			(uuid "29b42725-69b0-4f0e-bdf6-0c292a0555d4")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "8ea8808b-ffab-470f-983c-565fc3baa92d")
+		(at 45.96 -10.535 -90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R304"
+			(at 0.19 1.27 90)
+			(layer "B.SilkS")
+			(uuid "fe750c9d-1b8c-48a1-8eca-33557b07ccb7")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "14k_0603_0.1%"
+			(at 0 -1.45 90)
+			(layer "B.Fab")
+			(uuid "b3c58e20-9aec-4611-8991-2fbfc5792bd0")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "abed1588-3444-4a71-b7ad-b07a6ef631ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "14k, 0.1%, 1/10W, 0603"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "445df706-8d38-41cc-9e04-3164e86b2ed8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "14k, 0.1%, 1/10W, 0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e47b7622-d0dc-40be-b7aa-f7613e269b50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0f6f7dc7-172e-4e78-a72d-3316cf74fcad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "RT0603BRD0714KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6076b060-259d-4dc6-92bc-2c7a70783b15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "14k_0.1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0b206bbb-e9c9-4553-b2d6-35f406379ff0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C667049"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "973ef08b-79a4-4e7d-a8b8-73be2ff82f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bb477b63-10e9-416e-afad-fc40c9273c30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/f3e5f564-39e3-416e-ba18-17d33bc5282c")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f839af6f-85d8-45d5-bd75-a24ff88e4256")
+		)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "c8c0ab02-8e80-4c47-963f-d769d6787764")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "91626c52-76d3-40f7-ba6a-7cb1cad1bca9")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "dee049fd-3066-4ab4-916a-8cb8c95749c6")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "2337e2ad-5c8b-4acf-8054-3d0145ba4c80")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "96277b1a-5d04-4e3f-9d91-fd49e5934a54")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300A--)")
+			(pintype "passive")
+			(uuid "3c48d65f-a35b-4b2f-ae41-3f308c6a521e")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(C300-Pad2)")
+			(pintype "passive")
+			(uuid "20ab5b8e-2a6b-4402-9f52-389e98922d4a")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "9dab31bc-f108-47bd-92e8-c28f63dcb538")
+		(at 50.77 -17.6 -90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R303"
+			(at -2.965 0.11 90)
+			(layer "B.SilkS")
+			(uuid "7b73009f-f2b7-4cf9-8d7d-5c99acca50bc")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "100k_0603_0.1%"
+			(at 0 -1.45 90)
+			(layer "B.Fab")
+			(uuid "b8e6bcfd-1786-45c7-aeb5-4148a3c416ed")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ec018de-2c9f-42b6-b1af-098947ad05ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100k, 0.1%, 1/10W, 0603"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f84317d-492b-4c9d-870b-3b236432c599")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "100k, 0.1%, 1/10W, 0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c7d5fdbe-cc90-4803-b9a3-fc050d4a13d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5a12dc5c-2cc5-4813-8b60-5dc092cbbbd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "RT0603BRD07100KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d47d5b1-6bbd-45a4-b6ef-78d23338eda4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "100k_0.1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "40905af3-74f4-4087-80d0-ff3645761825")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C122538"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef85a063-6752-4325-a31f-cbd8cb780678")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ddddbd8-83f4-4813-8a96-b2becc9eb9d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/3f73fd3b-f64c-4f47-bc64-cbd3902c7234")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "5351e306-7ce7-41c1-814b-be9409c0dc08")
+		)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e452a30e-d8bb-474a-8bb8-fd3e71f91d58")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b55d8cca-c69b-4c22-9e14-f59dc19a0c21")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "7aa26c0a-7920-4765-a764-60f486b595db")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "03ca0c03-4677-48ff-90d8-541977f38647")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8b2f5a85-17d2-4353-9243-ae02201fea00")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "/Audio/In1_A-")
+			(pintype "passive")
+			(uuid "81af7809-a4ca-4e39-ad97-c6112694e29e")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300A--)")
+			(pintype "passive")
+			(uuid "fafed26a-9bd3-46eb-9b42-ebae2b110588")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Capacitor:C_0402"
+		(layer "B.Cu")
+		(uuid "9e7255dc-7db7-4017-ad11-00a549f9372a")
+		(at 50.51 -9.725)
+		(property "Reference" "C301"
+			(at -0.27 1.14 180)
+			(layer "B.SilkS")
+			(uuid "b0c54068-87b7-4398-bd26-a1b926a739ea")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "10nF_0402_16V"
+			(at 0.4445 1.27 180)
+			(layer "B.Fab")
+			(uuid "ce8c8acb-0912-47e9-9daf-4ddab6171fe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "850d57fa-41d0-41da-a8fc-902dda60ce62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "10nF, Min. 16V 10%, X7R or X5R or similar 0402"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f35f951-47cb-4d5b-a0c0-cb7d80f86c25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "10nF, Min. 16V 10%, X7R or X5R or similar"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "756fe0ce-1ec6-48de-84b6-fff18f19d730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "675a9949-ae5b-472e-bf50-4f8b0bb20bab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "CC0402KRX7R7BB103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d126025-22b4-4421-aa00-cf0672abf85f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "10nF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6d4a14ae-4ffa-4b64-b0d5-1ee334175128")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C15195"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0a7402c-30f8-4833-a063-d52ffe05ea10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "45480468-2346-4dcd-bc42-3b9e2b78aa46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/2237c0ad-4c51-499e-9f80-06e0992f82ec")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.155 -0.39)
+			(end 0.155 -0.39)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fe26cb13-6889-456e-80d8-fdea44b97b23")
+		)
+		(fp_line
+			(start -0.155 0.39)
+			(end 0.155 0.39)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "20111146-66a6-4e33-bb3f-4dff1c2fea6c")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a04f0518-3f6d-4957-aadf-013f8cb02edb")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "55d58cf4-18d9-4aa9-9d83-7b198d2cfb30")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5100f877-689f-4af0-b0b1-45872a3e3939")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "e3fbccca-abd7-4076-b35f-ff62e0a957fe")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e1e5b867-c447-4e35-b1f6-2b49211f450d")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "647fd1cc-7a13-4bc9-9711-7f1f1ff9bbdc")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "5799fad9-4b8c-4efd-a229-5ea30c1b00b3")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e6c75c71-bf76-4c1e-a723-3a739dc35ce4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "90c3dbea-96f8-4e4c-9167-14d6fb16fddc")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.485 0)
+			(size 0.59 0.64)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "/Audio/VIN4+")
+			(pintype "passive")
+			(uuid "1175a3f6-ee2d-4d1a-bc64-5775fbfa1ca2")
+		)
+		(pad "2" smd roundrect
+			(at 0.485 0)
+			(size 0.59 0.64)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net "/Audio/VIN4-")
+			(pintype "passive")
+			(uuid "4811b51f-93c8-464c-8c8c-e67f933a42cc")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Capacitor:C_0603"
+		(layer "B.Cu")
+		(uuid "c36de767-5507-4742-8b45-36577be6c2e9")
+		(at 45.9 -13.95 -90)
+		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
+		(tags "capacitor 0603 C0603")
+		(property "Reference" "C300"
+			(at -0.145 1.23 90)
+			(layer "B.SilkS")
+			(uuid "727975ec-fe9c-4416-a411-16d4dc8f5d5b")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "100pF_0603_50V"
+			(at 0.1 -1.3 90)
+			(layer "B.Fab")
+			(uuid "be55964c-afec-41a9-9186-3d946fd2e636")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1286c00-d10c-4047-a14a-062edae44dab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100pF, Min. 50V 10%, NP0"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "72663bea-bfeb-4bab-84a4-be4fe925f672")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "100pF, Min. 50V 10% NP0 or C0G"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5eed51a5-9e5f-44c3-9df6-4e96074e5597")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e215c671-cb5f-481c-89c3-46335ba416ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "CC0603JRNPO9BN101"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c3957ed5-0d97-4591-b40a-59a46d159072")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "100pF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce16d7e0-9629-41d0-83d8-288f518526d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C14858"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0a4a54cd-307b-4e3a-af7d-120d641647f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0733983d-6d6d-45bb-b428-447060f43b40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/168bfa2d-fc18-4a6d-bcae-6392c3196a19")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.15 0.6)
+			(end -0.15 -0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "65b546c7-1053-4464-9494-445e6d6b059c")
+		)
+		(fp_line
+			(start 0.15 -0.6)
+			(end 0.15 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "94a246de-1a64-4202-8c80-84cc5c4aa402")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b061bed9-115a-4c94-8c06-bb528d56dad4")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c44988b9-2823-428b-ae24-2b05365905d2")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8c0c7356-cee3-4f56-830f-a32a98e41b37")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "3847b1bf-6e3a-4e66-9682-db74636dcb8c")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300A--)")
+			(pintype "passive")
+			(uuid "b31835ad-a1e3-40c1-9792-e0d7012c8340")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(C300-Pad2)")
+			(pintype "passive")
+			(uuid "0e13a15f-1117-40b2-abe5-4aa503117f7f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "c68e4059-bd8c-45fa-bf8b-cf4947a58137")
+		(at 49.2 -17.59 -90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R300"
+			(at -2.995 1.45 90)
+			(layer "B.SilkS")
+			(uuid "cad699f5-af5f-43dc-831f-56e1a96dfcee")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "100k_0603_0.1%"
+			(at 0 -1.45 90)
+			(layer "B.Fab")
+			(uuid "ff7a00a8-4f39-4d1e-b1eb-cfe21923cdca")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "26016a51-8fba-4d98-a559-90871d35ad54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100k, 0.1%, 1/10W, 0603"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d0325ad-b30d-478f-aa18-aa26ad0aec74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "100k, 0.1%, 1/10W, 0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "70dbd4c5-cfb9-4826-ab2b-d78b37779572")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9053d45-fa0a-410f-997a-b572c003f15f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "RT0603BRD07100KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "20bac2e3-d56d-4f75-ae8c-c88bda75cb1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "100k_0.1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c252cfcc-7514-48c9-92a5-c87272e464fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C122538"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88739647-d1db-4a86-ada3-aff4a97a32f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4fb17235-1aa2-4d8a-9a2c-69bc852ea00a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/571dc754-756e-432e-a97b-d2c90e097f5f")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "10cd9827-3cc6-453c-99a1-e499aa388af8")
+		)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "6b5ee87a-0f5c-467b-a76e-b1e4ec1564e1")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "203aa9e3-f116-4753-a8dc-b349be9de81e")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "caa965dc-5d68-4d6f-983f-1338b83ff0ca")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "7b9cceb6-a654-4622-8141-0b559592df3b")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "eb59e5d8-cd43-4876-9490-6069a24f5ee2")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "/Audio/In1_A+")
+			(pintype "passive")
+			(uuid "caab38d0-83c5-41fb-9270-b309eea6334f")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300A-+)")
+			(pintype "passive")
+			(uuid "6933a2c7-2cc0-4c11-bbb5-29a015559c35")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Resistor:R_0603"
+		(layer "B.Cu")
+		(uuid "cf4dbbf0-e598-41f8-8114-8b33a51a527f")
+		(at 52.34 -17.6 -90)
+		(descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
+		(tags "resistor 0603")
+		(property "Reference" "R308"
+			(at -3.025 0.09 90)
+			(layer "B.SilkS")
+			(uuid "53877a11-8176-4a83-80f1-23158fc91f5a")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "100k_0603_0.1%"
+			(at 0 -1.45 90)
+			(layer "B.Fab")
+			(uuid "325051f9-2204-4182-9b93-d234e498c8c0")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "412e868a-a738-446a-8afc-927bbd4f637d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100k, 0.1%, 1/10W, 0603"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "29122d07-1c60-43ee-bda9-21be558f6bcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "100k, 0.1%, 1/10W, 0603"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7fdfbee0-1427-4f2c-b330-64c35a60a465")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8b300bb3-090a-496b-8a24-3699987690e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "RT0603BRD07100KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d531512-db7f-42fc-98eb-262c1ad120a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "100k_0.1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "21f7eb39-0f81-4884-a424-09aa92502c2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C122538"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ebdfe28b-12ac-4da4-aef0-ebfa6bebd7d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "992e15c6-2deb-4a89-a054-dd2cc0c5f3e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_* R*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/d655dd78-c6cf-4dbf-a093-12228d09a20d")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.85 0.7)
+			(end 0.85 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "73ed1c50-cafa-487a-99af-9d735afb74db")
+		)
+		(fp_line
+			(start 0.85 -0.7)
+			(end -0.85 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fcb000d5-deeb-4922-8e0d-f3c02c6971ff")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "e5578599-d8bc-42af-98ba-02bd1901f789")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c1311b2a-c5d6-4191-9f4b-57f077f6e8df")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "4a6a8c6a-0e8f-4b0e-ae2e-1f6a8927aff6")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "ebf96456-b0b6-46b4-9a69-be996a9fb5d5")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "/Audio/In1_A+")
+			(pintype "passive")
+			(uuid "4ca2c6af-8c48-49c4-a502-e3093d407dc2")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300B--)")
+			(pintype "passive")
+			(uuid "df5411e3-99e8-4b2b-8e34-07cf31ebe29d")
+		)
+		(embedded_fonts no)
+		(model "Resistors_SMD.3dshapes/R_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm"
+		(layer "B.Cu")
+		(uuid "d1d04473-52fc-413c-b8af-dcd075d5684f")
+		(at 50.83 -14.0725)
+		(descr "8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
+		(tags "SSOP 0.65")
+		(property "Reference" "U300"
+			(at -0.44 2.5575 0)
+			(layer "B.SilkS")
+			(uuid "8dee5224-5e67-4e94-b915-ce2d6de5afcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TL072H"
+			(at 0 0.725 0)
+			(layer "B.Fab")
+			(uuid "b6e4a429-e398-49fd-982d-265e7ce1bb83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "199590df-4f97-4d24-9e56-8912bcfbd5aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "TL072 Dual Opamp TSSOP-8"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17bb16b5-d0d0-4ac1-af16-5717deca97a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5487af03-070f-4ef1-824a-c9658d44b9cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "Dual Opamp TSSOP-8"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "48ca46d4-2d66-477a-9767-1bad4a0be8f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "TL072HIPWR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d21c796-0fe0-4ebe-9056-e01367c5722e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2ed6f286-3db5-46af-b14f-de3733e3d057")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C4370341"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d06c781d-23ef-499f-b611-36322a424349")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "SOIC*Pitch1.27mm* DIP*W7.62mm* TSSOP*Pitch0.65mm* TO-99* DSBGA*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/914ae0f2-c783-4800-8b8e-226878fa9dff")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.325 -1.625)
+			(end -2.325 -1.425)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "78b5a24e-e083-4d77-9d67-6861d8e56062")
+		)
+		(fp_line
+			(start -2.325 -1.625)
+			(end 2.325 -1.625)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2c7a1140-9126-4d6e-92da-174c7d21e48a")
+		)
+		(fp_line
+			(start -2.325 1.425)
+			(end -3.675 1.425)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "3d2aebec-5a89-4a9e-96bf-6c95771fa066")
+		)
+		(fp_line
+			(start -2.325 1.625)
+			(end -2.325 1.425)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "24ad0085-653d-4cab-a07b-121b0ab71401")
+		)
+		(fp_line
+			(start -2.325 1.625)
+			(end 2.325 1.625)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "0837c52c-8c33-497c-965d-c48c3d50977e")
+		)
+		(fp_line
+			(start 2.325 -1.625)
+			(end 2.325 -1.425)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "63a72f76-00ec-410c-982e-4172e4b7f406")
+		)
+		(fp_line
+			(start 2.325 1.625)
+			(end 2.325 1.425)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "c362bec1-5d83-4f8a-9392-53c616a35f19")
+		)
+		(fp_circle
+			(center -1.651 1.143)
+			(end -1.524 1.016)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "4d20d59f-15b7-45a8-99c8-4f1a6231c930")
+		)
+		(fp_line
+			(start -3.95 -1.88)
+			(end 3.95 -1.88)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6274f9b4-945c-44bd-940f-79777aea3885")
+		)
+		(fp_line
+			(start -3.95 1.88)
+			(end -3.95 -1.88)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c9da1cea-b63b-4233-ae3c-e9abd704b24a")
+		)
+		(fp_line
+			(start -3.95 1.88)
+			(end 3.95 1.88)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "9d3a19e6-b16a-4129-85d6-1ac28c36517c")
+		)
+		(fp_line
+			(start 3.95 1.88)
+			(end 3.95 -1.88)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5f583fcf-c785-41b8-8e41-7dbe2765427a")
+		)
+		(pad "1" smd rect
+			(at -2.95 0.975)
+			(size 1.45 0.45)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(C300-Pad2)")
+			(pintype "output")
+			(clearance 0.1)
+			(uuid "c85bc322-0ff9-4172-abbe-d5c72b077756")
+		)
+		(pad "2" smd rect
+			(at -2.95 0.325)
+			(size 1.45 0.45)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300A--)")
+			(pinfunction "-_2")
+			(pintype "input")
+			(clearance 0.1)
+			(uuid "b54acb12-9f2f-4a93-b511-00e78946e8fa")
+		)
+		(pad "3" smd rect
+			(at -2.95 -0.325)
+			(size 1.45 0.45)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300A-+)")
+			(pinfunction "+_3")
+			(pintype "input")
+			(clearance 0.1)
+			(uuid "a0afe00b-e479-4233-9c50-01854f91065d")
+		)
+		(pad "4" smd rect
+			(at -2.95 -0.975)
+			(size 1.45 0.45)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "-12VA_B")
+			(pinfunction "V-_4")
+			(pintype "power_in")
+			(clearance 0.1)
+			(uuid "4ff712e8-aa4a-4858-9088-deb0165c3f5b")
+		)
+		(pad "5" smd rect
+			(at 2.95 -0.975)
+			(size 1.45 0.45)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300B-+)")
+			(pinfunction "+_5")
+			(pintype "input")
+			(clearance 0.1)
+			(uuid "f148b28e-25ee-491d-9a0f-8af5c7766a53")
+		)
+		(pad "6" smd rect
+			(at 2.95 -0.325)
+			(size 1.45 0.45)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300B--)")
+			(pinfunction "-_6")
+			(pintype "input")
+			(clearance 0.1)
+			(uuid "5666c5da-c9ee-47fa-a541-e59a235d3c98")
+		)
+		(pad "7" smd rect
+			(at 2.95 0.325)
+			(size 1.45 0.45)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(C302-Pad2)")
+			(pintype "output")
+			(clearance 0.1)
+			(uuid "4e7584b6-35f7-4cb0-9aca-c338836b8c3f")
+		)
+		(pad "8" smd rect
+			(at 2.95 0.975)
+			(size 1.45 0.45)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "+12V_B")
+			(pinfunction "V+_8")
+			(pintype "power_in")
+			(clearance 0.1)
+			(uuid "df960b09-05d4-4497-bdb3-48e81e7b9962")
+		)
+		(embedded_fonts no)
+		(model "Housing_SSOP.3dshapes/TSSOP-8_4.4x3mm_Pitch0.65mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-8_4.4x3mm_P0.65mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "4ms_Capacitor:C_0603"
+		(layer "B.Cu")
+		(uuid "f8193d23-6167-4457-88d4-351081b5fc84")
+		(at 55.64 -13.9325 -90)
+		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
+		(tags "capacitor 0603 C0603")
+		(property "Reference" "C302"
+			(at -0.5525 -1.35 90)
+			(layer "B.SilkS")
+			(uuid "98242e4a-41e0-4afe-b5c1-194d6329fe96")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "100pF_0603_50V"
+			(at 0.1 -1.3 90)
+			(layer "B.Fab")
+			(uuid "09b25a2f-b018-43cf-aca7-b821212b382b")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "486ef1c9-e8fa-4ea4-9cca-38d818265113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100pF, Min. 50V 10%, NP0"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "54cbd644-f629-4ea0-aee7-386abc629416")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specifications" "100pF, Min. 50V 10% NP0 or C0G"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b1427d3-3640-4c9c-89b2-e8b124a5c4b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33c62336-187b-4df7-bc2f-c8e33aaeed2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part Number" "CC0603JRNPO9BN101"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "86c60b40-9306-46e5-900c-2953afb3b910")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Display" "100pF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c48171da-f9bb-4668-8794-6aca75445a0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB ID" "C14858"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee422b8e-1014-4b9f-9f1a-e3372c06d2b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Production Stage" "A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "60b7f506-d92e-4b72-8ef9-0c212c061286")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/79f04e39-cb9b-407d-8a4e-098be6c8da44/04398225-7b6e-436f-be64-a6b031586189/93ee2025-a478-4902-ab5a-a48b17dd26f6")
+		(sheetname "/Audio/Audio Input1/")
+		(sheetfile "adc_in.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.15 0.6)
+			(end -0.15 -0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "18d2c00f-0b9e-4af8-933c-9afedf4c56c9")
+		)
+		(fp_line
+			(start 0.15 -0.6)
+			(end 0.15 0.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e84531b1-2616-49cb-a131-58f580ee8180")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6e425f79-e8ea-497c-b136-11b6963cca23")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end -1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "62f225f4-e174-4e18-85ed-af7d1206cde6")
+		)
+		(fp_line
+			(start 1.6 0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "2d40dc7d-dee7-4a15-925c-77d4f29ef099")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6119ea31-a233-4e67-964c-4b010674d6af")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(U300B--)")
+			(pintype "passive")
+			(uuid "bb11f587-39af-4333-bdf7-c8c19e914bf6")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(C302-Pad2)")
+			(pintype "passive")
+			(uuid "3d84d522-2a42-47e9-b746-18021fbe9390")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(segment
+		(start 50.637 -8.886999)
+		(end 49.471999 -8.886999)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4-")
+		(uuid "1116b6cf-8b4a-47f1-b8b1-ac7fc4c532f5")
+	)
+	(segment
+		(start 50.995 -9.725)
+		(end 50.995 -9.244999)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4-")
+		(uuid "29e8d726-4a92-4a39-8e96-123055472dc9")
+	)
+	(segment
+		(start 52.97 -9.33)
+		(end 51.39 -9.33)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4-")
+		(uuid "8780f204-9707-4eab-aa93-35d6aa6418a7")
+	)
+	(segment
+		(start 50.995 -9.244999)
+		(end 50.637 -8.886999)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4-")
+		(uuid "99b2d4e8-780f-4732-9a28-ef240d564003")
+	)
+	(segment
+		(start 51.39 -9.33)
+		(end 50.995 -9.725)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4-")
+		(uuid "9ebb3b3b-d6b2-49b9-8e1a-23e2b9930bfb")
+	)
+	(segment
+		(start 50.025 -9.37921)
+		(end 49.786789 -9.140999)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4+")
+		(uuid "1365a61a-40d9-4f11-ac0e-ecf58bf3bc6a")
+	)
+	(segment
+		(start 49.51 -9.21)
+		(end 50.025 -9.725)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4+")
+		(uuid "4cd14c47-b8bc-46e7-b97d-48866ae47688")
+	)
+	(segment
+		(start 47.9 -9.21)
+		(end 49.51 -9.21)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4+")
+		(uuid "6d611399-c1a7-4661-ab6e-42f9439c9b9d")
+	)
+	(segment
+		(start 49.786789 -9.140999)
+		(end 49.366789 -9.140999)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4+")
+		(uuid "7240ea3c-326c-4e4f-b4eb-51576549e5bd")
+	)
+	(segment
+		(start 50.025 -9.725)
+		(end 50.025 -9.37921)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VIN4+")
+		(uuid "82997f87-8347-4622-bb7c-b3fa44fb9246")
+	)
+	(segment
+		(start 53.91 -18.945)
+		(end 53.91 -18.45)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A-")
+		(uuid "0983303d-0696-4c13-b287-17e7dc007e5c")
+	)
+	(segment
+		(start 50.77 -18.45)
+		(end 50.77 -18.875)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A-")
+		(uuid "29503afc-55f0-4a8c-8405-dda5e9f964cc")
+	)
+	(segment
+		(start 50.77 -18.45)
+		(end 50.94 -18.62)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A-")
+		(uuid "2e3ac344-434f-4653-9ea5-5201ea167638")
+	)
+	(segment
+		(start 53.495 -19.36)
+		(end 53.91 -18.945)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A-")
+		(uuid "3fa80f9e-b2e4-457d-a170-2e72a3561509")
+	)
+	(segment
+		(start 51.255 -19.36)
+		(end 53.495 -19.36)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A-")
+		(uuid "72bc36ad-6042-48ee-b8d3-aa058f7a31b6")
+	)
+	(segment
+		(start 50.77 -18.875)
+		(end 51.255 -19.36)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A-")
+		(uuid "aded75a6-b39e-4b78-8b4c-490429db46ef")
+	)
+	(segment
+		(start 53.91 -18.45)
+		(end 53.92 -18.44)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A-")
+		(uuid "c9730abc-122d-4f79-aef5-c7f6abda8a1a")
+	)
+	(segment
+		(start 52.35 -14.9755)
+		(end 52.928 -14.3975)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "2ce759dd-b6b1-4e57-bf4b-f9aa3cc1f93a")
+	)
+	(segment
+		(start 56.64 -12.305)
+		(end 55.8 -11.465)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "32af1f5a-9068-4392-b5b9-90b12bd736b1")
+	)
+	(segment
+		(start 55.64 -14.7825)
+		(end 55.255 -14.3975)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "459bbfb2-9d1a-40d8-8d13-e2734ba1ad9e")
+	)
+	(segment
+		(start 52.34 -16.75)
+		(end 52.35 -16.74)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "539748e6-8d87-4ec0-9d07-add319452805")
+	)
+	(segment
+		(start 55.9525 -14.7825)
+		(end 56.64 -14.095)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "75bb7e62-5f56-406e-8f5f-3abe0c9daec1")
+	)
+	(segment
+		(start 55.255 -14.3975)
+		(end 53.78 -14.3975)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "96f84f12-1ab6-4daa-be1b-ca445d44bf86")
+	)
+	(segment
+		(start 56.64 -14.095)
+		(end 56.64 -12.305)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "c8a74777-198e-4cb5-ad1a-54a3c2eb58e8")
+	)
+	(segment
+		(start 55.64 -14.7825)
+		(end 55.9525 -14.7825)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "d6d0d3ca-4bc5-44c3-94a4-2e0409e2812c")
+	)
+	(segment
+		(start 52.928 -14.3975)
+		(end 53.78 -14.3975)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "d9ea0671-562c-42ab-a254-7bb2dfd26132")
+	)
+	(segment
+		(start 52.35 -16.74)
+		(end 52.35 -14.9755)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B--)")
+		(uuid "e31d6548-bc8b-4c3f-abd1-49598f9c9002")
+	)
+	(segment
+		(start 54.9805 -10.5845)
+		(end 54.9805 -12.423)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C302-Pad2)")
+		(uuid "387d06b6-d8e3-4068-a8b9-a6ab55efbc23")
+	)
+	(segment
+		(start 54.975 -13.7475)
+		(end 55.64 -13.0825)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C302-Pad2)")
+		(uuid "6fa15df6-bfce-44d4-bf37-ca5d565a4fe6")
+	)
+	(segment
+		(start 52.53 -13.1785)
+		(end 52.53 -11.47)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C302-Pad2)")
+		(uuid "89e6adff-40d1-47eb-82e0-1248c4f62abf")
+	)
+	(segment
+		(start 52.53 -11.47)
+		(end 52.97 -11.03)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C302-Pad2)")
+		(uuid "b2e5a532-35fa-4443-baf7-fe035de2e96d")
+	)
+	(segment
+		(start 55.8 -9.765)
+		(end 54.9805 -10.5845)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C302-Pad2)")
+		(uuid "bdebdd9e-c025-483d-9527-48e936dbb3dd")
+	)
+	(segment
+		(start 53.099 -13.7475)
+		(end 52.53 -13.1785)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C302-Pad2)")
+		(uuid "cb0c65c4-8fe6-41ae-bee0-bbd2ed0b3779")
+	)
+	(segment
+		(start 53.78 -13.7475)
+		(end 54.975 -13.7475)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C302-Pad2)")
+		(uuid "d189c1ef-3c64-44a6-911d-475fb5a818aa")
+	)
+	(segment
+		(start 54.9805 -12.423)
+		(end 55.64 -13.0825)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C302-Pad2)")
+		(uuid "ec2d8212-36d7-4056-bb1d-fe05850a2113")
+	)
+	(segment
+		(start 53.78 -13.7475)
+		(end 53.099 -13.7475)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C302-Pad2)")
+		(uuid "f931170e-787a-4924-84da-403806590bcc")
+	)
+	(segment
+		(start 51.465 -17.764)
+		(end 51.4605 -17.7595)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A+")
+		(uuid "002ec18b-0552-4c18-b51a-c114b92a3371")
+	)
+	(segment
+		(start 52.34 -18.45)
+		(end 51.654 -17.764)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A+")
+		(uuid "00331b3e-87fb-4f26-9e15-ce5118019ffa")
+	)
+	(segment
+		(start 51.654 -17.764)
+		(end 51.465 -17.764)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A+")
+		(uuid "0b1ecf4b-e9ae-4b94-b3da-ee147fb45038")
+	)
+	(segment
+		(start 50.0795 -17.764)
+		(end 49.249 -17.764)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A+")
+		(uuid "3155a21d-6e7d-4f61-b1a1-772fb0848dfb")
+	)
+	(segment
+		(start 50.084 -17.7595)
+		(end 50.0795 -17.764)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A+")
+		(uuid "55dc0409-cf2e-47c9-a161-7532fb86a84a")
+	)
+	(segment
+		(start 51.4605 -17.7595)
+		(end 50.084 -17.7595)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A+")
+		(uuid "925bec1c-7296-44c7-a823-b924b090dbdc")
+	)
+	(segment
+		(start 49.2 -17.813)
+		(end 49.2 -18.44)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A+")
+		(uuid "aad89691-79de-4d03-804e-9cc76644df1f")
+	)
+	(segment
+		(start 49.249 -17.764)
+		(end 49.2 -17.813)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/In1_A+")
+		(uuid "ee008b64-99e1-423d-b8a0-b22e7aa7987d")
+	)
+	(segment
+		(start 55.49 -18.47)
+		(end 54.48 -17.46)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VCOMAD")
+		(uuid "5ee65d3a-d41f-49b1-9149-42390cf11a5b")
+	)
+	(segment
+		(start 54.48 -17.46)
+		(end 48.61 -17.46)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VCOMAD")
+		(uuid "83b2c099-317a-4927-a586-da3a7b86b137")
+	)
+	(segment
+		(start 48.61 -17.46)
+		(end 47.63 -18.44)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/Audio/VCOMAD")
+		(uuid "d2a0fdbd-b01a-4a20-9d60-bed392cdb076")
+	)
+	(segment
+		(start 48.732 -13.7475)
+		(end 47.88 -13.7475)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A--)")
+		(uuid "3c06f789-9348-4997-8e30-08a8b0e37912")
+	)
+	(segment
+		(start 50.75 -15.7655)
+		(end 48.732 -13.7475)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A--)")
+		(uuid "8b29d535-1aa1-48a6-bcda-f2463bbe5ef4")
+	)
+	(segment
+		(start 45.06 -13.96)
+		(end 45.9 -14.8)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A--)")
+		(uuid "bf12ceca-02e9-4599-b1cc-ab6ca3561b3d")
+	)
+	(segment
+		(start 46.9525 -13.7475)
+		(end 47.88 -13.7475)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A--)")
+		(uuid "c429f3f9-f95d-4748-9822-1948dff8c6b9")
+	)
+	(segment
+		(start 50.75 -16.73)
+		(end 50.75 -15.7655)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A--)")
+		(uuid "ca3bd380-2129-42d8-baf1-8dae75733751")
+	)
+	(segment
+		(start 50.77 -16.75)
+		(end 50.75 -16.73)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A--)")
+		(uuid "db157833-1dbd-4cdd-9381-69df3b4b6ae2")
+	)
+	(segment
+		(start 45.96 -11.385)
+		(end 45.06 -12.285)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A--)")
+		(uuid "e235fb68-5d06-49d8-b54e-f22de1bf20f9")
+	)
+	(segment
+		(start 45.9 -14.8)
+		(end 46.9525 -13.7475)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A--)")
+		(uuid "f06c1172-cc41-4a46-b182-1d28171073e3")
+	)
+	(segment
+		(start 45.06 -12.285)
+		(end 45.06 -13.96)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A--)")
+		(uuid "f497e14a-50fa-4b70-aacf-8a6ea91e9524")
+	)
+	(segment
+		(start 47.3825 -15.0475)
+		(end 47.88 -15.0475)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "-12VA_B")
+		(uuid "4d99fdfe-c20f-43ab-b2db-0b1504f84edb")
+	)
+	(segment
+		(start 46.255 -16.175)
+		(end 47.3825 -15.0475)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "-12VA_B")
+		(uuid "63864e79-d635-4b63-92c5-69e32062ce9b")
+	)
+	(segment
+		(start 45.99 -16.175)
+		(end 46.255 -16.175)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "-12VA_B")
+		(uuid "c579a83a-55a6-4674-bbfb-cf9ccd8faaaf")
+	)
+	(segment
+		(start 53.78 -16.6)
+		(end 53.78 -15.0475)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B-+)")
+		(uuid "19daeb01-969a-41f9-923d-d09238829dfa")
+	)
+	(segment
+		(start 53.92 -16.74)
+		(end 53.78 -16.6)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B-+)")
+		(uuid "254f39f2-7947-4bf3-8267-ca44c00568e8")
+	)
+	(segment
+		(start 54.225 -16.79)
+		(end 53.91 -17.105)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B-+)")
+		(uuid "8cafa0f9-3759-4493-a730-ddb6fc16e422")
+	)
+	(segment
+		(start 55.49 -16.77)
+		(end 55.47 -16.79)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B-+)")
+		(uuid "b2081af5-673c-4afd-82b0-7c919784d4e5")
+	)
+	(segment
+		(start 53.91 -17.105)
+		(end 53.91 -16.75)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B-+)")
+		(uuid "b5e61dde-3c3a-4b81-b412-d204cc098505")
+	)
+	(segment
+		(start 55.47 -16.79)
+		(end 54.225 -16.79)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300B-+)")
+		(uuid "d36c6e27-7a7a-4421-b804-e36d42979aea")
+	)
+	(segment
+		(start 47.9 -13.0775)
+		(end 47.88 -13.0975)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C300-Pad2)")
+		(uuid "05084025-8ac7-4a5d-82a7-cd1d6a80eb9f")
+	)
+	(segment
+		(start 47.9 -10.91)
+		(end 47.185 -10.91)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C300-Pad2)")
+		(uuid "32ff5aa3-0a45-484c-aea1-d43a2ed31aad")
+	)
+	(segment
+		(start 47.185 -10.91)
+		(end 45.96 -9.685)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C300-Pad2)")
+		(uuid "893f72f8-5e95-4411-9944-c63bd0ef442e")
+	)
+	(segment
+		(start 45.9 -13.1)
+		(end 47.8775 -13.1)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C300-Pad2)")
+		(uuid "92666496-fd58-464e-81c6-4abab1e1bd69")
+	)
+	(segment
+		(start 47.9 -10.91)
+		(end 47.9 -13.0775)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C300-Pad2)")
+		(uuid "96556573-1133-4c1e-90f8-e831adef46b4")
+	)
+	(segment
+		(start 47.8775 -13.1)
+		(end 47.88 -13.0975)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(C300-Pad2)")
+		(uuid "c8dd928c-f961-47f7-a14c-caf9e9d6597a")
+	)
+	(segment
+		(start 49.17 -16.71)
+		(end 49.17 -14.8355)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A-+)")
+		(uuid "00926c64-0028-43ed-b354-7c38c33b8705")
+	)
+	(segment
+		(start 49.2 -16.74)
+		(end 49.2 -16.92)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A-+)")
+		(uuid "0df71a0f-2d59-4062-a75d-86c55924e295")
+	)
+	(segment
+		(start 49.2 -16.74)
+		(end 49.17 -16.71)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A-+)")
+		(uuid "171c965b-436d-496b-a806-a50ae15ab068")
+	)
+	(segment
+		(start 48.732 -14.3975)
+		(end 47.88 -14.3975)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A-+)")
+		(uuid "1eff1846-fbd9-4311-bf02-3a5b7000d623")
+	)
+	(segment
+		(start 49.11 -16.83)
+		(end 47.72 -16.83)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A-+)")
+		(uuid "23b8e561-745b-4696-b333-12ef289520d4")
+	)
+	(segment
+		(start 49.2 -16.92)
+		(end 49.11 -16.83)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A-+)")
+		(uuid "68c26fc1-fa90-41ca-821e-9eb505b0b668")
+	)
+	(segment
+		(start 49.17 -14.8355)
+		(end 48.732 -14.3975)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A-+)")
+		(uuid "cbb8bd92-27e9-4431-bdec-cf0fb0db32a8")
+	)
+	(segment
+		(start 47.72 -16.83)
+		(end 47.63 -16.74)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "Net-(U300A-+)")
+		(uuid "ffdb9644-f0aa-45d5-8bc2-44a11e7d24f5")
+	)
+	(segment
+		(start 54.47 -12.4075)
+		(end 53.78 -13.0975)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "+12V_B")
+		(uuid "0b5e3181-9807-4679-90d0-adfbd7d7921f")
+	)
+	(segment
+		(start 54.47 -11.41)
+		(end 54.47 -12.4075)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "+12V_B")
+		(uuid "173716f1-b17f-40b3-9709-4d58413bdd11")
+	)
+	(embedded_fonts no)
+)
