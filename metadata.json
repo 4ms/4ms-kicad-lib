@@ -1,5 +1,5 @@
 {
-    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "$schema": "https://go.kicad.org/pcm/schemas/v2",
     "name": "4ms Kicad Libraries",
     "description": "Kicad symbol and footprint libraries, with a focus on components used in analog and DSP audio.",
     "description_full": "Kicad symbol and footprint libraries for analog and digital (DSP) audio electronics.\n\nYou must add these libraries to your library tables, see GitHub link for instructions.\n\nThese libraries are used at 4ms Company in our audio devices. Most symbols include manufacturer name and part number, and sometimes multiple alternative numbers. Some parts have JLCPCB part numbers as well, which is used by our BOM and XYPOS scripts in order to streamline using their services (see our GitHub page for links to those scripts).\n\nEach symbol represents a unique part. For example, there is a separate symbol for each combination of resistor value, tolerance, and size. While this makes for a lot of symbols, Kicad's filter toolbar in the symbol chooser makes finding a part easy, and there is less chance for BOM errors.\n\nWhen possible, symbols look like the official KiCad symbols, so that it's easy to use official and 4ms symbols in the same schematic.",
@@ -8,14 +8,14 @@
     "author": {
         "name": "4ms Company",
         "contact": {
-			"email": "4ms@4mscompany.com",
+            "email": "4ms@4mscompany.com",
             "web": "https://4mscompany.com"
         }
     },
     "maintainer": {
         "name": "4ms Company",
         "contact": {
-			"email": "4ms@4mscompany.com",
+            "email": "4ms@4mscompany.com",
             "web": "https://4mscompany.com"
         }
     },
@@ -26,7 +26,7 @@
     "tags": [
         "footprints", 
         "symbols",
-		"3d models"
+        "models"
     ],
     "versions": [
         {
