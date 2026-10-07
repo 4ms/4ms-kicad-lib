@@ -7,7 +7,7 @@
 		(at 0 -3.53 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "2a27fe28-c3df-4f88-9173-01ba469dc45d")
+		(uuid "5490025d-e671-4751-acb6-8b2448574150")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 3.683 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6d88edd3-fcfa-4212-bb88-033f62c852a2")
+		(uuid "c1259d13-c7eb-44af-a18a-176890f4bcdf")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d345d5a6-7e21-41f0-950b-d9304496a9f5")
+		(uuid "466dbbe7-70cd-40be-9c07-fa0cc33e5f07")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fec3a5ff-4d64-4a67-9fa0-bf1a09ce781b")
+		(uuid "7e92669d-4330-45fa-819d-de4161c7cc76")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "2cc8ddf5-41cf-4e13-a6ab-6c140e01a133")
+		(uuid "22782396-7907-42c6-97cb-b4f144972f1e")
 	)
 	(fp_line
 		(start 1 0.9)
@@ -71,7 +71,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "164ecf1c-a4f1-4c98-9575-9e2fcb3580a3")
+		(uuid "ec8526a2-44fd-4002-b797-6ebd7438a62a")
 	)
 	(fp_circle
 		(center 0.89 -1.22)
@@ -82,7 +82,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "d5b61463-5423-4648-9966-5ef31af42826")
+		(uuid "721261e0-30b6-4edf-80c3-02e320f4c33d")
 	)
 	(fp_rect
 		(start -1.75 -1.05)
@@ -93,7 +93,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "95d86127-4b64-44f3-8538-42787329ddf3")
+		(uuid "eb486264-c2a9-441e-b93c-ec528c31fe63")
 	)
 	(pad "1" smd roundrect
 		(at 1 0)
@@ -101,7 +101,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "cceb147c-d772-4adc-b9ad-781b11ebb026")
+		(uuid "50bc937b-73bc-4344-9b06-6b87cb90fc02")
 	)
 	(pad "2" smd roundrect
 		(at -1 0)
@@ -109,18 +109,18 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "44046123-44af-4fa8-a8cc-603fa44c4ba2")
+		(uuid "e0f87a01-3206-4864-8151-06fedbfbe9d2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/3dmodels/Inductor_SMT.3dshapes/SRN6045.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_PMCI-201610.step"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 0.39 0.39 0.39)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 270 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

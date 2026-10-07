@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at -0.025 6.55 0)
 		(layer "F.SilkS")
-		(uuid "f6bb65e3-7bdf-4830-b140-fdd74fc50785")
+		(uuid "89a09839-e7b4-4fd4-a0ea-92444a4ffbf2")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "L_Bourns-SRU1048"
 		(at -0.6 -7.1 0)
 		(layer "F.Fab")
-		(uuid "37758e94-9f81-4287-93b3-32bba1ff41e7")
+		(uuid "c31953a5-f4b6-4b2c-a1d3-7b8a3836b2b6")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c22335a9-3660-4226-a58f-3dec0efb59bb")
+		(uuid "4806f44f-654b-4031-8be7-3fed5a89fcb2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "197271d8-2652-4fe8-93d4-ed6b70e6002a")
+		(uuid "cc5869d5-54e3-4b11-a072-922bf8305507")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d6efa469-5f91-4b78-964f-b35729f799a6")
+		(uuid "4f27e002-3ce1-4a41-ba49-9f7158946c88")
 	)
 	(fp_line
 		(start -2.1 -5.25)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "006adf4d-aeeb-4476-8c73-59e20d2c5f3d")
+		(uuid "106138e4-3759-47c6-b469-a85b99db620c")
 	)
 	(fp_line
 		(start -2.1 -5.25)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "eede362d-0e1e-4ff6-b7ee-60f7c4de1aaf")
+		(uuid "9155c469-9b91-4bde-bc53-dcff4bf1c673")
 	)
 	(fp_line
 		(start 2.1 5.25)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e6f094b5-184b-4e81-900d-cf6d78395b1e")
+		(uuid "8ef78f95-f13c-43f9-810f-d57c10d31abb")
 	)
 	(fp_line
 		(start 2.1 5.25)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f7d88644-1734-4dde-aff6-36284d3e1dba")
+		(uuid "0adecc40-5069-4c3a-bf25-f621d2904033")
 	)
 	(fp_line
 		(start 5.25 -2.1)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ca104186-1eae-4e08-b852-59694a7d3938")
+		(uuid "19deb7f8-14b9-4001-bd88-5b4b4db802e5")
 	)
 	(fp_line
 		(start -5.65 -2.25)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "930e2a0a-7031-4820-93e1-863fd830ab7b")
+		(uuid "bb41cfd2-879a-4a53-a1ea-0ef270481b5f")
 	)
 	(fp_line
 		(start -5.65 -2.25)
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "56109208-43f5-4487-8b8d-d8b9734aea61")
+		(uuid "2c2ca189-11cb-49b1-b2e3-03cbbaf2a4a5")
 	)
 	(fp_line
 		(start -5.65 2.25)
@@ -139,7 +139,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "71841c46-437f-4ab0-a513-c0bc8b06323b")
+		(uuid "e4c57ab8-49cd-45bd-b88e-4f0d50b1ed30")
 	)
 	(fp_line
 		(start -2.25 -5.65)
@@ -149,7 +149,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "26a69931-c618-40b3-8b30-1311cc250042")
+		(uuid "0f10cb6b-a88b-4e40-938b-dea4529bdd35")
 	)
 	(fp_line
 		(start -2.25 5.65)
@@ -159,7 +159,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8d60bc34-a074-47ef-b325-2e3110f50616")
+		(uuid "2491b12d-8488-46f3-ae27-ea9ce026d11e")
 	)
 	(fp_line
 		(start 2.25 5.65)
@@ -169,7 +169,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d96c7ff3-3e10-4838-a86c-901f32b398cb")
+		(uuid "fccb8e84-1ad9-4f0c-b360-a7681243629c")
 	)
 	(fp_line
 		(start 5.65 -2.25)
@@ -179,7 +179,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fb8f3804-1ebf-4b62-bfdc-1e7fb6b3b5e3")
+		(uuid "8f8534e6-ed1d-4fd0-8e14-693e6ba7548c")
 	)
 	(fp_line
 		(start 5.65 -2.25)
@@ -189,22 +189,22 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1215c9e8-b05b-4c55-a8bb-a15c7de043cc")
+		(uuid "c109d13e-44dd-492d-a9bc-b3a9733d1ed8")
 	)
 	(pad "1" smd rect
 		(at -4.5 0)
 		(size 1.8 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a69980ba-2c0e-4a98-8c65-9feefa609bd1")
+		(uuid "c045e907-efe1-49b9-bcd6-f8d76073a680")
 	)
 	(pad "2" smd rect
 		(at 4.5 0)
 		(size 1.8 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d208f298-7d54-4abc-938a-c82ac2cfbad1")
+		(uuid "b7fa156a-d240-4530-9a72-7979bd03d2ad")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRN4018.step"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Inductor_SMT.3dshapes/SRU1048.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -212,7 +212,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
