@@ -66,7 +66,7 @@
 		(uuid "84da87cd-c131-4bd1-a195-69ba07849441")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/3dmodels/Hardware.3dshapes/Screen_ER-TFT030-2.STEP"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Hardware.3dshapes/Screen_ER-TFT030-2.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 4)

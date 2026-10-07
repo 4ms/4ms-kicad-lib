@@ -240,7 +240,7 @@
 		(uuid "d4c346ad-fde5-4049-b31d-e51a19e711fa")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/PJ301M-12.WRL"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/PJ301M-12.wrl"
 		(offset
 			(xyz -0.8889999866 0.4063999939 0)
 		)

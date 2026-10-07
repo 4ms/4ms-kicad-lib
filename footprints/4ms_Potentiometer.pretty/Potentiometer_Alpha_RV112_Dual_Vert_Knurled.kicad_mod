@@ -678,7 +678,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD_4MS_LIBS}/3dmodels/Potentiometer.3dshapes/RK12L1230C0K.STEP"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Potentiometer.3dshapes/RK12L1230C0K.step"
 		(offset
 			(xyz 0.1523999977 0 6.273799906)
 		)

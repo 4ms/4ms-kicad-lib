@@ -196,7 +196,7 @@
 		(uuid "a9a5212f-beea-4840-9fe1-640c47002288")
 	)
 	(embedded_fonts no)
-	(model ":KICAD_4MS_LIBS:3dmodels/Button_Switch_SMD.3dshapes/PTS526SM15SMTR21LFS.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_SMD.3dshapes/PTS526SM15SMTR21LFS.stp"
 		(offset
 			(xyz 0 0 0)
 		)

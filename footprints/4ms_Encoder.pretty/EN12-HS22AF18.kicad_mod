@@ -395,7 +395,7 @@
 		(uuid "406c3bda-51ae-49e1-81d0-20234fe520c2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/3dmodels/Encoders.3dshapes/EN12-HS-AF18.STEP"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Encoders.3dshapes/EN12-HS-AF18.step"
 		(offset
 			(xyz 0 0 0)
 		)
