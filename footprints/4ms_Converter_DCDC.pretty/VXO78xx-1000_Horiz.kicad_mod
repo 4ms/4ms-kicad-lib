@@ -236,7 +236,7 @@
 		(uuid "4643b73d-f2e5-4fa8-ae8c-ade65641782d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/CUI_VXO78012-1000.step"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Converter_DCDC.3dshapes/CUI_VXO78012-1000.step"
 		(offset
 			(xyz 5.75 -1.265 5.4)
 		)

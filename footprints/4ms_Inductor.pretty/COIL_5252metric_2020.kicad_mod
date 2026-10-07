@@ -164,7 +164,7 @@
 		(uuid "92f7e2f5-d313-4701-837b-c5f9de9757ce")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/Inductors/SRN5040.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Inductor_SMT.3dshapes/SRN5040.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -175,7 +175,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${KICAD_4MS_LIBS}/packages3d/Inductors/SRN5040.step"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Inductor_SMT.3dshapes/SRN5040.step"
 		(offset
 			(xyz 0 0 0)
 		)

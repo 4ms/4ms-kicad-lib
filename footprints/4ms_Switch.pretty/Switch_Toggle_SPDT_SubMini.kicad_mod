@@ -236,7 +236,7 @@
 		(uuid "21b21f14-0518-45fc-af0b-95d53da935a3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/spdt-toggle-submini.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_THT.3dshapes/spdt-toggle-submini.wrl"
 		(offset
 			(xyz 0 0 3)
 		)

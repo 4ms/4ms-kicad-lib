@@ -338,15 +338,4 @@
 		(uuid "448a4dd4-b4ee-40e0-b048-ec755b41af05")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_USB.3dshapes/USB4520-03-0-A.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

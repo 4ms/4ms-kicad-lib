@@ -414,7 +414,7 @@
 		(uuid "0831a396-abe9-4475-bb8f-9474c8e70079")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/RK09K1130-20.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Potentiometer.3dshapes/RK09K1130-20.wrl"
 		(offset
 			(xyz 0 0 6.5)
 		)

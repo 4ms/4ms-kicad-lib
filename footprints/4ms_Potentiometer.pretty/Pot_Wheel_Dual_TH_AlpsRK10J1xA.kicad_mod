@@ -201,7 +201,7 @@
 		(uuid "d53fbc20-5edb-4580-b7d6-9fa89ca12962")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/RK10J1_E.STEP"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Potentiometer.3dshapes/RK10J1_E.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -501,7 +501,7 @@
 		(uuid "f70b8329-94c6-481e-b3ba-cb0cbc2ade90")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/EG2308A.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_THT.3dshapes/EG2308A.stp"
 		(offset
 			(xyz 0 0 2.75)
 		)

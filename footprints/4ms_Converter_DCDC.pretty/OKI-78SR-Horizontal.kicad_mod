@@ -156,7 +156,7 @@
 		(uuid "2a47aa4f-a7c4-4e54-a454-1444841a8c75")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/oki-78r-horiz.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Converter_DCDC.3dshapes/oki-78r-horiz.wrl"
 		(offset
 			(xyz -5.5 -0.55 5.5)
 		)

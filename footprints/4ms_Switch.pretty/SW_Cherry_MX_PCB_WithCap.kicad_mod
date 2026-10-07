@@ -262,7 +262,7 @@
 		(uuid "8103b7aa-b386-444d-a005-7b01b94163e6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/SW_Cherry_MX_PCB.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_THT.3dshapes/SW_Cherry_MX_PCB.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -273,7 +273,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD_4MS_LIBS}/packages3d/Cherry_R1_1u.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_THT.3dshapes/Cherry_R1_1u.wrl"
 		(offset
 			(xyz 0 0 12)
 		)

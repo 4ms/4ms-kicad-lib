@@ -680,7 +680,7 @@
 		(uuid "dbf1726f-4ef7-4b8f-8f13-2c33b78991be")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/CUI_PJ-064A.step"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/CUI_PJ-064A.step"
 		(offset
 			(xyz 0 0 12.44599981)
 		)

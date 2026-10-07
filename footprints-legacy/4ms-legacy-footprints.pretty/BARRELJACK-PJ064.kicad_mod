@@ -19,12 +19,12 @@
   (pad 3 thru_hole circle (at 0 -3.800094) (size 3.8608 3.8608) (drill 2.199894) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 3.800094 0) (size 3.8608 3.8608) (drill 2.199894) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at 0 3.50012) (size 3.8608 3.8608) (drill 2.199894) (layers *.Cu *.Mask F.SilkS))
-  (model "/Users/dann/Google Drive/4ms/kicad/packages3d/pj064a.wrl"
+  (model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/pj064a.wrl"
     (at (xyz 0 0 0.475))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 270 0 90))
   )
-  (model "/Users/design/Google Drive/4ms/kicad/packages3d/pj064a.wrl"
+  (model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/pj064a.wrl"
     (at (xyz 0 0 0.475))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 270 0 90))

@@ -157,7 +157,7 @@
 		(uuid "07b3d2e4-8fcf-4ea9-86c6-fbf56a06a5c7")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/R-78Exx-1_0.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Converter_DCDC.3dshapes/R-78Exx-1_0.wrl"
 		(offset
 			(xyz 0 2.5 0)
 		)

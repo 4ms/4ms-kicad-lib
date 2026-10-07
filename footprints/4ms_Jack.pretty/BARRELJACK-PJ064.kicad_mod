@@ -188,7 +188,7 @@
 		(uuid "2ce77998-4289-4893-b5b9-3edddfccb909")
 	)
 	(embedded_fonts no)
-	(model "/Users/dann/Google Drive/4ms/kicad/packages3d/pj064a.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/pj064a.wrl"
 		(offset
 			(xyz 0 0 12.06499982)
 		)
@@ -199,7 +199,7 @@
 			(xyz 270 0 90)
 		)
 	)
-	(model "/Users/design/Google Drive/4ms/kicad/packages3d/pj064a.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/pj064a.wrl"
 		(offset
 			(xyz 0 0 12.06499982)
 		)

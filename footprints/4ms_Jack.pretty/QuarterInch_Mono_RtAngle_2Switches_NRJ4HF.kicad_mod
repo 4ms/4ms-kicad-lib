@@ -453,7 +453,7 @@
 		(uuid "306ba12a-3fc9-43c0-87db-a9f0a664452a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/neutrik-NRJ6HF.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/neutrik-NRJ6HF.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

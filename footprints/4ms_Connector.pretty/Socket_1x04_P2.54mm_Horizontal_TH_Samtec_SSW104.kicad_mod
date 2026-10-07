@@ -208,7 +208,7 @@
 		(uuid "b0c1d2e3-f4a5-6789-bcde-890123456789")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/SSW-104-02-G-S-RA.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_PinSocket_2.54mm.3dshapes/SSW-104-02-G-S-RA.stp"
 		(offset
 			(xyz -1.5 -1.5 1.21)
 		)

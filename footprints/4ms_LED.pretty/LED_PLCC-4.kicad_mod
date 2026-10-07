@@ -318,7 +318,7 @@
 		(uuid "d19cb959-133c-4010-a355-dfeab646f5ad")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/PLCC4RGBCT-CA LED SMD RGB2.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/LED_SMD.3dshapes/PLCC4RGBCT-CA LED SMD RGB2.wrl"
 		(offset
 			(xyz 1.75 -1.4 0)
 		)

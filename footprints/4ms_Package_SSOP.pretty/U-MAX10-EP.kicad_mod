@@ -800,7 +800,7 @@
 		(uuid "4ede6c37-4b7f-4ed4-b0bb-c076b2d7ba46")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/packages3d/UMAX-10.step"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Package_SO.3dshapes/UMAX-10.step"
 		(offset
 			(xyz 0 0 0)
 		)

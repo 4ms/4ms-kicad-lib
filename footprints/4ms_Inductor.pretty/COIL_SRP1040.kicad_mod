@@ -164,7 +164,7 @@
 		(uuid "9702b1ac-55e8-4cdd-a625-3973c26e2686")
 	)
 	(embedded_fonts no)
-	(model "/Users/design/Google Drive/4ms/kicad/packages3d/SRN6045.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Inductor_SMT.3dshapes/SRN6045.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
