@@ -202,15 +202,4 @@
 		(uuid "1479c07a-062e-4a9b-83e3-d5aaa3db1a37")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Pin_Headers.3dshapes/Pin_Header_Straight_2x03_Pitch2.54mm.wrl"
-		(offset
-			(xyz 1.269999981 -2.539999962 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 90)
-		)
-	)
 )

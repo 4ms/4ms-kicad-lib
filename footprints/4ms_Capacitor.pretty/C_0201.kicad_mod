@@ -169,7 +169,7 @@
 		(uuid "19ed4cbb-404c-4932-a560-3f6b73fc902d")
 	)
 	(embedded_fonts no)
-	(model ":KICAD7_3DMODEL_DIR:Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -311,7 +311,7 @@
 		(uuid "a3b2a5b3-ff34-4d8d-bb6c-e8d12ff7306d")
 	)
 	(embedded_fonts no)
-	(model "${ALT3DMOD}/header-smt-1x3-pins-horizontal/TSM-103-01-F-SH.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_PinHeader_2.54mm.3dshapes/TSM-103-01-F-SH.stp"
 		(offset
 			(xyz -4.25 0 0)
 		)

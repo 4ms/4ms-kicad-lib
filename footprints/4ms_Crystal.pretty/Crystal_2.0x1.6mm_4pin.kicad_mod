@@ -657,15 +657,15 @@
 		(uuid "43fdff6a-563d-4376-8292-1ebdeff72191")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/NX2016.STEP"
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.step"
 		(offset
-			(xyz 0.000112 0.000061 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 0)
+			(xyz 0 0 0)
 		)
 	)
 )

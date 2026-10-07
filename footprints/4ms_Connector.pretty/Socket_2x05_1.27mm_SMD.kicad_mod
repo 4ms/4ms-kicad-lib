@@ -565,7 +565,7 @@
 		(uuid "4fbdf4f7-172d-4ff2-bba5-2df1b17e8900")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x05_P1.27mm_Vertical_SMD.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x05_P1.27mm_Vertical_SMD.step"
 		(offset
 			(xyz 0 0 0)
 		)

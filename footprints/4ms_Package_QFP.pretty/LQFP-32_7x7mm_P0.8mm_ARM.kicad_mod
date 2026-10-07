@@ -618,7 +618,7 @@
 		(uuid "f386f20e-46d7-407f-90ce-960e363e6741")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

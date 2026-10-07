@@ -229,18 +229,7 @@
 		(uuid "1466b60c-5ed1-43e9-b569-763e92a71978")
 	)
 	(embedded_fonts no)
-	(model "Housing_SSOP.3dshapes/TSSOP-8_4.4x3mm_Pitch0.65mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-8_4.4x3mm_P0.65mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-8_4.4x3mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

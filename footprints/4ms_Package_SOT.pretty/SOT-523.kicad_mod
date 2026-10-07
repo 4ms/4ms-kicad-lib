@@ -228,15 +228,15 @@
 		(uuid "43c35e2a-3c7c-4d1a-8965-68b510fbe019")
 	)
 	(embedded_fonts no)
-	(model "smd_trans/sot323.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-523.step"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 0.75 0.6 0.6)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz 0 0 0)
 		)
 	)
 )

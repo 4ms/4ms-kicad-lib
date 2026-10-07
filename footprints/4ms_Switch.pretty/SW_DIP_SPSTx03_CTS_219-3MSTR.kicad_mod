@@ -1280,7 +1280,7 @@
 		(uuid "7152e180-f4f8-4a95-98c0-6c717c739ac5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

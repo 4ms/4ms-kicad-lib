@@ -217,7 +217,7 @@
 		(uuid "952d8f65-9050-47ba-9dae-c8f0790e68eb")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FNR6045S.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FNR6045S.step"
 		(offset
 			(xyz 0 0 0)
 		)

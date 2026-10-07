@@ -298,15 +298,4 @@
 		(uuid "78f2006f-cd8a-4b10-b04c-7b6902e5fac9")
 	)
 	(embedded_fonts no)
-	(model "Discret.3dshapes/R3.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 0.3 0.3 0.3)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

@@ -211,7 +211,7 @@
 		(uuid "97047a6a-2b8c-4d2f-b15d-792003a03a03")
 	)
 	(embedded_fonts no)
-	(model "Housings_SOIC.3dshapes/SOIC-8_3.9x4.9mm_Pitch1.27mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

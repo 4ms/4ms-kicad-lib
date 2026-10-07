@@ -609,7 +609,7 @@
 		(uuid "d87d873f-51ec-4e12-956f-541a417b3c58")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Amphenol_F32R-1A7x1-11040_1x40-1MP_P0.5mm_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Amphenol_F32R-1A7x1-11040_1x40-1MP_P0.5mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

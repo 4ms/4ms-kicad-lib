@@ -16,8 +16,8 @@
   (fp_poly (pts (xy -1.6 0.8) (xy -1.15 0.8) (xy -1.15 -0.8) (xy -1.6 -0.8)) (layer F.Fab) (width 0))
   (pad 1 smd rect (at -1.45 0) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.45 0) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
-    (at (xyz 0 0 0))
+  (model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

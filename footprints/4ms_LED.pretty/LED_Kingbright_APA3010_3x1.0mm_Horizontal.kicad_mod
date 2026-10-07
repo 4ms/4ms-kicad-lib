@@ -274,15 +274,4 @@
 		(uuid "394602cd-f18c-4d5a-a959-00b22d0d61cd")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Kingbright_APFA3010_3x1.5mm_Horizontal.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

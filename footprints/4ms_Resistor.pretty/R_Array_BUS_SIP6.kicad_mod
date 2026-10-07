@@ -230,12 +230,12 @@
 		(uuid "fd126cb2-cd60-4ff1-8e4a-1c16038c9dec")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Resistors_THT.3dshapes/R_Array_SIP6.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Array_SIP6.step"
 		(offset
-			(xyz -6.35 0 -1)
+			(xyz -6.35 0 0)
 		)
 		(scale
-			(xyz 0.39 0.39 0.39)
+			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz 0 0 0)

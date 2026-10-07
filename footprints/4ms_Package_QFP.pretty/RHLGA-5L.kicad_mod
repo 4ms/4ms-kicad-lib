@@ -212,15 +212,4 @@
 		(uuid "6f3a0944-3ae3-4229-aecf-8c911ee07149")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_2x1.6mm_P0.5mm_EP1.15x1.3mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

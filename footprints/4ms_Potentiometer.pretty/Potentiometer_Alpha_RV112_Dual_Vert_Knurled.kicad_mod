@@ -667,17 +667,6 @@
 		(uuid "e3e5cfee-8ea0-4992-bfa4-991f8ad8b4d9")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK09L_Double_Vertical.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KICAD_4MS_LIBS}/3dmodels/Potentiometer.3dshapes/RK12L1230C0K.step"
 		(offset
 			(xyz 0.1523999977 0 6.273799906)

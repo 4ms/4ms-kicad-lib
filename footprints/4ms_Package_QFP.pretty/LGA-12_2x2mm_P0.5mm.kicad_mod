@@ -361,7 +361,7 @@
 		(uuid "03b925a9-9c2b-4ed7-be45-e17c80bde3f7")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

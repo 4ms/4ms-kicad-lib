@@ -204,7 +204,7 @@
 		(uuid "98d6114e-938a-4292-a4c2-bab909018f3a")
 	)
 	(embedded_fonts no)
-	(model "${ALT3DMOD}/Inductors/SRU1048.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Inductor_SMT.3dshapes/SRU1048.stp"
 		(offset
 			(xyz 0 0 0)
 		)

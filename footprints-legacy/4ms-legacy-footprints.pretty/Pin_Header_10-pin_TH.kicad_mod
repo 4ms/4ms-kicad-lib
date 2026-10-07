@@ -37,9 +37,9 @@
   (pad 3 thru_hole oval (at -4.75 -8.21) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at -2.21 -10.75) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -4.75 -10.75) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_2x05_Pitch2.54mm.wrl
-    (at (xyz 0.05 -0.2 0))
+  (model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.step"
+    (offset (xyz -4.75 10.75 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 0))
   )
 )

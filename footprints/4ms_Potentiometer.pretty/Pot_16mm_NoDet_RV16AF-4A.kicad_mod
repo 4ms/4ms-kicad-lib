@@ -299,7 +299,7 @@
 		(uuid "e990c161-7d0f-460b-86e8-3f920680edc1")
 	)
 	(embedded_fonts no)
-	(model "${ALT3DMOD}/potentiometers/AlphaTaiwan-RV16AF-4A-15FW.step"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Potentiometer.3dshapes/AlphaTaiwan-RV16AF-4A-15FW.step"
 		(offset
 			(xyz 0 0 -0.3)
 		)

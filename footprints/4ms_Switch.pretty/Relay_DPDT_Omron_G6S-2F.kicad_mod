@@ -404,7 +404,7 @@
 		(uuid "571331f0-8d3a-4579-88bb-10784c8d0a99")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_DPDT_Omron_G6S-2F.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_DPDT_Omron_G6S-2F.step"
 		(offset
 			(xyz 0 0 0)
 		)

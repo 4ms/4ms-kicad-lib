@@ -1057,7 +1057,7 @@
 		(uuid "d45f845b-634d-4c6b-832e-6b6891bf8137")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_BGA.3dshapes/UFBGA-144_7x7mm_Layout12x12_P0.5mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/UFBGA-144_7x7mm_Layout12x12_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

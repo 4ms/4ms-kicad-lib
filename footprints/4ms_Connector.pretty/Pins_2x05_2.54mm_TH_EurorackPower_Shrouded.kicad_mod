@@ -468,7 +468,7 @@
 		(uuid "9b999f4e-48b7-48e9-9916-ad90401c64fc")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.step"
 		(offset
 			(xyz 1.27 -5.08 0)
 		)

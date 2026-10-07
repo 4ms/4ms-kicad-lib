@@ -107,7 +107,7 @@
 		(uuid "b7a47ae5-8b5e-491e-bc2b-1f9fc9db0aac")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/4ms-kicad-lib/3dmodels/Hardware.3dshapes/MountinHole_WurthElektronik_WA-SNSR_3mm.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Hardware.3dshapes/MountinHole_WurthElektronik_WA-SNSR_3mm.stp"
 		(offset
 			(xyz 0 0 7.95)
 		)

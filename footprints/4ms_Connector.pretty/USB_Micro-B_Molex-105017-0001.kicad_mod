@@ -380,18 +380,7 @@
 		(uuid "d537223e-9bad-4e0b-bdd0-990d31bdb2e6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex-105017-0001.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${ALT3DMOD}/USB-Micro-Molex-1050170001.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_USB.3dshapes/USB-Micro-Molex-1050170001.stp"
 		(offset
 			(xyz 0 -1 1.2)
 		)

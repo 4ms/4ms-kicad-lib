@@ -134,7 +134,7 @@
 		(uuid "6814393a-7a0c-4e57-922c-d91aa30f89dc")
 	)
 	(embedded_fonts no)
-	(model "Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-C_EIA-6032-28.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-28_Kemet-C.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -397,7 +397,7 @@
 		(uuid "e6fa3427-1bd4-4771-845f-bf8f39594a3e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.step"
 		(offset
 			(xyz 0 -3 0)
 		)

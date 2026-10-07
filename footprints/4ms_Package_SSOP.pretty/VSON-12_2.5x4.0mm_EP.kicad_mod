@@ -429,7 +429,7 @@
 		(uuid "2ee3a4db-cb04-4e2f-bf0c-43de5ff1f591")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Texas_S-PDSO-N12.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_S-PDSO-N12.step"
 		(offset
 			(xyz 0 0 0)
 		)

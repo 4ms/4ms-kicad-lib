@@ -271,7 +271,7 @@
 		(uuid "ce72ea30-e642-4785-aa92-420762c062de")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-9_1.62x1.58mm_Layout3x3_P0.5mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/BGA-9_1.6x1.6mm_Layout3x3_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

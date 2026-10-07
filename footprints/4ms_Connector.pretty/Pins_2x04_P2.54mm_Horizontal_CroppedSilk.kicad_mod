@@ -707,7 +707,7 @@
 		(uuid "f542045c-5193-49ba-adaf-9207cc81515a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Horizontal.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Horizontal.step"
 		(offset
 			(xyz -1.27 3.83 0)
 		)

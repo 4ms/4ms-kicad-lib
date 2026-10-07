@@ -180,7 +180,7 @@
 		(uuid "fe0f5813-23d4-4853-869e-4ecbe85ec3fa")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x03_P2.54mm_Vertical.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz 1.28 2.54 0)
 		)

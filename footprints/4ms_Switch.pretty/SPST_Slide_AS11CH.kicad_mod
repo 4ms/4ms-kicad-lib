@@ -248,7 +248,7 @@
 		(uuid "eb71f19e-eceb-4edb-ad51-980155f9535f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../lib-3d/AS11CH.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Button_Switch_SMD.3dshapes/AS11CH.stp"
 		(offset
 			(xyz -4.5 -0.8 0.3)
 		)

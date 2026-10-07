@@ -96,15 +96,4 @@
 		(uuid "e8265c82-e748-45a8-979f-0f255004a6f3")
 	)
 	(embedded_fonts no)
-	(model "/Users/Ralf/embedded/eighteight-Rev1/library/RS6011_P.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

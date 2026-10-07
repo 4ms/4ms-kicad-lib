@@ -204,7 +204,7 @@
 		(uuid "d208f298-7d54-4abc-938a-c82ac2cfbad1")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRN4018.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRN4018.step"
 		(offset
 			(xyz 0 0 0)
 		)

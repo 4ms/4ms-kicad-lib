@@ -507,7 +507,7 @@
 		(uuid "4a14ac6d-e01d-4d04-a2d9-1cb97a630199")
 	)
 	(embedded_fonts no)
-	(model "${ALT3DMOD}/CUI_SJ-3523-SMT-TR.step"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/CUI_SJ-3523-SMT-TR.step"
 		(offset
 			(xyz 0.5 6 0)
 		)

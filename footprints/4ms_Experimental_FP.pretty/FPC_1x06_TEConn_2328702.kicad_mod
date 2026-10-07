@@ -2798,7 +2798,7 @@
 		(uuid "a729576c-d8b3-4ce4-8e17-aab10f0cae1d")
 	)
 	(embedded_fonts no)
-	(model "${ALT3DMOD}/c-2328702-6-a-3d.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_FFC-FPC.3dshapes/c-2328702-6-a-3d.stp"
 		(offset
 			(xyz 0 -3 0.5)
 		)

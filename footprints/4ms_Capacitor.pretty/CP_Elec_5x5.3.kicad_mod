@@ -227,7 +227,7 @@
 		(uuid "a8cc673d-36ac-4f04-b15c-d2ea786cc85e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_5x5.3.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_5x5.3.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -238,7 +238,7 @@
 		(uuid "84347737-069c-4054-bb73-0957e30204a6")
 	)
 	(embedded_fonts no)
-	(model "Housings_SSOP.3dshapes/TSSOP-20_4.4x6.5mm_Pitch0.65mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-20_4.4x6.5mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

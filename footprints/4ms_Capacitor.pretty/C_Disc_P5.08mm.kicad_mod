@@ -170,12 +170,12 @@
 		(uuid "76fd07d8-ded0-4ec9-b3af-b8bcaef4d211")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Capacitors_THT.3dshapes/C_Disc_D7.0mm_W2.5mm_P5.00mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D7.0mm_W2.5mm_P5.00mm.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -2.4746 0 0)
 		)
 		(scale
-			(xyz 0.393701 0.393701 0.393701)
+			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz 0 0 0)

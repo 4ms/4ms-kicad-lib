@@ -183,15 +183,15 @@
 		(uuid "894ad582-ba40-4ccc-ac5b-7b38ebf0ae1f")
 	)
 	(embedded_fonts no)
-	(model "LEDs.3dshapes/LED-3MM.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 		(offset
-			(xyz 0 0 2.539999962)
+			(xyz -1.27 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz 0 0 0)
 		)
 	)
 )

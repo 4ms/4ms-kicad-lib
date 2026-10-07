@@ -186,7 +186,7 @@
 		(uuid "a4515577-c5dd-4b6e-a6c1-e0c0d7e5ebc9")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

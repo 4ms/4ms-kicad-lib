@@ -160,15 +160,15 @@
 		(uuid "904a1897-d6f8-4e73-bf05-a02715d207a8")
 	)
 	(embedded_fonts no)
-	(model "kicad-embed://IND2520.STEP"
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1008_2520Metric.step"
 		(offset
-			(xyz 0.00008 -1.0999 1)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 	)
 )

@@ -376,7 +376,7 @@
 		(uuid "46e10d17-358c-4175-b16f-5b9eac7c77b0")
 	)
 	(embedded_fonts no)
-	(model "${ALT3DMOD}/USBC_C12401849_X1.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Connector_USB.3dshapes/USBC_C12401849_X1.stp"
 		(offset
 			(xyz -0.05 -5.2 1.5)
 		)

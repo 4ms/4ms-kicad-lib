@@ -129,15 +129,15 @@
 		(uuid "7cf8834f-c1d2-421e-a0f2-09458d3f2c2c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/TO_SOT_Packages_THT.3dshapes/TO-92_Molded_Narrow.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92.step"
 		(offset
-			(xyz 1.269999981 0 0)
+			(xyz -1.27 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz 0 0 0)
 		)
 	)
 )

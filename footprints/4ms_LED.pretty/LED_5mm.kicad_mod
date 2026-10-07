@@ -146,15 +146,15 @@
 		(uuid "0ed0c759-046d-4c13-ae69-a52415e8c25e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/LEDs.3dshapes/LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm.step"
 		(offset
-			(xyz -32.25799952 114.2999983 -139.6999979)
+			(xyz 1.27 0 0)
 		)
 		(scale
-			(xyz 0.3937 0.3937 0.3937)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 -180)
 		)
 	)
 )

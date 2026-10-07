@@ -27,9 +27,9 @@
   (fp_line (start -1.2192 -1.27) (end -2.032 -1.27) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -1.99898 0) (size 2.49936 1.80086) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.99898 0) (size 2.49936 1.80086) (layers F.Cu F.Paste F.Mask))
-  (model Diodes_SMD.3dshapes/SMA_Standard.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz 0 0 180))
+  (model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

@@ -164,7 +164,7 @@
 		(uuid "28bd060b-bb78-48af-84ca-1bc0cb219b88")
 	)
 	(embedded_fonts no)
-	(model "${ALT3DMOD}/Inductors/SRP6540.stp"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Inductor_SMT.3dshapes/SRP6540.stp"
 		(offset
 			(xyz 0 0 2)
 		)

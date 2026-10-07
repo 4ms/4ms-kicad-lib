@@ -730,15 +730,4 @@
 		(members "796bd3b8-0385-45d9-a7be-4d0bb1333a2a" "7bd95993-5049-4ca6-af15-a7dc289a7974")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Pin_Headers.3dshapes/Pin_Header_Straight_2x03_Pitch2.54mm.wrl"
-		(offset
-			(xyz 1.269999981 -2.539999962 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 90)
-		)
-	)
 )

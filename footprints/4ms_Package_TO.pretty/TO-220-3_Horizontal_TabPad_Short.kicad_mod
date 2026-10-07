@@ -181,12 +181,12 @@
 		(uuid "63ba87ad-4495-40a0-bf98-c60b2aa57d26")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
 		(offset
 			(xyz -2.54 0 0)
 		)
 		(scale
-			(xyz 1 0.84 1)
+			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz 0 0 0)

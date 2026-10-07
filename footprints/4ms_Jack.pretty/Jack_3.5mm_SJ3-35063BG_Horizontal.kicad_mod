@@ -148,17 +148,6 @@
 		(uuid "82a36e81-f380-47b7-8d05-e9836e0a07e7")
 	)
 	(embedded_fonts no)
-	(model "${ALT3DMOD}/CUI_SJ-3523-SMT-TR.step"
-		(offset
-			(xyz 0.5 6 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 90)
-		)
-	)
 	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/SJ3-35063BG.stp"
 		(offset
 			(xyz -1 0.25 2.25)
