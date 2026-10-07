@@ -453,15 +453,15 @@
 		(uuid "306ba12a-3fc9-43c0-87db-a9f0a664452a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/neutrik-NRJ6HF.wrl"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Jack.3dshapes/nrj4hf-2.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 16.95 -7.25 0)
 		)
 		(scale
-			(xyz 0.3937 0.3937 0.3937)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 180 0)
+			(xyz -90 -0 -90)
 		)
 	)
 )
