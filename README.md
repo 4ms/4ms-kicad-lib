@@ -4,26 +4,38 @@
 Intro:
 -----
 
-4ms-kicad-lib is a collection of symbol and footprint libraries for KiCad 7. These libraries were created by and for people working at [4ms Company](https://4mscompany.com). We share them publicly in hopes they help others design great circuits. Have fun.
+4ms-kicad-lib is a collection of symbol and footprint libraries for KiCad 10.
+These libraries were created by and for people working at [4ms
+Company](https://4mscompany.com). We share them publicly in hopes they help
+others design great circuits. Have fun.
 
-The symbols work with KiCad v7. 
-We highly recommend everyone to upgrade to Kicad 7 from Kicad 6. If you must remain on KiCad 6, there is a tag for the latest version of the symbol library supported:
-[Kicad 6](https://github.com/4ms/4ms-kicad-lib/tree/Kicad6)
+There are also some legacy symbol libraries for KiCad 5.1.x in
+`symbols-legacy`, but they will not be updated or maintained, and they aren't
+included in the KiCad Plugin and Content Manager archive.
 
-There are also some legacy symbol libraries for KiCad 5.1.x in `symbols-legacy`, but they will not be updated or maintained, and they aren't included in the KiCad Plugin and Content Manager archive.
-
-The footprints work with Kicad 7, KiCad 6, KiCad 5.99 and KiCad 5.1.9 and later. 
-
-We tried to follow the KiCad Library Conventions, although we made breaks from that where it made sense. We also tried to keep the look and feel of the official KiCad symbols, to make using this library and the official KiCad libraries seamless.
+We tried to follow the KiCad Library Conventions, although we made breaks from
+that where it made sense. We also tried to keep the look and feel of the
+official KiCad symbols, to make using this library and the official KiCad
+libraries seamless.
 
 
 What's in here:
 --------------
 __Libraries (KiCad PCM archive):__
 
-`symbols`: The symbol library (schematic symbols). As of May 2020, we have switched to using a unique symbol for each physical component that might appear on a BOM line.
+`symbols`: The symbol library (schematic symbols). As of May 2020, we have
+switched to using a unique symbol for each physical component that might appear
+on a BOM line.
 
-`footprints`: The footprint library (pcb). Library names tend to follow the standard of the official KiCad .pretty libraries, but with a "4ms_" prefix. One interesting library is the `4ms_Faceplate.pretty`: these are intended to be used with our faceplate generation scripts. Each component is a hole or slot that's the correct size for a particular faceplate-mounted component. Errata: the 3d model links are generally not valid.
+`footprints`: The footprint library (pcb). Library names tend to follow the
+standard of the official KiCad .pretty libraries, but with a "4ms_" prefix. One
+interesting library is the `4ms_Faceplate.pretty`: these are intended to be
+used with our faceplate generation scripts. Each component is a hole or slot
+that's the correct size for a particular faceplate-mounted component. 
+
+`3dmodels`: 3D models for the footprints, organized similar to how the official
+KiCad 3dmodels are organized.
+
 
 __Other stuff (not in KiCad PCM archive):__
 
@@ -33,7 +45,7 @@ __Other stuff (not in KiCad PCM archive):__
 
 `footprints-legacy`: The legacy footprint library, not really of much use since PCBs embed the footprints they used.
 
-`packages3d`: Random 3d models, please verify dimensions before relying on the accuracy of these models.
+`packages3d`: Legacy random 3d models, please verify dimensions before relying on the accuracy of these models.
 
 `lib-table-files`: The library table files. People working on 4ms projects should copy these into a project directory (See step 2B below).
 

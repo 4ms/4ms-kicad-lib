@@ -5,7 +5,7 @@ read version
 
 echo "Zipping archive: "
 rm -f PCM/4ms-kicad-lib-PCM-$version.zip
-zip -r PCM/4ms-kicad-lib-PCM-$version.zip footprints/ symbols/ resources/ metadata.json -x "*.DS_Store" -x "*/\.*"
+zip -r PCM/4ms-kicad-lib-PCM-$version.zip footprints/ symbols/ 3dmodels/ resources/ metadata.json -x "*.DS_Store" -x "*/\.*"
 
 echo "Copying metadata.json and icon.png"
 cp metadata.json PCM/metadata.json
