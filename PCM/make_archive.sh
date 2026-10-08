@@ -56,6 +56,37 @@ for fp in sorted(glob.glob(f"{stage}/footprints/*/*.kicad_mod")):
 print(f"  {problems} problem(s)")
 EOF
 
+# PCM adds installed libraries with a nickname prefix (KiCad default "PCM_", a per-user setting)
+pcm_lib_prefix="PCM_"
+echo "Rewriting symbol footprint links to our libraries: 4ms_Xxx: -> ${pcm_lib_prefix}4ms_Xxx:"
+python3 - "$stage" "$pcm_lib_prefix" <<'EOF'
+import glob, os, re, sys
+stage, prefix = sys.argv[1], sys.argv[2]
+libs = {os.path.basename(d)[:-len(".pretty")]: {os.path.basename(f)[:-len(".kicad_mod")] for f in glob.glob(f"{d}/*.kicad_mod")}
+        for d in glob.glob(f"{stage}/footprints/*.pretty")}
+fp_re = re.compile(r'(\(property\s+"Footprint"\s+")([^":]+):([^"]*)"')
+rewritten = problems = 0
+for sym in sorted(glob.glob(f"{stage}/symbols/*.kicad_sym")):
+    text = open(sym, encoding="utf-8").read()
+    def sub(m):
+        global rewritten, problems
+        lib, name = m.group(2), m.group(3)
+        if lib not in libs:
+            if lib.startswith("4ms_"):
+                print(f"  WARNING {os.path.basename(sym)}: footprint library not in archive: {lib}:{name}")
+                problems += 1
+            return m.group(0)
+        if name not in libs[lib]:
+            print(f"  WARNING {os.path.basename(sym)}: footprint not in archive: {lib}:{name}")
+            problems += 1
+        rewritten += 1
+        return f'{m.group(1)}{prefix}{lib}:{name}"'
+    new = fp_re.sub(sub, text)
+    if new != text:
+        open(sym, "w", encoding="utf-8").write(new)
+print(f"  {rewritten} link(s) rewritten, {problems} problem(s)")
+EOF
+
 zipfile="$PWD/PCM/4ms-kicad-lib-PCM-$version.zip"
 echo "Zipping archive: $zipfile"
 rm -f "$zipfile"
