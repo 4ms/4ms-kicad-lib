@@ -10671,7 +10671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4ms_Package_SSOP:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "4ms_Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 21.59 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -111268,7 +111268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "4ms_Package_MFSOP:MFSOP6-4_4.4x3.6mm_P1.27mm"
+		(property "Footprint" "4ms_Package_SSOP:MFSOP6-4_4.4x3.6mm_P1.27mm"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
