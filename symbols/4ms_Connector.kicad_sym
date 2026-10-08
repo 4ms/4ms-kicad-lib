@@ -15161,7 +15161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4ms_Connector:ER-OLED1.09-FPC"
+		(property "Footprint" "4ms_Display:ER-OLED1.09-FPC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
