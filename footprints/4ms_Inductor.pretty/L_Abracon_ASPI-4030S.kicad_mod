@@ -181,7 +181,7 @@
 		(uuid "b7fdd186-b68a-4957-a1ab-315dc1291326")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_4MS_LIBS}/3dmodels/Inductor_SMT.3dshapes/ASPI-4030S.STEP"
+	(model "${KICAD_4MS_LIBS}/3dmodels/Inductor_SMT.3dshapes/ASPI-4030S.stp"
 		(offset
 			(xyz 0 0 0)
 		)
