@@ -21,6 +21,7 @@ libraries seamless.
 
 What's in here:
 --------------
+
 __Libraries (KiCad PCM archive):__
 
 `symbols`: The symbol library (schematic symbols). As of May 2020, we have
@@ -58,7 +59,7 @@ PCBs embed the footprints they used.
 on the accuracy of these models.
 
 `lib-table-files`: The library table files. People working on 4ms projects
-should copy these into a project directory (See step 2B below).
+should copy these into a project directory (see Option B, Step 3 below).
 
 `schematic-blocks`: KiCad schematic sheets of basic circuits we use over and
 over. These building blocks are intended to be used as hierarchical sheets, or
@@ -69,47 +70,99 @@ can be used by KiCad 6 as well.
 How to Install Symbol and Footprint Libraries:
 ----------
 
-__Step 1) Download or install the 4ms libraries__
+There are two ways to install these libraries:
 
-Download or clone the 4ms-kicad-lib git repo onto your local hard drive. Or use
-KiCad's Plugin and Content Manager (PCM) to install this.
-
-If downloading manually, save this repo folder in the same directory as all
-your KiCad projects or wherever you want to keep you KiCad libraries.
-
-If you use the KiCad PCM tool, the libraries will be installed in your
-`KICAD6_3RD_PARTY` directory (on macOS it's
-/Users/YourUserName/Documents/KiCad/6.0/3rdparty, for example).
+  * **Option A: KiCad's Plugin and Content Manager (PCM).** Easiest. Recommended
+    unless you work at 4ms, or are very comfortable with KiCad library management.
+  * **Option B: Clone this git repo.** Gets you the latest changes as soon as
+    they're pushed, but you have to manually manage this library in KiCad. This
+    is what people working at 4ms use.
 
 
-__Step 2) Add the libraries to your library tables__
+### Option A: Install with the Plugin and Content Manager
+
+__Step 1) Install the package__
+
+  * In the KiCad project window, open the `Plugin and Content Manager`.
+  * Select the `Libraries` tab and find `4ms Kicad Libraries`.
+  * Click `Install`, then click `Apply Pending Changes`.
+  * Restart KiCad.
+
+KiCad will add all the symbol and footprint libraries to your global
+library tables, and the 3D models are installed and linked automatically.
+
+__Step 2) Find the libraries__
+
+PCM adds each library with a `PCM_` prefix on its nickname, so
+`4ms_Resistor` shows up as `PCM_4ms_Resistor` in the symbol chooser and
+footprint browser. The symbols in the PCM package already link to the
+`PCM_4ms_...` footprint libraries, so footprints are filled in for you when you
+place a symbol.
+
+__Notes__
+
+  * The footprint links in the symbols assume KiCad's default PCM settings:
+    "Automatically add installed libraries to global library table" turned on,
+    and "Library nickname prefix" set to `PCM_`. Both are in KiCad's
+    Preferences, under `Plugin and Content Manager`. If you've changed either
+    of these, you'll need to add the libraries to your tables yourself, using
+    the `PCM_` prefix on each nickname.
+  * PCM installs files into your `${KICAD10_3RD_PARTY}` folder (on macOS:
+    `~/Documents/KiCad/10.0/3rdparty`), in subfolders named
+    `com_github_4ms_4ms-kicad-lib`.
+  * You can also download the `.zip` from this repo's
+    [Releases page](https://github.com/4ms/4ms-kicad-lib/releases) and install
+    it with `Install from File...` in the Plugin and Content Manager.
+  * Updates show up in the Plugin and Content Manager when we publish a new
+    release.
+
+
+### Option B: Clone the git repo
+
+__Step 1) Download the libraries__
+
+Clone this repo (or download it as a zip) and save it wherever you keep your
+KiCad libraries.
+
+__Step 2) Set the `KICAD_4MS_LIBS` path variable__
+
+The footprints find their 3D models through this variable, and the library
+table files use it too, so set it even if you add the libraries by hand. You
+only need to do this once, it's a global setting.
+
+  * In the KiCad project window, select `Configure Paths...` in the
+    `Preferences` menu.
+  * Add a new entry named `KICAD_4MS_LIBS`, and set its path to the
+    4ms-kicad-lib folder, for example
+    `/Users/YOURUSERNAME/MyKiCadProjects/4ms-kicad-lib`
+
+__Step 3) Add the libraries to your library tables__
+
+To add **all** the 4ms libraries to a project (what anyone working at 4ms will
+want), copy the two files in `lib-table-files/` (`fp-lib-table` and
+`sym-lib-table`) into your project folder. Or you can add those library table files
+to an existing project:
+
+Or, to add only some libraries, or to add them globally:
 
   * Select `Manage Symbol Libraries` (in the schematic editor) or `Manage
-    Footprint Libraries` (in the pcb editor) in the Preferences menu.
-  * Select the Global tab (if you want to access these libraries from *all*
-    your projects), or select the Project tab (if you just want to use the
-    libraries in the current project).
-  * Click the tiny folder icon at the base of the list box, and then browse to
-    the libraries you want to add. On MacOS you can Cmd-click to select
-    multiple libraries at once.
+    Footprint Libraries` (in the PCB editor) in the Preferences menu.
+  * Select the Global tab to use these libraries in all your projects, or
+    the Project tab to use them only in the current project.
+  * Click the folder icon below the list, and browse to the libraries you want
+    to add. On macOS you can Cmd-click to select several at once.
   * Repeat for both the symbol libraries and the footprint libraries.
-  * Libraries can be available but just hidden (disabled). To enable/disable a
-    library, use the checkbox next to the libraries name.
+  * Keep the nicknames as they are (e.g. `4ms_Resistor`), because the symbols
+    link to footprints by those names.
 
-__Alternative step 2) Setup the environment variables and copy lib tables__
 
-If you want to add **all** the 4ms libraries to your project (which is what
-anyone working at 4ms will always want to do), then just copy the two files in
-lib-table-files/ to your project directory.
+### A note on mixing the two
 
-For this to work, you need to first create an environment variable called
-`KICAD_4MS_LIBS` and set it to the path to this library folder. You only have
-to do this part once, it applies globally to all projects. To do this:
-    * Go to the KiCad project window and select `Configure Paths` in the
-      `Preferences` menu. 
-    * Add a new entry with the name `KICAD_4MS_LIBS`. Set the value to the full
-      path of the 4ms-kicad-lib folder. Example: `KICAD_4MS_LIBS:
-      /Users/YOURUSERNAME/WhateverFolder/MyKiCadProjects/4ms-kicad-lib`
+The PCM package and the git repo use different library nicknames
+(`PCM_4ms_Resistor` vs. `4ms_Resistor`), and each version's symbols link to
+its own footprints. You can have both installed, but stick to one per project,
+or a symbol from one may point to a footprint library that the project doesn't
+use.
 
 
 More resources
