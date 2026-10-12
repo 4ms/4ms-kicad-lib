@@ -529,17 +529,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "*SOT-89* *SOT89*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "AP2120N-5.0TRG1_0_1"
 			(rectangle
 				(start -5.08 -3.81)
@@ -1361,7 +1350,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "*SOT-89* *SOT89*"
+		(property "ki_fp_filters" "*SOT-23* *SOT23*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

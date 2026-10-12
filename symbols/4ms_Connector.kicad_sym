@@ -2512,17 +2512,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_1x??_*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "Conn_01x30_ER-TFT050-10_1_1"
 			(rectangle
 				(start -1.27 36.83)
@@ -20397,17 +20386,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Pin_Header_Straight_2X* Pin_Header_Angled_2X* Socket_Strip_Straight_2X* Socket_Strip_Angled_2X* IDC_Header_Straight_*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "Pins_02x02_P1.27mm_SMT_0_1"
 			(rectangle
 				(start -2.54 2.54)
@@ -20652,17 +20630,6 @@
 			)
 		)
 		(property "ki_keywords" "2x3 Pin Header SMT"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "Pin_Header_Straight_2X* Pin_Header_Angled_2X* Socket_Strip_Straight_2X* Socket_Strip_Angled_2X* IDC_Header_Straight_*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20975,17 +20942,6 @@
 			)
 		)
 		(property "ki_keywords" "Pins_02x03_RightAngle_P2.54mm_TH"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "Connector*:*2x??x*mm* Connector*:*2x???Pitch* Pin_Header_Straight_2X* Pin_Header_Angled_2X* Socket_Strip_Straight_2X* Socket_Strip_Angled_2X*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22438,17 +22394,6 @@
 			)
 		)
 		(property "ki_keywords" "2x5 Pin Header SMT"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "Connector*:*_2x??_*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47867,17 +47812,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "CON_USB-TYPEC_COXOC_317JD24BZTF3K3C3"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "USB-C_Receptacle_AdamTech_USB-C31-S-VT-CS4-BK-PP_0_1"
 			(polyline
 				(pts
@@ -50542,17 +50476,6 @@
 			)
 		)
 		(property "ki_keywords" "USB-C Jack SMT"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "CON_USB-TYPEC_COXOC_317JD24BZTF3K3C3"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

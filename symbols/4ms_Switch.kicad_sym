@@ -3027,17 +3027,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "4ms-footprints:RGB-SPST-LED-TC002"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "Button_SPST_RGB_5.4mmCap_0_0"
 			(text "B"
 				(at -5.334 2.032 0)
@@ -3711,17 +3700,6 @@
 			)
 		)
 		(property "ki_keywords" "Button_SPST_RGB_7mmCap"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "4ms-footprints:RGB-SPST-LED-TC002"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4409,17 +4387,6 @@
 			)
 		)
 		(property "ki_keywords" "Button_SPST_RGB_7mmCap"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "4ms-footprints:RGB-SPST-LED-TC002"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12452,17 +12419,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Button_Tact*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "Button_TL1105JAF160Q1RBLK_0_1"
 			(polyline
 				(pts
@@ -12776,17 +12732,6 @@
 			)
 		)
 		(property "ki_keywords" "TL1105 tact switch right angle 6x6 momentary cap red JA"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "Button_Tact*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13424,17 +13369,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Button_Tact*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "Button_TL1105VF160Q_0_1"
 			(polyline
 				(pts
@@ -13748,17 +13682,6 @@
 			)
 		)
 		(property "ki_keywords" "TL1105 tact switch right angle 6x6 momentary"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "Button_Tact*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14977,17 +14900,6 @@
 			)
 		)
 		(property "ki_keywords" "Encoder Rotary"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "*ROTENC-12MM-BUT*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

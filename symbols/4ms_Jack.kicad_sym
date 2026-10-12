@@ -4197,17 +4197,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "BarrelJack*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "Barrel_2.0mmPin_PJ064_0_1"
 			(rectangle
 				(start -5.08 3.81)
@@ -5215,17 +5204,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "BarrelJack*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "Barrel_2.0mmPin_PJ202A"
@@ -5296,17 +5274,6 @@
 			)
 		)
 		(property "ki_keywords" "Barrel Jack 2.0mm 2mm PJ202A PJ-202A"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "BarrelJack*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -119,17 +119,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "DIP*W7.62mm*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "6N137_0_1"
 			(polyline
 				(pts
@@ -2622,17 +2611,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "21-0109D 21-0109D-M 21-0109D-L"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "ADS7142IRUG_0_1"
 			(polyline
 				(pts
@@ -3175,7 +3153,7 @@
 				(justify left)
 			)
 		)
-		(property "ki_fp_filters" "SOT?23*"
+		(property "ki_fp_filters" "SOT?23* *DFN?6*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,17 +3939,6 @@
 			)
 		)
 		(property "ki_keywords" "AP62200WU-7"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "*TSOT*26*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28116,17 +28083,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "VQFN?46?1EP?5x6mm?P0.4mm?EP2.8x3.8mm*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "LP5018RSMR_0_1"
 			(rectangle
 				(start -10.16 30.48)
@@ -29612,17 +29568,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "21-0109D 21-0109D-M 21-0109D-L"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "MAX11645EUA+_0_1"
 			(polyline
 				(pts
@@ -29899,17 +29844,6 @@
 			)
 		)
 		(property "ki_keywords" "MAX11666AUB+"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "21-0109D 21-0109D-M 21-0109D-L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30583,17 +30517,6 @@
 			)
 		)
 		(property "ki_keywords" "MCP48FVB22, DAC"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "21-0109D 21-0109D-M 21-0109D-L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31890,7 +31813,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "SOT-23-5* SOT23-5*"
+		(property "ki_fp_filters" "?SOT-23-5* ?SOT23-5*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36194,17 +36117,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "21-0109D 21-0109D-M 21-0109D-L"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "PCA9535HF_0_0"
 			(pin bidirectional line
 				(at 15.24 7.62 180)
@@ -39083,17 +38995,6 @@
 			)
 		)
 		(property "ki_keywords" "Codec Audio"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "*28-SSOP*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -108998,17 +108899,6 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "21-0109D 21-0109D-M 21-0109D-L"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "TCA9535PWR_0_0"
 			(pin bidirectional line
 				(at 15.24 7.62 180)
@@ -133227,17 +133117,6 @@
 			)
 		)
 		(property "ki_keywords" "TCA9555, I/O Expander 16 Bit"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "21-0109D 21-0109D-M 21-0109D-L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

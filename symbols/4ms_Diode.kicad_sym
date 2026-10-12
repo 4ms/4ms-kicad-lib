@@ -1065,7 +1065,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "SOT?363*"
+		(property "ki_fp_filters" "SOT?363* *DFN?1006*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
