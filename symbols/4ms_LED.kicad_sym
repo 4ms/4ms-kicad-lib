@@ -2,6 +2,344 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
+	(symbol "BlueRed_1615"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at -0.635 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BlueRed_1615"
+			(at -0.635 5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4ms_LED:LED_SMD_4P_1615"
+			(at 0.508 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8785925218145103872-C965836.pdf?response-content-disposition=attachment%3B%20filename%3DC965836.pdf%3B%20filename%2A%3DUTF-8%27%27C965836.pdf&x-oss-date=20261017T052654Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vDPv%2FMm5QYzo6eQGD9hko7WtYY2Lz4mjz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qfZluSc9557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWmrmTupBvJSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkI1SerhaKWD5sagAF3YN3iBC3lUi4QdYZuz2AKaKC%2FxHiAIGLGM6R8d%2BNY3eDArCuKA4wXtKLoGJ96rfMr7uqz0M4cN08bhXa4D8i13T0vtPqCHjXwlkcAECy7oXK2oEenhOX9FrXWOw2OwrTtDM1%2FwCsfyhCgnpZYdYpkpxp2YdAS8WLu8K5%2Bz2KjgSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXvuExvK9yLuBFLbJnVY47ySx%2F20261017%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=26e1e125126f2e9e547b2f6812e07e86a308cfa31c3b28719bc1e1f5ef214938"
+			(at 2.032 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual LED, Red 1-/4+ Blue 2-/3+"
+			(at -0.635 -0.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C965836"
+			(at -0.635 -0.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "XL-1615SURUBC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Panel Type" "LedBlueRed"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LED diode bicolor dual blue red"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BlueRed_1615_0_1"
+			(polyline
+				(pts
+					(xy -4.445 1.905) (xy -2.54 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -3.175) (xy -2.54 -3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.937 -4.699) (xy -5.461 -6.223) (xy -4.699 -6.223) (xy -5.461 -6.223) (xy -5.461 -5.461)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.667 -5.715) (xy -4.191 -7.239) (xy -3.429 -7.239) (xy -4.191 -7.239) (xy -4.191 -6.477)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -4.445) (xy -1.905 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.635 -0.635)
+				(radius 4.572)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 0.635) (xy 0.635 3.175) (xy -1.905 1.905) (xy 0.635 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -4.445) (xy 0.635 -1.905) (xy -1.905 -3.175) (xy 0.635 -4.445)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 1.905) (xy -2.667 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -3.175) (xy -2.667 -3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "BlueRed_1615_1_1"
+			(pin input line
+				(at -8.255 1.905 0)
+				(length 3.81)
+				(name "K2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.255 -3.175 0)
+				(length 3.81)
+				(name "K1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.985 -3.175 180)
+				(length 3.048)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.985 1.905 180)
+				(length 3.048)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Blue_3mm_TH"
 		(pin_names
 			(offset 0)
@@ -454,6 +792,17 @@
 				(justify left)
 			)
 		)
+		(property "Panel Type" "LedBlue"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Blue_56mcd_0603"
 			(at 0 0 0)
 			(show_name no)
@@ -761,6 +1110,17 @@
 				(justify left)
 			)
 		)
+		(property "Panel Type" "LedGreen"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Green_350mcd_0603"
 			(at 0 0 0)
 			(show_name no)
@@ -933,80 +1293,61 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LED_Dual_SMD-4P"
+	(symbol "Green_5mm_TH"
 		(pin_names
 			(offset 0)
-			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "D"
-			(at -0.635 -6.35 0)
+		(property "Reference" "LED"
+			(at -1.27 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.143 1.143)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "LED_Dual_SMD-4P"
-			(at -0.635 5.715 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "4ms_LED:XL-1615SURUBC"
-			(at 0.762 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "file:///home/cantrell/Downloads/C965836.pdf"
-			(at 0.762 0 0)
+		(property "Value" "Green_5mm_TH"
+			(at -8.89 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.143 1.143)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 1 and 2"
-			(at -0.635 -0.635 0)
+		(property "Footprint" "4ms_LED:LED_5mm"
+			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 			)
 		)
-		(property "JLCPCB ID" "C965836"
-			(at -0.635 -0.635 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/308/1/WP7083ZGD_G.pdf"
+			(at 11.43 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "ki_keywords" "LED diode bicolor dual"
+		(property "Description" "Single Color LEDs Green 525nm 4800mcd 60deg T-1 3/4 (5mm)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1017,7 +1358,65 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+		(property "Specifications" "LED Green 5mm Dome Diffused Lum>=100mcd @ 20mA"
+			(at -2.54 -7.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Kingbright "
+			(at -2.54 -9.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "WP7083ZGD/G"
+			(at -2.54 -10.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Display" "Green 5mm"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Production Stage" "C"
+			(at -2.54 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "GREEN, LED, TH"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1028,10 +1427,21 @@
 				)
 			)
 		)
-		(symbol "LED_Dual_SMD-4P_0_1"
+		(property "ki_fp_filters" "*LED*C1*A2*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Green_5mm_TH_1_0"
 			(polyline
 				(pts
-					(xy -4.445 1.905) (xy -2.54 1.905)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1043,7 +1453,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.445 -3.175) (xy -2.54 -3.175)
+					(xy 0 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1055,7 +1465,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.937 -4.699) (xy -5.461 -6.223) (xy -4.699 -6.223) (xy -5.461 -6.223) (xy -5.461 -5.461)
+					(xy 0 -1.27) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -1067,7 +1477,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 -5.715) (xy -4.191 -7.239) (xy -3.429 -7.239) (xy -4.191 -7.239) (xy -4.191 -6.477)
+					(xy 0.635 1.905) (xy -0.762 3.302)
 				)
 				(stroke
 					(width 0)
@@ -1079,66 +1489,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 3.175)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 -4.445) (xy -1.905 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -0.635 -0.635)
-				(radius 4.572)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 0.635) (xy 0.635 3.175) (xy -1.905 1.905) (xy 0.635 0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 -4.445) (xy 0.635 -1.905) (xy -1.905 -3.175) (xy 0.635 -4.445)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 1.905) (xy -2.667 1.905)
+					(xy 1.778 2.032) (xy 0.381 3.429)
 				)
 				(stroke
 					(width 0)
@@ -1150,7 +1501,19 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -3.175) (xy -2.667 -3.175)
+					(xy 2.54 -1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1161,75 +1524,63 @@
 				)
 			)
 		)
-		(symbol "LED_Dual_SMD-4P_1_1"
-			(pin input line
-				(at -8.255 1.905 0)
-				(length 3.81)
-				(name "K2"
+		(symbol "Green_5mm_TH_1_1"
+			(polyline
+				(pts
+					(xy -0.762 3.302) (xy 0.127 2.921) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.381 2.413) (xy -0.762 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.381 3.429) (xy 1.27 3.048) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.762 2.54) (xy 0.381 3.429)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "C"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at -8.255 -3.175 0)
-				(length 3.81)
-				(name "K1"
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.985 -3.175 180)
-				(length 3.048)
-				(name "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.985 1.905 180)
-				(length 3.048)
-				(name "A2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -1360,6 +1711,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Panel Type" "LedRGB"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "LED-RGB-CA"
@@ -2754,6 +3116,17 @@
 				(justify left)
 			)
 		)
+		(property "Panel Type" "LedRed"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Red_100mcd_0603"
 			(at 0 0 0)
 			(show_name no)
@@ -3673,6 +4046,17 @@
 				(justify left)
 			)
 		)
+		(property "Panel Type" "LedWhite"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "White_min200mcd_0603"
 			(at 0 0 0)
 			(show_name no)
@@ -3991,6 +4375,17 @@
 				)
 			)
 		)
+		(property "Panel Type" "LedYellow"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Yellow_23mcd_0603"
 			(at 0 0 0)
 			(show_name no)
@@ -4100,275 +4495,6 @@
 			)
 		)
 		(symbol "Yellow_23mcd_0603_1_1"
-			(polyline
-				(pts
-					(xy -0.762 3.302) (xy 0.127 2.921) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.381 2.413) (xy -0.762 3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.381 3.429) (xy 1.27 3.048) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.762 2.54) (xy 0.381 3.429)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(pin passive line
-				(at -2.54 0 0)
-				(length 2.54)
-				(name "C"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Green_5mm_TH"
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "LED"
-			(at -1.27 -5.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Green_5mm_TH"
-			(at -8.89 5.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_LED:LED_5mm"
-			(at 0.762 3.81 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/308/1/WP7083ZGD_G.pdf"
-			(at 11.43 -13.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Color LEDs Green 525nm 4800mcd 60deg T-1 3/4 (5mm)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "LED Green 5mm Dome Diffused Lum>=100mcd @ 20mA"
-			(at -2.54 -7.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright "
-			(at -2.54 -9.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "WP7083ZGD/G"
-			(at -2.54 -10.922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "Green 5mm"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Production Stage" "C"
-			(at -2.54 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "GREEN, LED, TH"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*LED*C1*A2*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Green_5mm_TH_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 2.54 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.27) (xy 0 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 1.905) (xy -0.762 3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 2.032) (xy 0.381 3.429)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.27) (xy 0 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.27) (xy 2.54 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Green_5mm_TH_1_1"
 			(polyline
 				(pts
 					(xy -0.762 3.302) (xy 0.127 2.921) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.381 2.413) (xy -0.762 3.302)
