@@ -2151,6 +2151,17 @@
 				(justify left)
 			)
 		)
+		(property "Panel Type" "JackMono"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "PJ398SM PJ301SM WQP518MA"
 			(at 0 0 0)
 			(show_name no)
@@ -2841,6 +2852,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Panel Type" "JackStereo"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "WQP419GR PJ366ST"

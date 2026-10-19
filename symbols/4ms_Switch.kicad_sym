@@ -13047,6 +13047,17 @@
 				)
 			)
 		)
+		(property "Panel Type" "ButtonTactile"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Tactile Switches Tact Switch"
 			(at 0 0 0)
 			(show_name no)
@@ -14880,6 +14891,17 @@
 		)
 		(property "Part Number 2" ""
 			(at 1.27 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Panel Type" "Encoder11mm"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -19491,6 +19513,17 @@
 				)
 			)
 		)
+		(property "Panel Type" "SwitchSlideMiniDPDT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(show_name no)
@@ -20144,6 +20177,17 @@
 				)
 			)
 		)
+		(property "Panel Type" "Toggle2Pos"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Toggle_SPDT_SubMini_2pos"
 			(at 0 0 0)
 			(show_name no)
@@ -20403,6 +20447,17 @@
 			)
 		)
 		(property "Production Stage" "C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Panel Type" "Toggle3Pos"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
