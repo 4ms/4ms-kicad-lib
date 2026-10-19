@@ -1192,6 +1192,17 @@
 				(justify left)
 			)
 		)
+		(property "JLCPCB ID" "C222882"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 			(at 0 0 0)
 			(show_name no)

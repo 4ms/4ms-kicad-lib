@@ -695,7 +695,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
+		(property "JLCPCB ID" "C350557"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -706,7 +706,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+		(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39595,7 +39595,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin passive line
 				(at 17.78 -40.64 180)
 				(length 5.08)
 				(name "MD/SDA/DEMP"
@@ -39613,7 +39613,7 @@
 					)
 				)
 			)
-			(pin tri_state line
+			(pin passive line
 				(at 17.78 -38.1 180)
 				(length 5.08)
 				(name "MDO/ADR1/MD1"
@@ -39631,7 +39631,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 17.78 -35.56 180)
 				(length 5.08)
 				(name "MS/ADR0/MD0"
@@ -115482,6 +115482,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C497472"
+			(at 0 -10.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_locked" ""
