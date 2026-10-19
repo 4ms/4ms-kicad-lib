@@ -4386,7 +4386,18 @@
 				)
 			)
 		)
-		(property "ki_keywords" "Button_SPST_RGB_7mmCap"
+		(property "Panel Type" "Button9mmRGB"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Button SPST RGB 9mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13047,7 +13058,7 @@
 				)
 			)
 		)
-		(property "Panel Type" "ButtonTactile"
+		(property "Panel Type" "Button5mmDx13mmH"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20684,6 +20695,17 @@
 				)
 			)
 		)
+		(property "Panel Type" "Button9mmBlack"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "switch normally-open pushbutton push-button"
 			(at 0 0 0)
 			(show_name no)
@@ -20803,6 +20825,17 @@
 		)
 		(property "Production Stage" "C"
 			(at 11.43 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Panel Type" "Button9mmWhiteLED"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
