@@ -4643,8 +4643,8 @@
 		)
 		(symbol "TLV76050_0_1"
 			(rectangle
-				(start -5.08 -3.81)
-				(end 5.08 3.81)
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -4655,10 +4655,10 @@
 			)
 		)
 		(symbol "TLV76050_1_1"
-			(pin input line
-				(at 0 -6.35 90)
-				(length 2.54)
-				(name "GND"
+			(pin power_out line
+				(at 10.16 1.27 180)
+				(length 5.08)
+				(name "VO"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4673,10 +4673,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 10.16 1.27 180)
+			(pin input line
+				(at -10.16 1.27 0)
 				(length 5.08)
-				(name "VO"
+				(name "VI"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4692,9 +4692,9 @@
 				)
 			)
 			(pin input line
-				(at -10.16 1.27 0)
-				(length 5.08)
-				(name "VI"
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
