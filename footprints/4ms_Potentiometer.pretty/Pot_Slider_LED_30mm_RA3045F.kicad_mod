@@ -142,5 +142,16 @@
 		(remove_unused_layers no)
 		(uuid "b08e7a6e-2c9d-44bd-b77d-2bb3fb5c46cd")
 	)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Potentiometer.3dshapes/PTL30-15R0-103B1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 	(embedded_fonts no)
 )
