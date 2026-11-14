@@ -1,0 +1,97 @@
+(footprint "Faceplate_Hole_Slider_30mm_Slot"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.47 15.49 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9625832d-7872-48cd-9ebf-a0156f275601")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Faceplate_Hole_Slider_30mm_Slot"
+		(at 0.43 13.61 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "074f669d-b968-48e9-9bb7-82b5aac5502f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa2690b4-c462-4aae-b86a-f9bb3a3cf9a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3f0ffbf-9d65-4cc5-820b-f572e9a74045")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.27 -13.73)
+		(end -1.27 13.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d38f3b91-46fd-4540-84f5-5c29c99a99bc")
+	)
+	(fp_line
+		(start 1.27 -13.73)
+		(end 1.27 13.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "59bd7938-1a8a-4c6c-a8e8-19a974562847")
+	)
+	(fp_arc
+		(start -1.27 -13.73)
+		(mid 0 -15)
+		(end 1.27 -13.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d953f62a-d2ea-44cb-af30-8bf34925c05a")
+	)
+	(fp_arc
+		(start 1.27 13.73)
+		(mid 0 15)
+		(end -1.27 13.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "02ae3ed9-e62d-4639-ba5f-ed69dceaa474")
+	)
+	(embedded_fonts no)
+)
