@@ -31487,7 +31487,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
+		(property "Manufacturer" "STMicroelectronics"
 			(at -25.4 19.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31509,6 +31509,17 @@
 				)
 			)
 		)
+		(property "Panel Type" "MicMEMSBottomPortMP23DB01HP"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Microphones MEMS audio sensor multi performance mode digital microphone"
 			(at 0 0 0)
 			(show_name no)
@@ -31520,7 +31531,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*"
+		(property "ki_fp_filters" "RHLGA*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

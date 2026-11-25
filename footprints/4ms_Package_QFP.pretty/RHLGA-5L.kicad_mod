@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "DFN, 6 Pin (https://www.onsemi.com/pdf/datasheet/ncp349-d.pdf#page=12), generated with kicad-footprint-generator ipc_noLead_generator.py")
-	(tags "DFN NoLead")
+	(descr "ST RHLGA-5L 3.50x2.65mm bottom-port MEMS microphone (MP23DB01HP), sound port through the PCB (https://www.st.com/resource/en/datasheet/mp23db01hp.pdf)")
+	(tags "MEMS microphone LGA bottom port MP23DB01HP")
 	(property "Reference" "REF**"
 		(at -0.25 -2.59 0)
 		(layer "F.SilkS")
@@ -212,4 +212,15 @@
 		(uuid "6f3a0944-3ae3-4229-aecf-8c911ee07149")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_4MS_LIBS}/3dmodels/Sensor_Audio.3dshapes/MP23DB01HP.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
